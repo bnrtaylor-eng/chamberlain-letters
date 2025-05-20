@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Viewing Letter</title>
+  <script src="js/CETEI.js"></script>
+  <style>
+    body {
+      font-family: serif;
+      margin: 2em;
+    }
+    tei-p {
+      display: block;
+      margin-bottom: 1em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Viewing Letter</h1>
+  <div id="tei-content">Loading letter...</div>
+
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    const params = new URLSearchParams(window.location.search);
+    const file = params.get("file");
+
+    if (file) {
+      const cetei = new ChamberlainCETEI();
+      cetei.getHTML(file, function(data) {
+        document.getElementById("tei-content").appendChild(data);
+      });
+    } else {
+      document.getElementById("tei-content").innerText = "No letter specified.";
+    }
+  });
+</script>
+</body>
+</html>
