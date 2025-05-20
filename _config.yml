@@ -1,0 +1,6 @@
+title: John Chamberlain Letters
+description: A digital edition of the correspondence of John Chamberlain
+baseurl: "" # Leave blank unless deploying to a subpath
+url: "https://yourusername.github.io" # Replace with your GitHub Pages URL
+theme: minima
+markdown: kramdown

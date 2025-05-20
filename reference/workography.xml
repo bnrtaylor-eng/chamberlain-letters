@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Workography for the John Chamberlain Letters Project</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished editorial file. Maintained by the Chamberlain Letters Project.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Literary, religious, and political works referenced in the letters, with links to bibliographic resources or online editions where available.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listBibl>
+        <!-- Example entry -->
+        <!--
+        <bibl xml:id="king-lear">
+          <title>King Lear</title>
+          <author>William Shakespeare</author>
+          <ref target="https://en.wikipedia.org/wiki/King_Lear">Wikipedia</ref>
+        </bibl>
+        -->
+      </listBibl>
+    </body>
+  </text>
+</TEI>

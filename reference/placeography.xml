@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Placeography for the John Chamberlain Letters Project</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished editorial file. Maintained by the Chamberlain Letters Project.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Place references drawn from John Chamberlain’s letters and linked to gazetteers or historical sources where possible.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listPlace>
+        <!-- Example entry -->
+        <!--
+        <place xml:id="london">
+          <placeName>London</placeName>
+          <location>
+            <geo>51.5074 -0.1278</geo>
+          </location>
+          <note>
+            Capital city of England.
+            <ref target="https://en.wikipedia.org/wiki/London">Wikipedia</ref>
+          </note>
+        </place>
+        -->
+      </listPlace>
+    </body>
+  </text>
+</TEI>

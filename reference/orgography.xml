@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Orgography for the John Chamberlain Letters Project</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished editorial file. Maintained by the Chamberlain Letters Project.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Organizations mentioned in the letters, identified and linked to historical records or reference sites.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listOrg>
+        <!-- Example entry -->
+        <!--
+        <org xml:id="privy-council">
+          <orgName>Privy Council</orgName>
+          <note>
+            Advisory body to the English monarch.
+            <ref target="https://en.wikipedia.org/wiki/Privy_Council_of_England">Wikipedia</ref>
+          </note>
+        </org>
+        -->
+      </listOrg>
+    </body>
+  </text>
+</TEI>

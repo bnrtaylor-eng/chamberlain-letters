@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Personography for the John Chamberlain Letters Project</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Unpublished editorial file. Maintained by the Chamberlain Letters Project.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Prosopographic data compiled from John Chamberlain’s letters and external biographical sources.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listPerson>
+        <!-- Example entry -->
+        <!--
+        <person xml:id="john-smith">
+          <persName>John Smith</persName>
+          <note>
+            English explorer and colonial administrator.
+            <ref target="https://en.wikipedia.org/wiki/John_Smith_(explorer)">Wikipedia</ref>
+          </note>
+        </person>
+        -->
+      </listPerson>
+    </body>
+  </text>
+</TEI>
