@@ -1,3 +1,4 @@
+function CETEI() {}
 CETEI.prototype.getHTML = function(file, callback) {
   fetch(file)
     .then(res => res.text())
