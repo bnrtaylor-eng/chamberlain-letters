@@ -96,9 +96,10 @@
       if (file) {
         const cetei = new CETEIcean();
         cetei.getHTML(file, function(data) {
-          document.getElementById("tei-content").innerHTML = "";
-          document.getElementById("tei-content").appendChild(data);
-        });
+        console.log("CETEI loaded", file, data);
+        document.getElementById("tei-content").innerHTML = "";
+        document.getElementById("tei-content").appendChild(data);
+});
       } else {
         document.getElementById("tei-content").innerText = "No letter specified.";
       }
