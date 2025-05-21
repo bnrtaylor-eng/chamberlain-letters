@@ -1,85 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Editorial Guidelines – Chamberlain Letters</title>
-  <link rel="stylesheet" href="css/style.css">
-  <style>
-    body {
-      font-family: Georgia, serif;
-      background-color: #fdfdfd;
-      margin: 0;
-      padding: 0;
-      color: #222;
-      line-height: 1.6;
-    }
-    header {
-      background-color: #334;
-      color: white;
-      padding: 2em;
-      text-align: center;
-    }
-    nav {
-      background-color: #444;
-      padding: 0.5em 1em;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 1em;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    main {
-      max-width: 800px;
-      margin: 2em auto;
-      padding: 0 1em;
-    }
-    footer {
-      text-align: center;
-      font-size: 0.9em;
-      margin-top: 4em;
-      color: #666;
-    }
-    ul {
-      padding-left: 1.5em;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Editorial Guidelines</title>
+  <link rel="stylesheet" href="../css/style.css" />
 </head>
 <body>
   <header>
     <h1>Editorial Guidelines</h1>
+    <nav>
+      <a href="../index.html">Home</a> |
+      <a href="../letters.html">Browse Letters</a> |
+      <a href="../people/index.html">Personography</a> |
+      <a href="../about.html">About</a> |
+      <a href="../guidelines.html">Editorial Guidelines</a>
+    </nav>
   </header>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="letters.html">Browse Letters</a>
-    <a href="people/index.html">Personography</a>
-    <a href="places/index.html">Placeography</a>
-    <a href="works/index.html">Workography</a>
-    <a href="orgs/index.html">Orgography</a>
-    <a href="about.html">About</a>
-    <a href="guidelines.html">Editorial Guidelines</a>
-  </nav>
+
   <main>
-    <p>Contributors to the Chamberlain Letters Project are asked to follow these editorial practices to ensure consistency, clarity, and scholarly rigor:</p>
+    <h2>TEI/XML Encoding and Editorial Standards</h2>
+    <p>
+      Welcome to the editorial hub of the Chamberlain Letters Project. Whether you're a student, scholar, or first-time contributor, this guide is here to help you transcribe and annotate letters using the TEI (Text Encoding Initiative) P5 standard. Our aim is to create a consistent, accurate, and accessible archive of John Chamberlain’s correspondence—freely available to the public and usable by future generations of researchers.
+    </p>
+
+    <h3>General Practices</h3>
     <ul>
-      <li>Use the TEI template provided for encoding each letter.</li>
-      <li>Always close XML tags. For example: &lt;persName&gt;John Chamberlain&lt;/persName&gt;</li>
-      <li>Tag entities using TEI-standard elements: &lt;persName&gt;, &lt;placeName&gt;, &lt;orgName&gt;, &lt;title&gt;.</li>
-      <li>Use the <code>ref</code> attribute to link to authoritative external sources (Wikipedia, VIAF, ODNB, etc.).</li>
-      <li>Add an &lt;editor-note&gt; summarizing the letter for general readers, including historical context.</li>
-      <li>Add in-line &lt;note place="foot"&gt; elements to capture footnotes or explanatory comments.</li>
-      <li>Leave unresolved IDs for people/places/works as <code>ref="#unknown"</code> and include a &lt;note type="editorial"&gt; suggesting possible identities.</li>
-      <li>Send completed XML files to the project editor for verification before publication.</li>
+      <li>Please begin with the official <strong>Chamberlain Letter TEI Template</strong>. This ensures consistency across all contributions.</li>
+      <li>All XML files must be well-formed and pass validation using tools such as oXygen, TEI Simple, or an online XML validator.</li>
+      <li>Be sure to close all elements. For example: <code>&lt;persName&gt;John Chamberlain&lt;/persName&gt;</code>.</li>
+      <li>Maintain original spelling and punctuation. Only modernize where necessary—and always explain such changes in a <code>&lt;note&gt;</code> or with a <code>&lt;choice&gt;</code> tag.</li>
     </ul>
+
+    <h3>Tagging Names, Places, and Works</h3>
+    <ul>
+      <li>Use <code>&lt;persName ref="#id"&gt;</code> to tag individuals (e.g., <code>&lt;persName ref="#carleton-dudley"&gt;Dudley Carleton&lt;/persName&gt;</code>).</li>
+      <li>Use <code>&lt;placeName ref="#id"&gt;</code> for cities, buildings, or countries mentioned in the text.</li>
+      <li>Use <code>&lt;orgName ref="#id"&gt;</code> to tag institutions, companies, and governing bodies.</li>
+      <li>Use <code>&lt;title level="m"&gt;</code> for book or work titles; use <code>level="a"</code> for article or poem titles.</li>
+      <li>If you're unsure about a person, place, or work, use <code>cert="low"</code> and include a <code>&lt;note type="editorial"&gt;</code> to explain your reasoning.</li>
+    </ul>
+
+    <h3>Footnotes and Editorial Notes</h3>
+    <ul>
+      <li>Use <code>&lt;note place="foot"&gt;</code> for footnotes. These will appear at the bottom of the letter when rendered online.</li>
+      <li>Use <code>&lt;note type="editorial"&gt;</code> for contextual information or explanations that should not appear inline.</li>
+      <li>Include a short <code>&lt;editor-note&gt;</code> at the end of each letter, summarizing its historical context or thematic highlights.</li>
+    </ul>
+
+    <h3>Linking and Referencing</h3>
+    <ul>
+      <li>Use the <code>ref</code> attribute to link people, places, and works to entries in the Personography, Placeography, etc., or to reputable sources like Wikipedia, VIAF, or the ODNB.</li>
+      <li>If you’re unsure of an ID, use <code>ref="#unknown"</code> and provide a comment explaining your guess.</li>
+      <li>If you identify a new person, place, or work, tag it and include a <code>&lt;note type="editorial"&gt;</code> proposing your identification. The editorial team will verify and add it to the relevant reference files.</li>
+    </ul>
+
+    <h3>Submitting and Crediting Your Work</h3>
+    <ul>
+      <li>When you're finished, submit your letter file by email or GitHub pull request.</li>
+      <li>Every submission will be reviewed by the project editor for consistency, formatting, and TEI compliance before publication.</li>
+      <li>Contributors are always credited—either on the letter page itself or in the project metadata.</li>
+    </ul>
+
+    <p>
+      Thank you for helping to bring Chamberlain’s world to life. For more context, visit our <a href="about.html">About page</a>, or contact the project editor with questions.
+    </p>
   </main>
+
   <footer>
-    &copy; 2025 The Chamberlain Letters Project. Licensed under CC BY 4.0.
+    <p>&copy; 2025 The Chamberlain Letters Project. Licensed under CC BY 4.0.</p>
   </footer>
 </body>
 </html>
