@@ -178,7 +178,8 @@ window.addEventListener("DOMContentLoaded", () => {
           for (let attr of el.attributes) {
             section.setAttribute(attr.name, attr.value);
           }
-          const type = el.getAttribute("type");
+          const type = (el.getAttribute("type") || "").toLowerCase();
+          console.log("Rendering <div> with type:", type);
           if (type === "editor-note") {
             section.classList.add("editor-note");
           } else if (type === "letter-text") {
