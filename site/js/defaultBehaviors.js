@@ -51,14 +51,17 @@ export default {
     ]],
     "note": function(elt) {
       const doc = elt.ownerDocument;
-      if (!doc.getElementById("tei-footnotes")) {
-        const div = doc.createElement("div");
-        div.id = "tei-footnotes";
-        div.innerHTML = "<hr><ol></ol>";
-        doc.body.appendChild(div);
+      const container = doc.getElementById("tei-content") || doc.body;
+
+      let footnoteDiv = doc.getElementById("tei-footnotes");
+      if (!footnoteDiv) {
+        footnoteDiv = doc.createElement("div");
+        footnoteDiv.id = "tei-footnotes";
+        footnoteDiv.innerHTML = "<hr><ol></ol>";
+        container.appendChild(footnoteDiv);
       }
 
-      const ol = doc.querySelector("#tei-footnotes ol");
+      const ol = footnoteDiv.querySelector("ol");
       const number = ol.children.length + 1;
 
       const li = document.createElement("li");
