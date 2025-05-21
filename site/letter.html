@@ -185,7 +185,7 @@ window.addEventListener("DOMContentLoaded", () => {
     function noteHandler(el) {
       let span = document.createElement("span");
       span.className = "tei-note";
-      span.innerHTML = ` <sup>*</sup> ${el.textContent}`;
+      span.innerHTML = `<sup>*</sup> ${el.textContent}`;
       return span;
     }
 
@@ -214,10 +214,15 @@ window.addEventListener("DOMContentLoaded", () => {
       const container = document.getElementById("tei-content");
       container.innerHTML = "";
 
-      console.log("CETEI parsed output:", data);
-      console.log("First child tag:", data?.firstElementChild?.tagName);
-      console.log("Namespace URI of first child:", data?.firstElementChild?.namespaceURI);
-      console.log("All immediate children of #tei-content:", [...data.children].map(el => el.tagName));
+      console.log("CETEI parsed output root:", data.tagName);
+      const treeWalker = document.createTreeWalker(data, NodeFilter.SHOW_ELEMENT);
+      let count = 0;
+      while(treeWalker.nextNode()) {
+        const node = treeWalker.currentNode;
+        if (node.tagName && node.namespaceURI) {
+          console.log(`[${++count}] ${node.tagName} - ns: ${node.namespaceURI}`);
+        }
+      }
 
       container.appendChild(data);
     });
