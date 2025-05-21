@@ -194,19 +194,31 @@ window.addEventListener("DOMContentLoaded", () => {
         "p": ["p", {}, 0],
         "head": ["h2", {}, 0],
         "note": noteHandler,
-        "div": divHandler
+        "div": divHandler,
+        "text": ["div", {}, 0],
+        "front": ["div", {}, 0],
+        "body": ["div", {}, 0]
       },
       "tei": {
         "p": ["p", {}, 0],
         "head": ["h2", {}, 0],
         "note": noteHandler,
-        "div": divHandler
+        "div": divHandler,
+        "text": ["div", {}, 0],
+        "front": ["div", {}, 0],
+        "body": ["div", {}, 0]
       }
     });
 
     cetei.getHTML(file, function(data) {
       const container = document.getElementById("tei-content");
       container.innerHTML = "";
+
+      console.log("CETEI parsed output:", data);
+      console.log("First child tag:", data?.firstElementChild?.tagName);
+      console.log("Namespace URI of first child:", data?.firstElementChild?.namespaceURI);
+      console.log("All immediate children of #tei-content:", [...data.children].map(el => el.tagName));
+
       container.appendChild(data);
     });
   } else {
