@@ -1,29 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-    <fileDesc>
-      <titleStmt>
-        <title>Letter from John Chamberlain to Dudley Carleton (June 11, 1597)</title>
-        <respStmt>
-          <resp>Contributor</resp>
-          <name>[Contributor Name]</name>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <p>Published digitally at earlymodernletters.org. Licensed under CC BY 4.0.</p>
-      </publicationStmt>
-      <sourceDesc>
-        <bibl>
-          <title>The Letters of John Chamberlain</title>
-          <editor>Norman Egbert McClure</editor>
-          <pubPlace>Philadelphia</pubPlace>
-          <publisher>American Philosophical Society</publisher>
-          <date when="1939">1939</date>
-        </bibl>
-      </sourceDesc>
-    </fileDesc>
-  </teiHeader>
-
   <text>
     <front>
       <div type="letter-meta">
@@ -48,9 +22,11 @@
       <div type="letter-text">
         <p>Goode Master Carleton, I know you looked long ere this to have heard from me, and so might you well have done, if Painter the post had not kept your letter of the eighth of May <note place="foot">The reference is to an earlier letter from Carleton delayed by the post.</note> till the sixth of this present June.</p>
 
-        <p>I received a little billet before, by your sister Williams <note place="foot">Elizabeth, wife of Alexander Williams.</note>, in the way of an interim till you had better leisure, but presently upon it went to Askot <note place="foot">Ascott, Oxfordshire, home of Michael Dormer (knighted, 1604).</note> where I met with your brother Carleton <note place="foot">George Carleton of Huntercombe.</note> (coming from the burial of your uncle Goodwin <note place="foot">Son of John Goodwin and Carleton’s maternal uncle.</note>), who told me Tobie Mathew <note place="foot">Later Archbishop of York.</note> had showed him a letter from you wherein you complained much of want, and what narrow straits you were likely to be driven to...</p>
+        <p>I received a little billet before, by your sister Williams <note place="foot">Elizabeth, wife of Alexander Williams.</note>, in the way of an interim till you had better leisure, but presently upon it went to Askot <note place="foot">Ascott, Oxfordshire, home of Michael Dormer (knighted, 1604).</note> where I met with your brother Carleton <note place="foot">George Carleton of Huntercombe.</note> (coming from the burial of your uncle Goodwin <note place="foot">Son of John Goodwin and Carleton’s maternal uncle.</note>), who told me Tobie Mathew <note place="foot">Later Archbishop of York.</note> had showed him a letter from you wherein you complained much of want, and what narrow straits you were likely to be driven to.</p>
 
-        <p>[... full body of letter continues with similar tagging and notes ...]</p>
+        <p>Whereupon I gathered that his intention was to move me in your behalf, as indeed it was, and I was glad of it, as a good occasion, both to show my love to you, and to satisfy myself in that I have so long owed you; so that if you may be content to have so little, you shall not utterly want, as long as I have.</p>
+
+        <p>But I pray you, consider how much better it were for you to make the trial to your parents, who are much more bound to you, and better able than I am, for I confess it will go hard with me to perform what I promise.</p>
 
         <p>From London this longest day of 1597.</p>
 
@@ -65,4 +41,3 @@
       </div>
     </back>
   </text>
-</TEI>
