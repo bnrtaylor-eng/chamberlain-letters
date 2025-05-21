@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter 1 – June 11, 1597</title>
+        <title>Letter 1 – Financial Concerns, Court Gossip, and the Islands Voyage</title>
         <respStmt>
           <name>Brandon Taylor</name>
           <resp>Editor and Verifier</resp>
@@ -22,26 +22,27 @@
         </bibl>
       </sourceDesc>
     </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#chamberlain-john">John Chamberlain</persName>
+          <placeName ref="#london">London</placeName>
+          <date when="1597-06-11"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#carleton-dudley">Dudley Carleton</persName>
+          <placeName ref="#paris">Paris</placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
   </teiHeader>
   <text>
     <front>
       <div type="letter-meta">
-        <head>Letter 1 – June 11, 1597</head>
+        <head>Letter 1 – Financial Concerns, Court Gossip, and the Islands Voyage</head>
         <p><date when="1597-06-11">June 11, 1597</date></p>
         <p><placeName ref="#london">London</placeName></p>
-        <p>
-          <correspDesc>
-            <correspAction type="sent">
-              <persName ref="#chamberlain-john">John Chamberlain</persName>
-              <date when="1597-06-11"/>
-              <placeName ref="#london">London</placeName>
-            </correspAction>
-            <correspAction type="received">
-              <persName ref="#carleton-dudley">Dudley Carleton</persName>
-              <placeName ref="#paris">Paris</placeName>
-            </correspAction>
-          </correspDesc>
-        </p>
+        <!-- correspDesc moved to teiHeader/profileDesc -->
       </div>
     </front>
 
@@ -62,9 +63,13 @@
 
         <p>I was last week at a christening of Lady Umpton’s daughter, <note>Possibly related to the family of Edward Uvedale, a minor gentry line in Berkshire.</note> where <persName ref="#shirley-george" cert="medium">George Shirley</persName> and others met and made good cheer, but with such riotous disorder that I was sorry I came among them.</p>
 
-        <p>There was a captain called Woodward, <note>Captain Woodward was punished in Star Chamber for circulating seditious pamphlets criticizing court policy.</note> condemned in Star Chamber for a seditious pamphlet; and one of the players punished about a matter in a new play called Humors, <note>Likely a reference to George Chapman's <hi rend="italic">An Humorous Day’s Mirth</hi> (1597).</note> which I suppose you have heard of.</p>
+        <seg type="topic" n="Court and Drama">
+          <p>There was a captain called Woodward, <note>Captain Woodward was punished in Star Chamber for circulating seditious pamphlets criticizing court policy.</note> condemned in Star Chamber for a seditious pamphlet; and one of the players punished about a matter in a new play called Humors, <note type="editorial">Likely a reference to George Chapman's <hi rend="italic">An Humorous Day’s Mirth</hi> (1597).</note> which I suppose you have heard of.</p>
+        </seg>
 
-        <p>We look daily for news of the success of the Islands Voyage. <note>A failed 1597 naval expedition led by Essex and Raleigh against Spanish ports in the Azores.</note> Sir Francis Drake’s letters have not been very welcome to court, for he taxed some of the council with slackness or backwardness. <note>Drake’s reports were seen as politically pointed, criticizing the Privy Council’s indecision.</note></p>
+        <seg type="topic" n="Naval Affairs">
+          <p>We look daily for news of the success of the Islands Voyage. <note type="editorial">A failed 1597 naval expedition led by Essex and Raleigh against Spanish ports in the Azores.</note> Sir Francis Drake’s letters have not been very welcome to court, for he taxed some of the council with slackness or backwardness. <note type="editorial">Drake’s reports were seen as politically pointed, criticizing the Privy Council’s indecision.</note></p>
+        </seg>
 
         <p>I mean to go for Ireland within a fortnight, if no occasion prevent me, where I hope to do some service and make good my promises.</p>
 
