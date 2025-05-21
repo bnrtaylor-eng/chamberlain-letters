@@ -4,35 +4,105 @@
   <meta charset="UTF-8">
   <title>Viewing Letter</title>
   <script src="js/CETEI.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
   <style>
     body {
-      font-family: serif;
-      margin: 2em;
+      font-family: Georgia, serif;
+      margin: 0;
+      padding: 0;
+      background: #fdfdfd;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #334;
+      color: white;
+      padding: 2em 1em;
+      text-align: center;
+    }
+    nav {
+      background-color: #444;
+      padding: 0.5em 1em;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 900px;
+      margin: 2em auto;
+      padding: 0 1em;
     }
     tei-p {
       display: block;
       margin-bottom: 1em;
     }
+    tei-note[place="foot"] {
+      display: block;
+      font-size: 0.9em;
+      margin-left: 1em;
+      color: #555;
+    }
+    tei-head {
+      display: block;
+      font-weight: bold;
+      font-size: 1.2em;
+      margin-top: 1em;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      margin-top: 4em;
+      color: #666;
+    }
   </style>
 </head>
 <body>
-  <h1>Viewing Letter</h1>
-  <div id="tei-content">Loading letter...</div>
+  <header>
+    <h1>Viewing Letter</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="letters.html">Browse Letters</a>
+    <a href="people/index.html">Personography</a>
+    <a href="places/index.html">Placeography</a>
+    <a href="works/index.html">Workography</a>
+    <a href="orgs/index.html">Orgography</a>
+    <a href="about.html">About</a>
+    <a href="guidelines.html">Editorial Guidelines</a>
+  </nav>
+  <main>
+    <div id="tei-content">Loading letter...</div>
+  </main>
+  <footer>
+    Content licensed under
+    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">
+      CC BY 4.0</a>. Attribution to Brandon Taylor, project editor.
+  </footer>
 
-<script>
-  window.addEventListener("DOMContentLoaded", () => {
-    const params = new URLSearchParams(window.location.search);
-    const file = params.get("file");
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      const params = new URLSearchParams(window.location.search);
+      const file = params.get("file");
 
-    if (file) {
-      const cetei = new ChamberlainCETEI();
-      cetei.getHTML(file, function(data) {
-        document.getElementById("tei-content").appendChild(data);
-      });
-    } else {
-      document.getElementById("tei-content").innerText = "No letter specified.";
-    }
-  });
-</script>
+      if (file) {
+        const cetei = new CETEIcean();
+        cetei.getHTML(file, function(data) {
+          document.getElementById("tei-content").innerHTML = "";
+          document.getElementById("tei-content").appendChild(data);
+        });
+      } else {
+        document.getElementById("tei-content").innerText = "No letter specified.";
+      }
+    });
+  </script>
 </body>
 </html>
