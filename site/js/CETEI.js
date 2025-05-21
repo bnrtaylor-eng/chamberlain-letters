@@ -15,3 +15,5 @@ CETEI.prototype.getHTML = function(file, callback) {
       console.error("Failed to load or parse TEI XML:", err);
     });
 };
+
+window.CETEI = CETEI;
