@@ -6,6 +6,7 @@
         <head>Letter 1 – June 11, 1597</head>
         <p><date when="1597-06-11">June 11, 1597</date></p>
         <p><placeName ref="#london">London</placeName></p>
+        <note type="source">[5. P. Dom., Elm., ccIx'm, pp.]</note>
         <p>
           <correspDesc>
             <correspAction type="sent">
@@ -34,7 +35,30 @@
 
         <p>From London this longest day of 1597.</p>
 
-        <p>Yours most assuredly,<br/>JOHN CHAMBERLAIN</p>
+        <p>I was last week at a christening of Lady Umpton’s daughter, <note>Possibly related to the family of Edward Uvedale, a minor gentry line in Berkshire.</note> where George Shirley and others met and made good cheer, but with such riotous disorder that I was sorry I came among them.</p>
+
+        <p>There was a captain called Woodward, <note>Captain Woodward was punished in Star Chamber for circulating seditious pamphlets criticizing court policy.</note> condemned in Star Chamber for a seditious pamphlet; and one of the players punished about a matter in a new play called Humors, <note>Likely a reference to George Chapman's <hi rend="italic">An Humorous Day’s Mirth</hi> (1597).</note> which I suppose you have heard of.</p>
+
+        <p>We look daily for news of the success of the Islands Voyage. <note>A failed 1597 naval expedition led by Essex and Raleigh against Spanish ports in the Azores.</note> Sir Francis Drake’s letters have not been very welcome to court, for he taxed some of the council with slackness or backwardness. <note>Drake’s reports were seen as politically pointed, criticizing the Privy Council’s indecision.</note></p>
+
+        <p>I mean to go for Ireland within a fortnight, if no occasion prevent me, where I hope to do some service and make good my promises.</p>
+
+        <p>Your sister is well, and she and your cousin are both diligent in remembrance of you. I have not seen your friend in Gray’s Inn lately.</p>
+
+        <p>I commend me most heartily to Sir Thomas Edmondes, <note>Edmondes was then serving as English envoy to the French court.</note> whose letters have always been very welcome. I hope he continues to prosper in his employment and to deserve the favor he enjoys.</p>
+
+        <p>This letter I make bold to commend to Sir Thomas’s dispatch, not doubting of his care and diligence in seeing it safely delivered.</p>
+
+        <p>And so I bid you farewell, wishing you all happiness and advancement.</p>
+
+        <closer>
+          <salute>Yours most assuredly,</salute>
+          <signed rend="right">JOHN CHAMBERLAIN</signed>
+        </closer>
+
+        <postscript>
+          <address>To my assured good frend Master Dudley Carleton attendaunt on the Lord Ambassador for her Majestie at Paris.</address>
+        </postscript>
       </div>
     </body>
 
