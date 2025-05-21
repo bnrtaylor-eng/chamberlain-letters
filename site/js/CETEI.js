@@ -35,6 +35,10 @@ CETEI.prototype.convert = function(xml) {
     if (node.nodeType === Node.ELEMENT_NODE) {
       let ns = node.namespaceURI;
       let localName = node.localName;
+      console.log("Converting:", node.localName, "| Namespace:", ns);
+      if (!this.behaviors[ns] || !this.behaviors[ns][localName]) {
+        console.warn("⚠️ No behavior found for", localName, "in namespace", ns);
+      }
       let behavior = this.behaviors[ns]?.[localName];
       let replacement;
       if (behavior) {
