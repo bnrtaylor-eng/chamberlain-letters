@@ -64,8 +64,67 @@
 </nav>
 
   <main>
-    <p>This section of the Chamberlain Letters Project is under construction. Entries will be added as contributors tag and verify relevant individuals in the letters.</p>
+    <input type="text" id="searchBox" placeholder="Search people..." style="width:100%;padding:0.5em;font-size:1em;margin-bottom:1em;" />
+
+    <div id="peopleContainer"></div>
   </main>
+  <script type="module">
+    import people from "../js/people.js";
+
+    const container = document.getElementById("peopleContainer");
+    const searchBox = document.getElementById("searchBox");
+
+    function renderPeople(list) {
+      container.innerHTML = "";
+      const sorted = [...list].sort((a, b) => a.name.localeCompare(b.name));
+      sorted.forEach(person => {
+        const entry = document.createElement("div");
+        entry.style.borderBottom = "1px solid #ccc";
+        entry.style.padding = "1em 0";
+
+        const name = document.createElement("h2");
+        name.textContent = person.name;
+        name.id = person.id;
+        entry.appendChild(name);
+
+        const bio = document.createElement("p");
+        bio.textContent = person.shortBio || "[No biography yet]";
+        entry.appendChild(bio);
+
+        const letters = document.createElement("p");
+        letters.innerHTML = "<strong>Mentioned in:</strong> " + person.letters.map(n =>
+          `<a href="../letters/chamberlain-letter${n}.html">Letter ${n}</a>`).join(", ");
+        entry.appendChild(letters);
+
+        const links = document.createElement("ul");
+        links.style.listStyleType = "none";
+        links.style.padding = 0;
+        for (const [key, url] of Object.entries(person.externalLinks || {})) {
+          if (url) {
+            const li = document.createElement("li");
+            const a = document.createElement("a");
+            a.href = url;
+            a.target = "_blank";
+            a.rel = "noopener noreferrer";
+            a.textContent = `View on ${key.charAt(0).toUpperCase() + key.slice(1)}`;
+            li.appendChild(a);
+            links.appendChild(li);
+          }
+        }
+        entry.appendChild(links);
+
+        container.appendChild(entry);
+      });
+    }
+
+    searchBox.addEventListener("input", () => {
+      const query = searchBox.value.toLowerCase();
+      const filtered = people.filter(p => p.name.toLowerCase().includes(query));
+      renderPeople(filtered);
+    });
+
+    renderPeople(people);
+  </script>
   <footer>
     &copy; 2025 The Chamberlain Letters Project. Licensed under CC BY 4.0.
   </footer>
