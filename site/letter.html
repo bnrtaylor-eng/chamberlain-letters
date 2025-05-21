@@ -122,10 +122,25 @@ tei-div {
 
       if (file) {
         const cetei = new CETEI();
-        cetei.getHTML(file, function(data) {
-        console.log("CETEI loaded", file, data);
-        document.getElementById("tei-content").innerHTML = "";
-        document.getElementById("tei-content").appendChild(data);
+
+// Add behaviors so TEI elements are rendered as readable HTML
+  cetei.addBehaviors({
+  "tei": {
+    "p": ["div", {}, 0],
+    "head": ["h2", {}, 0],
+    "note": function(el) {
+      let span = document.createElement("span");
+      span.className = "tei-note";
+      span.innerHTML = ` <sup>*</sup> ${el.textContent}`;
+      return span;
+    },
+    "div": ["section", {}, 0]
+  }
+});
+
+  cetei.getHTML(file, function(data) {
+  document.getElementById("tei-content").innerHTML = "";
+  document.getElementById("tei-content").appendChild(data);
 });
       } else {
         document.getElementById("tei-content").innerText = "No letter specified.";
