@@ -153,96 +153,27 @@ p {
       CC BY 4.0</a>. Attribution to Brandon Taylor, project editor.
   </footer>
 
-  <script src="js/CETEI.js" defer></script>
-  <script>
-window.addEventListener("DOMContentLoaded", () => {
+<script type="module">
+  import CETEI from "./js/CETEI.js";
+  import * as behaviors from "./js/behaviors.js";
+  import * as defaultBehaviors from "./js/defaultBehaviors.js";
+  import * as utilities from "./js/utilities.js";
+  import * as dom from "./js/dom.js";
+
+  const cetei = new CETEI({ behaviors, defaultBehaviors, utilities, dom });
+
   const params = new URLSearchParams(window.location.search);
   const file = params.get("file");
 
   if (file) {
-    const cetei = new CETEI();
-
-    cetei.addBehaviors({
-      "http://www.tei-c.org/ns/1.0": {
-        "p": ["p", {}, 0],
-        "head": ["h2", {}, 0],
-        "note": function(el) {
-          const span = document.createElement("span");
-          span.className = "tei-note";
-          span.innerHTML = `<sup>*</sup> ${el.textContent}`;
-          return span;
-        },
-        "div": function(el) {
-          let section = document.createElement("section");
-          for (let attr of el.attributes) {
-            section.setAttribute(attr.name, attr.value);
-          }
-          const type = (el.getAttribute("type") || "").toLowerCase();
-          if (type === "editor-note") {
-            section.classList.add("editor-note");
-          } else if (type === "letter-text") {
-            section.classList.add("letter-text");
-          }
-          while (el.firstChild) {
-            section.appendChild(el.firstChild);
-          }
-          return section;
-        },
-        "text": ["div", {}, 0],
-        "front": ["div", {}, 0],
-        "body": ["div", {}, 0]
-      },
-      "": {
-        "p": ["p", {}, 0],
-        "head": ["h2", {}, 0],
-        "note": function(el) {
-          const span = document.createElement("span");
-          span.className = "tei-note";
-          span.innerHTML = `<sup>*</sup> ${el.textContent}`;
-          return span;
-        },
-        "div": function(el) {
-          let section = document.createElement("section");
-          for (let attr of el.attributes) {
-            section.setAttribute(attr.name, attr.value);
-          }
-          const type = (el.getAttribute("type") || "").toLowerCase();
-          if (type === "editor-note") {
-            section.classList.add("editor-note");
-          } else if (type === "letter-text") {
-            section.classList.add("letter-text");
-          }
-          while (el.firstChild) {
-            section.appendChild(el.firstChild);
-          }
-          return section;
-        },
-        "text": ["div", {}, 0],
-        "front": ["div", {}, 0],
-        "body": ["div", {}, 0]
-      }
-    });
-
-    cetei.getHTML(file, function(data) {
+    cetei.getHTML5(file, function(data) {
       const container = document.getElementById("tei-content");
       container.innerHTML = "";
-
-      console.log("CETEI parsed output root:", data.tagName);
-      const treeWalker = document.createTreeWalker(data, NodeFilter.SHOW_ELEMENT);
-      let count = 0;
-      while(treeWalker.nextNode()) {
-        const node = treeWalker.currentNode;
-        if (node.tagName && node.namespaceURI) {
-          console.log(`[${++count}] ${node.tagName} - ns: ${node.namespaceURI}`);
-        }
-      }
-
       container.appendChild(data);
     });
   } else {
     document.getElementById("tei-content").innerText = "No letter specified.";
   }
-});
 </script>
 </body>
 </html>
