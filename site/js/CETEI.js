@@ -4,10 +4,11 @@ function CETEI() {
   this.style = null;
 }
 
-CETEI.prototype.addBehaviors = function(styleContent) {
-  const style = document.createElement("style");
-  style.innerHTML = styleContent;
-  document.head.appendChild(style);
+CETEI.prototype.addBehaviors = function(behaviors) {
+  for (let ns in behaviors) {
+    if (!this.behaviors[ns]) this.behaviors[ns] = {};
+    Object.assign(this.behaviors[ns], behaviors[ns]);
+  }
 };
 
 CETEI.prototype.getHTML = function(file, callback) {
@@ -17,10 +18,6 @@ CETEI.prototype.getHTML = function(file, callback) {
       const parser = new DOMParser();
       const xml = parser.parseFromString(str, "application/xml");
       const html = this.convert(xml);
-
-      console.log("Parsed root tag:", xml.documentElement.tagName);
-      console.log("Parsed namespace:", xml.documentElement.namespaceURI);
-
       callback(html);
     })
     .catch(err => {
@@ -36,14 +33,34 @@ CETEI.prototype.convert = function(xml) {
   let node;
   while ((node = walker.nextNode())) {
     if (node.nodeType === Node.ELEMENT_NODE) {
-      const htmlElement = document.createElement(`tei-${node.localName}`);
-      for (let attr of node.attributes) {
-        htmlElement.setAttribute(attr.name, attr.value);
+      let ns = node.namespaceURI;
+      let localName = node.localName;
+      let behavior = this.behaviors[ns]?.[localName];
+      let replacement;
+      if (behavior) {
+        if (typeof behavior === "function") {
+          replacement = behavior(node);
+        } else if (Array.isArray(behavior)) {
+          replacement = document.createElement(behavior[0]);
+          for (let attr of node.attributes) {
+            replacement.setAttribute(attr.name, attr.value);
+          }
+          if (behavior[2] === 0 && node.firstChild) {
+            while (node.firstChild) {
+              replacement.appendChild(node.firstChild);
+            }
+          }
+        }
+      } else {
+        replacement = document.createElement(`tei-${localName}`);
+        for (let attr of node.attributes) {
+          replacement.setAttribute(attr.name, attr.value);
+        }
+        while (node.firstChild) {
+          replacement.appendChild(node.firstChild);
+        }
       }
-      if (node.firstChild) {
-        htmlElement.appendChild(node.firstChild);
-      }
-      node.parentNode.replaceChild(htmlElement, node);
+      node.parentNode.replaceChild(replacement, node);
     }
   }
 
