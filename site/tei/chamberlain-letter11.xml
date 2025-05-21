@@ -46,7 +46,7 @@
 
     <body>
       <div type="letter-text">
-        <p>[Paste letter content here. Use <note place="foot"> for footnotes.]</p>
+        <p>[Paste letter content here. Use <note place="foot">Example note content.</note>]</p>
         <p>[Tag people/places like <persName ref="#cecil-robert">Robert Cecil</persName><note type="editorial">Verify this is the correct Cecil.</note>]</p>
       </div>
     </body>
