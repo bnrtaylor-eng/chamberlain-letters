@@ -14,12 +14,13 @@
         <idno type="uri">https://earlymodernletters.org/letters/chamberlain-letter1.xml</idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl>
-          <idno type="series">P. Dom.</idno>
-          <idno type="collection">Elm.</idno>
-          <idno type="shelfmark">ccIx'm</idno>
-          <note>pp.</note>
-        </bibl>
+  <bibl xml:id="mcclure1939">
+    <author>John Chamberlain</author>
+    <editor>Norman Egbert McClure</editor>
+    <title>The Letters of John Chamberlain</title>
+    <publisher>American Philosophical Society</publisher>
+    <date>1939</date>
+  </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -51,7 +52,30 @@
         <opener>
           <salute>Goode Master Carleton,</salute>
         </opener>
-        <p>I know you looked long ere this to have heard from me, and so might you well have done, if Painter the post had not kept your letter of the eighth of May <note>The reference is to an earlier letter from Carleton delayed by the post.</note> till the sixth of this present June.</p>
+        <p>Goode Master Carleton, I know you lookt longe ere this time to have<lb /> 
+          heard from me, and so might you well have don, yf Painter the post had<lb /> 
+          not kept your letter of the eight of May aseasoninge till the sixt of this<lb /> 
+          present June.</p> 
+          
+        <p>I received a litle billet before, by your sister Williams,<note>Elizabeth, wife of Alexander Williams,</note> <lb />
+          in the way of an interim till you had better leasure, but presently upon<lb /> 
+          yt went to Askot<note>Ascott, Oxfordshire, the home of Michael Dormer (knighted, 1604).</note> where I met with your brother Carleton<note>George Carleton of Huntercombe, Oxfordshire.</note> (comming<lb /> 
+          from the buriall of your uncle Goodwin,)<note>Brother of Carleton's mother, and son of John Goodwin.</note> who told me Tobie Mathew<note>Knighted, 1623. Son of Tobias Matthew, Bishop of Durham, and later Archbishop of York.</note> <lb />
+          had shewed him a letter from you wherin you complained much of want,<lb /> 
+          and what narrow straights you were like to be driven to, marvayling you<lb /> 
+          had toucht no such matter in your letters to him : and therewithall began<lb /> 
+          to dilate to me what he had don and could do for you, but the conclusion<lb /> 
+          was that his abilitie is not to supplie all wants, and therefore you must<lb /> 
+          trust to yourself and make your owne fortune. I replied litle to yt but<lb /> 
+          only in generall termes, the rather because I hope yt is but a borrowed<lb /> 
+          complaint to distast younge Mathew from following you into Fraunce,<lb /> 
+          then for any true cause.</p> 
+          
+          <p>I am exceding glad to heare how well you are<lb /> 
+            entertained by my Lord Ambassador :<note>Sir Anthony Mildmay, ambassador to Henry IV.</note> of whom I presumed no lesse, for<lb /> 
+            though I alwayes knewe him to be <hi rend="italics" xml:lang="la">paucorum hominem</hi>, yet he hath ever<lb /> 
+            shewed himself an honorable fast frend where he found vertue and desert.<lb /> 
+            Master Evers<note>Cousin of Ralph, third Lord Eure or Evers, Lord Warden of the Middle Marches.</note> is in Ireland with the Lord Borrough<note>Thomas, fifth Lord Burgh, appointed Lord Deputy of Ireland in 1597.</note> between whom and Sir John Norris 9 there is lately a solemne pacification made with</p><pb n="29"/>
 
         <p>I received a little billet before, by your sister Williams, <note>Elizabeth, wife of Alexander Williams.</note> in the way of an interim till you had better leisure, but presently upon it went to Askot <note>Ascott, Oxfordshire, home of Michael Dormer (knighted, 1604).</note> where I met with your brother Carleton <note>George Carleton of Huntercombe.</note> (coming from the burial of your uncle Goodwin <note>Son of John Goodwin and Carleton’s maternal uncle.</note>), who told me Tobie Mathew <note>Later Archbishop of York.</note> had showed him a letter from you wherein you complained much of want, and what narrow straits you were likely to be driven to.</p>
 
