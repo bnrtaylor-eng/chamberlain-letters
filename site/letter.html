@@ -162,34 +162,44 @@ window.addEventListener("DOMContentLoaded", () => {
   if (file) {
     const cetei = new CETEI();
 
-    // Register TEI render behaviors
+    // Register TEI render behaviors for both "tei" and default namespaces
+    function divHandler(el) {
+      let section = document.createElement("section");
+      for (let attr of el.attributes) {
+        section.setAttribute(attr.name, attr.value);
+      }
+      const type = (el.getAttribute("type") || "").toLowerCase();
+      console.log("Rendering <div> with type:", type);
+      if (type === "editor-note") {
+        section.classList.add("editor-note");
+      } else if (type === "letter-text") {
+        section.classList.add("letter-text");
+      }
+      while (el.firstChild) {
+        section.appendChild(el.firstChild);
+      }
+      return section;
+    }
+
+    function noteHandler(el) {
+      let span = document.createElement("span");
+      span.className = "tei-note";
+      span.innerHTML = ` <sup>*</sup> ${el.textContent}`;
+      return span;
+    }
+
     cetei.addBehaviors({
       "tei": {
         "p": ["p", {}, 0],
         "head": ["h2", {}, 0],
-        "note": function(el) {
-          let span = document.createElement("span");
-          span.className = "tei-note";
-          span.innerHTML = ` <sup>*</sup> ${el.textContent}`;
-          return span;
-        },
-        "div": function(el) {
-          let section = document.createElement("section");
-          for (let attr of el.attributes) {
-            section.setAttribute(attr.name, attr.value);
-          }
-          const type = (el.getAttribute("type") || "").toLowerCase();
-          console.log("Rendering <div> with type:", type);
-          if (type === "editor-note") {
-            section.classList.add("editor-note");
-          } else if (type === "letter-text") {
-            section.classList.add("letter-text");
-          }
-          while (el.firstChild) {
-            section.appendChild(el.firstChild);
-          }
-          return section;
-        }
+        "note": noteHandler,
+        "div": divHandler
+      },
+      "": {
+        "p": ["p", {}, 0],
+        "head": ["h2", {}, 0],
+        "note": noteHandler,
+        "div": divHandler
       }
     });
 
