@@ -90,6 +90,25 @@ tei-div {
   display: block;
   margin-bottom: 2em;
 }
+
+h2 {
+  font-size: 1.5em;
+  margin: 1.2em 0 0.5em;
+}
+
+p {
+  margin: 1em 0;
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+.tei-note {
+  display: block;
+  font-size: 0.9em;
+  color: #666;
+  margin: 0.5em 1.5em;
+  font-style: italic;
+}
   </style>
 </head>
 <body>
@@ -116,34 +135,37 @@ tei-div {
   </footer>
 
   <script>
-    const params = new URLSearchParams(window.location.search);
-const file = params.get("file");
+window.addEventListener("DOMContentLoaded", () => {
+  const params = new URLSearchParams(window.location.search);
+  const file = params.get("file");
 
-if (file) {
-  const cetei = new CETEI();
+  if (file) {
+    const cetei = new CETEI();
 
-  // Register behaviors for TEI elements
-  cetei.addBehaviors({
-    "tei": {
-      "p": ["p", {}, 0],
-      "head": ["h2", {}, 0],
-      "note": function(el) {
-        let span = document.createElement("span");
-        span.className = "tei-note";
-        span.innerHTML = ` <sup>*</sup> ${el.textContent}`;
-        return span;
-      },
-      "div": ["section", {}, 0]
-    }
-  });
+    // Register TEI render behaviors
+    cetei.addBehaviors({
+      "tei": {
+        "p": ["p", {}, 0],
+        "head": ["h2", {}, 0],
+        "note": function(el) {
+          let span = document.createElement("span");
+          span.className = "tei-note";
+          span.innerHTML = ` <sup>*</sup> ${el.textContent}`;
+          return span;
+        },
+        "div": ["section", {}, 0]
+      }
+    });
 
-  cetei.getHTML(file, function(data) {
-    document.getElementById("tei-content").innerHTML = "";
-    document.getElementById("tei-content").appendChild(data);
-  });
-} else {
-  document.getElementById("tei-content").innerText = "No letter specified.";
-}
-  </script>
+    cetei.getHTML(file, function(data) {
+      const container = document.getElementById("tei-content");
+      container.innerHTML = "";
+      container.appendChild(data);
+    });
+  } else {
+    document.getElementById("tei-content").innerText = "No letter specified.";
+  }
+});
+</script>
 </body>
 </html>
