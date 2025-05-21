@@ -6,17 +6,19 @@
         <head>Letter Metadata</head>
         <p><date when="1597-06-11">June 11, 1597</date></p>
         <p><placeName ref="#london">London</placeName></p>
-        <p><correspDesc>
-          <correspAction type="sent">
-            <persName ref="#chamberlain-john">John Chamberlain</persName>
-            <date when="1597-06-11"/>
-            <placeName ref="#london">London</placeName>
-          </correspAction>
-          <correspAction type="received">
-            <persName ref="#carleton-dudley">Dudley Carleton</persName>
-            <placeName ref="#paris">Paris</placeName>
-          </correspAction>
-        </correspDesc></p>
+        <p>
+          <correspDesc>
+            <correspAction type="sent">
+              <persName ref="#chamberlain-john">John Chamberlain</persName>
+              <date when="1597-06-11"/>
+              <placeName ref="#london">London</placeName>
+            </correspAction>
+            <correspAction type="received">
+              <persName ref="#carleton-dudley">Dudley Carleton</persName>
+              <placeName ref="#paris">Paris</placeName>
+            </correspAction>
+          </correspDesc>
+        </p>
       </div>
     </front>
 
@@ -24,7 +26,7 @@
       <div type="letter-text">
         <p>Goode Master Carleton, I know you looked long ere this to have heard from me, and so might you well have done, if Painter the post had not kept your letter of the eighth of May <note place="foot">The reference is to an earlier letter from Carleton delayed by the post.</note> till the sixth of this present June.</p>
 
-        <p>I received a little billet before, by your sister Williams <note place="foot">Elizabeth, wife of Alexander Williams.</note>, in the way of an interim till you had better leisure, but presently upon it went to Askot <note place="foot">Ascott, Oxfordshire, home of Michael Dormer (knighted, 1604).</note> where I met with your brother Carleton <note place="foot">George Carleton of Huntercombe.</note> (coming from the burial of your uncle Goodwin <note place="foot">Son of John Goodwin and Carleton’s maternal uncle.</note>), who told me Tobie Mathew <note place="foot">Later Archbishop of York.</note> had showed him a letter from you wherein you complained much of want, and what narrow straits you were likely to be driven to.</p>
+        <p>I received a little billet before, by your sister Williams, <note place="foot">Elizabeth, wife of Alexander Williams.</note> in the way of an interim till you had better leisure, but presently upon it went to Askot <note place="foot">Ascott, Oxfordshire, home of Michael Dormer (knighted, 1604).</note> where I met with your brother Carleton <note place="foot">George Carleton of Huntercombe.</note> (coming from the burial of your uncle Goodwin <note place="foot">Son of John Goodwin and Carleton’s maternal uncle.</note>), who told me Tobie Mathew <note place="foot">Later Archbishop of York.</note> had showed him a letter from you wherein you complained much of want, and what narrow straits you were likely to be driven to.</p>
 
         <p>Whereupon I gathered that his intention was to move me in your behalf, as indeed it was, and I was glad of it, as a good occasion, both to show my love to you, and to satisfy myself in that I have so long owed you; so that if you may be content to have so little, you shall not utterly want, as long as I have.</p>
 
