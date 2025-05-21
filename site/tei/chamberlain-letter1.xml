@@ -52,7 +52,7 @@
         <p>And so I bid you farewell, wishing you all happiness and advancement.</p>
 
         <closer>
-          <salute>Yours most assuredly,</salute>
+          <salute rend="right">Yours most assuredly,</salute>
           <signed rend="right">JOHN CHAMBERLAIN</signed>
         </closer>
 

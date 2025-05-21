@@ -72,10 +72,20 @@ export default {
       ol.appendChild(li);
 
       const sup = doc.createElement("sup");
+      const tooltip = doc.createElement("span");
+      tooltip.className = "tooltip";
+
       const a = doc.createElement("a");
       a.href = `#note-${number}`;
       a.textContent = number;
-      sup.appendChild(a);
+
+      const preview = doc.createElement("span");
+      preview.className = "tooltip-text";
+      preview.innerHTML = li.innerHTML;
+
+      tooltip.appendChild(a);
+      tooltip.appendChild(preview);
+      sup.appendChild(tooltip);
 
       return sup;
     },
