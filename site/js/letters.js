@@ -1,62 +1,12 @@
-const LETTERS = [
-  {
-    "number": 1,
-    "date": "1597-06-11",
-    "recipient": "Dudley Carleton",
-    "filename": "chamberlain-letter1.xml"
-  },
-  {
-    "number": 2,
-    "date": "1598-05-04",
-    "recipient": "Dudley Carleton",
-    "filename": "chamberlain-letter2.xml"
-  },
-  {
-    "number": 3,
-    "date": "1598-05-17",
-    "recipient": "Dudley Carleton",
-    "filename": "chamberlain-letter3.xml"
-  },
-  {
-    "number": 4,
-    "date": "1598-05-20",
-    "recipient": "Dudley Carleton",
-    "filename": "chamberlain-letter4.xml"
-  },
-  {
-    "number": 5,
-    "date": "1598-05-31",
-    "recipient": "Dudley Carleton",
-    "filename": "chamberlain-letter5.xml"
-  },
-  {
-    "number": 6,
-    "date": "1598-08-30",
-    "recipient": "Dudley Carleton",
-    "filename": "chamberlain-letter6.xml"
-  },
-  {
-    "number": 7,
-    "date": "1598-09-17",
-    "recipient": "Dudley Carleton",
-    "filename": "chamberlain-letter7.xml"
-  },
-  {
-    "number": 8,
-    "date": "1598-10-03",
-    "recipient": "Dudley Carleton",
-    "filename": "chamberlain-letter8.xml"
-  },
-  {
-    "number": 9,
-    "date": "1598-10-20",
-    "recipient": "Dudley Carleton",
-    "filename": "chamberlain-letter9.xml"
-  },
-  {
-    "number": 10,
-    "date": "1598-11-08",
-    "recipient": "Dudley Carleton",
-    "filename": "chamberlain-letter10.xml"
-  }
+const letters = [
+  { number: 1, filename: "chamberlain-letter1.xml", recipient: "Dudley Carleton", date: "1597-06-11", preview: "To be edited." },
+  { number: 2, filename: "chamberlain-letter2.xml", recipient: "Dudley Carleton", date: "1598-05-03", preview: "To be edited." },
+  { number: 3, filename: "chamberlain-letter3.xml", recipient: "Dudley Carleton", date: "1598-05-16", preview: "To be edited." },
+  { number: 4, filename: "chamberlain-letter4.xml", recipient: "Dudley Carleton", date: "1598-05-19", preview: "To be edited." },
+  { number: 5, filename: "chamberlain-letter5.xml", recipient: "Dudley Carleton", date: "1598-05-30", preview: "To be edited." },
+  { number: 6, filename: "chamberlain-letter6.xml", recipient: "Dudley Carleton", date: "1598-08-29", preview: "To be edited." },
+  { number: 7, filename: "chamberlain-letter7.xml", recipient: "Dudley Carleton", date: "1598-09-16", preview: "To be edited." },
+  { number: 8, filename: "chamberlain-letter8.xml", recipient: "Dudley Carleton", date: "1598-10-02", preview: "To be edited." },
+  { number: 9, filename: "chamberlain-letter9.xml", recipient: "Dudley Carleton", date: "1598-10-19", preview: "To be edited." },
+  { number: 10, filename: "chamberlain-letter10.xml", recipient: "Dudley Carleton", date: "1598-11-07", preview: "To be edited." },
 ];
