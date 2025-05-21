@@ -49,36 +49,31 @@ export default {
         return dl;
       }
     ]],
-    "note": [
-      // Make endnotes
-      ["[place=end]", function(elt){
-        const doc = elt.ownerDocument;
-        if (!this.noteIndex){
-          this["noteIndex"] = 1;
-        } else {
-          this.noteIndex++;
-        }
-        let id = "_note_" + this.noteIndex;
-        let link = doc.createElement("a");
-        link.setAttribute("id", "src" + id);
-        link.setAttribute("href", "#" + id);
-        link.innerHTML = this.noteIndex;
-        let content = doc.createElement("sup");
-        content.appendChild(link);
-        let notes = doc.querySelector("ol.notes");
-        if (!notes) {
-          notes = doc.createElement("ol");
-          notes.setAttribute("class", "notes");
-          this.dom.appendChild(notes);
-        }
-        let note = doc.createElement("li");
-        note.id = id;
-        note.innerHTML = elt.innerHTML;
-        notes.appendChild(note);
-        return content;
-      }],
-      ["_", ["(",")"]]
-    ],
+    "note": function(elt) {
+      const doc = elt.ownerDocument;
+      if (!doc.getElementById("tei-footnotes")) {
+        const div = doc.createElement("div");
+        div.id = "tei-footnotes";
+        div.innerHTML = "<hr><ol></ol>";
+        doc.body.appendChild(div);
+      }
+
+      const ol = doc.querySelector("#tei-footnotes ol");
+      const number = ol.children.length + 1;
+
+      const li = document.createElement("li");
+      li.id = `note-${number}`;
+      li.innerHTML = elt.innerHTML;
+      ol.appendChild(li);
+
+      const sup = document.createElement("sup");
+      const a = document.createElement("a");
+      a.href = `#note-${number}`;
+      a.textContent = number;
+      sup.appendChild(a);
+
+      return sup;
+    },
     // Hide the teiHeader by default
     "teiHeader": function(e) {
       this.hideContent(e, false);
