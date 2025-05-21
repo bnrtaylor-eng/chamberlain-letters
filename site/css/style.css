@@ -62,3 +62,121 @@ input, select, button {
     font-size: 0.85rem;
   }
 }
+
+/* TEI-specific styling */
+tei-signed {
+  display: block;
+  text-align: right;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+
+tei-closer {
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+tei-note {
+  font-size: 0.9rem;
+  vertical-align: super;
+}
+
+ol.notes {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  padding-left: 2rem;
+}
+
+ol.notes li {
+  margin-bottom: 0.5rem;
+}
+
+tei-salute {
+  display: block;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+tei {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+tei-head {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+tei-div[type="letter-meta"],
+tei-front,
+tei-body,
+tei-back {
+  display: block;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+tei-p {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+tei-date,
+tei-placeName,
+tei-persName,
+tei-orgName,
+tei-title {
+  font-style: italic;
+}
+
+tei-address {
+  display: block;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+tei-postscript {
+  display: block;
+  margin-top: 2rem;
+  font-style: italic;
+}
+
+tei-opener,
+tei-closer {
+  display: block;
+  margin-top: 2rem;
+}
+
+tei-line {
+  display: block;
+}
+
+tei-note[type="editorial"] {
+  font-style: italic;
+  color: #555;
+}
+
+tei-corr,
+tei-sic,
+tei-add {
+  text-decoration: underline dotted;
+}
+
+tei-del {
+  text-decoration: line-through;
+}
+
+tei-hi[rend="bold"] {
+  font-weight: bold;
+}
+
+tei-hi[rend="italic"] {
+  font-style: italic;
+}
+
+tei-hi[rend="underline"] {
+  text-decoration: underline;
+}
