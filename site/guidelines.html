@@ -3,14 +3,83 @@
 <head>
   <meta charset="UTF-8">
   <title>Editorial Guidelines – Chamberlain Letters</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background-color: #fdfdfd;
+      margin: 0;
+      padding: 0;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #334;
+      color: white;
+      padding: 2em;
+      text-align: center;
+    }
+    nav {
+      background-color: #444;
+      padding: 0.5em 1em;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 800px;
+      margin: 2em auto;
+      padding: 0 1em;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      margin-top: 4em;
+      color: #666;
+    }
+    ul {
+      padding-left: 1.5em;
+    }
+  </style>
 </head>
 <body>
   <header>
     <h1>Editorial Guidelines</h1>
   </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="letters.html">Browse Letters</a>
+    <a href="people/index.html">Personography</a>
+    <a href="places/index.html">Placeography</a>
+    <a href="works/index.html">Workography</a>
+    <a href="orgs/index.html">Orgography</a>
+    <a href="about.html">About</a>
+    <a href="guidelines.html">Editorial Guidelines</a>
+  </nav>
   <main>
-    <p>Contributors are asked to tag entities using TEI conventions and provide an Editor’s Note contextualizing the letter. Please refer to the official cheat sheet and sample TEI files provided in the resources section.</p>
+    <p>Contributors to the Chamberlain Letters Project are asked to follow these editorial practices to ensure consistency, clarity, and scholarly rigor:</p>
+    <ul>
+      <li>Use the TEI template provided for encoding each letter.</li>
+      <li>Always close XML tags. For example: &lt;persName&gt;John Chamberlain&lt;/persName&gt;</li>
+      <li>Tag entities using TEI-standard elements: &lt;persName&gt;, &lt;placeName&gt;, &lt;orgName&gt;, &lt;title&gt;.</li>
+      <li>Use the <code>ref</code> attribute to link to authoritative external sources (Wikipedia, VIAF, ODNB, etc.).</li>
+      <li>Add an &lt;editor-note&gt; summarizing the letter for general readers, including historical context.</li>
+      <li>Add in-line &lt;note place="foot"&gt; elements to capture footnotes or explanatory comments.</li>
+      <li>Leave unresolved IDs for people/places/works as <code>ref="#unknown"</code> and include a &lt;note type="editorial"&gt; suggesting possible identities.</li>
+      <li>Send completed XML files to the project editor for verification before publication.</li>
+    </ul>
   </main>
+  <footer>
+    &copy; 2025 The Chamberlain Letters Project. Licensed under CC BY 4.0.
+  </footer>
 </body>
 </html>
