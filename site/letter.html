@@ -94,7 +94,7 @@
       const file = params.get("file");
 
       if (file) {
-        const cetei = new CETEIcean();
+        const cetei = new CETEI();
         cetei.getHTML(file, function(data) {
         console.log("CETEI loaded", file, data);
         document.getElementById("tei-content").innerHTML = "";
