@@ -123,6 +123,12 @@ p {
   border-left: 4px solid #999;
   font-style: italic;
 }
+
+.letter-text {
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ddd;
+}
   </style>
 </head>
 <body>
@@ -172,8 +178,11 @@ window.addEventListener("DOMContentLoaded", () => {
           for (let attr of el.attributes) {
             section.setAttribute(attr.name, attr.value);
           }
-          if (el.getAttribute("type") === "editor-note") {
+          const type = el.getAttribute("type");
+          if (type === "editor-note") {
             section.classList.add("editor-note");
+          } else if (type === "letter-text") {
+            section.classList.add("letter-text");
           }
           while (el.firstChild) {
             section.appendChild(el.firstChild);
