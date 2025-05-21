@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Letters of John Chamberlain – Grouped View</title>
+  <title>Chamberlain Letters – Browse</title>
   <link rel="stylesheet" href="css/style.css" />
   <style>
     body {
       font-family: Georgia, serif;
-      margin: 0;
-      padding: 0;
       background-color: #fdfdfd;
       color: #222;
+      margin: 0;
+      padding: 0;
     }
     header {
       background-color: #334;
@@ -35,28 +35,30 @@
     nav a:hover {
       text-decoration: underline;
     }
-    .search-container {
-      text-align: center;
-      margin: 1.5em;
+    .filters {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1em;
+      padding: 1em;
+      background: #f5f5f5;
     }
-    .year-group {
-      max-width: 800px;
-      margin: 1.5em auto;
-      border-top: 1px solid #ccc;
-      padding-top: 1em;
+    #lettersContainer {
+      max-width: 960px;
+      margin: 2em auto;
+      padding: 0 1em;
     }
     .year-header {
-      cursor: pointer;
       font-size: 1.4em;
-      font-weight: bold;
+      margin-top: 1.5em;
+      cursor: pointer;
       color: #334;
     }
-    .letters-list {
-      margin-top: 0.5em;
+    ul.letter-list {
       padding-left: 1.5em;
     }
-    .letters-list li {
-      margin-bottom: 0.5em;
+    ul.letter-list li {
+      margin-bottom: 0.75em;
     }
     footer {
       text-align: center;
@@ -68,7 +70,7 @@
 </head>
 <body>
   <header>
-    <h1>Chamberlain Letters – Grouped by Year</h1>
+    <h1>Browse the Letters of John Chamberlain</h1>
   </header>
   <nav>
     <a href="index.html">Home</a>
@@ -80,62 +82,24 @@
     <a href="about.html">About</a>
     <a href="guidelines.html">Editorial Guidelines</a>
   </nav>
-  <div class="search-container">
-    <input type="text" id="searchInput" placeholder="Search letters..." style="width: 300px; padding: 0.5em;" />
+
+  <div class="filters">
+    <input type="text" id="searchInput" placeholder="Search..." style="padding: 0.5em; width: 250px;" />
+    <select id="recipientFilter" style="padding: 0.5em;">
+      <option value="">All Recipients</option>
+    </select>
   </div>
 
-  <div id="lettersContainer">
-    <!-- Sample Year Group -->
-    <div class="year-group">
-      <div class="year-header" onclick="toggleList('y1597')">1597</div>
-      <ul class="letters-list" id="y1597">
-        <li><a href="letter.html?file=tei/chamberlain-letter1.xml">Letter 1 – To Dudley Carleton</a><br /><small>“…The Queen remains in good health…”</small></li>
-        <li><a href="letter.html?file=tei/chamberlain-letter2.xml">Letter 2 – To Lord Cobham</a><br /><small>“…Rumors swirl about Essex…”</small></li>
-      </ul>
-    </div>
-
-    <div class="year-group">
-      <div class="year-header" onclick="toggleList('y1598')">1598</div>
-      <ul class="letters-list" id="y1598" style="display: none;">
-        <li><a href="letter.html?file=tei/chamberlain-letter3.xml">Letter 3 – To Sir Henry Wotton</a><br /><small>“…Affairs in Venice remain uncertain…”</small></li>
-      </ul>
-    </div>
-  </div>
+  <div id="lettersContainer"></div>
 
   <footer>
     Content licensed under a
-    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">
-      Creative Commons Attribution 4.0 International License
-    </a>. Attribution to Brandon Taylor, project editor.
+    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0</a>.
+    Attribution to Brandon Taylor, project editor.
   </footer>
 
-  <script>
-    function toggleList(id) {
-      const list = document.getElementById(id);
-      list.style.display = list.style.display === 'none' ? 'block' : 'none';
-    }
-
-    const searchInput = document.getElementById('searchInput');
-    const lettersContainer = document.getElementById('lettersContainer');
-
-    searchInput.addEventListener('input', function () {
-      const term = this.value.toLowerCase();
-      const groups = lettersContainer.querySelectorAll('.year-group');
-
-      groups.forEach(group => {
-        const items = group.querySelectorAll('li');
-        let groupHasMatch = false;
-
-        items.forEach(item => {
-          const text = item.textContent.toLowerCase();
-          const match = text.includes(term);
-          item.style.display = match ? '' : 'none';
-          if (match) groupHasMatch = true;
-        });
-
-        group.style.display = groupHasMatch ? '' : 'none';
-      });
-    });
-  </script>
+  <script src="js/fuse.min.js"></script>
+  <script src="js/letters.js"></script>
+  <script src="js/letters-grouped.js"></script>
 </body>
 </html>
