@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from John Chamberlain to [Recipient]</title>
+        <respStmt>
+          <resp>Contributor</resp>
+          <name>[Contributor Name]</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Published digitally at earlymodernletters.org. Licensed under CC BY 4.0.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>The Letters of John Chamberlain</title>
+          <editor>Norman Egbert McClure</editor>
+          <pubPlace>Philadelphia</pubPlace>
+          <publisher>American Philosophical Society</publisher>
+          <date when="1939">1939</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <front>
+      <div type="letter-meta">
+        <head>Letter Metadata</head>
+        <p><date when="[YYYY-MM-DD]">[Human-Readable Date]</date></p>
+        <p><placeName>[Place of Writing]</placeName></p>
+        <p><correspDesc>
+          <correspAction type="sent">
+            <persName ref="#chamberlain-john">John Chamberlain</persName>
+            <date when="[YYYY-MM-DD]"/>
+            <placeName>[Place of Writing]</placeName>
+          </correspAction>
+          <correspAction type="received">
+            <persName ref="#[recipient-id]">[Recipient Name]</persName>
+            <placeName>[Place of Receipt, if known]</placeName>
+          </correspAction>
+        </correspDesc></p>
+      </div>
+    </front>
+
+    <body>
+      <div type="letter-text">
+        <p>[Paste letter content here. Use <note place="foot"> for footnotes.]</p>
+        <p>[Tag people/places like <persName ref="#cecil-robert">Robert Cecil</persName><note type="editorial">Verify this is the correct Cecil.</note>]</p>
+      </div>
+    </body>
+
+    <back>
+      <div type="editor-note">
+        <head>Editor's Note</head>
+        <p>[Summarize this letter for general readers. What is it about? What historical context is useful?]</p>
+      </div>
+    </back>
+  </text>
+</TEI>
