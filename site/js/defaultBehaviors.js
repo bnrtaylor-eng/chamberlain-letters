@@ -66,11 +66,13 @@ export default {
 
       const li = document.createElement("li");
       li.id = `note-${number}`;
-      li.innerHTML = elt.innerHTML;
+      while (elt.firstChild) {
+        li.appendChild(elt.firstChild);
+      }
       ol.appendChild(li);
 
-      const sup = document.createElement("sup");
-      const a = document.createElement("a");
+      const sup = doc.createElement("sup");
+      const a = doc.createElement("a");
       a.href = `#note-${number}`;
       a.textContent = number;
       sup.appendChild(a);
