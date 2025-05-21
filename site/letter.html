@@ -116,36 +116,34 @@ tei-div {
   </footer>
 
   <script>
-    window.addEventListener("DOMContentLoaded", () => {
-      const params = new URLSearchParams(window.location.search);
-      const file = params.get("file");
+    const params = new URLSearchParams(window.location.search);
+const file = params.get("file");
 
-      if (file) {
-        const cetei = new CETEI();
+if (file) {
+  const cetei = new CETEI();
 
-// Add behaviors so TEI elements are rendered as readable HTML
+  // Register behaviors for TEI elements
   cetei.addBehaviors({
-  "tei": {
-    "p": ["div", {}, 0],
-    "head": ["h2", {}, 0],
-    "note": function(el) {
-      let span = document.createElement("span");
-      span.className = "tei-note";
-      span.innerHTML = ` <sup>*</sup> ${el.textContent}`;
-      return span;
-    },
-    "div": ["section", {}, 0]
-  }
-});
+    "tei": {
+      "p": ["p", {}, 0],
+      "head": ["h2", {}, 0],
+      "note": function(el) {
+        let span = document.createElement("span");
+        span.className = "tei-note";
+        span.innerHTML = ` <sup>*</sup> ${el.textContent}`;
+        return span;
+      },
+      "div": ["section", {}, 0]
+    }
+  });
 
   cetei.getHTML(file, function(data) {
-  document.getElementById("tei-content").innerHTML = "";
-  document.getElementById("tei-content").appendChild(data);
-});
-      } else {
-        document.getElementById("tei-content").innerText = "No letter specified.";
-      }
-    });
+    document.getElementById("tei-content").innerHTML = "";
+    document.getElementById("tei-content").appendChild(data);
+  });
+} else {
+  document.getElementById("tei-content").innerText = "No letter specified.";
+}
   </script>
 </body>
 </html>
