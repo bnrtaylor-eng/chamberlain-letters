@@ -109,6 +109,20 @@ p {
   margin: 0.5em 1.5em;
   font-style: italic;
 }
+
+#tei-content > section {
+  margin-bottom: 3em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ccc;
+}
+
+#tei-content .editor-note {
+  background-color: #f9f9f9;
+  padding: 1em;
+  margin-top: 2em;
+  border-left: 4px solid #999;
+  font-style: italic;
+}
   </style>
 </head>
 <body>
@@ -153,7 +167,19 @@ window.addEventListener("DOMContentLoaded", () => {
           span.innerHTML = ` <sup>*</sup> ${el.textContent}`;
           return span;
         },
-        "div": ["section", {}, 0]
+        "div": function(el) {
+          let section = document.createElement("section");
+          for (let attr of el.attributes) {
+            section.setAttribute(attr.name, attr.value);
+          }
+          if (el.getAttribute("type") === "editor-note") {
+            section.classList.add("editor-note");
+          }
+          while (el.firstChild) {
+            section.appendChild(el.firstChild);
+          }
+          return section;
+        }
       }
     });
 
