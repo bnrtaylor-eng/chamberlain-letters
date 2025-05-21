@@ -1,12 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter 1 – June 11, 1597</title>
+        <respStmt>
+          <name>Brandon Taylor</name>
+          <resp>Editor and Verifier</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Early Modern Letters Project</publisher>
+        <idno type="uri">https://earlymodernletters.org/letters/chamberlain-letter1.xml</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <idno type="series">P. Dom.</idno>
+          <idno type="collection">Elm.</idno>
+          <idno type="shelfmark">ccIx'm</idno>
+          <note>pp.</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
   <text>
     <front>
       <div type="letter-meta">
         <head>Letter 1 – June 11, 1597</head>
         <p><date when="1597-06-11">June 11, 1597</date></p>
         <p><placeName ref="#london">London</placeName></p>
-        <note type="source">[5. P. Dom., Elm., ccIx'm, pp.]</note>
         <p>
           <correspDesc>
             <correspAction type="sent">
@@ -25,7 +47,10 @@
 
     <body>
       <div type="letter-text">
-        <p>Goode Master Carleton, I know you looked long ere this to have heard from me, and so might you well have done, if Painter the post had not kept your letter of the eighth of May <note>The reference is to an earlier letter from Carleton delayed by the post.</note> till the sixth of this present June.</p>
+        <opener>
+          <salute>Goode Master Carleton,</salute>
+        </opener>
+        <p>I know you looked long ere this to have heard from me, and so might you well have done, if Painter the post had not kept your letter of the eighth of May <note>The reference is to an earlier letter from Carleton delayed by the post.</note> till the sixth of this present June.</p>
 
         <p>I received a little billet before, by your sister Williams, <note>Elizabeth, wife of Alexander Williams.</note> in the way of an interim till you had better leisure, but presently upon it went to Askot <note>Ascott, Oxfordshire, home of Michael Dormer (knighted, 1604).</note> where I met with your brother Carleton <note>George Carleton of Huntercombe.</note> (coming from the burial of your uncle Goodwin <note>Son of John Goodwin and Carleton’s maternal uncle.</note>), who told me Tobie Mathew <note>Later Archbishop of York.</note> had showed him a letter from you wherein you complained much of want, and what narrow straits you were likely to be driven to.</p>
 
@@ -35,7 +60,7 @@
 
         <p>From London this longest day of 1597.</p>
 
-        <p>I was last week at a christening of Lady Umpton’s daughter, <note>Possibly related to the family of Edward Uvedale, a minor gentry line in Berkshire.</note> where George Shirley and others met and made good cheer, but with such riotous disorder that I was sorry I came among them.</p>
+        <p>I was last week at a christening of Lady Umpton’s daughter, <note>Possibly related to the family of Edward Uvedale, a minor gentry line in Berkshire.</note> where <persName ref="#shirley-george" cert="medium">George Shirley</persName> and others met and made good cheer, but with such riotous disorder that I was sorry I came among them.</p>
 
         <p>There was a captain called Woodward, <note>Captain Woodward was punished in Star Chamber for circulating seditious pamphlets criticizing court policy.</note> condemned in Star Chamber for a seditious pamphlet; and one of the players punished about a matter in a new play called Humors, <note>Likely a reference to George Chapman's <hi rend="italic">An Humorous Day’s Mirth</hi> (1597).</note> which I suppose you have heard of.</p>
 
