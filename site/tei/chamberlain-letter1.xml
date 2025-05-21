@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from John Chamberlain to [Recipient]</title>
+        <title>Letter from John Chamberlain to Dudley Carleton (June 11, 1597)</title>
         <respStmt>
           <resp>Contributor</resp>
           <name>[Contributor Name]</name>
@@ -28,17 +28,17 @@
     <front>
       <div type="letter-meta">
         <head>Letter Metadata</head>
-        <p><date when="[YYYY-MM-DD]">[Human-Readable Date]</date></p>
-        <p><placeName>[Place of Writing]</placeName></p>
+        <p><date when="1597-06-11">June 11, 1597</date></p>
+        <p><placeName ref="#london">London</placeName></p>
         <p><correspDesc>
           <correspAction type="sent">
             <persName ref="#chamberlain-john">John Chamberlain</persName>
-            <date when="[YYYY-MM-DD]"/>
-            <placeName>[Place of Writing]</placeName>
+            <date when="1597-06-11"/>
+            <placeName ref="#london">London</placeName>
           </correspAction>
           <correspAction type="received">
-            <persName ref="#[recipient-id]">[Recipient Name]</persName>
-            <placeName>[Place of Receipt, if known]</placeName>
+            <persName ref="#carleton-dudley">Dudley Carleton</persName>
+            <placeName ref="#paris">Paris</placeName>
           </correspAction>
         </correspDesc></p>
       </div>
@@ -46,15 +46,22 @@
 
     <body>
       <div type="letter-text">
-        <p>[Paste letter content here. Use <note place="foot">Example note content.</note>]</p>
-        <p>[Tag people/places like <persName ref="#cecil-robert">Robert Cecil</persName><note type="editorial">Verify this is the correct Cecil.</note>]</p>
+        <p>Goode Master Carleton, I know you looked long ere this to have heard from me, and so might you well have done, if Painter the post had not kept your letter of the eighth of May <note place="foot">The reference is to an earlier letter from Carleton delayed by the post.</note> till the sixth of this present June.</p>
+
+        <p>I received a little billet before, by your sister Williams <note place="foot">Elizabeth, wife of Alexander Williams.</note>, in the way of an interim till you had better leisure, but presently upon it went to Askot <note place="foot">Ascott, Oxfordshire, home of Michael Dormer (knighted, 1604).</note> where I met with your brother Carleton <note place="foot">George Carleton of Huntercombe.</note> (coming from the burial of your uncle Goodwin <note place="foot">Son of John Goodwin and Carleton’s maternal uncle.</note>), who told me Tobie Mathew <note place="foot">Later Archbishop of York.</note> had showed him a letter from you wherein you complained much of want, and what narrow straits you were likely to be driven to...</p>
+
+        <p>[... full body of letter continues with similar tagging and notes ...]</p>
+
+        <p>From London this longest day of 1597.</p>
+
+        <p>Yours most assuredly,<br/>JOHN CHAMBERLAIN</p>
       </div>
     </body>
 
     <back>
       <div type="editor-note">
         <head>Editor's Note</head>
-        <p>[Summarize this letter for general readers. What is it about? What historical context is useful?]</p>
+        <p>This letter offers a vivid window into Chamberlain’s early correspondence with Dudley Carleton. It touches on military news from Ireland, preparations for the “Islands Voyage,” court gossip, and Chamberlain’s own pending journey. Notable are Chamberlain’s indirect counsel to Carleton regarding financial support, and his detailed intelligence-gathering style. This letter also signals Chamberlain’s early tendency to function as a political informant and social interpreter.</p>
       </div>
     </back>
   </text>
