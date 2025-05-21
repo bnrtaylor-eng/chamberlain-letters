@@ -19,6 +19,22 @@
       padding: 2em 1em;
       text-align: center;
     }
+    nav {
+      background-color: #444;
+      padding: 0.5em 1em;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
     .controls {
       display: flex;
       flex-wrap: wrap;
@@ -52,6 +68,16 @@
   <header>
     <h1>Index of John Chamberlain's Letters</h1>
   </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="letters.html">Browse Letters</a>
+    <a href="people/index.html">Personography</a>
+    <a href="places/index.html">Placeography</a>
+    <a href="works/index.html">Workography</a>
+    <a href="orgs/index.html">Orgography</a>
+    <a href="about.html">About</a>
+    <a href="guidelines.html">Editorial Guidelines</a>
+  </nav>
   <div class="controls">
     <input type="text" id="search" placeholder="Search..." />
     <select id="yearFilter"><option value="">All Years</option></select>
