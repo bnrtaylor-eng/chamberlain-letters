@@ -215,3 +215,7 @@ tei-salute[rend="right"] {
   visibility: visible;
   opacity: 1;
 }
+
+tei-hi[rend="italics"] {
+  font-style: italic;
+}
