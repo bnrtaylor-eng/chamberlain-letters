@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chamberlain Letter Viewer</title>
+  <script src="/js/CETEI.js"></script>
+  <script src="/js/people.js"></script>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 2em;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <main id="letter"></main>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const file = params.get("file");
+
+    if (file) {
+      const CETEI = new CETEIcean();
+      CETEI.getXML(`/tei/${file}`).then(data => {
+        CETEI.makeHTML5(data, html => {
+          document.getElementById("letter").appendChild(html);
+        });
+      });
+    } else {
+      document.getElementById("letter").textContent = "No TEI file specified. Add ?file=filename.xml to the URL.";
+    }
+  </script>
+</body>
+</html>
