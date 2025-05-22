@@ -95,7 +95,8 @@ const people = [
 
 export default people;
 
-document.querySelectorAll("tei-persName").forEach(el => {
+document.getElementsByTagName("tei-persName");
+Array.from(document.getElementsByTagName("tei-persName")).forEach(el => {
   const ref = el.getAttribute("ref");
   if (ref && ref.startsWith("#")) {
     const id = ref.substring(1);
