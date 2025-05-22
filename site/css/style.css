@@ -219,3 +219,11 @@ tei-salute[rend="right"] {
 tei-hi[rend="italics"] {
   font-style: italic;
 }
+/* Subtle em-dash divider between paragraphs within TEI letters */
+tei-p + tei-p::before {
+  content: "—";
+  display: block;
+  text-align: center;
+  color: #666;
+  margin-bottom: 0.5em;
+}
