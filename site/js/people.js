@@ -94,3 +94,14 @@ const people = [
 ];
 
 export default people;
+
+document.querySelectorAll("tei-persName").forEach(el => {
+  const ref = el.getAttribute("ref");
+  if (ref && ref.startsWith("#")) {
+    const id = ref.substring(1);
+    const link = document.createElement("a");
+    link.href = `/personography/${id}.html`;
+    link.textContent = el.textContent;
+    el.replaceWith(link);
+  }
+});
