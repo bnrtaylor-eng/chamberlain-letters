@@ -42,6 +42,7 @@
     <front>
       <div type="letter-meta">
         <head>Letter 1 – Financial Concerns, Court Gossip, and the Islands Voyage</head>
+        <p><name type="editor">Edited and encoded by Brandon Taylor</name></p>
         <p><date when="1597-06-11">June 11, 1597</date></p>
         <p><placeName ref="#london">London</placeName></p>
         <!-- correspDesc moved to teiHeader/profileDesc -->
@@ -51,7 +52,7 @@
     <body>
       <div type="letter-text">
         <opener>
-          <salute>Goode Master Carleton,</salute>
+          <salute>Goode Master [Dudley] Carleton,</salute>
         </opener>
 
         <seg type="topic" n="delay-in-correspondence"/>
@@ -64,36 +65,22 @@
 
         <seg type="topic" n="carleton-financial-report"/>
         <p>
-          I received a litle billet before, by your sister Williams,<note>Elizabeth, wife of Alexander Williams,</note>
+          I received a litle billet before, by your sister Williams,<note><persName ref="#williams-elizabeth">Elizabeth</persName>, wife of <persName ref="#williams-alexander">Alexander Williams</persName>,</note>
           in the way of an interim till you had better leasure, but presently upon 
-          yt went to Askot<note>Ascott, Oxfordshire, the home of Michael Dormer (knighted, 1604).</note> where I met with your brother Carleton<note>George Carleton of Huntercombe, Oxfordshire.</note> (comming 
-          from the buriall of your uncle Goodwin,)<note>Brother of Carleton's mother, and son of John Goodwin.</note> who told me Tobie Mathew<note>Knighted, 1623. Son of Tobias Matthew, Bishop of Durham, and later Archbishop of York.</note>
-          had shewed him a letter from you wherin you complained much of want, 
-          and what narrow straights you were like to be driven to, marvayling you 
+          yt went to Askot<note>Ascott, Oxfordshire, the home of <persName ref="#dormer-michael">Michael Dormer</persName> (knighted, 1604).</note> where I met with your brother <persName ref="#carleton-george">Carleton</persName><note><persName ref="#carleton-george">George Carleton</persName> of Huntercombe, Oxfordshire.</note> (comming from the buriall of your uncle Goodwin,)<note>Brother of Carleton's mother, and son of <persName ref="#goodwin-john">John Goodwin</persName>.</note> who told me <persName ref="#mathew-tobie">Tobie Mathew</persName><note>Knighted, 1623. Son of <persName ref="#matthew-tobias">Tobias Matthew</persName>, Bishop of Durham, and later Archbishop of York.</note> had shewed him a letter from you wherin you complained much of want, and what narrow straights you were like to be driven to, marvayling you 
           had toucht no such matter in your letters to him : and therewithall began 
           to dilate to me what he had don and could do for you, but the conclusion 
           was that his abilitie is not to supplie all wants, and therefore you must 
           trust to yourself and make your owne fortune. I replied litle to yt but 
           only in generall termes, the rather because I hope yt is but a borrowed 
-          complaint to distast younge Mathew from following you into Fraunce, 
-          then for any true cause.
+          complaint to distast younge Mathew from following you into <placeName ref="#France">Fraunce</placeName>, then for any true cause.
         </p>
 
         <seg type="topic" n="ambassadorial-support-and-irish-news"/>
         <p>
           I am exceding glad to heare how well you are 
-          entertained by my Lord Ambassador :<note>Sir Anthony Mildmay, ambassador to Henry IV.</note> of whom I presumed no lesse, for 
-          though I alwayes knewe him to be <hi rend="italics" xml:lang="la">paucorum hominem</hi>, yet he hath ever shewed himself an honorable fast frend where he found vertue and desert. 
-          Master Evers<note>Cousin of Ralph, third Lord Eure or Evers, Lord Warden of the Middle Marches.</note> is in Ireland with the Lord Borrough<note>Thomas, fifth Lord Burgh, appointed Lord Deputy of Ireland in 1597.</note> between whom and Sir John Norris<note>Lord President of Munster, second son of Henry, first Lord Norris of Rycote.</note> there is lately a solemne pacification made with much counterfet kindenes on both sides. The old Deputie<note>Sir William Russell (created Lord Russell of Thornhaugh, 1603), fourth son of Francis, second Earl of Bedford. He was Lord Deputy from 1594 to 1597. "Russell was called home; and in his place was substituted Lord Deputy Thomas Lord Borrough, a sharp man, and full of courage, but of little skill in the warres; and this beyond the opinion of all men, and altogether against the expectation of Norris, who in respect of his deserts, and skill in military matters, had promised to himselfe this place. . . and now overcome with griefe of minde, fell sicke, and shortly after died." (Camden, <hi rend="italics">Annales</hi>, p. 482.) Queen Elizabeth wrote his mother a beautiful letter of condolence, September 22, 1597. (S. P. Dom. Eliz., cclxiv, 118.)</note> is come 
-          home very fat they say both in body and purse, having made a luckie
-          conclusion of his government with the overthrow and death of Feff 
-          Mackhugh<note>At the Glynnes, May 8, Feogh MacHugh was captured and his head presented to the Lord Deputy. (Sir William Russell's Journal in <hi rend="italics">Carew MSS., 1598-1600</hi>, p. 259.)</note> auncient and troublesom rebell : upon which service he 
-          made three knightes at his comming away, viz. Calistenes Brooke, 
-          Thomas Maria Wingfeld, and one Trevire<note>Sir Calisthenies Brooke, Sir Thomas Maria Wingfield, and Sir Richard Trevor were knighted May 8.</note> a Welchman. Sir Thomas 
-          Norris<note>Fifth son of Henry, first Lord Norris of Rycote. Later in the year he succeeded his brother as Lord President of Munster.</note> lady was lately brought abed there of three daughters, which 
-          the Lord Norris<note>Henry Lord Norris of Rycote.</note> imputes to the fertilitie of the soyle, and exemplifies 
-          yt by a mare he sent two yeares ago to his sonne Thomas that brought 
-          two foales.
+          entertained by my Lord Ambassador :<note><persName ref="#mildmay-anthony">Sir Anthony Mildmay</persName>, ambassador to Henry IV.</note> of whom I presumed no lesse, for 
+          though I alwayes knewe him to be <hi rend="italics" xml:lang="la">paucorum hominem</hi>, yet he hath ever shewed himself an honorable fast frend where he found vertue and desert. Master <persName ref="#unknown-evers">Evers</persName><note type="editorial">Uncertain identity, a relation of Ralph Eure but unclear.</note><note>Cousin of <persName ref="#eure-ralph">Ralph</persName>, third Lord Eure or Evers, Lord Warden of the Middle Marches.</note> is in Ireland with the Lord <persName ref="#burgh-thomas">Borrough</persName><note type="editorial">Thomas Burgh, 1st Baron Burgh is listed on Wikipedia but this does not seem to be him.</note><note>Thomas, fifth Lord Burgh, appointed Lord Deputy of Ireland in 1597.</note> between whom and Sir John Norris<note>Lord President of Munster, second son of Henry, first Lord Norris of Rycote.</note> there is lately a solemne pacification made with much counterfet kindenes on both sides. The old Deputie<note>Sir William Russell (created Lord Russell of Thornhaugh, 1603), fourth son of Francis, second Earl of Bedford. He was Lord Deputy from 1594 to 1597. "Russell was called home; and in his place was substituted Lord Deputy Thomas Lord Borrough, a sharp man, and full of courage, but of little skill in the warres; and this beyond the opinion of all men, and altogether against the expectation of Norris, who in respect of his deserts, and skill in military matters, had promised to himselfe this place. . . and now overcome with griefe of minde, fell sicke, and shortly after died." (Camden, <hi rend="italics">Annales</hi>, p. 482.) Queen Elizabeth wrote his mother a beautiful letter of condolence, September 22, 1597. (S. P. Dom. Eliz., cclxiv, 118.)</note> is come home very fat they say both in body and purse, having made a luckie conclusion of his government with the overthrow and death of Feff Mackhugh<note>At the Glynnes, May 8, Feogh MacHugh was captured and his head presented to the Lord Deputy. (Sir William Russell's Journal in <hi rend="italics">Carew MSS., 1598-1600</hi>, p. 259.)</note> auncient and troublesom rebell : upon which service he made three knightes at his comming away, viz. Calistenes Brooke, Thomas Maria Wingfeld, and one Trevire<note>Sir Calisthenies Brooke, Sir Thomas Maria Wingfield, and Sir Richard Trevor were knighted May 8.</note> a Welchman. Sir Thomas Norris<note>Fifth son of Henry, first Lord Norris of Rycote. Later in the year he succeeded his brother as Lord President of Munster.</note> lady was lately brought abed there of three daughters, which the Lord Norris<note>Henry Lord Norris of Rycote.</note> imputes to the fertilitie of the soyle, and exemplifies yt by a mare he sent two yeares ago to his sonne Thomas that brought two foales.
         </p>
 
         <seg type="topic" n="islands-voyage-planning"/>
