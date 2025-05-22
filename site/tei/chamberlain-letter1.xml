@@ -56,11 +56,12 @@
           heard from me, and so might you well have don, yf Painter the post had<lb /> 
           not kept your letter of the eight of May aseasoninge till the sixt of this<lb /> 
           present June.</p> 
-          
-        <p>I received a litle billet before, by your sister Williams,<note>Elizabeth, wife of Alexander Williams,</note> <lb />
+        
+         <seg type="topic" n="family-finances"/>
+        <p>I received a litle billet before, by your sister Williams,<note>Elizabeth, wife of Alexander Williams,</note><lb />
           in the way of an interim till you had better leasure, but presently upon<lb /> 
           yt went to Askot<note>Ascott, Oxfordshire, the home of Michael Dormer (knighted, 1604).</note> where I met with your brother Carleton<note>George Carleton of Huntercombe, Oxfordshire.</note> (comming<lb /> 
-          from the buriall of your uncle Goodwin,)<note>Brother of Carleton's mother, and son of John Goodwin.</note> who told me Tobie Mathew<note>Knighted, 1623. Son of Tobias Matthew, Bishop of Durham, and later Archbishop of York.</note> <lb />
+          from the buriall of your uncle Goodwin,)<note>Brother of Carleton's mother, and son of John Goodwin.</note> who told me Tobie Mathew<note>Knighted, 1623. Son of Tobias Matthew, Bishop of Durham, and later Archbishop of York.</note><lb />
           had shewed him a letter from you wherin you complained much of want,<lb /> 
           and what narrow straights you were like to be driven to, marvayling you<lb /> 
           had toucht no such matter in your letters to him : and therewithall began<lb /> 
@@ -71,40 +72,100 @@
           complaint to distast younge Mathew from following you into Fraunce,<lb /> 
           then for any true cause.</p> 
           
-          <p>I am exceding glad to heare how well you are<lb /> 
-            entertained by my Lord Ambassador :<note>Sir Anthony Mildmay, ambassador to Henry IV.</note> of whom I presumed no lesse, for<lb /> 
-            though I alwayes knewe him to be <hi rend="italics" xml:lang="la">paucorum hominem</hi>, yet he hath ever<lb /> 
-            shewed himself an honorable fast frend where he found vertue and desert.<lb /> 
-            Master Evers<note>Cousin of Ralph, third Lord Eure or Evers, Lord Warden of the Middle Marches.</note> is in Ireland with the Lord Borrough<note>Thomas, fifth Lord Burgh, appointed Lord Deputy of Ireland in 1597.</note> between whom and Sir John Norris 9 there is lately a solemne pacification made with</p><pb n="29"/>
+          <seg type="topic" n="ambassadorial-support"/>
+        <p>I am exceding glad to heare how well you are<lb /> 
+          entertained by my Lord Ambassador :<note>Sir Anthony Mildmay, ambassador to Henry IV.</note> of whom I presumed no lesse, for<lb /> 
+          though I alwayes knewe him to be <hi rend="italics" xml:lang="la">paucorum hominem</hi>, yet he hath ever<lb /> 
+          shewed himself an honorable fast frend where he found vertue and desert.<lb /> 
+          Master Evers<note>Cousin of Ralph, third Lord Eure or Evers, Lord Warden of the Middle Marches.</note> is in Ireland with the Lord Borrough<note>Thomas, fifth Lord Burgh, appointed Lord Deputy of Ireland in 1597.</note> between whom and Sir John Norris<note>Lord President of Munster, second son of Henry, first Lord Norris of Rycote.</note> there is lately a solemne pacification made with</p><lb /><pb n="29"/>
 
-        <p>I received a little billet before, by your sister Williams, <note>Elizabeth, wife of Alexander Williams.</note> in the way of an interim till you had better leisure, but presently upon it went to Askot <note>Ascott, Oxfordshire, home of Michael Dormer (knighted, 1604).</note> where I met with your brother Carleton <note>George Carleton of Huntercombe.</note> (coming from the burial of your uncle Goodwin <note>Son of John Goodwin and Carleton’s maternal uncle.</note>), who told me Tobie Mathew <note>Later Archbishop of York.</note> had showed him a letter from you wherein you complained much of want, and what narrow straits you were likely to be driven to.</p>
+          <seg type="topic" n="irish-conflict"/>
+        <p>much counterfet kindenes on both sides. The old Deputie<note>Sir William Russell (created Lord Russell of Thornhaugh, 1603), fourth son of Francis, second Earl of Bedford. He was Lord Deputy from 1594 to 1597. "Russell was called home; and in his place was substituted Lord Deputy Thomas Lord Borrough, a sharp man, and full of courage, but of little skill in the warres; and this beyond the opinion of all men, and altogether against the expectation of Norris, who in respect of his deserts, and skill in military matters, had promised to himselfe this place. . . and now overcome with griefe of minde, fell sicke, and shortly after died." (Camden, <hi rend="italics">Annales</hi>, p. 482.) Queen Elizabeth wrote his mother a beautiful letter of condolence, September 22, 1597. (S. P. Dom. Eliz., cclxiv, 118.)</note> is come<lb /> 
+        home very fat they say both in body and purse, having made a luckie<lb />
+        conclusion of his government with the overthrow and death of Feff<lb /> 
+        Mackhugh<note>At the Glynnes, May 8, Feogh MacHugh was captured and his head presented to the Lord Deputy. (Sir William Russell's Journal in <hi rend="italics">Carew MSS., 1598-1600</hi>, p. 259.)</note> auncient and troublesom rebell : upon which service he<lb /> 
+        made three knightes at his comming away, viz. Calistenes Brooke,<lb /> 
+        Thomas Maria Wingfeld, and one Trevire<note>Sir Calisthenies Brooke, Sir Thomas Maria Wingfield, and Sir Richard Trevor were knighted May 8.</note> a Welchman. Sir Thomas<lb /> 
+        Norris<note>Fifth son of Henry, first Lord Norris of Rycote. Later in the year he succeeded his brother as Lord President of Munster.</note> lady was lately brought abed there of three daughters, which<lb /> 
+        the Lord Norris<note>Henry Lord Norris of Rycote.</note> imputes to the fertilitie of the soyle, and exemplifies<lb /> 
+        yt by a mare he sent two yeares ago to his sonne Thomas that brought<lb /> 
+        two foales.</p> 
+        
+        <seg type="topic" n="islands-voyage"/>
+        <p>We have great preparation here for a sea viage,<note>The expedition usually known as the Islands Voyage. The leaders hoped to destroy the Spanish war fleet in the harbor of Ferrol or at sea, to capture the treasure and merchant fleets from the West and East Indies, and to establish a foothold in the Azores. Their plans failed, and in October they returned to England.</note> which<lb /> 
+        troubles our discoursers how or where yt shalbe imployed : the common<lb /> 
+        sort talke of Callais, others of the ylands of Tercera, but the most likelie<lb /> 
+        in mine opinion, is to set upon the King of Spaines navie whersoever<lb /> 
+        they can finde yt, or to meet with the Indian fleet. Theyre whole num-<lb />
+        ber consists of fifteen of the Quenes shippes, besides the two Spanish<lb /> 
+        shippes that were taken the last yeare, (which be new fashioned after the<lb /> 
+        English manner), and of two and twentie men of warre of Holland,<lb /> 
+        and some fowre and twentie flieboats and hoyes that serve for cariage of<lb /> 
+        men and vitayles. They have with them 4000 prest men, and 1200<lb /> 
+        muskettiers that come with Sir Fra: Vere out of the Low Countries: the<lb /> 
+        voluntaries are thought will rise towardes 2000. The erle of Essex<note>Robert Devereux, second Earl of Essex, Queen Elizabeth's troublesome young favorite.</note><lb /> 
+        is generall both at sea and land, the Lord Thomas<note>Thomas Lord Howard of Walden (created Earl of Suffolk, 1603).</note> Viceadmirall, Sir</p><pb n="30"/>
 
-        <p>Whereupon I gathered that his intention was to move me in your behalf, as indeed it was, and I was glad of it, as a good occasion, both to show my love to you, and to satisfy myself in that I have so long owed you; so that if you may be content to have so little, you shall not utterly want, as long as I have.</p>
-
-        <p>But I pray you, consider how much better it were for you to make the trial to your parents, who are much more bound to you, and better able than I am, for I confess it will go hard with me to perform what I promise.</p>
-
-        <p>From London this longest day of 1597.</p>
-
-        <p>I was last week at a christening of Lady Umpton’s daughter, <note>Possibly related to the family of Edward Uvedale, a minor gentry line in Berkshire.</note> where <persName ref="#shirley-george" cert="medium">George Shirley</persName> and others met and made good cheer, but with such riotous disorder that I was sorry I came among them.</p>
-
-        <seg type="topic" n="Court and Drama">
-          <p>There was a captain called Woodward, <note>Captain Woodward was punished in Star Chamber for circulating seditious pamphlets criticizing court policy.</note> condemned in Star Chamber for a seditious pamphlet; and one of the players punished about a matter in a new play called Humors, <note type="editorial">Likely a reference to George Chapman's <hi rend="italic">An Humorous Day’s Mirth</hi> (1597).</note> which I suppose you have heard of.</p>
-        </seg>
-
-        <seg type="topic" n="Naval Affairs">
-          <p>We look daily for news of the success of the Islands Voyage. <note type="editorial">A failed 1597 naval expedition led by Essex and Raleigh against Spanish ports in the Azores.</note> Sir Francis Drake’s letters have not been very welcome to court, for he taxed some of the council with slackness or backwardness. <note type="editorial">Drake’s reports were seen as politically pointed, criticizing the Privy Council’s indecision.</note></p>
-        </seg>
-
-        <p>I mean to go for Ireland within a fortnight, if no occasion prevent me, where I hope to do some service and make good my promises.</p>
-
-        <p>Your sister is well, and she and your cousin are both diligent in remembrance of you. I have not seen your friend in Gray’s Inn lately.</p>
-
-        <p>I commend me most heartily to Sir Thomas Edmondes, <note>Edmondes was then serving as English envoy to the French court.</note> whose letters have always been very welcome. I hope he continues to prosper in his employment and to deserve the favor he enjoys.</p>
-
-        <p>This letter I make bold to commend to Sir Thomas’s dispatch, not doubting of his care and diligence in seeing it safely delivered.</p>
-
-        <p>And so I bid you farewell, wishing you all happiness and advancement.</p>
-
+        <p>Walter Raleigh<note>He had been forbidden the court because of his marriage five years before.</note> rereadmirall, who is newly restored to the executing<lb /> 
+          his place in court of captaine of the garde. The erle of Southampton,<note>Henry Wriothesley, third Earl of Southampton.</note><lb /> 
+          the Lord Mountjoy<note>Charles Blount, eighth Lord Mountjoy (created Earl of Devonshire, 1603).</note> and the Lord Rich<note>Robert, third Lord Rich (created Earl of Warwick, 1618).</note> go as adventurers, though<lb /> 
+          some say the Lord Mountjoy is to be lieutenant-generall at land. The<lb /> 
+          erle of Darbie,<note>William Stanley, sixth Earl of Derby.</note> the Lord Gray,<note>Thomas, fifteenth Lord Grey of Wilton.</note> the Lords Windsor<note>Henry, fifth Lord Windsor of Stanwell.</note> and Compton<note>Henry, fifth Lord Windsor of Stanwell.</note><lb /> 
+          pretend likewise to go but yt is thought shall not get leave: the provisions<lb /> 
+          are hastened on very fast and yt is sayde the erle of Essex takes his leave<lb /> 
+          at court on Sonday next the 12th of this present and hopes to be gon<lb /> 
+          within ten dayes after. The presse of gentlemen wilbe very great, but<lb /> 
+          I will not stand to set downe any but one or two of your acquaintaunce,<lb /> 
+          that is your cousin Mighell Dormer whom I can by no meanes yet dis-<lb /> 
+          swade, and Hugh Beston<note>Hugh Beeston (knighted, 1603).</note> that stands to be Treasurer of the jorny<lb /> 
+          though I doubt he shall not be troubled with much receit, for I am half<lb /> 
+          of our Doctors<note>William Gilbert, who in 1601 became physician to Queen Elizabeth. At this time Chamberlain had lodgings in his house on St. Peter's Hill.</note> opinion that warrants him yf he have yt, that a well<lb /> 
+          sadled rat may cary all his accompts. But his true errand is to be<lb /> 
+          knighted assone or before Sir Peter Evers,<note>Knighted, 1603.</note> neither doth he dissemble<lb /> 
+          yt greatly to his frends but sayes merelie he hath ben a scabd squire a<lb /> 
+          great while, and could now be content to be a paltrie knight the rest of<lb /> 
+          his time.</p> 
+          
+          <seg type="topic" n="court-deaths"/>
+          <p>Sir John North<note>Son of Roger, second Lord North. His wife was Dorothy, daughter of Sir Valentine Dale.</note> died here on Sonday last, and is thought to<lb /> 
+            have left his lady but a meane widowe. Sir Thomas Wroughton<note>Of Broad Hinton, Wiltshire.</note> went<lb /> 
+            likewise much about the same time, and old Duns<note>Presumably Edmund Dunche of Wittenham, Berkshire, father of William Dunche. Cf. Letter 17.</note> when I was in Ox-<lb /> 
+            fordshire.</p> 
+            
+            <seg type="topic" n="official-appointments"/>
+            <p>John Payton is lately made lieutenant of the Towre, and<lb /> 
+            Sir Henry Cocke either is or upon the point to be sworne Coferer of the<lb /> 
+            Quenes houshold. Phillip Scudamore<note>Knighted, 1603.</note> is very forward and like to<lb /> 
+            have Mistris Lovell<note>Dorothy, daughter of Michael Greene, and widow of Gregory Lovell,
+            Cofferer of the Royal Household.</note> the last Coferers widow, to the great dislike of</p><pb n="31"/>
+        
+        <seg type="topic" n="marriage-and-scandal"/>
+        <p> some of his best frends. And your Lady Umpton<note>Dorothy, daughter of Sir Thomas Wroughton, and widow of Sir Henry Unton, who died ambassador to France, March 23, 1596. She became Shirley's
+        second wife. August 3, 1598., Carleton wrote Chamberlain, "I have been at Broad Hinton and stayed four days with Lady Unton, who beautifies her sorrow with all the ornaments of an honorable widow." (S. P. Dom., Eliz., cclir, 93.)</note> is in parlee with<lb /> 
+        Master George Sherly of Northampton or Lecestershire. This term<lb /> 
+        here was one Longe a captaine of Somersetshire condemned in the Star-<lb />
+        chamber in 500 markes and to stand on the pillorie for chopping and<lb /> 
+        making portsale<note>Public sale to the highest bidder.</note> of his souldiers.</p> 
+        
+        <seg type="topic" n="london-theatre"/> 
+        <p>We have here a new play of hu-<lb /> 
+        mors<note>Probably "The Comedy of Umers" mentioned by Henslowe and performed nine times during May and June by the Admiral's Men at the Rose. Henslowe's play was almost certainly Chapman's <hi rend="italics">An Humorous Day's Mirth</hi>, the earliest extant play of this type. (Greg, <hi rend="italics">Henslowe's Diary</hi>, i, 52 <hi rend="italics" xml:lang="la">et passim</hi>; Schelling, <hi rend="italics">Elizabethan Drama</hi>, i, 460; Parrott, <hi rend="italics">Comedies of George Chapman</hi>, p. 685; Chambers, <hi rend="italics">Elizabethan Stage</hi>, iii, 251.)</note> in very great request, and I was drawn alonge to yt by the com-<lb />
+        mon applause, but my opinion of yt is (as the fellow sayde of the shear-<lb /> 
+        ing of hogges) that there was a great crie for so litle wolle.</p> 
+        
+        <seg type="topic" n="ireland-travel-plans"/>
+        <p>This is all<lb /> 
+          I can bethincke me of for the present neither can you chuse but be reason-<lb /> 
+          ablie satisfied, for what you want in waight you have in measure. Yet<lb /> 
+          is the greatest newes behinde that I am upon a viage into Ireland with<lb /> 
+          Master Wallop,<note>Henry Wallop (knighted, 1599). His father, Sir Henry Wallop, was then Vice-Treasurer of Ireland. His wife was Elizabeth, daughter of Robert Corbet of Morton-Corbet, Shropshire. Her mother was Anne, daughter of Oliver Lord St. John, widow of Robert Corbet, and wife of Rowland Lytton (knighted, 1603) of Knebworth. Lytton's mother was Anne Carleton, aunt of Dudley Carleton.</note> who with his wife, her mother, and your cousen Lytton<lb /> 
+          have so earnestly intreated me, that partly at theyre request and partly<lb /> 
+          being weary of ydlenes I have yeelded, and hope to be setting forward<lb /> 
+          within this moneth and to be here againe before Bartlemewtide. You<lb /> 
+          be like enough to heare of me before I go yf here be ought worth writ-<lb /> 
+          ing. Your sister Alice is close prisoner at her ladies; the rest of your<lb /> 
+          frends are in state as you left them and so wishing you all health and<lb /> goode hap I bid you farewell. From London this longest day of 1597.<lb /></p> 
+          
         <closer>
           <salute rend="right">Yours most assuredly,</salute>
           <signed rend="right">JOHN CHAMBERLAIN</signed>
@@ -119,7 +180,7 @@
     <back>
       <div type="editor-note">
         <head>Editor's Note</head>
-        <p>This letter offers a vivid window into Chamberlain’s early correspondence with Dudley Carleton. It touches on military news from Ireland, preparations for the “Islands Voyage,” court gossip, and Chamberlain’s own pending journey. Notable are Chamberlain’s indirect counsel to Carleton regarding financial support, and his detailed intelligence-gathering style. This letter also signals Chamberlain’s early tendency to function as a political informant and social interpreter.</p>
+        <p>This letter offers a vivid window into Chamberlain’s early correspondence with Dudley Carleton. Written from London on June 11, 1597, it addresses Carleton’s financial worries, relayed through a report from his brother about a letter shown by Tobie Mathew. Chamberlain tactfully avoids direct comment, suggesting the complaint may have been strategic. The letter also includes intelligence on Irish military affairs, particularly the return of Sir William Russell and the death of Feogh MacHugh, along with preparations for the Islands Voyage, a planned naval expedition against Spanish forces. Court news features prominently, including the deaths of several figures, a set of new appointments, and social gossip involving marriages and ambitions. Chamberlain concludes with his own decision to travel to Ireland with the Wallop and Lytton families. Throughout, he demonstrates his emerging role as an informal correspondent and observer of political and social developments.</p>
       </div>
       <div type="notes"/>
     </back>
