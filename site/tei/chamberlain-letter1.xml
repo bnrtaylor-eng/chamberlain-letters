@@ -10,7 +10,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <publisher>Early Modern Letters Project</publisher>
+        <publisher>The Chamberlain Letters Project</publisher>
         <idno type="uri">https://earlymodernletters.org/letters/chamberlain-letter1.xml</idno>
       </publicationStmt>
       <sourceDesc>
@@ -42,7 +42,7 @@
     <front>
       <div type="letter-meta">
         <head>Letter 1 – Financial Concerns, Court Gossip, and the Islands Voyage</head>
-        <p><name type="editor">Edited and encoded by Brandon Taylor</name></p>
+        <p>This digital edition is based on the transcription and annotations of Norman Egbert McClure’s 1939 edition of <title>The Letters of John Chamberlain</title>. This version has been edited and encoded for the Chamberlain Letters Project by <name type="editor">Brandon Taylor</name>.</p>
         <p><date when="1597-06-11">June 11, 1597</date></p>
         <p><placeName ref="#london">London</placeName></p>
         <!-- correspDesc moved to teiHeader/profileDesc -->
