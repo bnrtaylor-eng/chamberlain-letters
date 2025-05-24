@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter 2 – [Insert Brief Thematic Summary]</title>
+        <title>Letter 2 – Foreign Diplomacy, Irish Disorder, and Domestic Unrest</title>
         <respStmt>
           <name>Brandon Taylor</name>
           <resp>Editor and Verifier</resp>
@@ -46,8 +46,8 @@
         <p>This transcription is provisional. The text has been input but not yet fully edited or annotated. Interpretive notes, proper name tagging, and corrections will follow in a later revision.</p>
       </div>
       <div type="letter-meta">
-        <head>Letter [#] – [Insert Full Title or Description]</head>
         <p>This digital edition is based on the transcription and annotations of Norman Egbert McClure’s 1939 edition of <title>The Letters of John Chamberlain</title>. This version has been edited and encoded for the Chamberlain Letters Project by <name type="editor">Brandon Taylor</name>.</p>
+        <head>Letter 2 – Foreign Diplomacy, Irish Disorder, and Domestic Unrest</head>
         <p><date when="YYYY-MM-DD">[1598-05-04]</date></p>
         <p><placeName ref="#london">London</placeName></p>
       </div>
@@ -115,7 +115,8 @@
            there is no other way but to provide the sharper sword: here is speach
            of forces to be sent thether, but they cannot yet resolve upon a Deputie,
            for Sir Walter Raleigh, Sir Rob : Sidney a and Sir Christofer Blunt 7
-           (as I heare) have refused yt. 
+           (as I heare) have refused yt.
+           </p>
            
            <seg type="topic" n="conspiracy-against-queen-and-essex"/>
            <p>
