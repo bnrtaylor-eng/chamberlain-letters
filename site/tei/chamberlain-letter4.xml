@@ -3,10 +3,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from John Chamberlain to [Recipient]</title>
+        <title>Letter from John Chamberlain to Dudley Carleton, 20 May 1598</title>
         <respStmt>
-          <resp>Contributor</resp>
-          <name>[Contributor Name]</name>
+          <resp>Editor</resp>
+          <name>Brandon Taylor</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,6 +19,8 @@
           <pubPlace>Philadelphia</pubPlace>
           <publisher>American Philosophical Society</publisher>
           <date when="1939">1939</date>
+          <biblScope unit="volume">1</biblScope>
+          <biblScope unit="page">38–39</biblScope>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,17 +30,17 @@
     <front>
       <div type="letter-meta">
         <head>Letter Metadata</head>
-        <p><date when="[YYYY-MM-DD]">[Human-Readable Date]</date></p>
-        <p><placeName>[Place of Writing]</placeName></p>
+        <p><date when="1598-05-20">20 May 1598</date></p>
+        <p><placeName ref="#london">London</placeName></p>
         <p><correspDesc>
           <correspAction type="sent">
             <persName ref="#chamberlain-john">John Chamberlain</persName>
-            <date when="[YYYY-MM-DD]"/>
-            <placeName>[Place of Writing]</placeName>
+            <date when="1598-05-20"/>
+            <placeName ref="#london">London</placeName>
           </correspAction>
           <correspAction type="received">
-            <persName ref="#[recipient-id]">[Recipient Name]</persName>
-            <placeName>[Place of Receipt, if known]</placeName>
+            <persName ref="#carleton-dudley">Dudley Carleton</persName>
+            <placeName ref="#ostend">Ostend</placeName>
           </correspAction>
         </correspDesc></p>
       </div>
@@ -46,15 +48,94 @@
 
     <body>
       <div type="letter-text">
-        <p>[Paste letter content here. Use <note place="foot">Example note content.</note>]</p>
-        <p>[Tag people/places like <persName ref="#cecil-robert">Robert Cecil</persName><note type="editorial">Verify this is the correct Cecil.</note>]</p>
+
+        <p>I wrote to you the 17th of this present, since which time I receved
+        yours of the 24th of Aprill, which had playde the truand I know not
+        where, and loitered very longe after his fellowes. Yet yt brought goode
+        contentment with yt, to see your state somwhat amended, and your fortune
+        rising, which yf you once lay hold on I make no doubt but you will manage
+        to your best advantage. Your brother <persName ref="#carleton-george">Carleton</persName>
+        comes not to towne this terme. I had a letter from him on Wensday last to
+        provide two bookes you write for, wherin I have don my best indevor, and
+        with much ado and longe search found the one, but the other will not be
+        heard of, yet casting about I remembred myself that of mine owne store I
+        had a treatise of the siege of <placeName ref="#paris">Paris</placeName>
+        written in Spanish by a Spaniard that was all the while in the towne,
+        which yf yt may serve your turne is at your disposing; otherwise, yf you
+        have no great use of yt (because Spanish bookes are hard to come by) I
+        could be content you send or bring yt back when you shall thincke best.</p>
+
+        <p><persName ref="#barnevelt-john">Barnevelt</persName><note>Johan van
+        Oldenbarnevelt, agent of the Netherlands, who with other commissioners
+        and Noel Caron, the agent resident in England, conferred with
+        commissioners appointed by the Queen. (Camden, <title level="m">Annales</title>,
+        p. 496.)</note> the agent and advocate of
+        <orgName ref="#states-general">the States</orgName> is here and hath
+        had audience these two dayes together, but I feare we are deafe on that
+        side, and no musike will please us unles yt be to the tune of peace. One
+        of the cheifest reasons I can heare for yt, is a kind of disdaine and
+        envie at our neighboures welldoinge: in that we for theyre sake and
+        defence entring into the warre, and being barred from all commerce and
+        entercourse of marchandise, they in the meane time thrust us out of all
+        trafficke to our utter undoing (yf in time yt be not looked into), and
+        theyre owne advancement: and though the feare of the Spaniards recovering
+        those countries and increasing greatnes do somwhat trouble us, yet yt is
+        thought but a weake pollicie for feare of future and uncertain daunger
+        (which many accidents may divert) to indure a present and certaine losse.
+        And come what can come, <placeName ref="#france">Fraunce</placeName> and
+        <placeName ref="#england">England</placeName> holding together (as in all
+        probabilitie and reason they are like) they shall alwayes be able to make
+        theyre partie goode with <placeName ref="#spain">Spaine</placeName>. An
+        other motive to the peace is the troubles of
+        <placeName ref="#ireland">Ireland</placeName>, which are like to put the
+        Quene to exceding charge, and withall there appeares a blacke clowde in
+        <placeName ref="#scotland">Scotland</placeName> that threatens a storme.<note>The
+        alleged conspiracy revealed by Valentine Thomas. Cf. Letter 2.</note></p>
+
+        <p>These amonge many other reasons that I have heard and sene are in mine
+        opinion most materiall: together with an offer from the Spaniard (as they
+        say) that come peace or war with
+        <orgName ref="#states-general">the States</orgName>, the Quene shall hold
+        the cautionarie townes fowre yeares, in which space yf
+        <orgName ref="#states-general">the States</orgName> do not repay the mony
+        she hath disbursed for them, he upon those townes will see her satisfied,
+        which semes a matter of such importaunce to some men that with such a
+        masse of mony they thincke we shalbe able to defend our selves against
+        the world.</p>
+
+        <p>Other newes here goes very lowe, only
+        <persName ref="#harvey-william">Sir William Harvy</persName><note>William
+        Hervey (created Lord Hervey of Kidbrooke, 1628) in May, 1598, married
+        Mary, widow of Henry Wriothesley, second Earl of Southampton, and of Sir
+        Thomas Heneage. Cf. Letter 6.</note> is sayde to have married the
+        <persName ref="#wriothesley-mary">Countesse of Southampton</persName>.
+        <persName ref="#dormer-michael">Master Dormer</persName> and his wife
+        came to towne yesternight and lodge at your brother
+        <persName ref="#williams-alexander">Williams</persName> for some fowre
+        or five dayes.</p>
+
+        <closer>
+          <salute>Thus with my goode wishes for your health and welfare I commit
+          you to God.</salute>
+          <dateline>From <placeName ref="#london">London</placeName> this
+          <date when="1598-05-20">20th of May 1598</date>.</dateline>
+          <signed>Yours most assuredly<lb/>
+          <persName ref="#chamberlain-john">JOHN CHAMBERLAIN</persName>.</signed>
+        </closer>
+
+        <postscript>
+          <p><address><addrLine>To my assured goode frend Master
+          <persName ref="#carleton-dudley">Dudley Carleton</persName> attending
+          on the Lord Governor of <placeName ref="#ostend">Ostend</placeName>.
+          </addrLine></address></p>
+        </postscript>
       </div>
     </body>
 
     <back>
       <div type="editor-note">
         <head>Editor's Note</head>
-        <p>[Summarize this letter for general readers. What is it about? What historical context is useful?]</p>
+        <p>Written from London on 20 May 1598, just three days after Letter 3, this brief letter to Dudley Carleton in Ostend turns on the question of Anglo-Spanish peace and England's relationship with the Dutch States-General. Chamberlain opens with domestic business: a delayed letter from Carleton, an unsuccessful search for two books requested by Carleton's brother George, and the offer of a Spanish treatise on the siege of Paris from his own library. The letter's main body is a sustained analysis of the case for peace: English resentment at Dutch commercial exclusion, the deepening crisis in Ireland, and an unnamed conspiracy in Scotland. Chamberlain also relays the Spanish offer to guarantee England's possession of the cautionary towns — Flushing and Brill — for four years as security against unpaid loans to the Dutch. The letter closes with two brief social notes: Sir William Harvey's reported marriage to Mary, the widowed Countess of Southampton, and the arrival of Michael Dormer and his wife in London, lodging with Alexander Williams.</p>
       </div>
     </back>
   </text>

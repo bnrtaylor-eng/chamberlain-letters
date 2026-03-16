@@ -42,9 +42,9 @@ const people = [
   {
     "id": "dormer-michael",
     "name": "Michael Dormer",
-    "shortBio": "Mentioned by Chamberlain in connection with Dudley Carleton's social circle. To be expanded.",
+    "shortBio": "Member of Carleton's social circle. Chamberlain notes his participation in the Islands Voyage preparations and his subsequent movements in London.",
     "letters": [
-      1, 3
+      1, 3, 4
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -68,9 +68,9 @@ const people = [
   {
     "id": "carleton-george",
     "name": "George Carleton",
-    "shortBio": "Placeholder: Brother of Dudley Carleton. May have been involved in religious or legal circles.",
+    "shortBio": "Brother of Dudley Carleton. Chamberlain relays messages from him and assists with book procurement on his behalf.",
     "letters": [
-      1
+      1, 4
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/George_Carleton_(bishop)",
@@ -328,9 +328,9 @@ const people = [
   {
     "id": "williams-alexander",
     "name": "Alexander Williams",
-    "shortBio": "Intermediary used by Chamberlain for forwarding letters to Dudley Carleton. To be further identified.",
+    "shortBio": "Husband of Elizabeth Carleton (Dudley's sister). Served as an intermediary for letters and as a London lodging contact for the Carleton circle.",
     "letters": [
-      3
+      3, 4
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -347,6 +347,45 @@ const people = [
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/William_Paulet,_3rd_Marquess_of_Winchester",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "barnevelt-john",
+    "name": "Johan van Oldenbarnevelt",
+    "shortBio": "Advocate and agent of the Dutch States-General. In May 1598 he and other commissioners conferred with Queen Elizabeth's representatives over the terms of English support for the Netherlands.",
+    "letters": [
+      4
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Johan_van_Oldenbarnevelt",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "harvey-william",
+    "name": "Sir William Harvey",
+    "shortBio": "Later created Lord Harvey of Kidbrooke (1628). In May 1598 he married Mary, widow of both Henry Wriothesley, second Earl of Southampton, and Sir Thomas Heneage.",
+    "letters": [
+      4
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "wriothesley-mary",
+    "name": "Mary, Countess of Southampton",
+    "shortBio": "Widow of Henry Wriothesley, second Earl of Southampton, and subsequently of Sir Thomas Heneage. Her marriage to Sir William Harvey in May 1598 is noted by Chamberlain.",
+    "letters": [
+      4
+    ],
+    "externalLinks": {
+      "wikipedia": "",
       "odnb": "",
       "britannica": ""
     }
