@@ -24,15 +24,66 @@
 
   <main>
     <h2>TEI/XML Encoding and Editorial Standards</h2>
+
+    <nav class="toc" aria-label="Page contents">
+      <h3>Contents</h3>
+      <ol>
+        <li><a href="#about-edition">About This Edition</a></li>
+        <li><a href="#how-site-works">How the Site Works</a></li>
+        <li><a href="#source-text">Source Text and Relationship to McClure</a></li>
+        <li><a href="#file-structure">Letter File Structure</a></li>
+        <li><a href="#teiheader">The TEI Header</a></li>
+        <li><a href="#spelling">Spelling and Punctuation</a></li>
+        <li><a href="#paragraphs">Paragraph Structure</a></li>
+        <li><a href="#tagging">Tagging Names, Places, and Organizations</a></li>
+        <li><a href="#tagging-frequency">Tagging Frequency and Honorific References</a></li>
+        <li><a href="#notes">Notes</a></li>
+        <li><a href="#works">Works Cited in Letters</a></li>
+        <li><a href="#ids">ID Naming Conventions</a></li>
+        <li><a href="#reference-files">Adding Entries to the Reference Files</a></li>
+        <li><a href="#archive-refs">Archive References</a></li>
+        <li><a href="#citing">Citing This Edition</a></li>
+        <li><a href="#submitting">Submitting and Crediting Your Work</a></li>
+        <li><a href="#quick-ref">Quick Reference: TEI Elements Used in This Project</a></li>
+      </ol>
+    </nav>
+
+    <h3 id="about-edition">1. About This Edition</h3>
     <p>
-      Welcome to the editorial hub of the Chamberlain Letters Project. Whether you are a student, scholar, or first-time contributor, this guide explains how to transcribe and annotate letters using the TEI (Text Encoding Initiative) P5 standard. Our aim is to create a consistent, accurate, and accessible archive of John Chamberlain's correspondence — freely available to the public and usable by future generations of researchers.
+      The Chamberlain Letters Project is a digital scholarly edition of the letters of John Chamberlain (1553–1628) to Dudley Carleton (1573–1632), encoded in the TEI (Text Encoding Initiative) P5 standard and published openly at <em>earlymodernletters.org</em>. Whether you are a researcher reading the letters, a student exploring early modern networks, or a contributor helping to encode new material, this guide explains how the project is organized and how editorial decisions are made.
     </p>
     <p>
-      This edition prioritizes readability over diplomatic transcription. While we follow TEI-P5 standards and preserve historical accuracy, we editorially introduce paragraph breaks and suppress original lineation (such as printed line breaks or page breaks in the McClure edition) to improve accessibility for modern readers. These interventions are made consistently and in service of clarity and broader public engagement.
+      Our aim is a consistent, accurate, and accessible archive of Chamberlain's correspondence — freely available to the public and usable by future generations of researchers. The edition prioritizes readability over diplomatic transcription. We follow TEI-P5 standards and preserve historical accuracy, but we editorially introduce paragraph breaks and suppress original lineation (such as printed line breaks or page breaks in the McClure edition) to improve accessibility for modern readers.
     </p>
 
-    <h3>Letter File Structure</h3>
-    <p>Every letter file follows the same three-part structure: <code>&lt;front&gt;</code>, <code>&lt;body&gt;</code>, and <code>&lt;back&gt;</code>.</p>
+    <h3 id="how-site-works">2. How the Site Works</h3>
+    <p>
+      Each letter is stored as a TEI-XML file and rendered in the browser using <a href="https://teic.github.io/CETEIcean/" target="_blank">CETEIcean</a>, a JavaScript library that converts TEI elements into custom HTML5 elements for display. The site has five main reference sections linked from the navigation:
+    </p>
+    <ul>
+      <li><strong>Browse Letters</strong> — the full list of encoded letters, with dates and preview summaries.</li>
+      <li><strong>Personography</strong> — biographical entries for every named individual mentioned in the letters. Each entry lists the letters in which the person appears and links to Wikipedia, the ODNB, or Britannica where available.</li>
+      <li><strong>Placeography</strong> — entries for locations mentioned in the letters.</li>
+      <li><strong>Workography</strong> — entries for books, pamphlets, and other works referenced.</li>
+      <li><strong>Orgography</strong> — entries for institutions, governing bodies, and companies.</li>
+    </ul>
+    <p>
+      In the letter view, inline notes appear as superscript numbers in the text. These notes derive from Norman Egbert McClure's editorial footnotes to the 1939 print edition, supplemented or adapted by the project editor.
+    </p>
+
+    <h3 id="source-text">3. Source Text and Relationship to McClure</h3>
+    <p>
+      The transcriptions in this edition follow the text as established by Norman Egbert McClure in <em>The Letters of John Chamberlain</em>, 2 vols. (Philadelphia: American Philosophical Society, 1939). McClure's edition is based on the original manuscripts in the State Papers Domestic (series SP 14 and SP 15) held at The National Archives, Kew. Where his text is followed, the <code>&lt;sourceDesc&gt;</code> in each letter's <code>&lt;teiHeader&gt;</code> cites McClure as the source, with volume and page numbers.
+    </p>
+    <p>
+      Notes in this edition are adapted from McClure's footnotes. We adapt rather than copy his wording, but we reproduce his archival citations (e.g., references to <em>A.P.C.</em>, <em>Cal. S.P. Dom.</em>, <em>A.P.C.</em>) as they appear in his text. The project editor may also add original notes where additional context is useful or where McClure's notes are insufficient.
+    </p>
+    <p>
+      The catalogue reference for each letter's original manuscript (e.g., <em>S. P. Dom., Eliz., cclxviii, 71</em>) is not currently encoded in the XML but appears in McClure's headings. Future versions of this edition may incorporate these archive references into the <code>&lt;sourceDesc&gt;</code>.
+    </p>
+
+    <h3 id="file-structure">4. Letter File Structure</h3>
+    <p>Every letter file is a TEI-XML document with the same three-part structure: <code>&lt;front&gt;</code>, <code>&lt;body&gt;</code>, and <code>&lt;back&gt;</code>. Use the official project template as your starting point.</p>
 
     <h4>Front matter (<code>&lt;front&gt;</code>)</h4>
     <p>The <code>&lt;front&gt;</code> contains a <code>&lt;div type="letter-meta"&gt;</code> with the date, place of writing, and a <code>&lt;correspDesc&gt;</code> block identifying sender and recipient:</p>
@@ -68,13 +119,15 @@
         &lt;persName ref="#chamberlain-john"&gt;JOHN CHAMBERLAIN&lt;/persName&gt;.&lt;/signed&gt;
     &lt;/closer&gt;
     &lt;postscript&gt;
-      &lt;p&gt;To my very goode frend ...&lt;/p&gt;
+      &lt;p&gt;To my very goode frend Master
+        &lt;persName ref="#carleton-dudley"&gt;Dudley Carleton&lt;/persName&gt; ...&lt;/p&gt;
     &lt;/postscript&gt;
   &lt;/div&gt;
 &lt;/body&gt;</code></pre>
+    <p>Note: Chamberlain's address panels ("To my very goode frend...") are encoded as <code>&lt;postscript&gt;</code> because TEI does not provide a dedicated address-panel element within the letter body.</p>
 
     <h4>Back matter (<code>&lt;back&gt;</code>)</h4>
-    <p>The <code>&lt;back&gt;</code> contains a <code>&lt;div type="editor-note"&gt;</code> with a short prose summary contextualizing the letter for general readers:</p>
+    <p>The <code>&lt;back&gt;</code> contains a <code>&lt;div type="editor-note"&gt;</code> with a short prose summary contextualizing the letter for general readers. This is not a list of notes — it is a narrative paragraph summarizing the letter's main topics and supplying historical context that a non-specialist reader would find useful:</p>
     <pre><code>&lt;back&gt;
   &lt;div type="editor-note"&gt;
     &lt;head&gt;Editor's Note&lt;/head&gt;
@@ -82,53 +135,255 @@
   &lt;/div&gt;
 &lt;/back&gt;</code></pre>
 
-    <h3>Spelling and Punctuation</h3>
+    <h3 id="teiheader">5. The TEI Header</h3>
+    <p>Every letter file begins with a <code>&lt;teiHeader&gt;</code> containing bibliographic metadata. The <code>&lt;titleStmt&gt;</code> identifies the letter and names the contributor(s); the <code>&lt;sourceDesc&gt;</code> cites the McClure edition with volume and page numbers:</p>
+    <pre><code>&lt;teiHeader&gt;
+  &lt;fileDesc&gt;
+    &lt;titleStmt&gt;
+      &lt;title&gt;Letter from John Chamberlain to Dudley Carleton, 3 October 1598&lt;/title&gt;
+      &lt;respStmt&gt;
+        &lt;resp&gt;Editor&lt;/resp&gt;
+        &lt;name&gt;Your Name Here&lt;/name&gt;
+      &lt;/respStmt&gt;
+    &lt;/titleStmt&gt;
+    &lt;publicationStmt&gt;
+      &lt;p&gt;Published digitally at earlymodernletters.org. Licensed under CC BY 4.0.&lt;/p&gt;
+    &lt;/publicationStmt&gt;
+    &lt;sourceDesc&gt;
+      &lt;bibl&gt;
+        &lt;title&gt;The Letters of John Chamberlain&lt;/title&gt;
+        &lt;editor&gt;Norman Egbert McClure&lt;/editor&gt;
+        &lt;pubPlace&gt;Philadelphia&lt;/pubPlace&gt;
+        &lt;publisher&gt;American Philosophical Society&lt;/publisher&gt;
+        &lt;date when="1939"&gt;1939&lt;/date&gt;
+        &lt;biblScope unit="volume"&gt;1&lt;/biblScope&gt;
+        &lt;biblScope unit="page"&gt;46–48&lt;/biblScope&gt;
+      &lt;/bibl&gt;
+    &lt;/sourceDesc&gt;
+  &lt;/fileDesc&gt;
+&lt;/teiHeader&gt;</code></pre>
+    <p>Page numbers (<code>&lt;biblScope unit="page"&gt;</code>) refer to the pages in the McClure edition on which the letter appears. Use an en dash (–) for ranges.</p>
+
+    <h3 id="spelling">6. Spelling and Punctuation</h3>
     <ul>
       <li>Preserve original spelling and punctuation exactly as found in the McClure edition. Do not modernize.</li>
-      <li>Preserve original contractions, abbreviations, and early modern forms (e.g., <em>yt</em> for "it," <em>yf</em> for "if," <em>thancks</em>).</li>
-      <li>Italicize Latin phrases and foreign-language insertions using <code>&lt;hi rend="italic"&gt;</code>. For example: <code>&lt;hi rend="italic"&gt;per tot discrimina&lt;/hi&gt;</code>.</li>
+      <li>Preserve original contractions, abbreviations, and early modern forms (e.g., <em>yt</em> for "it," <em>yf</em> for "if," <em>thancks</em>, <em>jorny</em>).</li>
+      <li>Italicize Latin phrases and foreign-language insertions using <code>&lt;hi rend="italic"&gt;</code>. For example: <code>&lt;hi rend="italic"&gt;per tot discrimina&lt;/hi&gt;</code> or <code>&lt;hi rend="italic"&gt;comme un millord d'Angleterre&lt;/hi&gt;</code>.</li>
+      <li>Italicize series titles cited in notes (e.g., <code>&lt;hi rend="italic"&gt;Cal. S.P. Dom.&lt;/hi&gt;</code>, <code>&lt;hi rend="italic"&gt;A.P.C.&lt;/hi&gt;</code>).</li>
+      <li>Use typographic en dashes (–) for ranges in notes and metadata. Use an em dash (—) only where Chamberlain's own text uses a dash.</li>
     </ul>
 
-    <h3>Tagging Names, Places, and Organizations</h3>
+    <h3 id="paragraphs">7. Paragraph Structure</h3>
+    <p>Chamberlain's letters as printed in McClure often run as continuous prose with minimal paragraphing. For readability, the project editorially introduces paragraph breaks at natural thematic transitions. Each <code>&lt;p&gt;</code> should contain a coherent unit of thought — a distinct topic, piece of news, or line of argument. Avoid paragraphs shorter than two sentences unless the original structure clearly demands it. Longer letters may have eight or more paragraphs; shorter letters may have as few as two or three. Let the content guide the structure rather than imposing arbitrary breaks.</p>
+
+    <h3 id="tagging">8. Tagging Names, Places, and Organizations</h3>
     <ul>
       <li>Use <code>&lt;persName ref="#id"&gt;</code> to tag individuals. The <code>ref</code> value must match an entry in <code>people.js</code>. Example: <code>&lt;persName ref="#carleton-dudley"&gt;Dudley Carleton&lt;/persName&gt;</code>.</li>
-      <li>Use <code>&lt;placeName ref="#id"&gt;</code> for locations. Example: <code>&lt;placeName ref="#london"&gt;London&lt;/placeName&gt;</code>.</li>
-      <li>Use <code>&lt;orgName ref="#id"&gt;</code> for institutions, governing bodies, and companies. Example: <code>&lt;orgName ref="#virginia-company"&gt;Virginia Company&lt;/orgName&gt;</code>.</li>
-      <li>Tag every named individual, location, and institution in the letter body, including those mentioned in notes.</li>
-      <li>If you identify a new person or place not yet in the reference files, assign it a new kebab-case ID (e.g., <code>#smith-john</code> or <code>#paris</code>) and add a corresponding entry to <code>people.js</code>, <code>places.js</code>, or <code>orgs.js</code>. Update the <code>letters</code> array for any existing entries that appear in the new letter.</li>
+      <li>Use <code>&lt;placeName ref="#id"&gt;</code> for locations — cities, houses, regions, bodies of water. Example: <code>&lt;placeName ref="#london"&gt;London&lt;/placeName&gt;</code>.</li>
+      <li>Use <code>&lt;orgName ref="#id"&gt;</code> for institutions, governing bodies, and companies. Example: <code>&lt;orgName ref="#privy-council"&gt;the Council&lt;/orgName&gt;</code>.</li>
+      <li>Tag every named individual, location, and institution in the letter body and in notes — not just the first occurrence.</li>
+      <li>If you identify a new person, place, or organization not yet in the reference files, assign it a new kebab-case ID and add a corresponding entry. See <a href="#ids">ID Naming Conventions</a> and <a href="#reference-files">Adding Entries to the Reference Files</a> below.</li>
       <li>If an identification is uncertain, note your reasoning in the inline <code>&lt;note&gt;</code> for that person or place.</li>
     </ul>
 
-    <h3>Notes</h3>
+    <h3 id="tagging-frequency">9. Tagging Frequency and Honorific References</h3>
+    <p>Tag <strong>every occurrence</strong> of a named individual, place, or organization throughout the letter — in the body text, in the <code>&lt;closer&gt;</code>, in the <code>&lt;postscript&gt;</code>, and inside notes. Do not tag only the first mention.</p>
+    <p>Chamberlain frequently refers to people by title or honorific rather than by name. Tag these references just as you would a proper name:</p>
+    <ul>
+      <li>"the Quene" / "her Majestie" → <code>&lt;persName ref="#elizabeth-i"&gt;the Quene&lt;/persName&gt;</code></li>
+      <li>"the erle of Essex" / "my Lord" (when clearly Essex) → <code>&lt;persName ref="#devereux-robert"&gt;the erle of Essex&lt;/persName&gt;</code></li>
+      <li>"the Lord Treasurer" (before September 1598) → <code>&lt;persName ref="#cecil-william"&gt;the Lord Treasurer&lt;/persName&gt;</code></li>
+      <li>"the Secretary" / "Mr. Secretary" → <code>&lt;persName ref="#cecil-robert"&gt;the Secretary&lt;/persName&gt;</code></li>
+      <li>"the States" / "the States General" → <code>&lt;orgName ref="#states-general"&gt;the States&lt;/orgName&gt;</code></li>
+    </ul>
+    <p>When it is unclear which individual a pronoun or honorific refers to, use your best judgment and explain the identification in an inline <code>&lt;note&gt;</code>.</p>
+    <p>Do not tag generic or collective references that do not point to a specific, identifiable entity (e.g., "the rebells," "the Spaniards," "some say"). Only tag when a specific person, place, or body can be identified.</p>
+
+    <h3 id="notes">10. Notes</h3>
     <p>All notes — whether derived from McClure's footnotes or added by the project editor — are encoded as plain <code>&lt;note&gt;</code> elements placed <em>immediately after</em> the tagged name or phrase they annotate, <em>without</em> a <code>place</code> attribute:</p>
     <pre><code>&lt;persName ref="#stanhope-john"&gt;Sir John Stanhop&lt;/persName&gt;&lt;note&gt;Treasurer of the
 Chamber; appointed Vice-Chamberlain in February 1601.&lt;/note&gt;</code></pre>
-    <p>This renders inline as a superscript number when displayed via CETEIcean. <strong>Do not use <code>place="foot"</code></strong>: that attribute triggers a block-level display rule that breaks text flow and inserts unwanted line breaks in the rendered letter.</p>
+    <p>This renders inline as a superscript number when displayed via CETEIcean. <strong>Do not use <code>place="foot"</code></strong>: that attribute triggers a block-level CSS display rule that breaks text flow and inserts unwanted line breaks in the rendered letter.</p>
     <ul>
       <li>Notes should be concise but complete. Identify the individual or event, give dates where relevant, and cite the McClure footnote or another authority if applicable.</li>
-      <li>When a note derives from McClure, adapt rather than copy his wording. Cite archival sources (e.g., <em>A.P.C.</em>, <em>Cal. S.P. Dom.</em>) as they appear in his footnotes, formatted with <code>&lt;hi rend="italic"&gt;</code> for series titles.</li>
+      <li>When a note derives from McClure, adapt rather than copy his wording. Cite archival sources as they appear in his footnotes, using <code>&lt;hi rend="italic"&gt;</code> for series titles (e.g., <code>&lt;hi rend="italic"&gt;A.P.C.&lt;/hi&gt;</code>, xxix, 154–157).</li>
       <li>Tag any people, places, or organizations mentioned within a note just as you would in the main text.</li>
+      <li>Do not add a note to every tagged person — only where annotation genuinely adds context. Minor figures mentioned in passing may be tagged without a note.</li>
+      <li>When McClure includes a cross-reference to another letter (e.g., "Cf. Letter 2"), preserve it in the note as plain text. Do not attempt to encode letter-to-letter links at this time.</li>
     </ul>
 
-    <h3>Works Cited in Letters</h3>
+    <h3 id="works">11. Works Cited in Letters</h3>
     <ul>
       <li>Use <code>&lt;title level="m"&gt;</code> for books and long works; <code>level="a"</code> for articles, poems, or short works.</li>
-      <li>If the work has an entry in the Workography, add a <code>ref="#id"</code> attribute.</li>
+      <li>If the work has an entry in the Workography, add a <code>ref="#id"</code> attribute to the <code>&lt;title&gt;</code> element.</li>
+      <li>When Chamberlain quotes or alludes to a text (e.g., a Rabelais saying, a Latin proverb), wrap the quoted passage in <code>&lt;hi rend="italic"&gt;</code> if it would have been italicized in print, and add a <code>&lt;note&gt;</code> identifying the source.</li>
     </ul>
 
-    <h3>Paragraph Structure</h3>
-    <p>Chamberlain's letters as printed in McClure often run as continuous prose with minimal paragraphing. For readability, the project editorially introduces paragraph breaks at natural thematic transitions. Each <code>&lt;p&gt;</code> should contain a coherent unit of thought — a distinct topic, piece of news, or line of argument. Avoid paragraphs shorter than two sentences unless the original structure clearly demands it.</p>
+    <h3 id="ids">12. ID Naming Conventions</h3>
+    <p>All IDs are lowercase kebab-case strings. Follow these patterns:</p>
+    <ul>
+      <li><strong>People:</strong> <code>lastname-firstname</code> — e.g., <code>carleton-dudley</code>, <code>chamberlain-john</code>, <code>devereux-robert</code>. For names with particles, run the particle into the surname: <code>oneill-hugh</code>. For saints or single-name figures, use just the name: e.g., <code>elizabeth-i</code>.</li>
+      <li><strong>Places:</strong> Use the standard modern English name in kebab-case — e.g., <code>london</code>, <code>ostend</code>, <code>knebworth</code>, <code>puerto-rico</code>. For large regions or countries, use the contemporary English name: <code>ireland</code>, <code>spain</code>. For named houses or estates, use the property name: <code>brockett-hall</code>.</li>
+      <li><strong>Organizations:</strong> Use a descriptive phrase in kebab-case — e.g., <code>privy-council</code>, <code>states-general</code>, <code>virginia-company</code>.</li>
+      <li><strong>Works:</strong> Use a short-title form in kebab-case — e.g., <code>annales-camden</code>.</li>
+    </ul>
+    <p>IDs must be unique within their respective reference file. If two people share a surname and first name, disambiguate with a middle name, title, or birth year: e.g., <code>carew-george-clopton</code>.</p>
 
-    <h3>Submitting and Crediting Your Work</h3>
+    <h3 id="reference-files">13. Adding Entries to the Reference Files</h3>
+    <p>When you tag a new person, place, or organization not yet in the project's reference files, you must also add an entry to the corresponding JavaScript data file (<code>people.js</code>, <code>places.js</code>, or <code>orgs.js</code>). Each entry requires specific fields.</p>
+
+    <h4>People (<code>people.js</code>)</h4>
+    <pre><code>{
+  "id": "carleton-dudley",
+  "name": "Dudley Carleton, first Viscount Dorchester",
+  "shortBio": "Diplomat and Chamberlain's primary correspondent. Served with the English forces at Ostend 1597–1598; later ambassador to Venice, The Hague, and Paris.",
+  "letters": [1, 2, 3, 4],
+  "externalLinks": {
+    "wikipedia": "https://en.wikipedia.org/wiki/Dudley_Carleton,_1st_Viscount_Dorchester",
+    "odnb": "",
+    "britannica": ""
+  }
+}</code></pre>
+    <ul>
+      <li><code>id</code>: kebab-case, following the naming conventions above.</li>
+      <li><code>name</code>: full name with title where known.</li>
+      <li><code>shortBio</code>: one to three sentences. Identify the person's role, dates where known, and their significance to the correspondence.</li>
+      <li><code>letters</code>: an array of letter numbers in which this person appears. Update this array whenever an existing person appears in a new letter.</li>
+      <li><code>externalLinks</code>: include Wikipedia, ODNB, or Britannica URLs where available. Leave as an empty string if unknown.</li>
+    </ul>
+
+    <h4>Places (<code>places.js</code>)</h4>
+    <pre><code>{
+  "id": "ostend",
+  "name": "Ostend",
+  "description": "Port city in the Spanish Netherlands; besieged by Spanish forces 1601–1604. Dudley Carleton served with the English garrison there in 1597–1598.",
+  "modernCountry": "Belgium",
+  "letters": [1, 2, 3]
+}</code></pre>
+
+    <h4>Organizations (<code>orgs.js</code>)</h4>
+    <pre><code>{
+  "id": "privy-council",
+  "name": "Privy Council",
+  "description": "The principal advisory body to the English monarch. Chamberlain frequently tracks appointments to and deliberations of the Council.",
+  "letters": [2, 6, 7, 8]
+}</code></pre>
+
+    <h3 id="archive-refs">14. Archive References</h3>
+    <p>Each of Chamberlain's letters survives as a manuscript in the State Papers Domestic at The National Archives, Kew. McClure's edition includes a catalogue reference for each letter in the form <em>S. P. Dom., Eliz., cclxviii, 71</em>. These references are not currently encoded in the XML files, but are recorded in McClure's headings and can be used to locate the original manuscript for any letter in this edition.</p>
+
+    <h3 id="citing">15. Citing This Edition</h3>
+    <p>To cite a specific letter from this edition, use the following format:</p>
+    <blockquote>
+      John Chamberlain to Dudley Carleton, 3 October 1598, in <em>The Chamberlain Letters Project</em>, ed. Brandon Taylor, earlymodernletters.org. Text based on Norman Egbert McClure, ed., <em>The Letters of John Chamberlain</em>, 2 vols. (Philadelphia: American Philosophical Society, 1939), 1:46–48.
+    </blockquote>
+    <p>To cite the edition as a whole:</p>
+    <blockquote>
+      Brandon Taylor, ed., <em>The Chamberlain Letters Project</em>, earlymodernletters.org (2025–).
+    </blockquote>
+
+    <h3 id="submitting">16. Submitting and Crediting Your Work</h3>
     <ul>
       <li>Submit your letter file by GitHub pull request to the project repository.</li>
       <li>Every submission will be reviewed by the project editor for consistency, formatting, and TEI compliance before publication.</li>
-      <li>Contributors are credited in the <code>&lt;respStmt&gt;</code> block in the letter's <code>&lt;teiHeader&gt;</code>.</li>
+      <li>Contributors are credited in the <code>&lt;respStmt&gt;</code> block in the letter's <code>&lt;teiHeader&gt;</code>, and may also be listed on the About page.</li>
     </ul>
-
     <p>
       For more context about the project's scope and aims, visit our <a href="about.html">About page</a>, or contact the project editor with questions.
     </p>
+
+    <h3 id="quick-ref">17. Quick Reference: TEI Elements Used in This Project</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>Element</th>
+          <th>Use</th>
+          <th>Example</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>&lt;persName ref="#id"&gt;</code></td>
+          <td>Tag a named individual</td>
+          <td><code>&lt;persName ref="#devereux-robert"&gt;Essex&lt;/persName&gt;</code></td>
+        </tr>
+        <tr>
+          <td><code>&lt;placeName ref="#id"&gt;</code></td>
+          <td>Tag a location</td>
+          <td><code>&lt;placeName ref="#london"&gt;London&lt;/placeName&gt;</code></td>
+        </tr>
+        <tr>
+          <td><code>&lt;orgName ref="#id"&gt;</code></td>
+          <td>Tag an institution or organization</td>
+          <td><code>&lt;orgName ref="#privy-council"&gt;the Council&lt;/orgName&gt;</code></td>
+        </tr>
+        <tr>
+          <td><code>&lt;note&gt;</code></td>
+          <td>Inline editorial or McClure footnote (no <code>place</code> attribute)</td>
+          <td><code>...&lt;/persName&gt;&lt;note&gt;Appointed in 1601.&lt;/note&gt;</code></td>
+        </tr>
+        <tr>
+          <td><code>&lt;hi rend="italic"&gt;</code></td>
+          <td>Italics: Latin, foreign phrases, series titles</td>
+          <td><code>&lt;hi rend="italic"&gt;per tot discrimina&lt;/hi&gt;</code></td>
+        </tr>
+        <tr>
+          <td><code>&lt;title level="m"&gt;</code></td>
+          <td>Book or long-work title</td>
+          <td><code>&lt;title level="m"&gt;Annales&lt;/title&gt;</code></td>
+        </tr>
+        <tr>
+          <td><code>&lt;title level="a"&gt;</code></td>
+          <td>Article, poem, or short-work title</td>
+          <td><code>&lt;title level="a"&gt;The Faerie Queene&lt;/title&gt;</code></td>
+        </tr>
+        <tr>
+          <td><code>&lt;date when="YYYY-MM-DD"&gt;</code></td>
+          <td>A date with machine-readable attribute</td>
+          <td><code>&lt;date when="1598-10-03"&gt;third of October 1598&lt;/date&gt;</code></td>
+        </tr>
+        <tr>
+          <td><code>&lt;opener&gt;</code></td>
+          <td>Salutation at the start of the letter</td>
+          <td><code>&lt;opener&gt;Goode Master Carleton,&lt;/opener&gt;</code></td>
+        </tr>
+        <tr>
+          <td><code>&lt;closer&gt;</code></td>
+          <td>Closing section of the letter</td>
+          <td>Contains <code>&lt;dateline&gt;</code> and <code>&lt;signed&gt;</code></td>
+        </tr>
+        <tr>
+          <td><code>&lt;dateline&gt;</code></td>
+          <td>Date and place at the close</td>
+          <td><code>&lt;dateline&gt;London this &lt;date when="..."&gt;...&lt;/date&gt;&lt;/dateline&gt;</code></td>
+        </tr>
+        <tr>
+          <td><code>&lt;signed&gt;</code></td>
+          <td>Signature block</td>
+          <td><code>&lt;signed&gt;Yours most assuredly, JOHN CHAMBERLAIN.&lt;/signed&gt;</code></td>
+        </tr>
+        <tr>
+          <td><code>&lt;postscript&gt;</code></td>
+          <td>Postscript or address panel</td>
+          <td>Appears after <code>&lt;closer&gt;</code></td>
+        </tr>
+        <tr>
+          <td><code>&lt;correspDesc&gt;</code></td>
+          <td>Sender/recipient metadata in <code>&lt;front&gt;</code></td>
+          <td>Contains two <code>&lt;correspAction&gt;</code> elements</td>
+        </tr>
+        <tr>
+          <td><code>&lt;biblScope unit="page"&gt;</code></td>
+          <td>Page range in <code>&lt;sourceDesc&gt;</code></td>
+          <td><code>&lt;biblScope unit="page"&gt;46–48&lt;/biblScope&gt;</code></td>
+        </tr>
+        <tr>
+          <td><code>&lt;respStmt&gt;</code></td>
+          <td>Contributor credit in <code>&lt;teiHeader&gt;</code></td>
+          <td><code>&lt;resp&gt;Editor&lt;/resp&gt; &lt;name&gt;Your Name&lt;/name&gt;</code></td>
+        </tr>
+      </tbody>
+    </table>
   </main>
 
   <footer>
