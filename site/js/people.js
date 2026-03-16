@@ -172,9 +172,9 @@ const people = [
   {
     "id": "clifford-george",
     "name": "George Clifford, third Earl of Cumberland",
-    "shortBio": "Third Earl of Cumberland, naval commander and privateer. Chamberlain relays (inaccurate) rumors of his exploits against Spanish treasure ships in 1598.",
+    "shortBio": "Third Earl of Cumberland, naval commander and privateer. His 1598 Caribbean expedition took the town and castle of Puerto Rico but found little treasure; losses in men and shipping far exceeded the profits from sugar and ginger brought home.",
     "letters": [
-      3
+      3, 8
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/George_Clifford,_3rd_Earl_of_Cumberland",
@@ -471,9 +471,9 @@ const people = [
   {
     "id": "vere-francis",
     "name": "Sir Francis Vere",
-    "shortBio": "English military commander in the Low Countries. Brought 1,200 musketeers to the Islands Voyage (1597); reported in May 1598 as about to depart for the States.",
+    "shortBio": "English military commander in the Low Countries. Brought 1,200 musketeers to the Islands Voyage (1597); secured the governorship of the Brill in autumn 1598 after considerable effort.",
     "letters": [
-      1, 5
+      1, 5, 8
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Francis_Vere",
@@ -510,9 +510,9 @@ const people = [
   {
     "id": "devereux-robert",
     "name": "Robert Devereux, second Earl of Essex",
-    "shortBio": "Queen Elizabeth's troubled favourite. Commanded the Islands Voyage (1597); fell from favour in 1598; returned to the Privy Council on 10 September 1598 after his Wanstead retirement following Burghley's funeral.",
+    "shortBio": "Queen Elizabeth's troubled favourite. Commanded the Islands Voyage (1597); fell from favour in 1598; returned to the Privy Council on 10 September 1598. By October 1598 back at court 'in as good terms as ever,' but no offices forthcoming.",
     "letters": [
-      1, 2, 6, 7
+      1, 2, 6, 7, 8
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Robert_Devereux,_2nd_Earl_of_Essex",
@@ -575,9 +575,9 @@ const people = [
   {
     "id": "philip-ii",
     "name": "Philip II of Spain",
-    "shortBio": "King of Spain (1527–1598). His death on September 3, 1598 — rumoured at the time of writing — was a transformative moment in late Elizabethan politics.",
+    "shortBio": "King of Spain (1527–1598). His death on September 3, 1598 was a transformative moment in late Elizabethan politics; as late as October 1598, Stanley (committed to the Tower) still claimed Philip was alive but 'drawing on.'",
     "letters": [
-      6
+      6, 8
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Philip_II_of_Spain",
@@ -614,9 +614,9 @@ const people = [
   {
     "id": "oneill-hugh",
     "name": "Hugh O'Neill, second Earl of Tyrone",
-    "shortBio": "Irish chieftain and leader of the Nine Years' War. Defeated Bagenal at Yellow Ford (1598) and compelled the surrender of the Blackwater fort on humiliating terms.",
+    "shortBio": "Irish chieftain and leader of the Nine Years' War. Defeated Bagenal at Yellow Ford (1598); his forces continue to dominate English attention through late 1598 as Ireland deteriorates.",
     "letters": [
-      6
+      6, 8
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Hugh_O%27Neill,_2nd_Earl_of_Tyrone",
@@ -666,9 +666,9 @@ const people = [
   {
     "id": "stanhope-john",
     "name": "Sir John Stanhope",
-    "shortBio": "Treasurer of the Chamber (created Lord Stanhope of Harrington, 1605). Named alongside Raleigh and Howard as a candidate to be sworn to the Privy Council in August 1598.",
+    "shortBio": "Treasurer of the Chamber (created Lord Stanhope of Harrington, 1605). A candidate for the Privy Council in 1598; appointed Vice-Chamberlain in February 1601 during the illness of Lord Chamberlain George Carey.",
     "letters": [
-      6
+      6, 8
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -838,6 +838,32 @@ const people = [
     "shortBio": "Third Baron St. John of Bletsoe; his seat was Bletsoe Castle, Bedfordshire. Rowland Lytton traveled to Bletsoe in September 1598 to accompany Lady Pelham (Judith St. John) there.",
     "letters": [
       7
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "harvey-gerrard",
+    "name": "Sir Gerrard Harvey",
+    "shortBio": "Mentioned in passing as the person through whose servant Chamberlain dispatched an earlier letter to Carleton from Knebworth in 1598. Identification uncertain.",
+    "letters": [
+      8
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "stanley-john",
+    "name": "John Stanley",
+    "shortBio": "Arrested in October 1598 and committed to the Tower after claiming he had been sent by Spain to assassinate Queen Elizabeth. He also maintained that Philip II was not yet dead. (Cal. S. P. Dom., 1598–1601, pp. 106–107.)",
+    "letters": [
+      8
     ],
     "externalLinks": {
       "wikipedia": "",

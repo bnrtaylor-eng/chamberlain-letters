@@ -3,10 +3,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from John Chamberlain to [Recipient]</title>
+        <title>Letter from John Chamberlain to Dudley Carleton, 3 October 1598</title>
         <respStmt>
-          <resp>Contributor</resp>
-          <name>[Contributor Name]</name>
+          <resp>Editor</resp>
+          <name>Brandon Taylor</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,6 +19,8 @@
           <pubPlace>Philadelphia</pubPlace>
           <publisher>American Philosophical Society</publisher>
           <date when="1939">1939</date>
+          <biblScope unit="volume">1</biblScope>
+          <biblScope unit="page">46–48</biblScope>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,17 +30,17 @@
     <front>
       <div type="letter-meta">
         <head>Letter Metadata</head>
-        <p><date when="[YYYY-MM-DD]">[Human-Readable Date]</date></p>
-        <p><placeName>[Place of Writing]</placeName></p>
+        <p><date when="1598-10-03">3 October 1598</date></p>
+        <p><placeName ref="#london">London</placeName></p>
         <p><correspDesc>
           <correspAction type="sent">
             <persName ref="#chamberlain-john">John Chamberlain</persName>
-            <date when="[YYYY-MM-DD]"/>
-            <placeName>[Place of Writing]</placeName>
+            <date when="1598-10-03"/>
+            <placeName ref="#london">London</placeName>
           </correspAction>
           <correspAction type="received">
-            <persName ref="#[recipient-id]">[Recipient Name]</persName>
-            <placeName>[Place of Receipt, if known]</placeName>
+            <persName ref="#carleton-dudley">Dudley Carleton</persName>
+            <placeName ref="#ostend">Ostend</placeName>
           </correspAction>
         </correspDesc></p>
       </div>
@@ -46,15 +48,110 @@
 
     <body>
       <div type="letter-text">
-        <p>[Paste letter content here. Use <note place="foot">Example note content.</note>]</p>
-        <p>[Tag people/places like <persName ref="#cecil-robert">Robert Cecil</persName><note type="editorial">Verify this is the correct Cecil.</note>]</p>
+        <opener>Goode Master Carleton,</opener>
+
+        <p>I receved two letters from you at
+          <placeName ref="#knebworth">Knebworth</placeName>; to the former I made aunswer from
+          thence by a man of
+          <persName ref="#harvey-gerrard">Sir Gerrard Harvies</persName>, and now (being called
+          hither by some occasion sooner then I looked for), I wold fain requite your kindnes, and
+          repay you in the same coine yf our market did affoord yt, but the odds runs too much on
+          your side, and the fertilitie of that soyle seemes to flourish with a later springe of
+          pamflets and discourses as ever we are here in the dead of winter.</p>
+
+        <p>The erle of
+          <persName ref="#devereux-robert">Essex</persName> is at court in as goode termes (they
+          say) as ever he was, but there be no offices bestowed nor no more shew of bestowing them
+          then the first day the Lord Treasurer died: all men give him theyre voyces to be master
+          of the wardes and yt is thought that <hi rend="italic">serius ocyus</hi> yt will light
+          upon him. Here hath ben much speach of new counsaillors and some have ben very neere yt
+          and appointed to be sworne: but the contrarietie of opinions, the number that stand for
+          yt, and the difficultie or rather impossibilitie to please both sides, kepes all backe.
+          Yet yt is certainly thought that
+          <persName ref="#stanhope-john">Sir John Stanhop</persName><note>During the illness of
+          the Lord Chamberlain,
+          <persName ref="#carey-george">George Carey, second Lord Hunsdon</persName>, a
+          Vice-Chamberlain was needed. Raleigh sought the post, but
+          <persName ref="#stanhope-john">Stanhope</persName> was appointed in February
+          1601.</note> shalbe shortly vice-chamberlain.
+          <persName ref="#vere-francis">Sir Fra: Vere</persName> <hi rend="italic">per tot
+          discrimina</hi> and with much heave and shove hath got the government of the
+          <placeName ref="#brill">Brill</placeName>. One
+          <persName ref="#stanley-john">Stanly</persName><note><persName ref="#stanley-john">John
+          Stanley</persName> declared that he had been employed by the King of Spain to kill
+          <persName ref="#elizabeth-i">Queen Elizabeth</persName>. (<hi rend="italic">Cal. S. P.
+          Dom.</hi>, 1598–1601, pp. 106–107.)</note> that came in sixteen dayes over-land with
+          letters out of Spaine, is lately committed to the Towre. He was very ernest to have
+          private conference with her Majestie pretending matter of great importaunce which he wold
+          by no meanes utter to any body els. He affirmes that the
+          <persName ref="#philip-ii">King of Spaine</persName> was not dead at his comming away
+          but that he had retired himself and was drawing on. There hath ben some small bickering
+          of late in Ireland wherin there were sevenscore rebells slaine (but not of the maine
+          troupes of
+          <persName ref="#oneill-hugh">Tiron</persName>) yet the newes is very welcome and we are
+          glad to make much of a litle. The erle of
+          <persName ref="#clifford-george">Cumberland</persName><note>Cf. Letter 2. Camden, in
+          his account of the voyage, remarks that he "brought home more victory than booty."
+          (<hi rend="italic">Annales</hi>, pp. 497–498. Cf. <hi rend="italic">Purchas</hi>,
+          xvi, 29.)</note> is come and some of his shipping; the rest are saide (or rather
+          thought) to be upon the coast, for according to our custome they came scattering, and
+          every man made shift for himself as though they had plaide at formost take up
+          hindmost.</p>
+
+        <p>They had goode hap to misse the Spaniards that lay for them with 30 men of warre at the
+          <placeName ref="#terceiras">Terceras</placeName>, and removed from the yland of
+          <placeName ref="#flores">Flores</placeName> but the day before the erle came thether.
+          The great expectation of this viage is come to this, that they tooke the towne and
+          castell of
+          <placeName ref="#puerto-rico">Porto-ricco</placeName> where they found no great riches,
+          for having intelligence of theyre comming the Spaniards had conveyed away theyre cheife
+          wealth. My Lord himself saith that he hath made a saving jorny, but they that understand
+          yt better, say that all he hath brought (wherof the greatest part is sugar and ginger)
+          will not amount to above fifteen or sixteen thowsand pound, which is not halfe the charge
+          of the setting out, besides the adventure and waste of the shipping and the losse of 600
+          men, what by sword and sicknes. Some finde great fault and say his owne wilfullnes and
+          want of direction overthrew the viage, and that yf he wold have ben advised he might have
+          don them all goode, but he neglected present profit in hope of greater matters, and so
+          forsooke the substaunce for the shadow. I thincke the heat of our sea viages is well
+          alayed by this and the rest, which being no better conducted serve rather to fortefie and
+          confirme, then hinder the ennemie.</p>
+
+        <p>I can send you nothing of your private frends for I have neither seen nor heard of any
+          of them. I am here all alone till the terme come that we may be <hi rend="italic">plena
+          curia</hi>. The court is at
+          <placeName ref="#nonsuch">Nonesuch</placeName> and shold come to
+          <placeName ref="#richmond">Richmond</placeName> on Tewsday next; yf yt bringe any thinge
+          worth the writing I will not fayle you: and so God kepe you.</p>
+
+        <closer>
+          <dateline><placeName ref="#london">London</placeName> this
+            <date when="1598-10-03">third of October 1598</date>.</dateline>
+          <signed>Yours most assuredly,
+            <persName ref="#chamberlain-john">JOHN CHAMBERLAIN</persName>.</signed>
+        </closer>
+
+        <postscript>
+          <p>To my very goode frend Master
+            <persName ref="#carleton-dudley">Dudley Carleton</persName> attending on the Lord
+            Governor of <placeName ref="#ostend">Ostend</placeName> geve these.</p>
+        </postscript>
       </div>
     </body>
 
     <back>
       <div type="editor-note">
         <head>Editor's Note</head>
-        <p>[Summarize this letter for general readers. What is it about? What historical context is useful?]</p>
+        <p>Written shortly after Chamberlain's return to London from Knebworth, this letter
+          focuses on two major stories of autumn 1598: the stalled succession struggle following
+          Lord Burghley's death and the deeply disappointing outcome of the Earl of Cumberland's
+          Caribbean voyage. Essex is back at court but getting no offices; Stanhope is expected as
+          Vice-Chamberlain; Vere has finally secured the governorship of the Brill after much
+          difficulty. Most alarming is the arrest of one Stanley, who claims he was sent by Spain
+          to assassinate the Queen—and who insists Philip II is not yet dead. The bulk of the
+          letter, however, concerns Cumberland: his fleet straggled home, the Puerto Rico
+          expedition yielded almost nothing of value, and losses in men and shipping far exceeded
+          any gains. Chamberlain is characteristically sardonic, concluding that England's appetite
+          for sea ventures has surely been cooled by this and similar misadventures.</p>
       </div>
     </back>
   </text>
