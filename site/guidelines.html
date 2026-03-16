@@ -25,52 +25,109 @@
   <main>
     <h2>TEI/XML Encoding and Editorial Standards</h2>
     <p>
-      Welcome to the editorial hub of the Chamberlain Letters Project. Whether you're a student, scholar, or first-time contributor, this guide is here to help you transcribe and annotate letters using the TEI (Text Encoding Initiative) P5 standard. Our aim is to create a consistent, accurate, and accessible archive of John Chamberlain's correspondence—freely available to the public and usable by future generations of researchers.
+      Welcome to the editorial hub of the Chamberlain Letters Project. Whether you are a student, scholar, or first-time contributor, this guide explains how to transcribe and annotate letters using the TEI (Text Encoding Initiative) P5 standard. Our aim is to create a consistent, accurate, and accessible archive of John Chamberlain's correspondence — freely available to the public and usable by future generations of researchers.
     </p>
     <p>
-      This edition of the Chamberlain Letters is designed to prioritize readability over diplomatic transcription. While the project follows TEI-P5 rigor and preserves historical accuracy, we editorially introduce paragraph breaks and suppress original lineation (such as printed line breaks or page breaks) to enhance accessibility for modern readers. These interventions are made transparently and consistently, in service of clarity and broader public engagement.
+      This edition prioritizes readability over diplomatic transcription. While we follow TEI-P5 standards and preserve historical accuracy, we editorially introduce paragraph breaks and suppress original lineation (such as printed line breaks or page breaks in the McClure edition) to improve accessibility for modern readers. These interventions are made consistently and in service of clarity and broader public engagement.
     </p>
 
-    <h3>General Practices</h3>
+    <h3>Letter File Structure</h3>
+    <p>Every letter file follows the same three-part structure: <code>&lt;front&gt;</code>, <code>&lt;body&gt;</code>, and <code>&lt;back&gt;</code>.</p>
+
+    <h4>Front matter (<code>&lt;front&gt;</code>)</h4>
+    <p>The <code>&lt;front&gt;</code> contains a <code>&lt;div type="letter-meta"&gt;</code> with the date, place of writing, and a <code>&lt;correspDesc&gt;</code> block identifying sender and recipient:</p>
+    <pre><code>&lt;front&gt;
+  &lt;div type="letter-meta"&gt;
+    &lt;head&gt;Letter Metadata&lt;/head&gt;
+    &lt;p&gt;&lt;date when="1598-10-03"&gt;3 October 1598&lt;/date&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;placeName ref="#london"&gt;London&lt;/placeName&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;correspDesc&gt;
+      &lt;correspAction type="sent"&gt;
+        &lt;persName ref="#chamberlain-john"&gt;John Chamberlain&lt;/persName&gt;
+        &lt;date when="1598-10-03"/&gt;
+        &lt;placeName ref="#london"&gt;London&lt;/placeName&gt;
+      &lt;/correspAction&gt;
+      &lt;correspAction type="received"&gt;
+        &lt;persName ref="#carleton-dudley"&gt;Dudley Carleton&lt;/persName&gt;
+        &lt;placeName ref="#ostend"&gt;Ostend&lt;/placeName&gt;
+      &lt;/correspAction&gt;
+    &lt;/correspDesc&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/front&gt;</code></pre>
+
+    <h4>Body (<code>&lt;body&gt;</code>)</h4>
+    <p>The body contains a <code>&lt;div type="letter-text"&gt;</code> with the transcribed letter. Use <code>&lt;opener&gt;</code> if the letter begins with a salutation (e.g., "Goode Master Carleton,"). Use <code>&lt;closer&gt;</code> at the end of the main text, which should contain a <code>&lt;dateline&gt;</code> and <code>&lt;signed&gt;</code>. If the letter has a postscript or address panel, encode it in a <code>&lt;postscript&gt;</code> element after <code>&lt;closer&gt;</code>:</p>
+    <pre><code>&lt;body&gt;
+  &lt;div type="letter-text"&gt;
+    &lt;opener&gt;Goode Master Carleton,&lt;/opener&gt;
+    &lt;p&gt;...&lt;/p&gt;
+    &lt;p&gt;...&lt;/p&gt;
+    &lt;closer&gt;
+      &lt;dateline&gt;London this &lt;date when="1598-10-03"&gt;third of October 1598&lt;/date&gt;.&lt;/dateline&gt;
+      &lt;signed&gt;Yours most assuredly,
+        &lt;persName ref="#chamberlain-john"&gt;JOHN CHAMBERLAIN&lt;/persName&gt;.&lt;/signed&gt;
+    &lt;/closer&gt;
+    &lt;postscript&gt;
+      &lt;p&gt;To my very goode frend ...&lt;/p&gt;
+    &lt;/postscript&gt;
+  &lt;/div&gt;
+&lt;/body&gt;</code></pre>
+
+    <h4>Back matter (<code>&lt;back&gt;</code>)</h4>
+    <p>The <code>&lt;back&gt;</code> contains a <code>&lt;div type="editor-note"&gt;</code> with a short prose summary contextualizing the letter for general readers:</p>
+    <pre><code>&lt;back&gt;
+  &lt;div type="editor-note"&gt;
+    &lt;head&gt;Editor's Note&lt;/head&gt;
+    &lt;p&gt;Summarize the letter's main topics and provide useful historical context.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/back&gt;</code></pre>
+
+    <h3>Spelling and Punctuation</h3>
     <ul>
-      <li>Please begin with the official <strong>Chamberlain Letter TEI Template</strong>. This ensures consistency across all contributions.</li>
-      <li>All XML files must be well-formed and pass validation using tools such as oXygen, TEI Simple, or an online XML validator.</li>
-      <li>Be sure to close all elements. For example: <code>&lt;persName&gt;John Chamberlain&lt;/persName&gt;</code>.</li>
-      <li>Maintain original spelling and punctuation. Only modernize where necessary—and always explain such changes in a <code>&lt;note&gt;</code> or with a <code>&lt;choice&gt;</code> tag.</li>
+      <li>Preserve original spelling and punctuation exactly as found in the McClure edition. Do not modernize.</li>
+      <li>Preserve original contractions, abbreviations, and early modern forms (e.g., <em>yt</em> for "it," <em>yf</em> for "if," <em>thancks</em>).</li>
+      <li>Italicize Latin phrases and foreign-language insertions using <code>&lt;hi rend="italic"&gt;</code>. For example: <code>&lt;hi rend="italic"&gt;per tot discrimina&lt;/hi&gt;</code>.</li>
     </ul>
 
-    <h3>Tagging Names, Places, and Works</h3>
+    <h3>Tagging Names, Places, and Organizations</h3>
     <ul>
-      <li>Use <code>&lt;persName ref="#id"&gt;</code> to tag individuals (e.g., <code>&lt;persName ref="#carleton-dudley"&gt;Dudley Carleton&lt;/persName&gt;</code>).</li>
-      <li>Use <code>&lt;placeName ref="#id"&gt;</code> for cities, buildings, or countries mentioned in the text.</li>
-      <li>Use <code>&lt;orgName ref="#id"&gt;</code> to tag institutions, companies, and governing bodies.</li>
-      <li>Use <code>&lt;title level="m"&gt;</code> for book or work titles; use <code>level="a"</code> for article or poem titles.</li>
-      <li>If you're unsure about a person, place, or work, use <code>cert="low"</code> and include a <code>&lt;note type="editorial"&gt;</code> to explain your reasoning.</li>
+      <li>Use <code>&lt;persName ref="#id"&gt;</code> to tag individuals. The <code>ref</code> value must match an entry in <code>people.js</code>. Example: <code>&lt;persName ref="#carleton-dudley"&gt;Dudley Carleton&lt;/persName&gt;</code>.</li>
+      <li>Use <code>&lt;placeName ref="#id"&gt;</code> for locations. Example: <code>&lt;placeName ref="#london"&gt;London&lt;/placeName&gt;</code>.</li>
+      <li>Use <code>&lt;orgName ref="#id"&gt;</code> for institutions, governing bodies, and companies. Example: <code>&lt;orgName ref="#virginia-company"&gt;Virginia Company&lt;/orgName&gt;</code>.</li>
+      <li>Tag every named individual, location, and institution in the letter body, including those mentioned in notes.</li>
+      <li>If you identify a new person or place not yet in the reference files, assign it a new kebab-case ID (e.g., <code>#smith-john</code> or <code>#paris</code>) and add a corresponding entry to <code>people.js</code>, <code>places.js</code>, or <code>orgs.js</code>. Update the <code>letters</code> array for any existing entries that appear in the new letter.</li>
+      <li>If an identification is uncertain, note your reasoning in the inline <code>&lt;note&gt;</code> for that person or place.</li>
     </ul>
 
-    <h3>Footnotes and Editorial Notes</h3>
+    <h3>Notes</h3>
+    <p>All notes — whether derived from McClure's footnotes or added by the project editor — are encoded as plain <code>&lt;note&gt;</code> elements placed <em>immediately after</em> the tagged name or phrase they annotate, <em>without</em> a <code>place</code> attribute:</p>
+    <pre><code>&lt;persName ref="#stanhope-john"&gt;Sir John Stanhop&lt;/persName&gt;&lt;note&gt;Treasurer of the
+Chamber; appointed Vice-Chamberlain in February 1601.&lt;/note&gt;</code></pre>
+    <p>This renders inline as a superscript number when displayed via CETEIcean. <strong>Do not use <code>place="foot"</code></strong>: that attribute triggers a block-level display rule that breaks text flow and inserts unwanted line breaks in the rendered letter.</p>
     <ul>
-      <li>Use <code>&lt;note place="foot"&gt;</code> for footnotes. These will appear at the bottom of the letter when rendered online.</li>
-      <li>Use <code>&lt;note type="editorial"&gt;</code> for contextual information or explanations that should not appear inline.</li>
-      <li>Include a short <code>&lt;editor-note&gt;</code> at the end of each letter, summarizing its historical context or thematic highlights.</li>
+      <li>Notes should be concise but complete. Identify the individual or event, give dates where relevant, and cite the McClure footnote or another authority if applicable.</li>
+      <li>When a note derives from McClure, adapt rather than copy his wording. Cite archival sources (e.g., <em>A.P.C.</em>, <em>Cal. S.P. Dom.</em>) as they appear in his footnotes, formatted with <code>&lt;hi rend="italic"&gt;</code> for series titles.</li>
+      <li>Tag any people, places, or organizations mentioned within a note just as you would in the main text.</li>
     </ul>
 
-    <h3>Linking and Referencing</h3>
+    <h3>Works Cited in Letters</h3>
     <ul>
-      <li>Use the <code>ref</code> attribute to link people, places, and works to entries in the Personography, Placeography, etc., or to reputable sources like Wikipedia, VIAF, or the ODNB.</li>
-      <li>If you're unsure of an ID, use <code>ref="#unknown"</code> and provide a comment explaining your guess.</li>
-      <li>If you identify a new person, place, or work, tag it and include a <code>&lt;note type="editorial"&gt;</code> proposing your identification. The editorial team will verify and add it to the relevant reference files.</li>
+      <li>Use <code>&lt;title level="m"&gt;</code> for books and long works; <code>level="a"</code> for articles, poems, or short works.</li>
+      <li>If the work has an entry in the Workography, add a <code>ref="#id"</code> attribute.</li>
     </ul>
+
+    <h3>Paragraph Structure</h3>
+    <p>Chamberlain's letters as printed in McClure often run as continuous prose with minimal paragraphing. For readability, the project editorially introduces paragraph breaks at natural thematic transitions. Each <code>&lt;p&gt;</code> should contain a coherent unit of thought — a distinct topic, piece of news, or line of argument. Avoid paragraphs shorter than two sentences unless the original structure clearly demands it.</p>
 
     <h3>Submitting and Crediting Your Work</h3>
     <ul>
-      <li>When you're finished, submit your letter file by email or GitHub pull request.</li>
+      <li>Submit your letter file by GitHub pull request to the project repository.</li>
       <li>Every submission will be reviewed by the project editor for consistency, formatting, and TEI compliance before publication.</li>
-      <li>Contributors are always credited—either on the letter page itself or in the project metadata.</li>
+      <li>Contributors are credited in the <code>&lt;respStmt&gt;</code> block in the letter's <code>&lt;teiHeader&gt;</code>.</li>
     </ul>
 
     <p>
-      Thank you for helping to bring Chamberlain's world to life. For more context, visit our <a href="about.html">About page</a>, or contact the project editor with questions.
+      For more context about the project's scope and aims, visit our <a href="about.html">About page</a>, or contact the project editor with questions.
     </p>
   </main>
 
