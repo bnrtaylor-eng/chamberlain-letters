@@ -3,10 +3,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from John Chamberlain to [Recipient]</title>
+        <title>Letter from John Chamberlain to Dudley Carleton, 17 May 1598</title>
         <respStmt>
-          <resp>Contributor</resp>
-          <name>[Contributor Name]</name>
+          <resp>Editor</resp>
+          <name>Brandon Taylor</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,6 +19,8 @@
           <pubPlace>Philadelphia</pubPlace>
           <publisher>American Philosophical Society</publisher>
           <date when="1939">1939</date>
+          <biblScope unit="volume">1</biblScope>
+          <biblScope unit="page">35–37</biblScope>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,17 +30,17 @@
     <front>
       <div type="letter-meta">
         <head>Letter Metadata</head>
-        <p><date when="[YYYY-MM-DD]">[Human-Readable Date]</date></p>
-        <p><placeName>[Place of Writing]</placeName></p>
+        <p><date when="1598-05-17">17 May 1598</date></p>
+        <p><placeName ref="#london">London</placeName></p>
         <p><correspDesc>
           <correspAction type="sent">
             <persName ref="#chamberlain-john">John Chamberlain</persName>
-            <date when="[YYYY-MM-DD]"/>
-            <placeName>[Place of Writing]</placeName>
+            <date when="1598-05-17"/>
+            <placeName ref="#london">London</placeName>
           </correspAction>
           <correspAction type="received">
-            <persName ref="#[recipient-id]">[Recipient Name]</persName>
-            <placeName>[Place of Receipt, if known]</placeName>
+            <persName ref="#carleton-dudley">Dudley Carleton</persName>
+            <placeName ref="#ostend">Ostend</placeName>
           </correspAction>
         </correspDesc></p>
       </div>
@@ -46,15 +48,150 @@
 
     <body>
       <div type="letter-text">
-        <p>[Paste letter content here. Use <note place="foot"> for footnotes.]</p>
-        <p>[Tag people/places like <persName ref="#cecil-robert">Robert Cecil</persName><note type="editorial">Verify this is the correct Cecil.</note>]</p>
+        <opener>
+          <salute>Goode Master <persName ref="#carleton-dudley">Carleton</persName>,</salute>
+        </opener>
+
+        <p>You have gotten the start so far before me, that I am almost out of hope to overtake
+        you, and yet I have not bene altogether negligent, for this is my second letter since my
+        comming to towne about the beginning of this moneth, but I doubt mine do not finde such
+        spedy passage as yours do hitherwards, for I receved one of the 10th upon the 13th of this
+        present, and another of the 12th yesterday. I delivered my last at
+        <persName ref="#williams-alexander">Master Williams</persName><note place="foot">Presumably
+        Alexander Williams.</note> to be sent with the first opportunity, but I understand by
+        <persName ref="#carleton-alice">Mistris Alice</persName><note place="foot">Alice
+        Carleton.</note> yt was there within these three dayes: this (according to your direction)
+        I send by <persName ref="#clarke-edward">Master Clarke</persName><note place="foot">Edward
+        Clarke, appointed Clerk of the Council in 1603, and later in the service of George Villiers,
+        first Duke of Buckingham.</note>, whom I could not heare of at your
+        <persName ref="#norris-edward">Lord Governors</persName><note place="foot">Sir Edward
+        Norris, Governor of Ostend, third son of Henry Lord Norris of Rycote.</note>, but I caused
+        my man to finde him out in Litle Woodstreet, but (by his sayeng) he made more questions and
+        examined him upon more interrogatories then the conveying of a letter comes to, so that yf
+        you have any better meanes let me know yt, and I will not fayle you from time to time while
+        I am here.</p>
+
+        <p>We are all of opinion that the peace is forward and the
+        <persName ref="#sackville-thomas">Lord Buckhurst</persName><note place="foot">Thomas
+        Sackville, Lord Buckhurst (created Earl of Dorset, 1604).</note> is appointed to go to
+        <placeName ref="#abbeville">Abbeville</placeName> or some other place thereabout to conclude
+        yt. <persName ref="#bodley-thomas">Master Bodley</persName><note place="foot">Thomas Bodley
+        (knighted, 1604), founder of the Bodleian Library.</note> is named as an assistant, for
+        countenance, but he will not go yf he can possiblie avoyde yt. There is speach likewise of
+        some greater man goes as the <persName ref="#paulet-william">Lord Marquis of
+        Winchester</persName><note place="foot">William Paulet, third Marquis of
+        Winchester.</note>, or the <persName ref="#percy-henry">erle of
+        Northumberland</persName><note place="foot">Henry Percy, ninth Earl of
+        Northumberland.</note> or the <persName ref="#talbot-gilbert">erle of
+        Shrewsburie</persName><note place="foot">Gilbert Talbot, seventh Earl of
+        Shrewsbury.</note>. Matters in <placeName ref="#ireland">Ireland</placeName> grow dayly
+        worse and worse, so that unles they have round and speedy succoures all is like to go to
+        wracke; the counsayle have consulted about yt these three or fowre dayes, but I heare of no
+        resolution but only that 4000 men shalbe sent at leysure. Here go flienge tales that the
+        <persName ref="#clifford-george">erle of Cumberland</persName><note place="foot">George
+        Clifford, third Earl of Cumberland, sailed from Portsmouth March 6, 1598. He intercepted no
+        treasure ships. (G. C. Williamson, <title level="m">George, Third Earl of
+        Cumberland</title>, p. 179.)</note> hath met with fowre carraques bounde for the Indies and
+        suncke one of them and taken two, but yt is so diversly and faintly reported that I have no
+        great beliefe in yt. We say that the Hollanders have taken a rich ship of treasure comming
+        out of <placeName ref="#spain">Spaine</placeName> that past by our loytering sentinells that
+        lie about the <placeName ref="#the-downs">Downes</placeName>. The
+        <persName ref="#seymour-frances">Countesse of Hartford</persName><note place="foot">Frances,
+        daughter of William, first Lord Howard of Effingham, and second wife of Edward Seymour,
+        Earl of Hertford, died May 14.</note> is lately dead, and mine old frend Tom Powell whose
+        companie I shall much want for my walke in Powles.
+        <persName ref="#blount-charles">Sir Charles Blunt</persName> stayed behinde Master Secretary
+        in <placeName ref="#france">Fraunce</placeName> about a quarrell he had with a
+        <persName ref="#leven-melchior">Dutchman that was knighted at Cales</persName><note
+        place="foot">Sir Melchior Leven, knighted by Essex at Cadiz, refused to fight Sir Charles
+        Blount in Paris on the ground that the King had forbidden duels. (Salisbury MSS., viii, 168,
+        219, 224–231.)</note> that had challenged him; newes came two dayes since that they have met
+        and that the Duchman is slaine.</p>
+
+        <p>Our goode frend Master <persName ref="#evers-william">Evers</persName> hath at last left
+        <placeName ref="#ireland">Irland</placeName> and came to towne last weeke; within three dayes
+        after, his cosen the <persName ref="#evers-ralph">Lord Evers</persName><note place="foot"
+        >Ralph, third Lord Evers, Warden of the Middle Marches. In November, 1596, he wrote Lord
+        Burghley, and in January, 1598, he wrote to Sir Robert Cecil and again to Lord Burghley to
+        complain of the insolence and riotous conduct of the Widdringtons or Woodringtons. On
+        January 22 they were summoned to appear before the Privy Council, and a month later they
+        reached London. On May 14 the Council wrote the Mayor, Recorder, and Sheriffs of London to
+        investigate the "affraye betwixt our very good Lord the Lord Eure and his brother and
+        certain of the Woodringtons, gentlemen of the Northe Countrey." (Salisbury MSS., viii, 73;
+        Border Papers, 226, 506; A. P. C., xxviii, 279, 328, 443.)</note> and his brother
+        <persName ref="#evers-william">Sir William</persName> walking the streets with one page
+        after them, were set upon (as they say) by fowre or five of the
+        <orgName ref="#witheringtons">Witheringtons</orgName> about a country quarrell, and so
+        overlayde that the Lord was hurt in the hande, and Sir William receved divers sore wounds as
+        in the hande, in the shoulder, over the face, and quite thorough the body, which he holdes
+        out yet being the fift day and I hope will do.</p>
+
+        <p><persName ref="#robinson-henry">Dr. Robinson</persName><note place="foot">Henry
+        Robinson, Provost of Queen's College, Oxford, 1581–1598, Bishop of Carlisle,
+        1598–1616.</note> of <orgName ref="#queens-college-oxford">Quenes Colledge</orgName> is
+        made bishop of <placeName ref="#carlisle">Carlile</placeName>, and I heare that
+        <persName ref="#edes-richard">Dr. Edes</persName><note place="foot">Richard Edes, Queen's
+        Chaplain and Dean of Worcester.</note> preaching at <placeName ref="#oxford">Oxford</placeName>
+        on Sonday last was cleane out and could go no farther, but kepe that to yourself.
+        <persName ref="#edmondes-thomas">Master Edmondes</persName><note place="foot">Thomas
+        Edmondes (knighted, 1603).</note> is either gon or presently going into
+        <placeName ref="#france">Fraunce</placeName> with letters to prepare the way for this peace.
+        All that I heare of <persName ref="#mathew-tobie">Tobie Mathew</persName> is that he stayde
+        in <placeName ref="#france">Fraunce</placeName> where he fell sicke of the small pockes,
+        with younge <persName ref="#throckmorton">Throgmorton</persName><note place="foot">Probably
+        a son of Thomas Throckmorton of Coughton.</note>. Your cosen
+        <persName ref="#lytton-rowland">Lytton</persName><note place="foot">Rowland
+        Lytton.</note> and his lady wilbe in towne this weeke.
+        <persName ref="#dormer-michael">Master Dormer</persName><note place="foot">Michael
+        Dormer.</note> went hence yesterday again.
+        <persName ref="#mildmay-anthony">Sir Ant: Mildmay</persName> went last
+        <date when="1598-05-14">Thursday</date> into
+        <placeName ref="#northamptonshire">Northamptonshire</placeName><note place="foot">Presumably
+        to his house at Apethorpe.</note> but wilbe here within this sevenight; in the mean time he
+        bad me remember his commendations to you. Your sister
+        <persName ref="#carleton-alice">Alice</persName> hath lien at your brother
+        <persName ref="#carleton-william">Williams</persName> in the country ever since
+        <date when="1598-04-23">St. Georges day</date>, but I thincke she be now with her lady,
+        for so she told me fowre dayes ago when I saw her last.</p>
+
+        <closer>
+          <salute>And this being all my store of publike or private newes, with my best wishes I
+          bid you farewell.</salute>
+          <dateline>From <placeName ref="#london">London</placeName> this
+          <date when="1598-05-17">17 of May 1598</date>.</dateline>
+          <signed>Yours most assuredly<lb/>
+          <persName ref="#chamberlain-john">JOHN CHAMBERLAIN</persName>.</signed>
+        </closer>
+
+        <postscript>
+          <p><address><addrLine>To my assured goode frend Master
+          <persName ref="#carleton-dudley">Edward Dudley Carleton</persName> attending on
+          <persName ref="#norris-edward">Sir Edward Norris</persName> Lord Governor of
+          <placeName ref="#ostend">Ostend</placeName>.</addrLine></address></p>
+        </postscript>
       </div>
     </body>
 
     <back>
       <div type="editor-note">
         <head>Editor's Note</head>
-        <p>[Summarize this letter for general readers. What is it about? What historical context is useful?]</p>
+        <p>Written from London on 17 May 1598, this is Chamberlain's third surviving letter to
+        Dudley Carleton, who was then serving under Sir Edward Norris, Lord Governor of Ostend. The
+        letter opens with domestic logistics — the difficulty of reliable letter delivery between
+        London and the Continent, and the role of intermediaries including Master Clarke and Alice
+        Carleton — before turning to the larger political scene. Chamberlain reports on
+        Anglo-Spanish peace negotiations, noting that Lord Buckhurst has been appointed to travel to
+        Abbeville to conclude terms. He also relays the deteriorating situation in Ireland, rumors
+        of the Earl of Cumberland's naval exploits in the Atlantic (which, as McClure's note
+        confirms, proved unfounded), the death of the Countess of Hartford, and a reported duel
+        involving Sir Charles Blount and a Flemish knight in Paris. A violent street assault on Lord
+        Evers and Sir William Evers by members of the Witherington family — rooted in a long-running
+        northern border feud — occupies the third paragraph. The letter closes with a miscellany of
+        social and personal news: a new bishopric for Dr. Robinson, an embarrassing failure by Dr.
+        Edes in the Oxford pulpit, the movements of Tobie Mathew (ill in France), Rowland Lytton,
+        Michael Dormer, Sir Anthony Mildmay, and the whereabouts of Alice Carleton. The letter
+        exemplifies Chamberlain's characteristic mode as London correspondent: swift, observational,
+        and indifferent to the boundary between high politics and social gossip.</p>
       </div>
     </back>
   </text>

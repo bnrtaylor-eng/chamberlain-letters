@@ -1,7 +1,7 @@
 const letters = [
   { number: 1, filename: "chamberlain-letter1.xml", recipient: "Dudley Carleton", date: "1597-06-11", preview: "Editing in progress." },
   { number: 2, filename: "chamberlain-letter2.xml", recipient: "Dudley Carleton", date: "1598-05-04", preview: "Editing in progress." },
-  { number: 3, filename: "chamberlain-letter3.xml", recipient: "Dudley Carleton", date: "1598-05-17", preview: "To be edited." },
+  { number: 3, filename: "chamberlain-letter3.xml", recipient: "Dudley Carleton", date: "1598-05-17", preview: "On peace negotiations with Spain, the crisis in Ireland, Lord Buckhurst's mission to Abbeville, the death of the Countess of Hartford, a street brawl involving Lord Evers and the Witheringtons, and the movements of mutual friends." },
   { number: 4, filename: "chamberlain-letter4.xml", recipient: "Dudley Carleton", date: "1598-05-20", preview: "To be edited." },
   { number: 5, filename: "chamberlain-letter5.xml", recipient: "Dudley Carleton", date: "1598-05-31", preview: "To be edited." },
   { number: 6, filename: "chamberlain-letter6.xml", recipient: "Dudley Carleton", date: "1598-08-30", preview: "To be edited." },
