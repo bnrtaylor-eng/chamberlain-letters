@@ -1,6 +1,6 @@
 const letters = [
-  { number: 1, filename: "chamberlain-letter1.xml", recipient: "Dudley Carleton", date: "1597-06-11", preview: "Editing in progress." },
-  { number: 2, filename: "chamberlain-letter2.xml", recipient: "Dudley Carleton", date: "1598-05-04", preview: "Editing in progress." },
+  { number: 1, filename: "chamberlain-letter1.xml", recipient: "Dudley Carleton", date: "1597-06-11", preview: "On Carleton's financial complaints relayed through Tobie Mathew, preparations for the Islands Voyage under Essex and Raleigh, Irish military affairs including the death of Feogh MacHugh, court gossip, and Chamberlain's own forthcoming trip to Ireland with the Wallop and Lytton families." },
+  { number: 2, filename: "chamberlain-letter2.xml", recipient: "Dudley Carleton", date: "1598-05-04", preview: "On Carleton's military prospects and Chamberlain's advice to retire from soldiering; Secretary Cecil's return from France; Anglo-French-Dutch diplomacy over the Spanish war; the Irish crisis; a conspiracy against the Queen and Essex; and news from Muscovy on the death of the Tsar." },
   { number: 3, filename: "chamberlain-letter3.xml", recipient: "Dudley Carleton", date: "1598-05-17", preview: "On peace negotiations with Spain, the crisis in Ireland, Lord Buckhurst's mission to Abbeville, the death of the Countess of Hartford, a street brawl involving Lord Evers and the Witheringtons, and the movements of mutual friends." },
   { number: 4, filename: "chamberlain-letter4.xml", recipient: "Dudley Carleton", date: "1598-05-20", preview: "To be edited." },
   { number: 5, filename: "chamberlain-letter5.xml", recipient: "Dudley Carleton", date: "1598-05-31", preview: "To be edited." },

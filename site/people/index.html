@@ -35,7 +35,12 @@
 
     function renderPeople(list) {
       container.innerHTML = "";
-      const sorted = [...list].sort((a, b) => a.name.localeCompare(b.name));
+      function lastName(name) {
+        const base = name.split(",")[0].trim();
+        const parts = base.split(" ");
+        return parts[parts.length - 1];
+      }
+      const sorted = [...list].sort((a, b) => lastName(a.name).localeCompare(lastName(b.name)));
       sorted.forEach(person => {
         const card = document.createElement("div");
         card.className = "entry-card";
