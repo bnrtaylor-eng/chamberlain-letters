@@ -23,7 +23,7 @@
 </nav>
 
   <main>
-    <input type="text" id="searchBox" placeholder="Search people..." style="width:100%;margin-bottom:1em;" />
+    <input type="text" id="searchBox" placeholder="Search people..." class="search-input" />
 
     <div id="peopleContainer"></div>
   </main>
@@ -37,24 +37,33 @@
       container.innerHTML = "";
       const sorted = [...list].sort((a, b) => a.name.localeCompare(b.name));
       sorted.forEach(person => {
-        const entry = document.createElement("div");
-        entry.className = "person-entry";
+        const card = document.createElement("div");
+        card.className = "entry-card";
 
+        // Header band
+        const cardHeader = document.createElement("div");
+        cardHeader.className = "entry-card-header";
         const name = document.createElement("h2");
         name.textContent = person.name;
         name.id = person.id;
-        entry.appendChild(name);
+        cardHeader.appendChild(name);
+        card.appendChild(cardHeader);
+
+        // Body
+        const cardBody = document.createElement("div");
+        cardBody.className = "entry-card-body";
 
         const bio = document.createElement("p");
         bio.textContent = person.shortBio || "[No biography yet]";
-        entry.appendChild(bio);
+        cardBody.appendChild(bio);
 
-        const letters = document.createElement("p");
-        letters.innerHTML = "<strong>Mentioned in:</strong> " + person.letters.map(n =>
-          `<a href="../letters/chamberlain-letter${n}.html">Letter ${n}</a>`).join(", ");
-        entry.appendChild(letters);
+        const mentions = document.createElement("p");
+        mentions.innerHTML = "<strong>Mentioned in:</strong> " + person.letters.map(n =>
+          `<a href="../letter.html?file=tei/chamberlain-letter${n}.xml">Letter ${n}</a>`).join(", ");
+        cardBody.appendChild(mentions);
 
         const links = document.createElement("ul");
+        links.className = "entry-links";
         for (const [key, url] of Object.entries(person.externalLinks || {})) {
           if (url) {
             const li = document.createElement("li");
@@ -67,9 +76,10 @@
             links.appendChild(li);
           }
         }
-        entry.appendChild(links);
+        cardBody.appendChild(links);
+        card.appendChild(cardBody);
 
-        container.appendChild(entry);
+        container.appendChild(card);
       });
     }
 

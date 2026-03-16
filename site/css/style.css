@@ -91,24 +91,69 @@ footer {
 }
 
 #lettersContainer {
-  max-width: 960px;
+  max-width: 760px;
   margin: 2em auto;
   padding: 0 1em;
 }
 
 .year-header {
-  font-size: 1.4em;
-  margin-top: 1.5em;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 2em;
+  margin-bottom: 0.25em;
+  padding-bottom: 0.35em;
   cursor: pointer;
   color: #334;
+  border-bottom: 2px solid #334;
+  user-select: none;
 }
 
 ul.letter-list {
-  padding-left: 1.5em;
+  list-style: none;
+  padding: 0;
+  margin: 0.5em 0 0;
 }
 
 ul.letter-list li {
-  margin-bottom: 0.75em;
+  padding: 0.5em 0.75em;
+  border-left: 3px solid transparent;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+ul.letter-list li:hover {
+  border-left-color: #334;
+  background: #f5f5f5;
+}
+
+ul.letter-list li a {
+  font-weight: bold;
+  color: #334;
+  text-decoration: none;
+}
+
+ul.letter-list li a:hover {
+  text-decoration: underline;
+}
+
+ul.letter-list li small {
+  display: block;
+  color: #666;
+  margin-top: 0.15em;
+  font-style: italic;
+}
+
+/* ======================
+   Search inputs (ography pages)
+   ====================== */
+
+.search-input {
+  width: 100%;
+  padding: 0.5em;
+  font-size: 1em;
+  font-family: Georgia, serif;
+  border: 1px solid #ccc;
+  margin-bottom: 1.25em;
+  box-sizing: border-box;
 }
 
 /* ======================
@@ -136,17 +181,49 @@ ul.letter-list li {
 }
 
 /* ======================
-   Personography
+   Entry Cards (ography pages)
+   — Used by Personography, Placeography, Workography, Orgography
    ====================== */
 
-.person-entry {
-  border-bottom: 1px solid #ccc;
-  padding: 1em 0;
+.entry-card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1.5em;
+  overflow: hidden;
 }
 
-.person-entry ul {
+.entry-card-header {
+  background-color: #334;
+  color: #fff;
+  padding: 0.65em 1em;
+}
+
+.entry-card-header h2 {
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.entry-card-body {
+  padding: 0.9em 1.1em;
+  background: #fff;
+}
+
+.entry-card-body > p {
+  margin: 0.4em 0;
+}
+
+.entry-card-body .entry-links {
   list-style: none;
   padding: 0;
+  margin: 0.75em 0 0.1em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75em;
+}
+
+.entry-card-body .entry-links li {
+  font-size: 0.9em;
 }
 
 /* ======================
@@ -156,14 +233,14 @@ ul.letter-list li {
 tei-p {
   display: block;
   margin-bottom: 1rem;
-  font-size: 1.1em;
-  line-height: 1.6;
+  font-size: 1.05em;
+  line-height: 1.75;
 }
 
 tei-head {
   display: block;
   font-weight: bold;
-  font-size: 1.25em;
+  font-size: 1.1em;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
 }
@@ -173,7 +250,55 @@ tei-div {
   margin-bottom: 2em;
 }
 
-tei-div[type="letter-meta"],
+/* Letter metadata block */
+tei-div[type="letter-meta"] {
+  background: #f5f4f0;
+  border-left: 4px solid #334;
+  padding: 1em 1.25em;
+  margin-bottom: 2em;
+  font-size: 0.95em;
+}
+
+tei-div[type="letter-meta"] tei-head {
+  font-size: 0.78em;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #666;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+tei-div[type="letter-meta"] tei-p {
+  font-size: 1em;
+  margin-bottom: 0.3em;
+  line-height: 1.5;
+}
+
+/* Editor's note block (back matter) */
+tei-div[type="editor-note"] {
+  background: #f9f9f9;
+  border-left: 4px solid #999;
+  padding: 1em 1.25em;
+  margin-top: 3em;
+  font-style: italic;
+}
+
+tei-div[type="editor-note"] tei-head {
+  font-size: 0.78em;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #666;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+tei-div[type="editor-note"] tei-p {
+  font-size: 1em;
+}
+
 tei-front,
 tei-body,
 tei-back {
@@ -211,18 +336,23 @@ tei-postscript {
   font-style: italic;
 }
 
+/* Footnotes: inline superscript reference; block rendering below text */
 tei-note {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   vertical-align: super;
+  color: #555;
 }
 
 tei-note[place="foot"] {
   display: block;
-  font-size: 0.9em;
-  color: #666;
-  margin: 0.5em 1.5em;
-  font-style: italic;
   vertical-align: baseline;
+  font-size: 0.88em;
+  color: #555;
+  margin: 0.25em 0 0.25em 2em;
+  padding-left: 0.75em;
+  border-left: 2px solid #ccc;
+  font-style: italic;
+  line-height: 1.5;
 }
 
 tei-note[type="editorial"] {
@@ -287,7 +417,7 @@ tei-body tei-p:not(:first-of-type)::before {
   content: "—";
   display: block;
   text-align: center;
-  color: #666;
+  color: #aaa;
   margin-bottom: 0.5em;
 }
 
