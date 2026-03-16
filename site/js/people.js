@@ -55,7 +55,7 @@ const people = [
   {
     "id": "st-john-judith",
     "name": "Judith St. John",
-    "shortBio": "Placeholder: Referred to as Lady Pelham, daughter of Lord St. John. To be expanded.",
+    "shortBio": "Daughter of Oliver, first Lord St. John, and widow of Sir John Pelham of Sandhurst, Sussex. Referred to as 'Lady Pelham,' she was staying at Knebworth in September 1598 and was escorted to Bletsoe by Rowland Lytton.",
     "letters": [
       7
     ],
@@ -276,9 +276,9 @@ const people = [
   {
     "id": "lytton-rowland",
     "name": "Rowland Lytton",
-    "shortBio": "Cousin of Dudley Carleton. Traveled with Chamberlain from Oxfordshire to attend Lord Burghley's funeral in August 1598.",
+    "shortBio": "Cousin of Dudley Carleton and owner of Knebworth House, Hertfordshire. Chamberlain frequently visited and wrote from Knebworth; Lytton also hosted Lady Pelham there in September 1598 before escorting her to Bletsoe.",
     "letters": [
-      3, 6
+      3, 6, 7
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -510,9 +510,9 @@ const people = [
   {
     "id": "devereux-robert",
     "name": "Robert Devereux, second Earl of Essex",
-    "shortBio": "Queen Elizabeth's troubled favourite. Commanded the Islands Voyage (1597); fell from favour in 1598; his visible grief at Lord Burghley's funeral was noted by Chamberlain.",
+    "shortBio": "Queen Elizabeth's troubled favourite. Commanded the Islands Voyage (1597); fell from favour in 1598; returned to the Privy Council on 10 September 1598 after his Wanstead retirement following Burghley's funeral.",
     "letters": [
-      1, 2, 6
+      1, 2, 6, 7
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Robert_Devereux,_2nd_Earl_of_Essex",
@@ -786,6 +786,58 @@ const people = [
     "shortBio": "Later created Lord Harvey of Kidbrooke (1628). In May 1598 he married Mary, widow of both Henry Wriothesley, second Earl of Southampton, and Sir Thomas Heneage.",
     "letters": [
       4
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "caesar-julius",
+    "name": "Julius Caesar",
+    "shortBio": "Master of Requests in Ordinary under Elizabeth I; later knighted (1603) and eventually Master of the Rolls. Queen Elizabeth visited his house at Mitcham, Surrey, on 12 September 1598, spending the night and dining with him the next day.",
+    "letters": [
+      7
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Julius_Caesar_(judge)",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "brockett-john",
+    "name": "Sir John Brockett",
+    "shortBio": "Of Brockett Hall, Hertfordshire. His wife was Ellen Lytton, a relative of Rowland Lytton. His daughter Elizabeth was the first wife of George Carleton; their son John Carleton is the 'nephew' mentioned in Chamberlain's letter of September 1598, when Brockett was gravely ill.",
+    "letters": [
+      7
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "aldegonde-philip",
+    "name": "Philip van Marnix van Sint Aldegonde",
+    "shortBio": "Flemish statesman, theologian, and humanist writer. Author of several religious discourses; associated with William of Orange and the Dutch Revolt. Carleton sent Chamberlain some of Aldegonde's books in 1598, which Chamberlain found 'tedious.'",
+    "letters": [
+      7
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Philip_van_Marnix_van_Sint-Aldegonde",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "st-john-oliver",
+    "name": "Oliver St. John, third Baron St. John of Bletsoe",
+    "shortBio": "Third Baron St. John of Bletsoe; his seat was Bletsoe Castle, Bedfordshire. Rowland Lytton traveled to Bletsoe in September 1598 to accompany Lady Pelham (Judith St. John) there.",
+    "letters": [
+      7
     ],
     "externalLinks": {
       "wikipedia": "",

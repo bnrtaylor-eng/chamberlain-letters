@@ -3,10 +3,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from John Chamberlain to [Recipient]</title>
+        <title>Letter from John Chamberlain to Dudley Carleton, 17 September 1598</title>
         <respStmt>
-          <resp>Contributor</resp>
-          <name>[Contributor Name]</name>
+          <resp>Editor</resp>
+          <name>Brandon Taylor</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,6 +19,8 @@
           <pubPlace>Philadelphia</pubPlace>
           <publisher>American Philosophical Society</publisher>
           <date when="1939">1939</date>
+          <biblScope unit="volume">1</biblScope>
+          <biblScope unit="page">45–46</biblScope>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,17 +30,17 @@
     <front>
       <div type="letter-meta">
         <head>Letter Metadata</head>
-        <p><date when="[YYYY-MM-DD]">[Human-Readable Date]</date></p>
-        <p><placeName>[Place of Writing]</placeName></p>
+        <p><date when="1598-09-17">17 September 1598</date></p>
+        <p><placeName ref="#knebworth">Knebworth</placeName></p>
         <p><correspDesc>
           <correspAction type="sent">
             <persName ref="#chamberlain-john">John Chamberlain</persName>
-            <date when="[YYYY-MM-DD]"/>
-            <placeName>[Place of Writing]</placeName>
+            <date when="1598-09-17"/>
+            <placeName ref="#knebworth">Knebworth</placeName>
           </correspAction>
           <correspAction type="received">
-            <persName ref="#[recipient-id]">[Recipient Name]</persName>
-            <placeName>[Place of Receipt, if known]</placeName>
+            <persName ref="#carleton-dudley">Dudley Carleton</persName>
+            <placeName ref="#ostend">Ostend</placeName>
           </correspAction>
         </correspDesc></p>
       </div>
@@ -46,15 +48,92 @@
 
     <body>
       <div type="letter-text">
-        <p>[Paste letter content here. Use <note place="foot">Example note content.</note>]</p>
-        <p>[Tag people/places like <persName ref="#cecil-robert">Robert Cecil</persName><note type="editorial">Verify this is the correct Cecil.</note>]</p>
+        <p>I heard not of this messengers being here, nor of his intended jorny to
+          <placeName ref="#ostend">Ostend</placeName> till he was almost going; and though I had
+          known yt sooner, yet could I not have writ you much more then I am like to do on this
+          sodain: for here growes no newes at
+          <placeName ref="#knebworth">Knebworth</placeName>,<note>The Hertfordshire house of
+          <persName ref="#lytton-rowland">Rowland Lytton</persName>.</note> unles I shold tell you
+          how well harvest is come home, or some other adventures of hawking, hunting, bowlinge or
+          such like. But what I want of mine owne store I will borrow of my neighbours, and for
+          brevities sake in this haste send you a letter I receved fowre or five dayes since that
+          shewes how the world went at the writing thereof, whereto I can only adde that this day
+          sevenight the erle of
+          <persName ref="#devereux-robert">Essex</persName> went to the court but with what
+          successe, or how matters stand since, I know not.<note><persName ref="#devereux-robert">Essex</persName>
+          took his place in the Council on September 10. (<hi rend="italic">A.P.C.</hi>, xxix,
+          154–157.)</note></p>
+
+        <p>The Quene removed on Wensday toward
+          <placeName ref="#nonsuch">Nonsuch</placeName> taking
+          <persName ref="#caesar-julius">Dr. Cesars</persName><note><persName ref="#caesar-julius">Julius Caesar</persName>
+          (knighted 1603), Master of Requests in Ordinary. On September 12
+          <persName ref="#elizabeth-i">Queen Elizabeth</persName> visited him at
+          <placeName ref="#mitcham">Mitcham</placeName>, Surrey, spent the night there, and dined
+          with him the next day.</note> in her way who had provided for her eight severall times.
+          <persName ref="#brockett-john">Sir John Brocket</persName><note><persName ref="#brockett-john">Sir
+          John Brockett</persName> of Brockett Hall, Hertfordshire. His wife was Ellen Lytton, a
+          relative of <persName ref="#lytton-rowland">Rowland Lytton</persName>. His daughter
+          Elizabeth was the first wife of
+          <persName ref="#carleton-george">George Carleton</persName> and the mother of John
+          Carleton, the nephew here mentioned.</note> lies languishing and is thought will not hold
+          out long, but whether be better for your nephew that he go or tarry is a question.</p>
+
+        <p>On Thursday your cousin
+          <persName ref="#lytton-rowland">Lytton</persName> and I receved your letters of the 29 of
+          August and the 8th of this present, which came so fully furnished with ballads, bookes and
+          babies that we cannot overcome them yet, specially
+          <persName ref="#aldegonde-philip">Aldegondes</persName> tedious discourse.<note><persName ref="#aldegonde-philip">Philip
+          van Marnix van Sint Aldegonde</persName> was the author of several religious discourses
+          that were in print before 1598.</note> Yf he were now at home I know he wold send you
+          many thancks, which I wold faine supplie yf I were as goode at yt as himself, but you
+          know my plain dealinge and therefore I hope will expect no ceremonies. He went yesterday
+          to <placeName ref="#bletsoe">Bletso</placeName><note>Bletsoe, Bedfordshire, the seat of
+          <persName ref="#st-john-oliver">Oliver, third Lord St. John</persName>.</note> to convoy
+          the Lords, and
+          <persName ref="#st-john-judith">Lady Pelham</persName><note><persName ref="#st-john-judith">Judith</persName>,
+          daughter of Oliver, first Lord St. John, and widow of Sir John Pelham of Sandhurst,
+          Sussex.</note> that hath lien here this fortnight, and wold faine have drawne me along
+          with him, but by goode hap a certain cold and hoarsenes kept me at home, for how well so
+          ever they use me, yet me thincks I am out of my element when I am among Lords, and I am
+          of Rabelais minde that they looke big <hi rend="italic">comme un millord
+          d'Angleterre</hi>.</p>
+
+        <p>I can send you nothing of your privat frends neither can I tell certainly when I shalbe
+          at London, but toward the terme have with you to Westminster, till when I bid you farewell
+          with my best and kindest wishes.</p>
+
+        <closer>
+          <dateline>From <placeName ref="#knebworth">Knebworth</placeName> this
+            <date when="1598-09-17">17th of September 1598</date>.</dateline>
+          <signed>Yours most assuredly,
+            <persName ref="#chamberlain-john">JOHN CHAMBERLAIN</persName>.</signed>
+        </closer>
+
+        <postscript>
+          <p>To my assured goode frend Master
+            <persName ref="#carleton-dudley">Dudley Carleton</persName> attending on the Lord
+            Governor of <placeName ref="#ostend">Ostend</placeName> geve these.</p>
+        </postscript>
       </div>
     </body>
 
     <back>
       <div type="editor-note">
         <head>Editor's Note</head>
-        <p>[Summarize this letter for general readers. What is it about? What historical context is useful?]</p>
+        <p>Written hastily from Knebworth, the Hertfordshire seat of Rowland Lytton, this brief
+          letter is notable for what it withholds as much as what it reports. Chamberlain, caught
+          off guard by the messenger's imminent departure, confesses he has no news of his own and
+          must borrow a recently received letter to send along. The one piece of court intelligence
+          he can confirm is that Essex returned to the Privy Council on September 10—though
+          Chamberlain himself does not know the outcome. A brief mention of Sir John Brockett's
+          failing health raises the question of what will happen to Carleton's nephew (Brockett's
+          grandson John Carleton), a thread that will recur in later letters. The letter's most
+          personal passage describes Rowland Lytton escorting Lady Pelham—Judith St. John, a widow
+          long connected to the household—to Bletsoe, seat of Oliver, third Lord St. John, while
+          Chamberlain stays behind with a cold. His self-deprecating Rabelais quotation—"they look
+          grand like an English lord"—reflects his characteristic ambivalence toward aristocratic
+          company.</p>
       </div>
     </back>
   </text>
