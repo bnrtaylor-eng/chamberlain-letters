@@ -41,11 +41,20 @@
   <text>
     <front>
       <div type="letter-meta">
-        <p>This digital edition is based on the transcription and annotations of Norman Egbert McClure’s 1939 edition of <title>The Letters of John Chamberlain</title>. This version has been edited and encoded for the Chamberlain Letters Project by <name type="editor">Brandon Taylor</name>.</p>
-        <head>Letter 1 – Financial Concerns, Court Gossip, and the Islands Voyage</head>
-        <p><date when="1597-06-11">June 11, 1597</date></p>
+        <head>Letter Metadata</head>
+        <p><date when="1597-06-11">11 June 1597</date></p>
         <p><placeName ref="#london">London</placeName></p>
-        <!-- correspDesc moved to teiHeader/profileDesc -->
+        <p><correspDesc>
+          <correspAction type="sent">
+            <persName ref="#chamberlain-john">John Chamberlain</persName>
+            <date when="1597-06-11"/>
+            <placeName ref="#london">London</placeName>
+          </correspAction>
+          <correspAction type="received">
+            <persName ref="#carleton-dudley">Dudley Carleton</persName>
+            <placeName ref="#paris">Paris</placeName>
+          </correspAction>
+        </correspDesc></p>
       </div>
     </front>
 

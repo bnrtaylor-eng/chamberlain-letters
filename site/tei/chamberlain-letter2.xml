@@ -41,15 +41,21 @@
 
   <text>
     <front>
-      <div type="editor-note">
-        <head>Editorial Status</head>
-        <p>This transcription is provisional. The text has been input but not yet fully edited or annotated. Interpretive notes, proper name tagging, and corrections will follow in a later revision.</p>
-      </div>
       <div type="letter-meta">
-        <p>This digital edition is based on the transcription and annotations of Norman Egbert McClure’s 1939 edition of <title>The Letters of John Chamberlain</title>. This version has been edited and encoded for the Chamberlain Letters Project by <name type="editor">Brandon Taylor</name>.</p>
-        <head>Letter 2 – Foreign Diplomacy, Irish Disorder, and Domestic Unrest</head>
-        <p><date when="YYYY-MM-DD">[1598-05-04]</date></p>
+        <head>Letter Metadata</head>
+        <p><date when="1598-05-04">4 May 1598</date></p>
         <p><placeName ref="#london">London</placeName></p>
+        <p><correspDesc>
+          <correspAction type="sent">
+            <persName ref="#chamberlain-john">John Chamberlain</persName>
+            <date when="1598-05-04"/>
+            <placeName ref="#london">London</placeName>
+          </correspAction>
+          <correspAction type="received">
+            <persName ref="#carleton-dudley">Dudley Carleton</persName>
+            <placeName ref="#ostend">Ostend</placeName>
+          </correspAction>
+        </correspDesc></p>
       </div>
     </front>
 
