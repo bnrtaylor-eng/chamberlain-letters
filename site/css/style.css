@@ -269,6 +269,36 @@ tei-div[type="letter-meta"] tei-head {
   margin-bottom: 0.5em;
 }
 
+tei-correspDesc {
+  display: block;
+  margin-top: 0.25em;
+}
+
+tei-correspAction {
+  display: block;
+  margin-bottom: 0.15em;
+}
+
+tei-correspAction[type="sent"]::before {
+  content: "From: ";
+  font-style: normal;
+  font-weight: bold;
+  color: #444;
+}
+
+tei-correspAction[type="received"]::before {
+  content: "To: ";
+  font-style: normal;
+  font-weight: bold;
+  color: #444;
+}
+
+tei-correspAction tei-persName::after {
+  content: " ·";
+  font-style: normal;
+  color: #aaa;
+}
+
 tei-div[type="letter-meta"] tei-p {
   font-size: 1em;
   margin-bottom: 0.3em;
