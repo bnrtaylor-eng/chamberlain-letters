@@ -68,9 +68,9 @@ const people = [
   {
     "id": "carleton-george",
     "name": "George Carleton",
-    "shortBio": "Brother of Dudley Carleton. Chamberlain relays messages from him and assists with book procurement on his behalf.",
+    "shortBio": "Brother of Dudley Carleton. Participated as a mourner at Lord Burghley's funeral in August 1598; also mentioned in connection with book procurement.",
     "letters": [
-      1, 4
+      1, 4, 6
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/George_Carleton_(bishop)",
@@ -276,9 +276,9 @@ const people = [
   {
     "id": "lytton-rowland",
     "name": "Rowland Lytton",
-    "shortBio": "Cousin of Dudley Carleton. Mentioned in passing as expected in London in May 1598.",
+    "shortBio": "Cousin of Dudley Carleton. Traveled with Chamberlain from Oxfordshire to attend Lord Burghley's funeral in August 1598.",
     "letters": [
-      3
+      3, 6
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -302,9 +302,9 @@ const people = [
   {
     "id": "norris-edward",
     "name": "Sir Edward Norris",
-    "shortBio": "Governor of Ostend; third son of Henry Lord Norris of Rycote. Dudley Carleton served under him in 1598.",
+    "shortBio": "Governor of Ostend; third son of Henry Lord Norris of Rycote. Dudley Carleton served under him in 1598; his continuation as Governor is reported in August.",
     "letters": [
-      3
+      3, 6
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -328,9 +328,9 @@ const people = [
   {
     "id": "williams-alexander",
     "name": "Alexander Williams",
-    "shortBio": "Husband of Elizabeth Carleton (Dudley's sister). Served as an intermediary for letters and as a London lodging contact for the Carleton circle.",
+    "shortBio": "Husband of Elizabeth Carleton (Dudley's sister). Served as an intermediary for letters and as a London lodging contact for the Carleton circle; met by Chamberlain at Sir William Spencer's in August 1598.",
     "letters": [
-      3, 4
+      3, 4, 6
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -354,9 +354,9 @@ const people = [
   {
     "id": "raleigh-walter",
     "name": "Sir Walter Raleigh",
-    "shortBio": "English explorer, courtier, and naval commander. Rear-admiral of the Islands Voyage (1597); later proposed as a commander in Ireland.",
+    "shortBio": "English explorer, courtier, and naval commander. Rear-admiral of the Islands Voyage (1597); proposed as a commander in Ireland; and mentioned as a candidate for the Privy Council in August 1598.",
     "letters": [
-      1, 5
+      1, 5, 6
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Walter_Raleigh",
@@ -367,9 +367,9 @@ const people = [
   {
     "id": "bingham-richard",
     "name": "Sir Richard Bingham",
-    "shortBio": "English military commander. Proposed in 1598 as one of three commanders to be sent to Ireland with regiments, though the plan was subsequently abandoned.",
+    "shortBio": "English military commander. Proposed for Ireland in May 1598 and again appointed Marshal of Ireland with 5,000 men after Yellow Ford, though Chamberlain doubted it would come to pass.",
     "letters": [
-      5
+      5, 6
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Richard_Bingham_(soldier)",
@@ -380,9 +380,9 @@ const people = [
   {
     "id": "bagnall-samuel",
     "name": "Sir Samuel Bagenal",
-    "shortBio": "English military officer in Ireland. Named alongside Bingham and Docwra as a proposed commander for a relief force to Ireland in May 1598.",
+    "shortBio": "English military officer in Ireland; brother of Sir Henry Bagenal, Marshal of Ireland. Proposed for the Irish command in May 1598 and dispatched to Ireland after his brother's death at Yellow Ford.",
     "letters": [
-      5
+      5, 6
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -490,6 +490,279 @@ const people = [
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/John_Bullingham",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "cecil-william",
+    "name": "William Cecil, Lord Burghley",
+    "shortBio": "First Baron Burghley (1520–1598), Lord High Treasurer and Queen Elizabeth's chief minister. His death on August 4, 1598, and state funeral are central to Letter 6.",
+    "letters": [
+      6
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/William_Cecil,_1st_Baron_Burghley",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "devereux-robert",
+    "name": "Robert Devereux, second Earl of Essex",
+    "shortBio": "Queen Elizabeth's troubled favourite. Commanded the Islands Voyage (1597); fell from favour in 1598; his visible grief at Lord Burghley's funeral was noted by Chamberlain.",
+    "letters": [
+      1, 2, 6
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Robert_Devereux,_2nd_Earl_of_Essex",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "cecil-robert",
+    "name": "Sir Robert Cecil",
+    "shortBio": "Son of Lord Burghley; Principal Secretary and later first Earl of Salisbury. A major figure in Elizabethan and Jacobean politics; Chamberlain tracks his rise closely throughout the correspondence.",
+    "letters": [
+      6
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Robert_Cecil,_1st_Earl_of_Salisbury",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "maynard-henry",
+    "name": "Henry Maynard",
+    "shortBio": "Secretary to Lord Burghley (knighted, 1602). Chamberlain reports him as the frontrunner for the post of Master of the Wards after Burghley's death.",
+    "letters": [
+      6
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "cromwell-edward",
+    "name": "Edward Cromwell, third Baron Cromwell",
+    "shortBio": "English nobleman who lobbied for the governorship of the Brill in 1598, competing for the post as England debated continuing the Dutch war.",
+    "letters": [
+      6
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "albert-archduke",
+    "name": "Archduke Albert of Austria",
+    "shortBio": "Former Cardinal who became co-sovereign of the Spanish Netherlands (with the Infanta Isabella) in 1598. Chamberlain reports his proclamation of peaceful commerce with England, Scotland, and the Dutch.",
+    "letters": [
+      6
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Albert_VII,_Archduke_of_Austria",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "philip-ii",
+    "name": "Philip II of Spain",
+    "shortBio": "King of Spain (1527–1598). His death on September 3, 1598 — rumoured at the time of writing — was a transformative moment in late Elizabethan politics.",
+    "letters": [
+      6
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Philip_II_of_Spain",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "isabella-infanta",
+    "name": "Isabella Clara Eugenia",
+    "shortBio": "Daughter of Philip II of Spain; became co-sovereign of the Spanish Netherlands after marrying Archduke Albert in 1599. Referenced as the Archduke's bride.",
+    "letters": [
+      6
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Isabella_Clara_Eugenia",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "bagnall-henry",
+    "name": "Sir Henry Bagenal",
+    "shortBio": "Marshal of Ireland. Killed at the Battle of the Yellow Ford (14 August 1598) alongside sixteen captains and over seven hundred soldiers — the worst English defeat in Ireland of Elizabeth's reign.",
+    "letters": [
+      6
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Henry_Bagenal",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "oneill-hugh",
+    "name": "Hugh O'Neill, second Earl of Tyrone",
+    "shortBio": "Irish chieftain and leader of the Nine Years' War. Defeated Bagenal at Yellow Ford (1598) and compelled the surrender of the Blackwater fort on humiliating terms.",
+    "letters": [
+      6
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Hugh_O%27Neill,_2nd_Earl_of_Tyrone",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "williams-thomas",
+    "name": "Captain Thomas Williams",
+    "shortBio": "English captain and governor of the Blackwater fort. After Bagenal's defeat at Yellow Ford, was compelled to surrender the fort to Tyrone; his garrison was permitted to leave armed with rapier and dagger only.",
+    "letters": [
+      6
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "brooke-henry",
+    "name": "Henry Brooke, eleventh Baron Cobham",
+    "shortBio": "Lord Warden of the Cinque Ports from 1597. Installed with great ceremony at Canterbury on St. Bartholomew's Day 1598; later mentioned as a candidate for the Privy Council.",
+    "letters": [
+      6
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Henry_Brooke,_11th_Baron_Cobham",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "howard-thomas",
+    "name": "Thomas Howard, later first Earl of Suffolk",
+    "shortBio": "Vice-admiral of the Islands Voyage (1597); later created Earl of Suffolk (1603). Reported alongside Raleigh and Stanhope as a candidate for the Privy Council in August 1598.",
+    "letters": [
+      1, 6
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Howard,_1st_Earl_of_Suffolk",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "stanhope-john",
+    "name": "Sir John Stanhope",
+    "shortBio": "Treasurer of the Chamber (created Lord Stanhope of Harrington, 1605). Named alongside Raleigh and Howard as a candidate to be sworn to the Privy Council in August 1598.",
+    "letters": [
+      6
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "danvers-charles",
+    "name": "Sir Charles Danvers",
+    "shortBio": "Outlawed in 1594 for the death of Henry Long; took refuge in France and served in the French army. Pardoned June 1598 and returned to England. Executed in 1601 for his role in the Essex rebellion.",
+    "letters": [
+      6
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Charles_Danvers_(soldier)",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "danvers-henry",
+    "name": "Sir Henry Danvers",
+    "shortBio": "Outlawed alongside his brother Charles in 1594; served in the French army. Pardoned June 1598. Created Lord Danvers of Dauntsey (1603) and Earl of Danby (1626).",
+    "letters": [
+      6
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Henry_Danvers,_1st_Earl_of_Danby",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "scudamore-james",
+    "name": "Sir James Scudamore",
+    "shortBio": "English courtier. His wife Mary (daughter of Peter Houghton, alderman of London), described as a rich match, died in childbirth in August 1598.",
+    "letters": [
+      6
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "vernon-elizabeth",
+    "name": "Elizabeth Vernon",
+    "shortBio": "Daughter of John Vernon of Hodnet, Shropshire; maid of honour to Queen Elizabeth. Secretly married Henry Wriothesley, third Earl of Southampton, in 1598 while pregnant — a match that infuriated the Queen.",
+    "letters": [
+      6
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Elizabeth_Vernon",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "wriothesley-henry",
+    "name": "Henry Wriothesley, third Earl of Southampton",
+    "shortBio": "English nobleman, patron of Shakespeare, and royal favourite. Secretly married Elizabeth Vernon in 1598, provoking the Queen's fury; later involved in the Essex rebellion of 1601.",
+    "letters": [
+      6
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Henry_Wriothesley,_3rd_Earl_of_Southampton",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "spencer-william",
+    "name": "Sir William Spencer",
+    "shortBio": "English gentleman, probably of Yarnton, Oxfordshire. Chamberlain met Carleton's brother-in-law Alexander Williams at his house in August 1598.",
+    "letters": [
+      6
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "vere-edward",
+    "name": "Edward Vere, seventeenth Earl of Oxford",
+    "shortBio": "Seventeenth Earl of Oxford; son-in-law of Lord Burghley. His three daughters were the principal beneficiaries of Burghley's will in 1598.",
+    "letters": [
+      6
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Edward_de_Vere,_17th_Earl_of_Oxford",
       "odnb": "",
       "britannica": ""
     }

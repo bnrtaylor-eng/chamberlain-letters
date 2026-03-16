@@ -3,10 +3,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from John Chamberlain to [Recipient]</title>
+        <title>Letter from John Chamberlain to Dudley Carleton, 30 August 1598</title>
         <respStmt>
-          <resp>Contributor</resp>
-          <name>[Contributor Name]</name>
+          <resp>Editor</resp>
+          <name>Brandon Taylor</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,6 +19,8 @@
           <pubPlace>Philadelphia</pubPlace>
           <publisher>American Philosophical Society</publisher>
           <date when="1939">1939</date>
+          <biblScope unit="volume">1</biblScope>
+          <biblScope unit="page">41–45</biblScope>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,17 +30,17 @@
     <front>
       <div type="letter-meta">
         <head>Letter Metadata</head>
-        <p><date when="[YYYY-MM-DD]">[Human-Readable Date]</date></p>
-        <p><placeName>[Place of Writing]</placeName></p>
+        <p><date when="1598-08-30">30 August 1598</date></p>
+        <p><placeName ref="#london">London</placeName></p>
         <p><correspDesc>
           <correspAction type="sent">
             <persName ref="#chamberlain-john">John Chamberlain</persName>
-            <date when="[YYYY-MM-DD]"/>
-            <placeName>[Place of Writing]</placeName>
+            <date when="1598-08-30"/>
+            <placeName ref="#london">London</placeName>
           </correspAction>
           <correspAction type="received">
-            <persName ref="#[recipient-id]">[Recipient Name]</persName>
-            <placeName>[Place of Receipt, if known]</placeName>
+            <persName ref="#carleton-dudley">Dudley Carleton</persName>
+            <placeName ref="#ostend">Ostend</placeName>
           </correspAction>
         </correspDesc></p>
       </div>
@@ -46,15 +48,207 @@
 
     <body>
       <div type="letter-text">
-        <p>[Paste letter content here. Use <note place="foot">Example note content.</note>]</p>
-        <p>[Tag people/places like <persName ref="#cecil-robert">Robert Cecil</persName><note type="editorial">Verify this is the correct Cecil.</note>]</p>
+
+        <p>I came out of <placeName ref="#oxfordshire">Oxfordshire</placeName>
+        with your cousen <persName ref="#lytton-rowland">Lytton</persName><note>Rowland
+        Lytton.</note> posting to <placeName ref="#london">London</placeName>
+        on Satterday last, and on Monday came to be a beholder of the solemne
+        funerall,<note>Of <persName ref="#cecil-william">William Cecil, Lord
+        Burghley</persName>, who died August 4.</note> wherin he and your
+        brother <persName ref="#carleton-george">Carleton</persName><note>George
+        Carleton.</note> were actors. They are gon downe together this day
+        since dinner and have left me to convay theyre letters and to write you
+        such refuse newes as peradventure might scape them. But the worst is I
+        heare your boat goes away the next tide, so that I am forced to make
+        hudling haste which of all things I love not, and that causes me to
+        tarry behind them for two or three dayes, for I am no frend to sodain
+        motions, but of a setled constitution and naturally loth to remove.</p>
+
+        <p>The Lord Treasurers funerall was performed yesterday with all the
+        rites that belonge to so great a personage. The number of mourners one
+        and other were above 500 wherof there were many noble men and among the
+        rest the <persName ref="#devereux-robert">erle of Essex</persName>, who
+        (whether yt were upon consideration of the present occasion, or for his
+        owne disfavours) me thought carried the heaviest countenaunce of the
+        companie: presently after dinner he retired to
+        <placeName ref="#wanstead">Wansted</placeName> where they say he meanes
+        to settle, seing he cannot be receved in court, though he have relented
+        and sought by divers meanes to recover much and to recover his hold: but
+        the Quene sayes he hath playde long enough upon her, and that she meanes
+        to play a while upon him, and to stand as much upon her greatnes as he
+        hath don upon his stomacke. The Lord Treasurer<note>William Cecil, first
+        Baron Burghley (1520–1598), Lord High Treasurer since 1572.</note> hath
+        left the Quenes cofers so bare that there is but 20000 to be found, and
+        the Quene is faine to demaund in lone of the citie 40000 wherof they can
+        presently furnish her but with the one halfe. Of his private wealth there
+        is but 11000 come to light and that all in silver: whereof 6000 (with
+        eight or nine hundred pound land) he bequeathed to his two neeces of
+        <persName ref="#vere-edward">Oxford</persName>,<note>His granddaughters:
+        his daughter Anne, wife of Edward Vere, seventeenth Earl of Oxford, had
+        three daughters living in 1598 — Elizabeth, wife of William Stanley,
+        sixth Earl of Derby; Bridget, who in 1599 became wife of Francis, later
+        second Lord Norris of Rycote; and Susan, who in 1604 became wife of
+        Philip Herbert, first Earl of Montgomery.</note> the rest in other
+        legacies. And his lands seme not so great as was thought, for
+        <persName ref="#cecil-robert">Master Secretarie</persName><note>Sir
+        Robert Cecil, son of Lord Burghley.</note> sayes his owne part will not
+        rise to 1600 a yeare upon the racke.</p>
+
+        <p>Yt is much laboured to make him Lord Treasurer wherin yf he fayle yt
+        is assuredly thought he shalbe master of the wardes, for of necessitie
+        there must be one by opinion of all the lawiers.
+        <persName ref="#maynard-henry">Master Maynard</persName><note>Henry
+        Maynard (knighted, 1602).</note> in goode earnest he is thought to be
+        neerest in election and the rather for that
+        <persName ref="#cecil-robert">Master Secretarie</persName> is become the
+        Quenes man altogether for him. <orgName ref="#states-general">The
+        States</orgName> are gon away well contented with such high favor that
+        we have tied fast, by offring to pay our men of warre, garrisons and
+        all, and to rembourse 30000 yearlie to the Quene till the whole debt be
+        run out. Yet for all this yt is thought we shall treat, mary so that
+        <orgName ref="#states-general">the States</orgName> must be included with
+        theyre owne conditions.
+        <persName ref="#cromwell-edward">The Lord Cromwell</persName><note>Edward,
+        third Lord Cromwell.</note> sues hard and makes large offers for the
+        government of the Brill, but yt is thought yf the warre go forward, that
+        the Quene with <orgName ref="#states-general">the States</orgName>
+        consent will translate that garrison to
+        <placeName ref="#armagh">Armew</placeName> therby to have her forces
+        neerer together and to assure herself the better of
+        <placeName ref="#middelburg">Middleburgh</placeName> and the Yle of
+        <placeName ref="#walcheren">Walkeren</placeName>. Yt is sayde your Lord
+        Governor of <placeName ref="#ostend">Ostend</placeName><note>Sir Edward
+        Norris, Governor of Ostend.</note> shall continue his place but most of
+        your companies shalbe called away for
+        <placeName ref="#ireland">Ireland</placeName>.</p>
+
+        <p>We say that the late
+        <persName ref="#albert-archduke">Cardinall Duke of Burgundie</persName><note>The
+        Archduke Albert of Austria, formerly a Cardinal, who had surrendered his
+        ecclesiastical office to govern the Spanish Netherlands and marry the
+        Infanta.</note> is sworne and receved by 14 of the provinces and that
+        presently he made proclamation that he meant to renounce all his
+        <persName ref="#philip-ii">father in lawes</persName><note>Philip II of
+        Spain.</note> quarrells, and to entertaine amitie with all his
+        neighbours, specially the auncient allies and confederates of the house
+        of Burgundie, and that Englishmen, Scottes and others might safely
+        trafficke in all his dominions, and that
+        <orgName ref="#states-general">the States</orgName> of Holland might
+        likewise trade, go and come, with all securitie, during eight moneths
+        till other order may be taken for continuance: and that within two
+        moneths all straungers men of warre are to avoyde: further that he is
+        gon into <placeName ref="#spain">Spaine</placeName> to fetch his
+        bride,<note>The Infanta
+        <persName ref="#isabella-infanta">Isabella Clara Eugenia</persName>,
+        daughter of Philip II.</note> having obtained leave of the provinces to
+        be absent one yeare, when discharged from theyre oth and obedience:
+        wherby we gather (as yt is likewise reported) that the King of
+        <placeName ref="#spain">Spaine</placeName> is certainly dead.<note>King
+        <persName ref="#philip-ii">Philip II</persName> died September 3.</note>
+        But these things must be better knowne to you neerer the market.</p>
+
+        <p><persName ref="#bagnall-henry">Sir Henry Bagnoll</persName> the
+        Marshall went with 3500 foot complete, and 300 horse to relieve the fort
+        of <placeName ref="#blackwater">Blackwater</placeName> distressed by
+        <persName ref="#oneill-hugh">Tiron</persName>,<note>Hugh O'Neill, second
+        Earl of Tyrone.</note> and being come within two mile of yt, in a pass
+        or woode where the ennemie had strongly intrenched himself was so
+        furiously set upon that himself was there slaine with 16 other captaines
+        and above 700 souldiers. The rest retired to
+        <placeName ref="#armagh">Armagh</placeName> (having lost to the ennemie
+        seventeen ensignes) not knowing how to tarry there or remove thence in
+        safety, the ennemie being betwene ten and eight thousand strong: but
+        newes came yesterday that they had made theire appointment, and that
+        <persName ref="#oneill-hugh">Tiron</persName> out of his merciles bountie
+        had graunted them leave to bury theyre dead and to go away with all they
+        had, so that the fort might be delivered him, to the governor wherof
+        <persName ref="#williams-thomas">Captaine Williams</persName><note>Thomas
+        Williams, captain of the Blackwater fort.</note> and his souldiers he
+        wold geve no better conditions then to depart in theyre dubletts and hose
+        only with rapier and dagger. This is the greatest losse and dishonor the
+        Quene hath had in her time, and yet yt seemes we are not moved more with
+        yt, which whether yt proceed of more courage then of wit I know not, but
+        I feare yt is rather a careles and insensible dulnes.</p>
+
+        <p><persName ref="#bagnall-samuel">Sir Samuell Bagnoll</persName><note>Sir
+        Samuel Bagenal, brother of Sir Henry.</note> went post for
+        <placeName ref="#ireland">Ireland</placeName> on Satterday last, but his
+        course and plot must be quite altered to go to
+        <placeName ref="#lough-foyle">Loughfoile</placeName> for yt is to no
+        purpose to go to the Blackwater now that the Blackwater is lost.
+        <persName ref="#bingham-richard">Sir Richard Bingham</persName> hath ten
+        dayes respite to set his thinges in order, and then to go Marshall of
+        <placeName ref="#ireland">Ireland</placeName> with 5000 men, but I doubt
+        yt wilbe rather in speach then in performance.
+        <persName ref="#brooke-henry">The Lord Cobham</persName><note>Henry
+        Brooke, Lord Cobham, who succeeded his father as Warden of the Cinque
+        Ports.</note> was installed Lord Warden of the Cinq Ports on Bartlemew
+        day at <placeName ref="#canterbury">Caunterbury</placeName>, at which
+        solemnitie were assembled almost 4000 horse, and he kept the feast very
+        magnificently and spent 26 oxen with all other provision sutable. He,
+        <persName ref="#howard-thomas">the Lord Thomas Howard</persName>,
+        <persName ref="#raleigh-walter">Sir Wal: Raleigh</persName> and
+        <persName ref="#stanhope-john">Sir John Stanhop</persName><note>Sir John
+        Stanhope (created Lord Stanhope of Harrington, 1605), Treasurer of the
+        Chamber.</note> are in speach to be sworne shortly of the counsayle. Our
+        marchants have lost two or three ships going to
+        <placeName ref="#muscovy">Moscovie</placeName> and one is missing that
+        shold come from thence.
+        <persName ref="#danvers-charles">Sir Charles</persName> and
+        <persName ref="#danvers-henry">Sir Henry Danvers</persName><note>Outlawed
+        for the death of Henry Long in 1594, they took refuge in
+        <placeName ref="#france">Fraunce</placeName> and distinguished themselves
+        in the French Army. They were pardoned in June, 1598. Sir Charles Danvers
+        was executed for his part in the Essex rebellion, 1601. Sir Henry Danvers
+        was created Lord Danvers of Dauntsey in 1603 and Earl of Danby in
+        1626.</note> are come. I saw them both yesterday.
+        <persName ref="#scudamore-james">Sir James Scudamors</persName> lady<note>Mary,
+        daughter of Peter Houghton, alderman of London.</note> that was so rich
+        a manage is lately dead in childbed.</p>
+
+        <p><persName ref="#vernon-elizabeth">Mistris Vernon</persName><note>Elizabeth,
+        daughter of John Vernon of Hodnet, Shropshire, and one of the Queen's
+        maids of honour. She became the wife of Henry Wriothesley, third Earl of
+        Southampton.</note> hath taken a venew from the court, and lies in
+        <placeName ref="#essex-house">Essex House</placeName>; some say she is
+        under the girdle and swells upon yt, yet she plaines not of fowle play
+        but sayes the <persName ref="#wriothesley-henry">erle of
+        Southampton</persName> will justifie yt: and yt is bruited underhand
+        that he was latelie here fowre dayes in great secret of purpose to marry
+        her and that she comand effected yt accordingly.</p>
+
+        <p>I thancke you for the letter you wrote me hence though yt were longe
+        ere yt came to my hands. I met your
+        <persName ref="#williams-alexander">Alexander</persName> and
+        Bucephalus<note>Probably Alexander Williams and his wife, Carleton's
+        sister Elizabeth.</note> at
+        <persName ref="#spencer-william">Sir William Spencers</persName>,<note>Probably
+        at his house at Yarnton, Oxfordshire.</note> and delivered his letter to
+        your brother <persName ref="#carleton-george">Carleton</persName> for he
+        challenged yt as by your appointment though he shewed no commission. And
+        thus having wearied both my self and you I bid you farewell and commit
+        you to God.</p>
+
+        <closer>
+          <dateline>From <placeName ref="#london">London</placeName> this
+          <date when="1598-08-30">30th of August 1598</date>.</dateline>
+          <signed>Yours most assuredly<lb/>
+          <persName ref="#chamberlain-john">JOHN CHAMBERLAIN</persName>.</signed>
+        </closer>
+
+        <postscript>
+          <p><address><addrLine>To my very goode frend Master
+          <persName ref="#carleton-dudley">Dudley Carleton</persName> attending
+          on the Lord Governor of
+          <placeName ref="#ostend">Ostend</placeName> geve these.</addrLine></address></p>
+        </postscript>
       </div>
     </body>
 
     <back>
       <div type="editor-note">
         <head>Editor's Note</head>
-        <p>[Summarize this letter for general readers. What is it about? What historical context is useful?]</p>
+        <p>Written from London on 30 August 1598, this is the richest letter of the early sequence. Chamberlain arrived back in London from Oxfordshire — having traveled with Rowland Lytton — just in time for the funeral of William Cecil, Lord Burghley, who had died on August 4. He reports on the ceremony, the conspicuous grief (or political calculation) of the Earl of Essex, and the state of Burghley's estate and the Queen's treasury. The letter then turns to the succession question: whether Robert Cecil will become Lord Treasurer or Master of the Wards, and the role of Henry Maynard in the factional maneuvering. The Dutch States-General depart apparently satisfied, though an Anglo-Spanish peace is still under discussion. The Archduke Albert has been received by the Spanish Netherlands provinces and proclaimed peace with England and Scotland; there are rumours that Philip II is dead (he died September 3). The letter's darkest passage concerns the Battle of the Yellow Ford (August 14), where Sir Henry Bagenal, the Marshal of Ireland, was killed alongside sixteen captains and over seven hundred soldiers — the worst English military defeat in Ireland in living memory. The Blackwater fort is surrendered on humiliating terms, its garrison stripped to doublet and hose. Chamberlain then moves to the domestic and social register: Lord Cobham's installation as Lord Warden of the Cinque Ports, the return of the pardoned Danvers brothers, the death of Lady Scudamore in childbed, and the explosive news of Elizabeth Vernon's secret pregnancy and marriage to the Earl of Southampton. The letter closes with a casual note about meeting Carleton's brother-in-law Alexander Williams at Sir William Spencer's.</p>
       </div>
     </back>
   </text>
