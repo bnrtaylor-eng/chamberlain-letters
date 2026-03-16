@@ -3,10 +3,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from John Chamberlain to [Recipient]</title>
+        <title>Letter from John Chamberlain to Dudley Carleton, 20 October 1598</title>
         <respStmt>
-          <resp>Contributor</resp>
-          <name>[Contributor Name]</name>
+          <resp>Editor</resp>
+          <name>Brandon Taylor</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,6 +19,8 @@
           <pubPlace>Philadelphia</pubPlace>
           <publisher>American Philosophical Society</publisher>
           <date when="1939">1939</date>
+          <biblScope unit="volume">1</biblScope>
+          <biblScope unit="page">48–50</biblScope>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,17 +30,17 @@
     <front>
       <div type="letter-meta">
         <head>Letter Metadata</head>
-        <p><date when="[YYYY-MM-DD]">[Human-Readable Date]</date></p>
-        <p><placeName>[Place of Writing]</placeName></p>
+        <p><date when="1598-10-20">20 October 1598</date></p>
+        <p><placeName ref="#london">London</placeName></p>
         <p><correspDesc>
           <correspAction type="sent">
             <persName ref="#chamberlain-john">John Chamberlain</persName>
-            <date when="[YYYY-MM-DD]"/>
-            <placeName>[Place of Writing]</placeName>
+            <date when="1598-10-20"/>
+            <placeName ref="#london">London</placeName>
           </correspAction>
           <correspAction type="received">
-            <persName ref="#[recipient-id]">[Recipient Name]</persName>
-            <placeName>[Place of Receipt, if known]</placeName>
+            <persName ref="#carleton-dudley">Dudley Carleton</persName>
+            <placeName ref="#ostend">Ostend</placeName>
           </correspAction>
         </correspDesc></p>
       </div>
@@ -46,15 +48,182 @@
 
     <body>
       <div type="letter-text">
-        <p>[Paste letter content here. Use <note place="foot">Example note content.</note>]</p>
-        <p>[Tag people/places like <persName ref="#cecil-robert">Robert Cecil</persName><note type="editorial">Verify this is the correct Cecil.</note>]</p>
+        <opener>Master Carleton,</opener>
+
+        <p>I wrote to you about the third or fourth of this present, and have now staide the longer
+          to see yf this northeasterly wind wold have brought us any thing from you, or brought
+          foorth any thing at home worth the sending: but we are still at the same stay as when I
+          wrote you last and we are fed on from Sonday to Sonday with expectation from the court,
+          wherewith I am so weary that I will not tarry nor trifle out the time any longer, but
+          acquaint you with matters as they stand now, though yt be certainly thought we shall have
+          some alteration on Sonday next.</p>
+
+        <p>The voyce ran all this weeke with
+          <persName ref="#fortescue-john">Sir John Fortescue</persName><note>Chancellor of the
+          Exchequer. The contest for Lord Treasurer eventually settled on
+          <persName ref="#sackville-thomas">Lord Buckhurst</persName>, who was appointed in May
+          1599.</note> to be Lord Treasurer, but now yt is come about again to the
+          <persName ref="#sackville-thomas">Lord Buckhurst</persName>,<note>Thomas Sackville,
+          Lord Buckhurst, later first Earl of Dorset (1604). He was appointed Lord Treasurer in
+          May 1599 and held the office until his death in 1608.</note> and so every three or fowre
+          dayes yt is tossed from the one side of the court to the other. The next new counsaillors
+          are thought shalbe the
+          <persName ref="#blount-charles">Lord Mountjoye</persName> and the
+          <persName ref="#popham-john">Lord Cheife Justice</persName>,<note>Sir John Popham
+          (c. 1531–1607), Lord Chief Justice since 1592. Chamberlain's remark about his haunting
+          of whorehouses while persecuting prostitutes was a common piece of London gossip;
+          Popham's moralistic severity on the bench was widely noted.</note> who hath plaide rex
+          of late among whoores and bawdes and persecutes poore pretty wenches out of all pittie
+          and mercy. The court of wardes sitts still not for want of a master, and though the earle
+          of <persName ref="#devereux-robert">Essex</persName> be alone in election yet there is
+          still some rub in his way that he comes not on. Some say the Quene meanes to dissolve
+          that court and in stead therof to raise a yearely contribution out of all landes in capite
+          or knight service, which wold be more for her profit and lesse grevance to the subject,
+          but that is too goode to be true. Others say he may have yt yf he will, but because there
+          is a course spoken of somwhat to geld and curtall yt he refuseth to accept yt unles he may
+          have yt whole and unmaimed. And others say he findes some scruple in the strictnes of the
+          othe, and wonders how the
+          <persName ref="#cecil-william">late Lord Treasurer</persName><note>William Cecil, Lord
+          Burghley (1520–1598), who died 4 August 1598. See Letter 6.</note> could dispense so
+          easilie and so largely with yt and his conscience: but this were somwhat too pure and
+          maidenlike or rather <hi rend="italic">inutilis verecundia</hi>.</p>
+
+        <p>The state of
+          <placeName ref="#ireland">Ireland</placeName> growes dayly <hi rend="italic">di mal in
+          peggio</hi>, for they begin now to stirre in the province of
+          <placeName ref="#munster">Munster</placeName>, where the
+          <persName ref="#fitzgibbon-edmund">white knight</persName>,<note>Edmund Fitzgibbon
+          (d. c. 1600), hereditary White Knight of County Cork, a title held in the Fitzgibbon
+          family. He supported the Munster rebellion during the Nine Years' War.</note>
+          <persName ref="#fitzgerald-james">Sir James of Desmond</persName><note>James Fitzthomas
+          Fitzgerald (d. 1607), grandson of the fourteenth Earl of Desmond. In 1598 he assumed
+          the title of Earl of Desmond and put himself at the head of a force of approximately
+          8,000 clansmen. (<hi rend="italic">Cal. S. P. Ireland</hi>, 1598–1599, p. 499.)</note>
+          and one <persName ref="#condon-patrick">Patricke Condon</persName> a shrewd fellow are
+          out. <persName ref="#bagnall-samuel">Sir Samuell Bagnoll</persName> is there beinge
+          lately stabd by
+          <persName ref="#st-lawrence-christopher">St. Laurence</persName> (sonne and heire to
+          the <persName ref="#st-lawrence-nicholas">Lord of Hooth</persName>) about the lie or
+          such like brabble. Some thincke the
+          <persName ref="#blount-charles">Lord Mountjoy</persName> shalbe sent thether deputie;
+          others say the earle of
+          <persName ref="#devereux-robert">Essex</persName> meanes to take yt upon him, and hopes
+          by his countenance that after a yeare he might return a lidger; Mary he wold have yt
+          under the brode seale of
+          <placeName ref="#england">England</placeName> when he will. Here is a
+          <persName ref="#thumery-de-boissise">French ambassador</persName><note>Le Sieur Thumery
+          de Boissise, who landed at Dover on 14 October 1598 and remained as French ambassador
+          in England until 1601.</note> (a civilian) rather sent at the earnest request of the
+          Frenchmen for any great love or busines of theyre owne; others say his cheife errand is
+          about matters of piracie, wherof the Frenchmen complaine excedingly.</p>
+
+        <p>Here is some speach of sending
+          <persName ref="#herbert-john">Dr. Harbert</persName>,
+          <persName ref="#parry-thomas">Sir Thomas Parri</persName>,
+          <persName ref="#bodley-thomas">Master Bodley</persName>, and
+          <persName ref="#neville-henry">Master Nevill</persName> of
+          <placeName ref="#berkshire">Berkshire</placeName> in question [for an embassy to
+          <placeName ref="#france">France</placeName>]: besides that somebody must be sent
+          extraordinarie to the marriage of Madame the Kings sister wherto
+          <persName ref="#sidney-robert">Sir Robert Sidney</persName> is most named.
+          <persName ref="#wroth-john">John Wroth</persName> is making redy to go ambassador into
+          <placeName ref="#turkey">Turkie</placeName>.
+          <persName ref="#vere-francis">Sir Fra: Vere</persName> is comming to the
+          <placeName ref="#brill">Brill</placeName> out of which intertainment he paies yearly
+          400<hi rend="italic">li</hi> to the
+          <persName ref="#burroughs-lady">Lady Borroughs</persName>.<note>Frances, widow of
+          Thomas, fifth Lord Burgh (d. 1597), who had governed the Brill before Vere. See
+          Letter 8.</note> There was some snapping of late twixt him and the
+          <persName ref="#grey-thomas-wilton">young Lord Gray</persName><note>Thomas Grey,
+          fifteenth Baron Grey of Wilton (1575–1614), later condemned for his role in the
+          Bye Plot (1603) and kept in the Tower until his death.</note> who went about to have a
+          regiment and to be cheife commander over the English in the
+          <placeName ref="#low-countries">Lowe Countries</placeName>.
+          <persName ref="#gilbert-john">Sir John Gilbert</persName><note>Elder brother of Sir
+          Humphrey Gilbert and half-brother of Sir Walter Raleigh. See Letter 8.</note> with six
+          or seven sayle one and other is going for
+          <placeName ref="#guiana">Guiana</placeName>. I heare that
+          <persName ref="#raleigh-walter">Sir Walter Raleigh</persName> shold be so deeply
+          discontented, and almost that he is not far from making a voyage that way himself.</p>
+
+        <p>Fowre or five more of
+          <persName ref="#stanley-john">Stanlies</persName> consorts are lately apprehended and
+          sent to the Towre, among whom are one Rolles, Pates, and
+          <persName ref="#bagshaw-christopher">Dr. Bagshaw</persName>.<note>Christopher Bagshaw
+          (c. 1552–1625), Catholic priest and controversialist. His arrest with Stanley's
+          associates reflects the government's vigilance against suspected Catholic agents in
+          autumn 1598.</note> The
+          <persName ref="#sigismund-iii">king of Poland</persName><note>Sigismund III Vasa
+          (1566–1632), King of Poland-Lithuania and hereditary claimant to the Swedish throne.
+          His Protestant uncle Charles of Södermanland had effectively seized control of Sweden
+          by 1598 and would be crowned Charles IX in 1604.</note> is saide to be in hard termes
+          taken in <placeName ref="#sweden">Sweden</placeName> by his uncle the
+          <persName ref="#charles-ix-sweden">Duke Charles</persName>. There is one at
+          <placeName ref="#venice">Venice</placeName> geves himself out to be
+          <persName ref="#sebastian-portugal">Sebastian</persName> the late king of
+          <placeName ref="#portugal">Portingale</placeName>, and sayes he was not slaine<note>
+          Sebastian I of Portugal was widely believed killed at the battle of Alcáçar Quibir in
+          Morocco in 1578. A string of pretenders claiming to be the lost king appeared in the
+          following decades; this unnamed individual at Venice was one of several.</note> at the
+          battell in Barberie (as was thought) but taken prisoner, and concealed himself till he
+          might conveniently get away. They make him aunswer that if he be the man, he shall not
+          want maintenaunce nor theyre mediation, but yf he be not, he must look for that he
+          deserves. We say the younge
+          <persName ref="#philip-iii">kinde of Spaine</persName><note>Philip III (1578–1621),
+          who had succeeded his father Philip II in September 1598.</note> hath either of her
+          owne motion or by his order keepes the
+          <persName ref="#isabella-clara">Infanta</persName> in a monasterie of nunnes till the
+          <persName ref="#albert-archduke">archduke</persName> come to fetch her.</p>
+
+        <p>We thincke me of nothing ells unles I should tell you of certain mad knaves that tooke
+          Tabacco all the way to
+          <placeName ref="#tyburn">Tiborn</placeName> as they went to hanging. I have here sent
+          you some verses that go under the name of my Lord of
+          <persName ref="#devereux-robert">Essex</persName> when he was in disgrace, but I cannot
+          warrant them to be his nor made at that time.<note>The enclosure is not extant. Several
+          lyrics have been attributed to Essex, possibly composed during his retirement at Wanstead
+          in 1598; Chamberlain may have sent the lyric beginning "Happy were he could finish forth
+          his fate / In some unhaunted desert." (Ault, <hi rend="italic">Elizabethan Lyrics</hi>,
+          p. 270.)</note> Your cousin
+          <persName ref="#lytton-rowland">Lytton</persName> was here two dayes at the beginning
+          of the weeke, but is gon downe to the buriall of
+          <persName ref="#brockett-john">Sir John Brocket</persName>. I have not heard lately of
+          your brother nor of any other of your frends, so that with a short
+          <hi rend="italic">bezo las manos</hi> I bid you farewell for this time.</p>
+
+        <closer>
+          <dateline>From <placeName ref="#london">London</placeName> this
+            <date when="1598-10-20">20th of October 1598</date>.</dateline>
+          <signed>Yours most assuredly,
+            <persName ref="#chamberlain-john">JOHN CHAMBERLAIN</persName>.</signed>
+        </closer>
+
+        <postscript>
+          <p>To my assured goode frend Master
+            <persName ref="#carleton-dudley">Dudley Carleton</persName> attending on the Lord
+            Governor of <placeName ref="#ostend">Ostend</placeName> geve these.</p>
+        </postscript>
       </div>
     </body>
 
     <back>
       <div type="editor-note">
         <head>Editor's Note</head>
-        <p>[Summarize this letter for general readers. What is it about? What historical context is useful?]</p>
+        <p>Written from London three weeks after Letter 8, this letter surveys a wide panorama of
+          news in the autumn of 1598. The court is still deadlocked over the succession to Lord
+          Burghley's offices: the Lord Treasurer's post oscillates between Sir John Fortescue and
+          Lord Buckhurst, while Essex's long-expected mastership of the Court of Wards remains
+          out of reach — stalled variously by the Queen's reform proposals, Essex's own
+          intransigence, and a reported scruple about the master's oath. Ireland dominates the
+          middle of the letter: Munster is rising, with a Fitzgerald claimant to the earldom of
+          Desmond and the White Knight in the field, and both Mountjoy and Essex are floated as
+          candidates for the Lord Deputyship. Woven among these urgent matters is a brisk catalogue
+          of diplomatic activity: a newly arrived French ambassador, several names in the running
+          for an embassy to Paris, Vere's quarrel with young Lord Grey over the Brill command,
+          Stanley's arrested confederates, and Raleigh sulking toward another Guiana venture. The
+          letter closes with sardonic asides about condemned men smoking tobacco on the way to
+          Tyburn, and a note of unease about some verses circulating under Essex's name that
+          Chamberlain cannot quite vouch for.</p>
       </div>
     </back>
   </text>

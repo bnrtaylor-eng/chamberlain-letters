@@ -120,9 +120,9 @@ const people = [
   {
     "id": "sackville-thomas",
     "name": "Thomas Sackville, Lord Buckhurst",
-    "shortBio": "Lord Buckhurst, later first Earl of Dorset (1604). Appointed to lead peace negotiations with Spain at Abbeville in 1598.",
+    "shortBio": "Lord Buckhurst, later first Earl of Dorset (1604). Appointed to lead peace negotiations with Spain at Abbeville in 1598; emerged as the leading candidate for Lord Treasurer in autumn 1598 and was appointed to the post in May 1599.",
     "letters": [
-      3
+      3, 9
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Sackville,_1st_Earl_of_Dorset",
@@ -133,9 +133,9 @@ const people = [
   {
     "id": "bodley-thomas",
     "name": "Thomas Bodley",
-    "shortBio": "Diplomat and scholar, founder of the Bodleian Library at Oxford (knighted 1604). Named as assistant in the 1598 peace negotiations.",
+    "shortBio": "Diplomat and scholar, founder of the Bodleian Library at Oxford (knighted 1604). Named as assistant in the 1598 peace negotiations and considered for an embassy to France in autumn 1598.",
     "letters": [
-      3
+      3, 9
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Bodley",
@@ -198,9 +198,9 @@ const people = [
   {
     "id": "blount-charles",
     "name": "Sir Charles Blount",
-    "shortBio": "Later eighth Baron Mountjoy and Earl of Devonshire; military commander and favourite of Elizabeth I. Chamberlain reports — then corrects — a rumour about a duel involving Blount in Paris in 1598.",
+    "shortBio": "Later eighth Baron Mountjoy and Earl of Devonshire; military commander and favourite of Elizabeth I. Chamberlain reports — then corrects — a rumour about a duel in Paris in 1598, and names him as a candidate for Lord Deputy of Ireland in autumn 1598.",
     "letters": [
-      3, 5
+      3, 5, 9
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Charles_Blount,_8th_Baron_Mountjoy",
@@ -276,9 +276,9 @@ const people = [
   {
     "id": "lytton-rowland",
     "name": "Rowland Lytton",
-    "shortBio": "Cousin of Dudley Carleton and owner of Knebworth House, Hertfordshire. Chamberlain frequently visited and wrote from Knebworth; Lytton also hosted Lady Pelham there in September 1598 before escorting her to Bletsoe.",
+    "shortBio": "Cousin of Dudley Carleton and owner of Knebworth House, Hertfordshire. Chamberlain frequently visited and wrote from Knebworth; Lytton hosted Lady Pelham there in September 1598 and escorted her to Bletsoe; he attended the burial of Sir John Brockett in October 1598.",
     "letters": [
-      3, 6, 7
+      3, 6, 7, 9
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -354,9 +354,9 @@ const people = [
   {
     "id": "raleigh-walter",
     "name": "Sir Walter Raleigh",
-    "shortBio": "English explorer, courtier, and naval commander. Rear-admiral of the Islands Voyage (1597); proposed as a commander in Ireland; and mentioned as a candidate for the Privy Council in August 1598.",
+    "shortBio": "English explorer, courtier, and naval commander. Rear-admiral of the Islands Voyage (1597); proposed as a commander in Ireland; mentioned as a Privy Council candidate in August 1598; and reported in autumn 1598 to be deeply discontented and considering another voyage to Guiana.",
     "letters": [
-      1, 5, 6
+      1, 5, 6, 9
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Walter_Raleigh",
@@ -471,9 +471,9 @@ const people = [
   {
     "id": "vere-francis",
     "name": "Sir Francis Vere",
-    "shortBio": "English military commander in the Low Countries. Brought 1,200 musketeers to the Islands Voyage (1597); secured the governorship of the Brill in autumn 1598 after considerable effort.",
+    "shortBio": "English military commander in the Low Countries. Brought 1,200 musketeers to the Islands Voyage (1597); secured the governorship of the Brill in autumn 1598 after considerable effort; paid £400 a year out of the post to Lady Borroughs, widow of his predecessor.",
     "letters": [
-      1, 5, 8
+      1, 5, 8, 9
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Francis_Vere",
@@ -510,9 +510,9 @@ const people = [
   {
     "id": "devereux-robert",
     "name": "Robert Devereux, second Earl of Essex",
-    "shortBio": "Queen Elizabeth's troubled favourite. Commanded the Islands Voyage (1597); fell from favour in 1598; returned to the Privy Council on 10 September 1598. By October 1598 back at court 'in as good terms as ever,' but no offices forthcoming.",
+    "shortBio": "Queen Elizabeth's troubled favourite. Commanded the Islands Voyage (1597); fell from favour in 1598; returned to the Privy Council on 10 September 1598. Back at court by October, he remained the frontrunner for Master of the Court of Wards, yet obstacles — including a reported scruple about the oath — kept him from it.",
     "letters": [
-      1, 2, 6, 7, 8
+      1, 2, 6, 7, 8, 9
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Robert_Devereux,_2nd_Earl_of_Essex",
@@ -809,9 +809,9 @@ const people = [
   {
     "id": "brockett-john",
     "name": "Sir John Brockett",
-    "shortBio": "Of Brockett Hall, Hertfordshire. His wife was Ellen Lytton, a relative of Rowland Lytton. His daughter Elizabeth was the first wife of George Carleton; their son John Carleton is the 'nephew' mentioned in Chamberlain's letter of September 1598, when Brockett was gravely ill.",
+    "shortBio": "Of Brockett Hall, Hertfordshire. His wife was Ellen Lytton, a relative of Rowland Lytton. His daughter Elizabeth was the first wife of George Carleton; their son John Carleton is the 'nephew' mentioned in September 1598, when Brockett was gravely ill. He died shortly thereafter; Rowland Lytton attended his burial in October 1598.",
     "letters": [
-      7
+      7, 9
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -861,9 +861,9 @@ const people = [
   {
     "id": "stanley-john",
     "name": "John Stanley",
-    "shortBio": "Arrested in October 1598 and committed to the Tower after claiming he had been sent by Spain to assassinate Queen Elizabeth. He also maintained that Philip II was not yet dead. (Cal. S. P. Dom., 1598–1601, pp. 106–107.)",
+    "shortBio": "Arrested in October 1598 and committed to the Tower after claiming he had been sent by Spain to assassinate Queen Elizabeth. He also maintained that Philip II was not yet dead. Several of his confederates — including the Catholic priest Christopher Bagshaw — were arrested and sent to the Tower the following month. (Cal. S. P. Dom., 1598–1601, pp. 106–107.)",
     "letters": [
-      8
+      8, 9
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -877,6 +877,240 @@ const people = [
     "shortBio": "Widow of Henry Wriothesley, second Earl of Southampton, and subsequently of Sir Thomas Heneage. Her marriage to Sir William Harvey in May 1598 is noted by Chamberlain.",
     "letters": [
       4
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "fortescue-john",
+    "name": "Sir John Fortescue",
+    "shortBio": "Chancellor of the Exchequer under Elizabeth I (from 1589) and a Privy Councillor. In autumn 1598 he emerged as a candidate for Lord Treasurer following Burghley's death, though the post eventually went to Lord Buckhurst in May 1599.",
+    "letters": [
+      9
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Sir_John_Fortescue_(Chancellor_of_the_Exchequer)",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "popham-john",
+    "name": "Sir John Popham",
+    "shortBio": "Lord Chief Justice of England from 1592 until his death in 1607. Notorious for the severity of his judgments and, according to London gossip, for frequenting the very establishments he prosecuted. Presided over the trials of Essex (1601) and the Gunpowder Plot conspirators (1606).",
+    "letters": [
+      9
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/John_Popham_(judge)",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "fitzgibbon-edmund",
+    "name": "Edmund Fitzgibbon",
+    "shortBio": "The White Knight of County Cork, hereditary title of the Fitzgibbon family. Threw in his lot with the Munster rebels during the Nine Years' War. Died around 1600.",
+    "letters": [
+      9
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "fitzgerald-james",
+    "name": "James Fitzthomas Fitzgerald",
+    "shortBio": "Grandson of the fourteenth Earl of Desmond. In 1598 he assumed the title of Earl of Desmond — a claim the crown rejected — and led a force of roughly 8,000 men in the Munster rising. Captured in 1601 and executed in the Tower in 1607.",
+    "letters": [
+      9
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/James_Fitzthomas_Fitzgerald",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "thumery-de-boissise",
+    "name": "Le Sieur Thumery de Boissise",
+    "shortBio": "French ambassador to England, arriving at Dover on 14 October 1598 and remaining until 1601. A lawyer by training ('a civilian'), his mission involved complaints about English piracy against French shipping.",
+    "letters": [
+      9
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "neville-henry",
+    "name": "Henry Neville",
+    "shortBio": "Diplomat and MP for Berkshire, knighted in 1599 after his appointment as ambassador to France. His mission to Henry IV (1599–1601) coincided with the Essex revolt, in which Neville was implicated; he was imprisoned briefly in 1601.",
+    "letters": [
+      9
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Henry_Neville_(diplomat)",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "wroth-john",
+    "name": "John Wroth",
+    "shortBio": "English diplomat. Sent as ambassador to the Ottoman Empire in late 1598; one of several English envoys dispatched to Constantinople in this period to maintain commercial relations.",
+    "letters": [
+      9
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "grey-thomas-wilton",
+    "name": "Thomas Grey, fifteenth Baron Grey of Wilton",
+    "shortBio": "English nobleman (1575–1614). In autumn 1598 sought a regiment in the Low Countries, which brought him into conflict with Sir Francis Vere. Condemned for his role in the Bye Plot against James I (1603) and held in the Tower until his death.",
+    "letters": [
+      9
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Grey,_15th_Baron_Grey_de_Wilton",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "gilbert-john",
+    "name": "Sir John Gilbert",
+    "shortBio": "English naval captain, elder brother of Sir Humphrey Gilbert and half-brother of Sir Walter Raleigh. Associated with Atlantic and Guiana ventures in the late 1590s.",
+    "letters": [
+      8, 9
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "bagshaw-christopher",
+    "name": "Christopher Bagshaw",
+    "shortBio": "Catholic priest and controversialist (c. 1552–1625). Arrested in autumn 1598 as one of the associates of John Stanley, who had claimed a Spanish commission to assassinate Queen Elizabeth.",
+    "letters": [
+      9
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "sigismund-iii",
+    "name": "Sigismund III Vasa",
+    "shortBio": "King of Poland-Lithuania (r. 1587–1632) and briefly King of Sweden (r. 1592–1599). His attempt to maintain the Swedish throne against his Protestant uncle Charles of Södermanland collapsed by 1598; Charles IX was crowned in 1604.",
+    "letters": [
+      9
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Sigismund_III_Vasa",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "bagnall-samuel",
+    "name": "Sir Samuel Bagnall",
+    "shortBio": "English military officer serving in Munster during the Nine Years' War. Chamberlain reports him stabbed by Christopher St. Lawrence, son of the Lord of Howth, though Letter 10 contradicts this account.",
+    "letters": [
+      9
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "sidney-robert",
+    "name": "Sir Robert Sidney",
+    "shortBio": "Younger brother of Philip Sidney and later Viscount Lisle (1605) and Earl of Leicester (1618). Governor of Flushing in the 1590s; in autumn 1598 he was named as the likeliest candidate to be sent extraordinarily to the marriage of the French king's sister.",
+    "letters": [
+      9
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Robert_Sidney,_1st_Earl_of_Leicester",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "philip-iii",
+    "name": "Philip III of Spain",
+    "shortBio": "King of Spain (r. 1598–1621), son of Philip II. Succeeded his father in September 1598. The arrangement of his cousin the Infanta Isabella's marriage to the Archduke Albert of Austria, giving them the Spanish Netherlands, was a major diplomatic event of the period.",
+    "letters": [
+      9
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Philip_III_of_Spain",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "burroughs-lady",
+    "name": "Frances, Lady Burroughs",
+    "shortBio": "Widow of Thomas, fifth Lord Burgh (d. 1597), who served as Governor of the Brill in the Netherlands. After her husband's death, Sir Francis Vere paid her £400 a year out of the same governorship.",
+    "letters": [
+      9
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "condon-patrick",
+    "name": "Patrick Condon",
+    "shortBio": "Irish rebel described by Chamberlain as 'a shrewd fellow' active in the Munster rising of 1598 alongside the White Knight and James Fitzthomas Fitzgerald.",
+    "letters": [
+      9
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "herbert-john",
+    "name": "John Herbert",
+    "shortBio": "Master of Requests under Elizabeth I and James I; considered for an embassy to France in autumn 1598.",
+    "letters": [
+      9
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "parry-thomas",
+    "name": "Sir Thomas Parry",
+    "shortBio": "English diplomat, considered for an embassy to France in autumn 1598. Later served as ambassador to France (1601–1605).",
+    "letters": [
+      9
     ],
     "externalLinks": {
       "wikipedia": "",

@@ -626,6 +626,7 @@ tei-body tei-p:not(:first-of-type)::before {
    ====================== */
 
 nav.toc {
+  display: block;
   background: #f5f3ee;
   border-left: 4px solid #334;
   padding: 1em 1.5em;
@@ -635,6 +636,7 @@ nav.toc {
 
 nav.toc h3 {
   margin-top: 0;
+  margin-bottom: 0.6em;
   font-family: 'Inter', sans-serif;
   font-size: 0.78em;
   text-transform: uppercase;
@@ -646,6 +648,7 @@ nav.toc h3 {
 nav.toc ol {
   margin: 0;
   padding-left: 1.5em;
+  font-family: 'Inter', sans-serif;
 }
 
 nav.toc li {
