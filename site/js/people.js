@@ -198,9 +198,9 @@ const people = [
   {
     "id": "blount-charles",
     "name": "Sir Charles Blount",
-    "shortBio": "Later eighth Baron Mountjoy and Earl of Devonshire; military commander and favourite of Elizabeth I. Involved in a reported duel in Paris in 1598.",
+    "shortBio": "Later eighth Baron Mountjoy and Earl of Devonshire; military commander and favourite of Elizabeth I. Chamberlain reports — then corrects — a rumour about a duel involving Blount in Paris in 1598.",
     "letters": [
-      3
+      3, 5
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Charles_Blount,_8th_Baron_Mountjoy",
@@ -263,9 +263,9 @@ const people = [
   {
     "id": "edmondes-thomas",
     "name": "Thomas Edmondes",
-    "shortBio": "English diplomat (knighted 1603). Sent to France in 1598 to prepare the way for Anglo-Spanish peace negotiations.",
+    "shortBio": "English diplomat (knighted 1603). Sent to France in 1598 to prepare the way for Anglo-Spanish peace negotiations, and returned in late May with news that the peace was all but concluded.",
     "letters": [
-      3
+      3, 5
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Edmondes",
@@ -347,6 +347,149 @@ const people = [
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/William_Paulet,_3rd_Marquess_of_Winchester",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "raleigh-walter",
+    "name": "Sir Walter Raleigh",
+    "shortBio": "English explorer, courtier, and naval commander. Rear-admiral of the Islands Voyage (1597); later proposed as a commander in Ireland.",
+    "letters": [
+      1, 5
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Walter_Raleigh",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "bingham-richard",
+    "name": "Sir Richard Bingham",
+    "shortBio": "English military commander. Proposed in 1598 as one of three commanders to be sent to Ireland with regiments, though the plan was subsequently abandoned.",
+    "letters": [
+      5
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Richard_Bingham_(soldier)",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "bagnall-samuel",
+    "name": "Sir Samuel Bagenal",
+    "shortBio": "English military officer in Ireland. Named alongside Bingham and Docwra as a proposed commander for a relief force to Ireland in May 1598.",
+    "letters": [
+      5
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "docwra-henry",
+    "name": "Sir Henry Docwra",
+    "shortBio": "English soldier and administrator, later created Lord Docwra of Culmore. Named in 1598 as a proposed commander for Ireland alongside Bingham and Bagenal.",
+    "letters": [
+      5
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Henry_Docwra,_1st_Baron_Docwra",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "carew-george",
+    "name": "Sir George Carew",
+    "shortBio": "Later Lord Carew of Clopton (1605) and Earl of Totnes (1626). Proposed alongside Raleigh as a commander for the Irish campaign in May 1598.",
+    "letters": [
+      5
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/George_Carew,_1st_Earl_of_Totnes",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "zouche-edward",
+    "name": "Edward Zouche, eleventh Baron Zouche",
+    "shortBio": "English nobleman and diplomat. Sent as ambassador to Denmark in 1598 alongside Christopher Perkins, with instructions extending to Poland.",
+    "letters": [
+      5
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Edward_Zouche,_11th_Baron_Zouche",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "perkins-christopher",
+    "name": "Christopher Perkins",
+    "shortBio": "English diplomat (knighted 1603). Accompanied Lord Zouche on the embassy to Denmark and Poland in 1598.",
+    "letters": [
+      5
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "cary-george",
+    "name": "George Carew (secretary)",
+    "shortBio": "Son of Thomas Carew of Antony (knighted 1603). Appointed secretary to the Lord Keeper Sir Thomas Egerton, as noted by Chamberlain in May 1598.",
+    "letters": [
+      5
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "egerton-thomas",
+    "name": "Sir Thomas Egerton, Lord Keeper",
+    "shortBio": "Lord Keeper of the Great Seal (later Lord Chancellor and Viscount Brackley). Referenced as the employer of the newly appointed secretary George Carew.",
+    "letters": [
+      5
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Egerton,_1st_Viscount_Brackley",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "vere-francis",
+    "name": "Sir Francis Vere",
+    "shortBio": "English military commander in the Low Countries. Brought 1,200 musketeers to the Islands Voyage (1597); reported in May 1598 as about to depart for the States.",
+    "letters": [
+      1, 5
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Francis_Vere",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "bullingham-john",
+    "name": "John Bullingham",
+    "shortBio": "Bishop of Gloucester (died 1598). His death is noted by Chamberlain in the letter of 31 May 1598.",
+    "letters": [
+      5
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/John_Bullingham",
       "odnb": "",
       "britannica": ""
     }

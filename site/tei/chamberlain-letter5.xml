@@ -3,10 +3,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from John Chamberlain to [Recipient]</title>
+        <title>Letter from John Chamberlain to Dudley Carleton, 31 May 1598</title>
         <respStmt>
-          <resp>Contributor</resp>
-          <name>[Contributor Name]</name>
+          <resp>Editor</resp>
+          <name>Brandon Taylor</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,6 +19,8 @@
           <pubPlace>Philadelphia</pubPlace>
           <publisher>American Philosophical Society</publisher>
           <date when="1939">1939</date>
+          <biblScope unit="volume">1</biblScope>
+          <biblScope unit="page">39–41</biblScope>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,17 +30,17 @@
     <front>
       <div type="letter-meta">
         <head>Letter Metadata</head>
-        <p><date when="[YYYY-MM-DD]">[Human-Readable Date]</date></p>
-        <p><placeName>[Place of Writing]</placeName></p>
+        <p><date when="1598-05-31">31 May 1598</date></p>
+        <p><placeName ref="#london">London</placeName></p>
         <p><correspDesc>
           <correspAction type="sent">
             <persName ref="#chamberlain-john">John Chamberlain</persName>
-            <date when="[YYYY-MM-DD]"/>
-            <placeName>[Place of Writing]</placeName>
+            <date when="1598-05-31"/>
+            <placeName ref="#london">London</placeName>
           </correspAction>
           <correspAction type="received">
-            <persName ref="#[recipient-id]">[Recipient Name]</persName>
-            <placeName>[Place of Receipt, if known]</placeName>
+            <persName ref="#carleton-dudley">Dudley Carleton</persName>
+            <placeName ref="#ostend">Ostend</placeName>
           </correspAction>
         </correspDesc></p>
       </div>
@@ -46,15 +48,88 @@
 
     <body>
       <div type="letter-text">
-        <p>[Paste letter content here. Use <note place="foot">Example note content.</note>]</p>
-        <p>[Tag people/places like <persName ref="#cecil-robert">Robert Cecil</persName><note type="editorial">Verify this is the correct Cecil.</note>]</p>
+
+        <p>Though I have not heard from you since I wrote last, neither have
+        we any novelties greatly worth the writing, yet being to go out of
+        towne to morrow towards <placeName ref="#ascott">Askot</placeName>,
+        me thinckes I must needs bid you farewell.</p>
+
+        <p>Your frend <persName ref="#edmondes-thomas">Edmonds</persName><note>Thomas
+        Edmondes (knighted, 1603).</note> came out of
+        <placeName ref="#france">Fraunce</placeName> the last weeke and bringes
+        worde that the peace there is so forward that yt lackes nothing but the
+        publishinge,<note>The peace was publicly proclaimed May 26.</note> which
+        is thought to be performed by this time, and all the townes upon the
+        point of deliverie. He is like to be tossed to and fro and
+        brickewald<note>Corruption of French <hi rend="italics">bricoler</hi>,
+        associated by popular etymology with the brick wall of the tennis
+        court.</note> like a tennis ball from the one side to the other somwhat
+        to be concluded: for we have two moneths time to deliberate whether we
+        will treat or no, and three moneths more for the treaty: wherupon we are
+        not yet fully resolved but consult dayly about yt and the further they
+        looke into yt the more difficulties appeare, insomuch that the wisest
+        judgements are distracted and know not what to choose; for mine owne
+        part having heard what hath bin sayde <hi rend="italics" xml:lang="la">pro
+        et contra</hi> on both sides, I cannot well discerne whether were better
+        an insidious peace, or so faint and weake a warre as we have made
+        hitherto and are like to do hereafter, which doth rather prolonge and
+        drawe on the consumption then remedie the disease. In the meane time the
+        state of <placeName ref="#ireland">Ireland</placeName> stands in yll
+        termes, for we are so wholly possest with this ymaginarie peace that we
+        cannot attend yt. Not past eight dayes since it was decreed that
+        <persName ref="#bingham-richard">Sir Rich: Bingham</persName>,
+        <persName ref="#bagnall-samuel">Sir Samuell Bagnoll</persName> and
+        <persName ref="#docwra-henry">Sir Henry Docwray</persName> shold be sent
+        thether with ech of them a regiment of 2000: but that course is altered
+        and now they talke that <persName ref="#raleigh-walter">Sir W.
+        Raleigh</persName> and <persName ref="#carew-george">Sir George
+        Carew</persName><note>Of Clopton, Warwickshire. He was created Lord
+        Carew of Clopton in 1605, and Earl of Totnes in 1626.</note> shold
+        undertake yt, but how longe that will hold is uncertain.</p>
+
+        <p><persName ref="#zouche-edward">Zouch</persName><note>Edward, eleventh
+        Lord Zouche of Harringworth, and
+        <persName ref="#perkins-christopher">Christopher Perkins</persName>
+        (knighted, 1603).</note> with
+        <persName ref="#perkins-christopher">Dr. Parkins</persName> is going
+        ambassador into <placeName ref="#denmark">Denmarke</placeName> with
+        certain secret instructions to go into
+        <placeName ref="#poland">Poland</placeName> likewise about a Dutch baron.
+        The newes I wrote of <persName ref="#blount-charles">Sir Charles
+        Blunt</persName> must be recalled for yt was a mistaking of a combat
+        that passed betwene a Frenchman and a Dutchman that was knighted at
+        Cales. Bluet in Britain is sayde to be rased. One
+        <persName ref="#cary-george">Cary</persName><note>George Carew
+        (knighted, 1603), son of Thomas Carew of Antony, and secretary to
+        <persName ref="#egerton-thomas">Sir Thomas Egerton</persName>.</note>
+        is appointed secretarie to the Lord Keper for such busines.
+        <persName ref="#vere-francis">Sir Fra: Vere</persName> is to go very
+        shortly to <orgName ref="#states-general">the States</orgName>. The
+        Lord bishop of <placeName ref="#gloucester">Glocester</placeName><note>John
+        Bullingham.</note> is lately dead. All your private frends are as you
+        left them, and so wishing the continuance of your health and welfare I
+        commit you to God.</p>
+
+        <closer>
+          <dateline>From <placeName ref="#london">London</placeName> this
+          <date when="1598-05-31">last of May 1598</date>.</dateline>
+          <signed>Your assured frend<lb/>
+          <persName ref="#chamberlain-john">JOHN CHAMBERLAIN</persName>.</signed>
+        </closer>
+
+        <postscript>
+          <p><address><addrLine>To my very goode frend Master
+          <persName ref="#carleton-dudley">Dudley Carleton</persName> attending
+          on the Lord Governor of
+          <placeName ref="#ostend">Ostend</placeName> geve these.</addrLine></address></p>
+        </postscript>
       </div>
     </body>
 
     <back>
       <div type="editor-note">
         <head>Editor's Note</head>
-        <p>[Summarize this letter for general readers. What is it about? What historical context is useful?]</p>
+        <p>Written from London on 31 May 1598, the day before Chamberlain was to leave for Ascott, this letter offers his most sustained meditation on the question of Anglo-Spanish peace. Thomas Edmondes has returned from France reporting the peace all but concluded (it was proclaimed on May 26), but Chamberlain is genuinely uncertain whether peace is better than the half-hearted war England has waged. The letter's central passage weighs the risks: Dutch commercial exclusion, the worsening situation in Ireland, and the general paralysis of English policy. He reports that the original plan to send Bingham, Bagnall, and Docwra to Ireland with regiments has been scrapped in favour of an alternative involving Raleigh and Sir George Carew, which he expects will also come to nothing. A final miscellany covers the Zouche-Perkins embassy to Denmark and Poland, the correction of Chamberlain's earlier report about Sir Charles Blount's duel (which was actually a different fight altogether), the reported demolition of the Spanish fort at Blavet in Brittany, a new appointment as secretary to the Lord Keeper, Sir Francis Vere's imminent departure for the States, and the death of the Bishop of Gloucester.</p>
       </div>
     </back>
   </text>
