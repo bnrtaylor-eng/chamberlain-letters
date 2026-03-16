@@ -2,27 +2,45 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Chamberlain Letter Viewer</title>
-  <script src="/js/CETEI.js"></script>
-  <script src="/js/people.js"></script>
-  <style>
-    body {
-      font-family: Georgia, serif;
-      margin: 2em;
-      line-height: 1.6;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viewing Letter – Chamberlain Letters</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <main id="letter"></main>
+  <header>
+    <h1>Viewing Letter</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="letters.html">Browse Letters</a>
+    <a href="people/index.html">Personography</a>
+    <a href="places/index.html">Placeography</a>
+    <a href="works/index.html">Workography</a>
+    <a href="orgs/index.html">Orgography</a>
+    <a href="about.html">About</a>
+    <a href="guidelines.html">Editorial Guidelines</a>
+  </nav>
+  <main>
+    <div id="letter">Loading letter...</div>
+  </main>
+  <footer>
+    Content licensed under
+    <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">CC BY 4.0</a>.
+    Attribution to Brandon Taylor, project editor.
+  </footer>
+
+  <script src="js/CETEI.js"></script>
+  <script src="js/people.js"></script>
   <script>
     const params = new URLSearchParams(window.location.search);
     const file = params.get("file");
 
     if (file) {
-      const CETEI = new CETEIcean();
-      CETEI.getXML(`/tei/${file}`).then(data => {
-        CETEI.makeHTML5(data, html => {
+      const cetei = new CETEIcean();
+      cetei.getXML(`/tei/${file}`).then(data => {
+        cetei.makeHTML5(data, html => {
+          document.getElementById("letter").innerHTML = "";
           document.getElementById("letter").appendChild(html);
         });
       });
