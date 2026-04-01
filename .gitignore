@@ -3,3 +3,11 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# Large source files — present locally but not tracked in git
+*.pdf
+resources/mcclure_vol1.txt
+resources/mcclure_vol2.txt
+
+# macOS
+.DS_Store

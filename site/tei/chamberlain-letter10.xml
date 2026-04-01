@@ -3,10 +3,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from John Chamberlain to [Recipient]</title>
+        <title>Letter from John Chamberlain to Dudley Carleton, 8 November 1598</title>
         <respStmt>
-          <resp>Contributor</resp>
-          <name>[Contributor Name]</name>
+          <resp>Editor</resp>
+          <name>Brandon Taylor</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,6 +19,8 @@
           <pubPlace>Philadelphia</pubPlace>
           <publisher>American Philosophical Society</publisher>
           <date when="1939">1939</date>
+          <biblScope unit="volume">1</biblScope>
+          <biblScope unit="page">50–53</biblScope>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,17 +30,17 @@
     <front>
       <div type="letter-meta">
         <head>Letter Metadata</head>
-        <p><date when="[YYYY-MM-DD]">[Human-Readable Date]</date></p>
-        <p><placeName>[Place of Writing]</placeName></p>
+        <p><date when="1598-11-08">8 November 1598</date></p>
+        <p><placeName ref="#london">London</placeName></p>
         <p><correspDesc>
           <correspAction type="sent">
             <persName ref="#chamberlain-john">John Chamberlain</persName>
-            <date when="[YYYY-MM-DD]"/>
-            <placeName>[Place of Writing]</placeName>
+            <date when="1598-11-08"/>
+            <placeName ref="#london">London</placeName>
           </correspAction>
           <correspAction type="received">
-            <persName ref="#[recipient-id]">[Recipient Name]</persName>
-            <placeName>[Place of Receipt, if known]</placeName>
+            <persName ref="#carleton-dudley">Dudley Carleton</persName>
+            <placeName ref="#ostend">Ostend</placeName>
           </correspAction>
         </correspDesc></p>
       </div>
@@ -46,16 +48,173 @@
 
     <body>
       <div type="letter-text">
-        <p>[Paste letter content here. Use <note place="foot">Example note content.</note>]</p>
-        <p>[Tag people/places like <persName ref="#cecil-robert">Robert Cecil</persName><note type="editorial">Verify this is the correct Cecil.</note>]</p>
+        <opener>Master Carleton,</opener>
+
+        <p>Your letters of the 23th of the last came sixe or eight dayes since, and I have staide
+          the longer to aunswer them in hope somwhat wold fall out worth the writing, and withall
+          I had another lay on my handes for want of cariage, for though with much search I found
+          out where the post of Sandwich lay yet not having any body there to direct yt unto, or
+          that wold take care to send yt over I wold not commit yt altogether to hap hasard; upon
+          inquiry I learne there is one Master Robinson might do yt very conveniently yf either of
+          us had any acquaintaunce with him. Our court causes are still <hi rend="italic">in statu
+          quo prius</hi>, and no more certainty what will become of any of those places then when
+          I wrote you last. Only they have resolved upon
+          <persName ref="#neville-henry">Master Nevill</persName><note>Henry Neville
+          (c. 1564–1615), diplomat and MP for Berkshire. Despite his earnest suit to the contrary,
+          he was confirmed as ambassador to France and given orders to make himself ready before
+          Christmas. He was knighted after his appointment; see Letter 9 for his earlier
+          nomination.</note> for Fraunce and (for all his earnest sute to the contrary) he hath
+          warning to make himself redy this and Christmas. The Frenchman that is come is
+          <hi rend="italic">de robbe longue</hi><note><persName ref="#thumery-de-boissise">Le
+          Sieur Thumery de Boissise</persName>, who arrived at Dover on 14 October 1598 and remained
+          as ambassador until 1601. <hi rend="italic">De robbe longue</hi> means of the long robe —
+          a civilian lawyer rather than a military man; see Letter 9. He was brother-in-law to
+          the president of the Parlement of Harlay.</note>, brother in law to him that was here
+          this time twelvemoneth having maried two sisters daughters to the president of Harle. We
+          heare the French king is sicke of a caruncle or carnosite in his yard which is thought
+          wilbe a very difficult cure.<note>A caruncle is a fleshy morbid growth; "his yard" is
+          the penis. Henri IV was suffering from a urogenital complaint in autumn 1598, a detail
+          Chamberlain relays with characteristic anatomical candour.</note> When I wrote you last
+          we did but suspect the kindling of a fire in
+          <placeName ref="#ireland">Ireland</placeName> which is since broken out into an open
+          flame, so far foorth that unles there be present help yt is feared all wilbe gon; for we
+          heare of new conspiracies every day, and there was a plot layde to betray
+          <placeName ref="#dublin">Dublin</placeName>; and besides that the people are generally
+          (as well in respect of religion as for other alliances) inclined to the rebells, the
+          townes begin to stagger and refuse to receve garrison. Those of
+          <placeName ref="#munster">Mounster</placeName> have set up a new
+          <persName ref="#fitzgerald-james">Desmond</persName><note>James Fitzthomas Fitzgerald,
+          who assumed the title of Earl of Desmond with backing from the Pope and the Irish
+          confederacy; see Letter 9. He was known as the Súgán Earl, from the Irish
+          <hi rend="italic">súgán</hi> (a straw rope), implying the illegitimacy of his
+          claim.</note> (by the Popes meanes as is saide), and persecute our English undertakers
+          that were planted in those partes with all manner of villanie and barbarous crueltie.
+          The erle of
+          <persName ref="#butler-thomas-ormond">Ormond</persName><note>Thomas Butler
+          (1531–1614), tenth Earl of Ormond, known as "Black Tom Butler." The most powerful
+          Anglo-Irish magnate loyal to the crown, and a long-standing favourite of Elizabeth I.
+          His county of Tipperary was directly exposed to rebel incursions by autumn 1598, giving
+          him personal as well as political motives to act.</note> hath sent over in post for 2000
+          men which are making redy with all possible haste, and yt is looked he shold do other
+          manner of service then he hath don hitherto now that yt toucheth his freehold and that
+          the fire is come so neere him that yt hath almost consumed his countie of Tipperare. Yt
+          is generally held that the erle of
+          <persName ref="#devereux-robert">Essex</persName> shall go thether towards the spring
+          as lieutenant generall, and the
+          <persName ref="#blount-charles">Lord Mountjoy</persName> as his Lord Deputie with
+          divers other younge lordes and noble men: and that he shalbe accompanied with the most
+          part of those knights that be his creatures, for yt is thought fit they shold not come
+          too easilie by theyre honor, but that in this case as well as in many others yt should
+          be graunted for service don and to be don. We looke to morrow for the arraignment of
+          <persName ref="#stanley-john">Stanly</persName>,
+          <persName ref="#rolles">Rolles</persName>,
+          <persName ref="#squire-edward">Squire</persName><note>Edward Squire (d. 1598),
+          a ship's steward who had been captured by the Spanish and converted into an agent. He
+          confessed to attempting to poison the pommel of Essex's saddle and to infecting the
+          Queen's chair-arm with a poisonous ointment. He was hanged and quartered on
+          23 November 1598. (<hi rend="italic">Cal. S. P. Dom.</hi>, 1598–1601,
+          pp. 107–110, 111–112; Camden, <hi rend="italic">Annales</hi>,
+          pp. 498–499.)</note> and the rest of that crue.</p>
+
+        <p>The report goes of very fowle matters discovered, and some part attempted by them; as
+          theyre trialls fall out you shall heare more by my next. The Imperiall
+          <persName ref="#arundell-thomas">Count Arundell</persName><note>Thomas Arundell
+          (c. 1560–1639), son of Sir Matthew Arundell of Wardour Castle. Created Count of the
+          Holy Roman Empire by the Emperor Rudolf II in 1595 for his service against the Turks
+          in Hungary — a title that proved controversial in England. He was now committed for
+          having held conversations with Stanley; he was later created Lord Arundell of Wardour
+          in 1605.</note> is committed, who had some conferences with
+          <persName ref="#stanley-john">Stanly</persName>; [he is committed] to the keping of
+          <persName ref="#herbert-john">Dr. Harbert</persName> at his first arrivall. The new
+          Countesse of
+          <persName ref="#wriothesley-henry">Southampton</persName>,
+          <persName ref="#vernon-elizabeth">my Lady</persName>,<note>Elizabeth Vernon
+          (c. 1572–1655), maid of honour to Queen Elizabeth, who had secretly married Henry
+          Wriothesley, third Earl of Southampton, earlier in 1598 while pregnant. Their
+          clandestine marriage had incensed the Queen; see Letter 6. The child, a daughter, was
+          Penelope Wriothesley.</note> is brought a bed of a daughter, and to mend her portion
+          the erle her father hath lately lost 18000 crownes at tennis in
+          <placeName ref="#paris">Paris</placeName>.<note>The phrase "the erle her father" most
+          likely refers to Southampton himself, as father of the newborn daughter. Southampton
+          was in France at this time, and the 18,000 crowns lost at tennis would be characteristic
+          of the financial recklessness that kept his affairs unsettled throughout this
+          period.</note></p>
+
+        <p><persName ref="#southwell-robert">Sir Robert Southwell</persName><note>Sir Robert
+          Southwell (1561–1598), soldier and diplomat; served in Ireland and the Low Countries.
+          He died in late October 1598. His widow, Elizabeth, was daughter of Charles Howard,
+          first Earl of Nottingham.</note> is dead and hath left his lady a rich widow. The Quene
+          hath geven the
+          <persName ref="#fitzgerald-frances-kildare">Countesse of Kildare</persName><note>Frances
+          Howard (d. 1628), daughter of Charles Howard, first Earl of Nottingham, and widow of
+          Henry Fitzgerald, twelfth Earl of Kildare (d. 1597). Her jointure from the Kildare
+          estates had been disrupted by the Irish rebellion, prompting the Queen's award of an
+          annuity.</note> 700<hi rend="italic">li</hi> a yeare out of the exchecquer in
+          recompence of her jointure spoyled in
+          <placeName ref="#ireland">Irland</placeName>. The
+          <persName ref="#savile-henry">warden of Marton Colledge</persName><note>Henry Savile
+          (1549–1622), scholar, editor of Chrysostom and Tacitus; Warden of Merton College,
+          Oxford, from 1585, and Provost of Eton from 1596. He was engaged throughout the 1590s
+          in a contentious disciplinary struggle with certain Merton fellows; knighted in
+          1604.</note> hath got a great victorie of his fellowes and raunsommed the rest expelled
+          and punished amongst them, of whom
+          <persName ref="#colmer-jasper">Master Colmer</persName><note>Jasper Colmer, proctor
+          of Merton College; expelled in the course of the warden's disciplinary proceedings.
+          According to Chamberlain, he died within five days, of grief or — as Chamberlain puts
+          it — "curst hart."</note> died within five dayes after of greife or curst hart.
+          <persName ref="#reynolds-john">Dr. Raynolds</persName><note>John Reynolds (also
+          Rainolds; 1549–1607), Puritan divine, theologian, and biblical scholar. Elected
+          President of Corpus Christi College, Oxford, in 1598; later a principal instigator of
+          the King James Bible (1611). Chamberlain notes that he exchanged his position at
+          Lincoln College with Dr. William Cole.</note> is head of Corpus Christi Colledge having
+          exchaunged Lincoln with
+          <persName ref="#cole-william">Dr. Cole</persName>.<note>William Cole (d. 1600),
+          clergyman; took up a position at Lincoln College, Oxford, when Reynolds moved to
+          Corpus Christi.</note> The king of
+          <placeName ref="#spain">Spaine</placeName> is saide to have staid all the Hollanders,
+          and all Irish ships that have not the earle of
+          <persName ref="#oneill-hugh">Tirons</persName> passe. I had almost forgot to recall
+          the killing of
+          <persName ref="#bagnall-samuel">Sir Samuell Bagnoll</persName>, for yt falles out to
+          be nothing so, and yet was yt current both in court and countrie above ten dayes
+          together.
+          <persName ref="#ortelius-abraham">Ortelius</persName> his <hi rend="italic">Thesaurus
+          Geographicus</hi><note>Abraham Ortelius (1527–1598), Flemish cartographer and creator
+          of the <hi rend="italic">Theatrum Orbis Terrarum</hi> (1570). He had died in June 1598;
+          Chamberlain refers to his <hi rend="italic">Thesaurus Geographicus</hi> (expanded
+          edition, 1596), a geographical dictionary that
+          <persName ref="#lytton-rowland">Rowland Lytton</persName> is sending to
+          Carleton. The book's bulk made it impossible to send by ordinary post.</note> is too
+          bigg to be sent by an ordinarie messenger, and therfore yt must stay till your boat come
+          or that you send other order; your cousen
+          <persName ref="#lytton-rowland">Lytton</persName> will needs bestow yt on you, wherin
+          I made no longe strife. I sent your letter to the
+          <persName ref="#north-anne">Lady Northes</persName><note>Anne North (née Rich;
+          d. 1616), wife of Roger North, second Baron North, of Kirtling Hall,
+          Cambridgeshire. Carleton evidently had ties to the North household, though Chamberlain
+          found them socially exacting: he complains that they return his letters rather than
+          forwarding them, and give him no direction for sending his own.</note> because she lies
+          far of, and the wether hath ben so exceding fowle that I stir litle abrode, neither am
+          I overhastie to come there, they be so apt to take toyes and become so numerous that
+          they send backe your letters when I desire they wold convay them, or geve me any
+          direction how I might send myself. But I will find a time to visit them, because you
+          wish yt, and for the auncient goodwill and kindly affection that hath past betwene us,
+          in which respect I will alwayes be redy to do them the best service I can. And so
+          wishing you all health and welfare I commit you to God.</p>
+
+        <closer>
+          <dateline>From <placeName ref="#london">London</placeName> this
+            <date when="1598-11-08">8th of November 1598</date>.</dateline>
+          <signed>Yours most assuredly,
+            <persName ref="#chamberlain-john">JOHN CHAMBERLAIN</persName>.</signed>
+        </closer>
+
+        <postscript>
+          <p>To my very goode frend Master
+            <persName ref="#carleton-dudley">Dudley Carleton</persName> attending on the Lord
+            Governor of <placeName ref="#ostend">Ostend</placeName> geve these.</p>
+        </postscript>
       </div>
     </body>
-
-    <back>
-      <div type="editor-note">
-        <head>Editor's Note</head>
-        <p>[Summarize this letter for general readers. What is it about? What historical context is useful?]</p>
-      </div>
-    </back>
   </text>
 </TEI>

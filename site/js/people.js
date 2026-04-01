@@ -198,9 +198,9 @@ const people = [
   {
     "id": "blount-charles",
     "name": "Sir Charles Blount",
-    "shortBio": "Later eighth Baron Mountjoy and Earl of Devonshire; military commander and favourite of Elizabeth I. Chamberlain reports — then corrects — a rumour about a duel in Paris in 1598, and names him as a candidate for Lord Deputy of Ireland in autumn 1598.",
+    "shortBio": "Later eighth Baron Mountjoy and Earl of Devonshire; military commander and favourite of Elizabeth I. Chamberlain reports — then corrects — a rumour about a duel in Paris in 1598, names him as a candidate for Lord Deputy in autumn 1598, and by November 1598 reports it generally held he would go to Ireland as Essex's Lord Deputy.",
     "letters": [
-      3, 5, 9
+      3, 5, 9, 10
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Charles_Blount,_8th_Baron_Mountjoy",
@@ -276,9 +276,9 @@ const people = [
   {
     "id": "lytton-rowland",
     "name": "Rowland Lytton",
-    "shortBio": "Cousin of Dudley Carleton and owner of Knebworth House, Hertfordshire. Chamberlain frequently visited and wrote from Knebworth; Lytton hosted Lady Pelham there in September 1598 and escorted her to Bletsoe; he attended the burial of Sir John Brockett in October 1598.",
+    "shortBio": "Cousin of Dudley Carleton and owner of Knebworth House, Hertfordshire. Chamberlain frequently visited and wrote from Knebworth; Lytton hosted Lady Pelham there in September 1598 and escorted her to Bletsoe; attended the burial of Sir John Brockett in October 1598; and in November 1598 was insisting on sending Carleton a copy of Ortelius's Thesaurus Geographicus.",
     "letters": [
-      3, 6, 7, 9
+      3, 6, 7, 9, 10
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -373,19 +373,6 @@ const people = [
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Richard_Bingham_(soldier)",
-      "odnb": "",
-      "britannica": ""
-    }
-  },
-  {
-    "id": "bagnall-samuel",
-    "name": "Sir Samuel Bagenal",
-    "shortBio": "English military officer in Ireland; brother of Sir Henry Bagenal, Marshal of Ireland. Proposed for the Irish command in May 1598 and dispatched to Ireland after his brother's death at Yellow Ford.",
-    "letters": [
-      5, 6
-    ],
-    "externalLinks": {
-      "wikipedia": "",
       "odnb": "",
       "britannica": ""
     }
@@ -510,9 +497,9 @@ const people = [
   {
     "id": "devereux-robert",
     "name": "Robert Devereux, second Earl of Essex",
-    "shortBio": "Queen Elizabeth's troubled favourite. Commanded the Islands Voyage (1597); fell from favour in 1598; returned to the Privy Council on 10 September 1598. Back at court by October, he remained the frontrunner for Master of the Court of Wards, yet obstacles — including a reported scruple about the oath — kept him from it.",
+    "shortBio": "Queen Elizabeth's troubled favourite. Commanded the Islands Voyage (1597); fell from favour in 1598; returned to the Privy Council on 10 September 1598. Back at court by October, he remained the frontrunner for Master of the Court of Wards, yet obstacles kept him from it; by November 1598 he was expected to command in Ireland the following spring.",
     "letters": [
-      1, 2, 6, 7, 8, 9
+      1, 2, 6, 7, 8, 9, 10
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Robert_Devereux,_2nd_Earl_of_Essex",
@@ -614,9 +601,9 @@ const people = [
   {
     "id": "oneill-hugh",
     "name": "Hugh O'Neill, second Earl of Tyrone",
-    "shortBio": "Irish chieftain and leader of the Nine Years' War. Defeated Bagenal at Yellow Ford (1598); his forces continue to dominate English attention through late 1598 as Ireland deteriorates.",
+    "shortBio": "Irish chieftain and leader of the Nine Years' War. Defeated Bagenal at Yellow Ford (1598); his forces continue to dominate English attention through late 1598 as Ireland deteriorates. By November 1598, Philip III of Spain was reportedly stopping all Dutch and Irish ships lacking Tyrone's pass.",
     "letters": [
-      6, 8
+      6, 8, 10
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Hugh_O%27Neill,_2nd_Earl_of_Tyrone",
@@ -718,9 +705,9 @@ const people = [
   {
     "id": "vernon-elizabeth",
     "name": "Elizabeth Vernon",
-    "shortBio": "Daughter of John Vernon of Hodnet, Shropshire; maid of honour to Queen Elizabeth. Secretly married Henry Wriothesley, third Earl of Southampton, in 1598 while pregnant — a match that infuriated the Queen.",
+    "shortBio": "Daughter of John Vernon of Hodnet, Shropshire; maid of honour to Queen Elizabeth. Secretly married Henry Wriothesley, third Earl of Southampton, in 1598 while pregnant — a match that infuriated the Queen. In November 1598 Chamberlain reports she was delivered of a daughter (Penelope Wriothesley).",
     "letters": [
-      6
+      6, 10
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Elizabeth_Vernon",
@@ -731,9 +718,9 @@ const people = [
   {
     "id": "wriothesley-henry",
     "name": "Henry Wriothesley, third Earl of Southampton",
-    "shortBio": "English nobleman, patron of Shakespeare, and royal favourite. Secretly married Elizabeth Vernon in 1598, provoking the Queen's fury; later involved in the Essex rebellion of 1601.",
+    "shortBio": "English nobleman, patron of Shakespeare, and royal favourite. Secretly married Elizabeth Vernon in 1598, provoking the Queen's fury; later involved in the Essex rebellion of 1601. In November 1598, Chamberlain reports him losing 18,000 crowns at tennis in Paris while his wife was delivered of their daughter.",
     "letters": [
-      6
+      6, 10
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Henry_Wriothesley,_3rd_Earl_of_Southampton",
@@ -861,9 +848,9 @@ const people = [
   {
     "id": "stanley-john",
     "name": "John Stanley",
-    "shortBio": "Arrested in October 1598 and committed to the Tower after claiming he had been sent by Spain to assassinate Queen Elizabeth. He also maintained that Philip II was not yet dead. Several of his confederates — including the Catholic priest Christopher Bagshaw — were arrested and sent to the Tower the following month. (Cal. S. P. Dom., 1598–1601, pp. 106–107.)",
+    "shortBio": "Arrested in October 1598 and committed to the Tower after claiming he had been sent by Spain to assassinate Queen Elizabeth. Several of his confederates were arrested the following month; his trial was imminent as of Chamberlain's letter of 8 November 1598, where Stanley appears alongside Rolles and Edward Squire — who confessed to a plot to poison both the Queen and Essex.",
     "letters": [
-      8, 9
+      8, 9, 10
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -926,9 +913,9 @@ const people = [
   {
     "id": "fitzgerald-james",
     "name": "James Fitzthomas Fitzgerald",
-    "shortBio": "Grandson of the fourteenth Earl of Desmond. In 1598 he assumed the title of Earl of Desmond — a claim the crown rejected — and led a force of roughly 8,000 men in the Munster rising. Captured in 1601 and executed in the Tower in 1607.",
+    "shortBio": "Known as the Súgán Earl (from the Irish for straw rope, implying an illegitimate claim); grandson of the fourteenth Earl of Desmond. Assumed the Desmond title with papal backing in 1598 and led the Munster rising; Chamberlain reports him persecuting English planters with \"all manner of villanie and barbarous crueltie.\" Captured in 1601 and executed in the Tower in 1607.",
     "letters": [
-      9
+      9, 10
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/James_Fitzthomas_Fitzgerald",
@@ -939,9 +926,9 @@ const people = [
   {
     "id": "thumery-de-boissise",
     "name": "Le Sieur Thumery de Boissise",
-    "shortBio": "French ambassador to England, arriving at Dover on 14 October 1598 and remaining until 1601. A lawyer by training ('a civilian'), his mission involved complaints about English piracy against French shipping.",
+    "shortBio": "French ambassador to England, arriving at Dover on 14 October 1598 and remaining until 1601. Chamberlain describes him as de robbe longue — a civilian lawyer rather than a military man — and notes he was brother-in-law to the president of the Parlement of Harlay. His mission involved complaints about English piracy against French shipping.",
     "letters": [
-      9
+      9, 10
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -952,9 +939,9 @@ const people = [
   {
     "id": "neville-henry",
     "name": "Henry Neville",
-    "shortBio": "Diplomat and MP for Berkshire, knighted in 1599 after his appointment as ambassador to France. His mission to Henry IV (1599–1601) coincided with the Essex revolt, in which Neville was implicated; he was imprisoned briefly in 1601.",
+    "shortBio": "Diplomat and MP for Berkshire, knighted in 1599 after his appointment as ambassador to France. Despite his own earnest suit against it, he was confirmed for the French posting before Christmas 1598 and ordered to make himself ready. His mission to Henry IV (1599–1601) coincided with the Essex revolt, in which he was implicated; he was imprisoned briefly in 1601.",
     "letters": [
-      9
+      9, 10
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Henry_Neville_(diplomat)",
@@ -1030,9 +1017,9 @@ const people = [
   {
     "id": "bagnall-samuel",
     "name": "Sir Samuel Bagnall",
-    "shortBio": "English military officer serving in Munster during the Nine Years' War. Chamberlain reports him stabbed by Christopher St. Lawrence, son of the Lord of Howth, though Letter 10 contradicts this account.",
+    "shortBio": "English military officer in Ireland; brother of Sir Henry Bagenal, Marshal of Ireland. Proposed for the Irish command in May 1598, dispatched to Munster after his brother's death at Yellow Ford. In October 1598 Chamberlain reported him stabbed by Christopher St. Lawrence, son of the Lord of Howth — a story he publicly retracts in November 1598, having circulated as true in both court and country for over ten days.",
     "letters": [
-      9
+      5, 6, 9, 10
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -1056,9 +1043,9 @@ const people = [
   {
     "id": "philip-iii",
     "name": "Philip III of Spain",
-    "shortBio": "King of Spain (r. 1598–1621), son of Philip II. Succeeded his father in September 1598. The arrangement of his cousin the Infanta Isabella's marriage to the Archduke Albert of Austria, giving them the Spanish Netherlands, was a major diplomatic event of the period.",
+    "shortBio": "King of Spain (r. 1598–1621), son of Philip II. Succeeded his father in September 1598. Chamberlain reports the arrangement of his cousin the Infanta Isabella's marriage to the Archduke Albert of Austria; and by November 1598 he was reportedly stopping all Dutch and Irish ships that lacked Tyrone's pass.",
     "letters": [
-      9
+      9, 10
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Philip_III_of_Spain",
@@ -1095,9 +1082,9 @@ const people = [
   {
     "id": "herbert-john",
     "name": "John Herbert",
-    "shortBio": "Master of Requests under Elizabeth I and James I; considered for an embassy to France in autumn 1598.",
+    "shortBio": "Master of Requests under Elizabeth I and James I; considered for an embassy to France in autumn 1598; in November 1598, given custody of the Imperial Count Arundell, who had been committed for suspected conferences with John Stanley.",
     "letters": [
-      9
+      9, 10
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -1111,6 +1098,162 @@ const people = [
     "shortBio": "English diplomat, considered for an embassy to France in autumn 1598. Later served as ambassador to France (1601–1605).",
     "letters": [
       9
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "butler-thomas-ormond",
+    "name": "Thomas Butler, tenth Earl of Ormond",
+    "shortBio": "Known as 'Black Tom Butler' (1531–1614); the most powerful Anglo-Irish magnate loyal to the Elizabethan crown, and a long-standing personal favourite of the Queen. When the Nine Years' War spread into Munster in autumn 1598, threatening his own county of Tipperary, he sent urgently to England for 2,000 men and was expected to fight with renewed vigour now that the rebellion touched his own freehold.",
+    "letters": [
+      10
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Butler,_10th_Earl_of_Ormond",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "arundell-thomas",
+    "name": "Thomas Arundell, first Baron Arundell of Wardour",
+    "shortBio": "Son of Sir Matthew Arundell of Wardour Castle (c. 1560–1639). Created Count of the Holy Roman Empire by Emperor Rudolf II in 1595 for service against the Turks in Hungary — a title viewed with suspicion in England. In November 1598 he was committed for having held conversations with John Stanley about his alleged plot; placed in the custody of Dr. John Herbert. Later created Lord Arundell of Wardour in 1605.",
+    "letters": [
+      10
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Arundell,_1st_Baron_Arundell_of_Wardour",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "squire-edward",
+    "name": "Edward Squire",
+    "shortBio": "Ship's steward turned Spanish agent (d. 1598). Captured by the Spanish during Drake's expedition, converted, and sent back to England as an assassin. He confessed to attempting to poison the pommel of Essex's saddle and to smearing a poisonous ointment on the Queen's chair-arm. Hanged and quartered on 23 November 1598. (Cal. S. P. Dom., 1598–1601, pp. 107–110, 111–112; Camden, Annales, pp. 498–499.)",
+    "letters": [
+      10
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "rolles",
+    "name": "Rolles",
+    "shortBio": "One of Stanley's confederates, named alongside Edward Squire in the November 1598 arraignment. No further identification has been established.",
+    "letters": [
+      10
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "southwell-robert",
+    "name": "Sir Robert Southwell",
+    "shortBio": "Soldier and diplomat (1561–1598); served in Ireland and the Low Countries. Died in late October 1598, leaving his widow — Elizabeth Howard, daughter of Charles Howard, first Earl of Nottingham — in comfortable circumstances. Chamberlain notes the death as a passing piece of court news.",
+    "letters": [
+      10
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "fitzgerald-frances-kildare",
+    "name": "Frances Howard, Countess of Kildare",
+    "shortBio": "Daughter of Charles Howard, first Earl of Nottingham, and widow of Henry Fitzgerald, twelfth Earl of Kildare (d. 1597). Her jointure from the Irish Kildare estates had been disrupted by the Nine Years' War rebellion. In November 1598 Queen Elizabeth granted her £700 a year out of the Exchequer in compensation.",
+    "letters": [
+      10
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "savile-henry",
+    "name": "Sir Henry Savile",
+    "shortBio": "Scholar and administrator (1549–1622); editor of Chrysostom and translator of Tacitus; Warden of Merton College, Oxford, from 1585, and Provost of Eton from 1596. In autumn 1598 he prevailed in a prolonged disciplinary dispute with several Merton fellows, having some expelled — among them Jasper Colmer, who died within five days of his expulsion. Knighted in 1604.",
+    "letters": [
+      10
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Henry_Savile_(Bible_translator)",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "colmer-jasper",
+    "name": "Jasper Colmer",
+    "shortBio": "Proctor of Merton College, Oxford; expelled in the course of Warden Henry Savile's disciplinary proceedings against the fellows in autumn 1598. Chamberlain reports he died within five days of his expulsion, attributing it to grief or — in his characteristic phrase — 'curst hart.'",
+    "letters": [
+      10
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "reynolds-john",
+    "name": "John Reynolds",
+    "shortBio": "Also Rainolds (1549–1607); Puritan divine, theologian, and biblical scholar. Elected President of Corpus Christi College, Oxford, in 1598, exchanging his Lincoln position with Dr. William Cole. Later a principal instigator of the King James Bible (1611), having proposed it at the Hampton Court Conference in 1604.",
+    "letters": [
+      10
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/John_Reynolds_(theologian)",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "cole-william",
+    "name": "William Cole",
+    "shortBio": "Clergyman (d. 1600); took up a position at Lincoln College, Oxford, when John Reynolds moved to Corpus Christi in 1598. Mentioned by Chamberlain as part of the exchange of academic appointments.",
+    "letters": [
+      10
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "ortelius-abraham",
+    "name": "Abraham Ortelius",
+    "shortBio": "Flemish cartographer and geographer (1527–1598); creator of the Theatrum Orbis Terrarum (1570), the first modern atlas. He died in June 1598. Chamberlain notes in November 1598 that Rowland Lytton is sending Carleton his Thesaurus Geographicus (expanded edition, 1596) — a geographical dictionary too large to go by ordinary post.",
+    "letters": [
+      10
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Abraham_Ortelius",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "north-anne",
+    "name": "Anne North",
+    "shortBio": "née Rich; wife of Roger North, second Baron North, of Kirtling Hall, Cambridgeshire. Carleton evidently had ties to the North household. Chamberlain mentions forwarding a letter to her but complains that the family returns his own letters rather than passing them on, and gives him no direction for delivery — a source of mild social exasperation.",
+    "letters": [
+      10
     ],
     "externalLinks": {
       "wikipedia": "",
