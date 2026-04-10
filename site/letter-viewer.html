@@ -30,18 +30,33 @@
 
   <script src="js/CETEI.js"></script>
   <script src="js/people.js"></script>
+  <script src="js/letters.js"></script>
   <script>
     const params = new URLSearchParams(window.location.search);
     const file = params.get("file");
 
     if (file) {
-      const cetei = new CETEIcean();
-      cetei.getXML(`/tei/${file}`).then(data => {
-        cetei.makeHTML5(data, html => {
-          document.getElementById("letter").innerHTML = "";
-          document.getElementById("letter").appendChild(html);
+      const meta = letters.find(l => l.filename === file);
+      const isStub = !meta || meta.preview === "To be edited.";
+
+      if (isStub) {
+        const date = meta ? new Date(meta.date).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" }) : "Date unknown";
+        const num  = meta ? meta.number : "—";
+        document.getElementById("letter").innerHTML = `
+          <p style="font-family:'Inter',sans-serif;font-size:0.8em;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;color:#777;margin-bottom:0.5em;">Letter ${num} &middot; ${date}</p>
+          <h2 style="margin-top:0;">Not yet available</h2>
+          <p>This letter has not yet been encoded for the edition. The project is being built incrementally; encoded letters are added as editorial work is completed.</p>
+          <p>To follow the project's progress or enquire about contributing, see the <a href="about.html">About</a> page or the <a href="guidelines.html">Editorial Guidelines</a>.</p>
+        `;
+      } else {
+        const cetei = new CETEIcean();
+        cetei.getXML(`/tei/${file}`).then(data => {
+          cetei.makeHTML5(data, html => {
+            document.getElementById("letter").innerHTML = "";
+            document.getElementById("letter").appendChild(html);
+          });
         });
-      });
+      }
     } else {
       document.getElementById("letter").textContent = "No TEI file specified. Add ?file=filename.xml to the URL.";
     }
