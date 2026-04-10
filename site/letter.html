@@ -40,14 +40,29 @@
   const params = new URLSearchParams(window.location.search);
   const file = params.get("file");
 
-  if (file) {
-    cetei.getHTML5(file, function(data) {
-      const container = document.getElementById("tei-content");
-      container.innerHTML = "";
-      container.appendChild(data);
-    });
-  } else {
+  if (!file) {
     document.getElementById("tei-content").innerText = "No letter specified.";
+  } else {
+    const response = await fetch(file);
+    const text = await response.text();
+    const isStub = text.includes("[YYYY-MM-DD]") || text.includes("[Paste letter content here");
+
+    if (isStub) {
+      const match = file.match(/chamberlain-letter(\d+)\.xml/);
+      const num = match ? match[1] : "—";
+      document.getElementById("tei-content").innerHTML = `
+        <p style="font-family:'Inter',sans-serif;font-size:0.8em;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;color:#777;margin-bottom:0.5em;">Letter ${num}</p>
+        <h2 style="margin-top:0;">Not yet available</h2>
+        <p>This letter has not yet been encoded for the edition. The project is being built incrementally; encoded letters are added as editorial work is completed.</p>
+        <p>To follow the project's progress or enquire about contributing, see the <a href="about.html">About</a> page or the <a href="guidelines.html">Editorial Guidelines</a>.</p>
+      `;
+    } else {
+      cetei.getHTML5(file, function(data) {
+        const container = document.getElementById("tei-content");
+        container.innerHTML = "";
+        container.appendChild(data);
+      });
+    }
   }
 </script>
 </body>
