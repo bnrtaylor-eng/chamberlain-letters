@@ -30,6 +30,7 @@ coke-edward
 cole-william
 colmer-jasper
 condon-patrick
+cope-walter
 cromwell-edward
 danvers-charles
 danvers-henry
@@ -61,6 +62,7 @@ lytton-rowland
 mathew-tobie
 maynard-henry
 mildmay-anthony
+moore-thomas
 morley-edward
 neville-edward
 neville-henry

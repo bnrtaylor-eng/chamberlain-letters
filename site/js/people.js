@@ -42,9 +42,9 @@ const people = [
   {
     "id": "dormer-michael",
     "name": "Michael Dormer",
-    "shortBio": "Member of Carleton's social circle. Chamberlain notes his participation in the Islands Voyage preparations and his subsequent movements in London.",
+    "shortBio": "Member of Carleton's social circle, of Ascot, Oxfordshire. Chamberlain notes his participation in the Islands Voyage preparations and his subsequent movements in London; his house at Ascot was among the Christmas invitations Chamberlain declined in December 1598.",
     "letters": [
-      1, 3, 4
+      1, 3, 4, 13
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -328,9 +328,9 @@ const people = [
   {
     "id": "williams-alexander",
     "name": "Alexander Williams",
-    "shortBio": "Husband of Elizabeth Carleton (Dudley's sister). Served as an intermediary for letters and as a London lodging contact for the Carleton circle; met by Chamberlain at Sir William Spencer's in August 1598.",
+    "shortBio": "Husband of Elizabeth Carleton (Dudley's sister). Served as an intermediary for letters and as a London lodging contact for the Carleton circle. In December 1598, Chamberlain notes that he and his wife marvelled at hearing nothing from Carleton.",
     "letters": [
-      3, 4, 6
+      3, 4, 6, 13
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -367,9 +367,9 @@ const people = [
   {
     "id": "bingham-richard",
     "name": "Sir Richard Bingham",
-    "shortBio": "English military commander. Proposed for Ireland in May 1598 and again appointed Marshal of Ireland with 5,000 men after Yellow Ford, though Chamberlain doubted it would come to pass.",
+    "shortBio": "English military commander. Proposed for Ireland in May 1598 and again appointed after Yellow Ford. In December 1598 he attempted to march to the Naas — barely twelve miles from Dublin — but was encountered and forced to retire; he fell sick at Dublin, and Chamberlain heard reports he had died.",
     "letters": [
-      5, 6
+      5, 6, 13
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Richard_Bingham_(soldier)",
@@ -393,9 +393,9 @@ const people = [
   {
     "id": "carew-george",
     "name": "Sir George Carew",
-    "shortBio": "Later Lord Carew of Clopton (1605) and Earl of Totnes (1626). Proposed alongside Raleigh as a commander for the Irish campaign in May 1598.",
+    "shortBio": "Later Lord Carew of Clopton (1605) and Earl of Totnes (1626). Proposed alongside Raleigh as a commander for the Irish campaign in May 1598; among those going to Knebworth for Christmas 1598.",
     "letters": [
-      5
+      5, 13
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/George_Carew,_1st_Earl_of_Totnes",
@@ -419,9 +419,9 @@ const people = [
   {
     "id": "perkins-christopher",
     "name": "Christopher Perkins",
-    "shortBio": "English diplomat (knighted 1603). Accompanied Lord Zouche on the embassy to Denmark and Poland in 1598; Chamberlain reports in December 1598 that he has returned from Denmark with a good answer.",
+    "shortBio": "English diplomat (knighted 1603). Sent on the embassy to Denmark in 1598; his initial claim to have brought a good answer proved hollow — by 20 December, Chamberlain reports he got only a promise of 40,000 dollars conditional on English redress of Danish grievances, while the Danish ambassador he escorted back complained chiefly of English piracy.",
     "letters": [
-      5, 12
+      5, 12, 13
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -431,10 +431,10 @@ const people = [
   },
   {
     "id": "cary-george",
-    "name": "George Carew (secretary)",
-    "shortBio": "Son of Thomas Carew of Antony (knighted 1603). Appointed secretary to the Lord Keeper Sir Thomas Egerton, as noted by Chamberlain in May 1598.",
+    "name": "George Cary / Carew",
+    "shortBio": "One or possibly two persons in Chamberlain's circle bearing the same name. In May 1598 Chamberlain notes a 'Master Carew' appointed secretary to the Lord Keeper Egerton. In December 1598 'Master Cary' returns from a mission to Poland without having secured any audience — paired by Chamberlain with Perkins's half-answer from Denmark as evidence of general diplomatic mismanagement.",
     "letters": [
-      5
+      5, 13
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -497,9 +497,9 @@ const people = [
   {
     "id": "devereux-robert",
     "name": "Robert Devereux, second Earl of Essex",
-    "shortBio": "Queen Elizabeth's troubled favourite. Commanded the Islands Voyage (1597); fell from favour in 1598; returned to the Privy Council on 10 September 1598. His Irish command remained perpetually uncertain through late 1598, with numbers cut and conditions disputed. Anthony Sherley drew bills against his name without authorisation across the Levant. Squire had poisoned his chair-arm during the Islands Voyage.",
+    "shortBio": "Queen Elizabeth's troubled favourite. Commanded the Islands Voyage (1597); fell from favour in 1598; returned to the Privy Council on 10 September 1598. His Irish command remained perpetually uncertain through late 1598, with numbers cut and conditions disputed. A disputed debt over cochineal ended his December 1598 command on Sunday night; Chamberlain pictures him passing the crisis playing backgammon with Cecil in the presence chamber 'as if Ireland were to be recovered at Irish.' Anthony Sherley drew bills against his name without authorisation across the Levant. Squire had poisoned his chair-arm during the Islands Voyage.",
     "letters": [
-      1, 2, 6, 7, 8, 9, 10, 11, 12
+      1, 2, 6, 7, 8, 9, 10, 11, 12, 13
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Robert_Devereux,_2nd_Earl_of_Essex",
@@ -510,9 +510,9 @@ const people = [
   {
     "id": "cecil-robert",
     "name": "Sir Robert Cecil",
-    "shortBio": "Son of Lord Burghley; Principal Secretary and later first Earl of Salisbury. Floated as a candidate for the Mastership of the Court of Wards in December 1598; a major figure in Elizabethan and Jacobean politics whose rise Chamberlain tracks closely throughout the correspondence.",
+    "shortBio": "Son of Lord Burghley; Principal Secretary and later first Earl of Salisbury. Floated as a candidate for the Mastership of the Court of Wards in December 1598; Chamberlain pictures him playing backgammon with Essex in the presence chamber while Ireland burned. A major figure in Elizabethan and Jacobean politics whose rise Chamberlain tracks closely throughout the correspondence.",
     "letters": [
-      6, 12
+      6, 12, 13
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Robert_Cecil,_1st_Earl_of_Salisbury",
@@ -1381,9 +1381,9 @@ const people = [
   {
     "id": "leveson-richard",
     "name": "Sir Richard Leveson",
-    "shortBio": "Naval commander (c. 1570–1605); son of Sir Walter Leveson of Lilleshall, Shropshire. In late 1598 he intercepted seventeen Hanseatic and Dutch vessels bound for Spain in the Narrow Seas — part of England's effort to prevent neutral shipping from supplying the enemy. He later became Vice Admiral of England (1604) and distinguished himself against Spanish shipping.",
+    "shortBio": "Naval commander (c. 1570–1605); son of Sir Walter Leveson of Lilleshall, Shropshire. In late 1598 he intercepted seventeen Hanseatic and Dutch vessels bound for Spain in the Narrow Seas, but most of them slipped away in the night — leaving him, as Chamberlain puts it with an Italian phrase, 'con tanto di naso' (holding the bag). He later became Vice Admiral of England (1604) and distinguished himself against Spanish shipping.",
     "letters": [
-      12
+      12, 13
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Richard_Leveson",
@@ -1475,6 +1475,32 @@ const people = [
     "shortBio": "Tenth Lord Morley (1550–1618). His brother (name unrecorded) was killed in a road brawl in December 1598 by a servant of Sir Thomas Gerard; the assailant was acquitted on grounds of self-defence.",
     "letters": [
       12
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "cope-walter",
+    "name": "Walter Cope",
+    "shortBio": "Administrator and collector (c. 1553–1614); secretary to Robert Cecil and later keeper of Whitehall Palace. He assembled a celebrated cabinet of curiosities at his house on Kensington High Street. Knighted 1603. Chamberlain notes him among the guests going to Rowland Lytton's house at Knebworth for Christmas 1598 — an invitation Chamberlain himself declined.",
+    "letters": [
+      13
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Walter_Cope",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "moore-thomas",
+    "name": "Sir Thomas Moore ('the lying knight')",
+    "shortBio": "English settler or officer in Ireland, killed by Irish rebels in late 1598 along with his wife (daughter of Sir Henry Duke), 'the properest gentlewoman of Ireland' in Chamberlain's phrase. The mocking sobriquet 'the lying knight' is unusual; Chamberlain relays it with some relish.",
+    "letters": [
+      13
     ],
     "externalLinks": {
       "wikipedia": "",

@@ -3,10 +3,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from John Chamberlain to [Recipient]</title>
+        <title>Letter from John Chamberlain to Dudley Carleton, 20 December 1598</title>
         <respStmt>
-          <resp>Contributor</resp>
-          <name>[Contributor Name]</name>
+          <resp>Editor</resp>
+          <name>Brandon Taylor</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,6 +19,8 @@
           <pubPlace>Philadelphia</pubPlace>
           <publisher>American Philosophical Society</publisher>
           <date when="1939">1939</date>
+          <biblScope unit="volume">1</biblScope>
+          <biblScope unit="page">58–60</biblScope>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,17 +30,17 @@
     <front>
       <div type="letter-meta">
         <head>Letter Metadata</head>
-        <p><date when="[YYYY-MM-DD]">[Human-Readable Date]</date></p>
-        <p><placeName>[Place of Writing]</placeName></p>
+        <p><date when="1598-12-20">20 December 1598</date></p>
+        <p><placeName ref="#london">London</placeName></p>
         <p><correspDesc>
           <correspAction type="sent">
             <persName ref="#chamberlain-john">John Chamberlain</persName>
-            <date when="[YYYY-MM-DD]"/>
-            <placeName>[Place of Writing]</placeName>
+            <date when="1598-12-20"/>
+            <placeName ref="#london">London</placeName>
           </correspAction>
           <correspAction type="received">
-            <persName ref="#[recipient-id]">[Recipient Name]</persName>
-            <placeName>[Place of Receipt, if known]</placeName>
+            <persName ref="#carleton-dudley">Dudley Carleton</persName>
+            <placeName ref="#ostend">Ostend</placeName>
           </correspAction>
         </correspDesc></p>
       </div>
@@ -46,16 +48,136 @@
 
     <body>
       <div type="letter-text">
-        <p>[Paste letter content here. Use <note place="foot">Example note content.</note>]</p>
-        <p>[Tag people/places like <persName ref="#cecil-robert">Robert Cecil</persName><note type="editorial">Verify this is the correct Cecil.</note>]</p>
+        <opener>Master Carleton,</opener>
+
+        <p>The world is litle or nothing chaunged here since I wrote last, only the Quene is
+          resolved to kepe Christmas at
+          <placeName ref="#whitehall">Whitehall</placeName>, and the matters of
+          <placeName ref="#ireland">Ireland</placeName> stand at a stay or rather go backward, for
+          the erle of
+          <persName ref="#devereux-robert">Essex</persName> his jorny thether that was in
+          suspence is now they say quite dasht — not that there is any other order taken, but only
+          that things shall still drive on there as they may, and perhaps they hope
+          <hi rend="italic">cunctando restitutere rem</hi>,<note>An allusion to the Roman
+          dictator Quintus Fabius Maximus, whose delaying tactics against Hannibal gave rise
+          to the motto <hi rend="italic">cunctando restituit rem</hi> — "by delaying he restored
+          the commonwealth." Chamberlain deploys it sardonically: Fabian delay may suit some
+          crises, but not, he implies, <hi rend="italic">deplorata valetudine</hi> — a condition
+          already desperate.</note> which all men take to be a wronge course in
+          <hi rend="italic">deplorata valetudine</hi> and so desperate a disease. From Tuesday
+          last till Sunday yt held fast and firm that the erle of
+          <persName ref="#devereux-robert">Essex</persName> was to go, and all things were
+          accordingly setled and set downe, but a sodain alteration came on Sunday night the reason
+          wherof is yet kept secret. Some say the Quene had promised to forgeve him twelve thowsand
+          pound debt due by his father, and 20000<hi rend="italic">li</hi> he ought her himself for
+          cochenilla<note>Cochineal, a red dye imported from Spanish America and highly prized in
+          the Elizabethan textile trade. Essex apparently owed the crown a large sum arising from
+          a licence or transaction in cochineal since his last journey — possibly the Islands
+          Voyage of 1597.</note> since his last jorny, which belike was mistaken, for the Quene
+          sayes she meant but the forbearance of yt, and that yt shold not be called upon in his
+          absence; but whether yt were this or some other matter all is turnd upside downe. He and
+          <persName ref="#cecil-robert">Master Secretarie</persName> have so goode leysure that
+          they plie the tables hard in the presence chamber and play so round game as yf
+          <placeName ref="#ireland">Ireland</placeName> were to be recovered at Irish.<note>Irish
+          was a board game resembling backgammon. The image of Essex and Cecil gambling at court
+          while Ireland burns is one of Chamberlain's sharpest ironies.</note> The rebells in the
+          mean time have don many outragious and slaine lately
+          <persName ref="#moore-thomas">Sir Tho. Moore</persName><note>Sir Thomas Moore, nicknamed
+          "the lying knight," an English settler or officer in Ireland killed by the rebels in
+          late 1598. The mocking sobriquet is unusual; Chamberlain seems to relay it with some
+          relish.</note> (surnamed the lieng knight) and
+          <persName ref="#dukes-wife">his wife that was Sir Henry Dukes daughter</persName><note>
+          The wife of Sir Thomas Moore, daughter of Sir Henry Duke; Chamberlain describes her as
+          "the properest gentlewoman of Ireland that I saw," suggesting he had met her personally
+          at some point.</note> and the properest gentlewoman of
+          <placeName ref="#ireland">Ireland</placeName> that I saw, and hurt
+          <persName ref="#gifford-captain">Cap. Gifford</persName>, and 800 men went to scowre the
+          country about
+          <placeName ref="#dublin">Dublin</placeName>. They have likewise overthrowne or defaced
+          fowre or five strong places or castles as they call them.
+          <persName ref="#bingham-richard">Sir Richard Bingham</persName> with twenty went to the
+          <placeName ref="#naas">Nasse</placeName>, which is not past ten or twelve miles from
+          <placeName ref="#dublin">Dublin</placeName>, but before he came thither he was so
+          incountred and beset that he was fain to retire without attempting further, and fell sicke
+          at
+          <placeName ref="#dublin">Dublin</placeName>, where some say he is dead.</p>
+
+        <p><persName ref="#perkins-christopher">Doctor Parkins</persName> at his first comming out
+          of
+          <placeName ref="#denmark">Denmarke</placeName> made his bragges that he had brought
+          matters there to a goode passe, but all he hath don is only a promise of 40000 dollers to
+          be restored on condition his subjects may be satisfied for such injuries as they have
+          receved, and to that purpose he sent an ambassador along with him who had audience on
+          Sunday last, but his message was nothing pleasing, being for the most part a complaint of
+          our piracies. And as Dr. Parkins returned with half an aunswer, so they say
+          <persName ref="#cary-george">Master Cary</persName><note>George Cary, sent on an embassy
+          to Poland; he returned having failed to secure any audience with the Polish court.
+          Chamberlain treats the paired failures of the Danish and Polish missions as symptomatic
+          of the general mismanagement of English affairs abroad.</note> is come out of
+          <placeName ref="#poland">Poland</placeName> with none at all, nor could get no audience.
+          The ships that were staide by
+          <persName ref="#leveson-richard">Sir Richard Lewson</persName> stole away most of them
+          the night following, and left him <hi rend="italic">con tanto di naso</hi><note>Italian
+          idiom: literally "with so much nose," meaning left looking foolish — equivalent to the
+          English "left holding the bag." The remark extends Chamberlain's caustic survey of
+          English incompetence at home and abroad.</note> as the Italian saith, so sutable is the
+          managing of our affaires both at home and abrode. Fowre or five shippes of your Dunkerke
+          neighbours gave a great alarme lately to
+          <placeName ref="#yorkshire">Yorkeshire</placeName> and made them fire theyre beacons, but
+          that was all the harme they did; yt is thought they meant to have landed and taken some
+          prisoners to help to redeem theyre governor.<note>Don Francisco de Aquillar Alverado,
+          Governor of Dunkirk, had been a prisoner at Ostend since 1597 — the very garrison where
+          Carleton was serving. Chamberlain's aside "your Dunkerke neighbours" acknowledges this
+          local detail.</note> We heare the States make huge levies of mony and meane to be masters
+          of the feild the next sommer whatsoever yt cost them. The French king is sending to the
+          <placeName ref="#rome">Pope</placeName> to determine the controversie of the Marquisat of
+          <placeName ref="#saluzzo">Saluces</placeName>,<note>The Marquisate of Saluzzo (Saluces),
+          an Alpine territory taken by Savoy from France in 1588. Henri IV was pressing for its
+          return or equivalent compensation; the matter was eventually settled by the Treaty of
+          Lyon in 1601.</note> for that in the treaty of peace that was referred to his
+          arbitrement. The loane of 150000<hi rend="italic">li</hi> makes many of our citizens
+          shrincke and pull in theyre hornes, but yet yt goes forward and they must furnish yt;
+          and some whispering there is that when that is don we shall heare of a
+          benevolence.<note>A benevolence was a "voluntary" gift exacted by the crown from wealthy
+          subjects — technically a free gift, in practice a forced levy. The rumour of one coming
+          on top of the current loan reflects Chamberlain's dim view of royal fiscal
+          management.</note> Yf we be driven to these shifts alredy God knowes how we shall hold
+          hereafter, and I marvayle that they which knew these wants did hearken no more after the
+          peace when they might have had yt with goode conditions.</p>
+
+        <p>You see how confidently I write to you of all things, but I hope you kepe yt to
+          yourself, and then there is no daunger; and I am so used to a libertie and fredome of
+          speach when I converse or write to my frends that I cannot easilie leave yt. Your brother
+          and sister
+          <persName ref="#williams-alexander">Williams</persName> marvaile they heare not from you.
+          I have had much ado to excuse myself this Christmas from
+          <placeName ref="#knebworth">Knebworth</placeName><note>The Hertfordshire seat of
+          <persName ref="#lytton-rowland">Rowland Lytton</persName>, where Chamberlain often
+          stayed.</note> and Ascot,<note>The Oxfordshire house of
+          <persName ref="#dormer-michael">Michael Dormer</persName>.</note> but specially from
+          <placeName ref="#knebworth">Knebworth</placeName>, the rather because
+          <persName ref="#cope-walter">Wat Cope</persName><note>Walter Cope (c. 1553–1614),
+          administrator and collector; secretary to Robert Cecil and later keeper of Whitehall
+          Palace. He assembled a famous cabinet of curiosities in his house on Kensington High
+          Street. Knighted in 1603.</note> and his wife,
+          <persName ref="#beeston-hugh">Hugh Beeston</persName>, and
+          <persName ref="#carew-george">Master Carew</persName> go thether; but upon some occasions
+          I am growne so privat that I stirre not abrode, nor mean to do but to live at home like
+          a snaile in the shell. And so, wishing you a goode new yeare and many, I end.</p>
+
+        <closer>
+          <dateline>From <placeName ref="#london">London</placeName> this
+            <date when="1598-12-20">20th of December 1598</date>.</dateline>
+          <signed>Yours most assuredly,
+            <persName ref="#chamberlain-john">JOHN CHAMBERLAIN</persName>.</signed>
+        </closer>
+
+        <postscript>
+          <p>To my very goode frend Master
+            <persName ref="#carleton-dudley">Dudley Carleton</persName> attending on the Lord
+            Governor of <placeName ref="#ostend">Ostende</placeName> geve these.</p>
+        </postscript>
       </div>
     </body>
-
-    <back>
-      <div type="editor-note">
-        <head>Editor's Note</head>
-        <p>[Summarize this letter for general readers. What is it about? What historical context is useful?]</p>
-      </div>
-    </back>
   </text>
 </TEI>
