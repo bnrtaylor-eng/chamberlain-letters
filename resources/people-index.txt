@@ -16,6 +16,7 @@ burroughs-lady
 butler-thomas-ormond
 caesar-julius
 carew-george
+carey-george
 carleton-alice
 carleton-dudley
 carleton-george
@@ -40,6 +41,7 @@ dormer-michael
 edes-richard
 edmondes-thomas
 egerton-thomas
+elizabeth-i
 evers-ralph
 evers-william
 fitzgerald-frances-kildare
@@ -60,6 +62,7 @@ leveson-richard
 lytton-anne
 lytton-rowland
 mathew-tobie
+matthew-tobias
 maynard-henry
 mildmay-anthony
 moore-thomas
@@ -73,9 +76,9 @@ obrien-donough
 oneill-hugh
 ortelius-abraham
 packington-john
+parker-edward
 parry-thomas
 paulet-william
-paulet-william-winchester
 percy-henry
 perkins-christopher
 philip-ii

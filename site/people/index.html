@@ -62,7 +62,10 @@
 
         const mentions = document.createElement("p");
         mentions.innerHTML = "<strong>Mentioned in:</strong> " + person.letters.map(n =>
-          `<a href="../letter.html?file=tei/chamberlain-letter${n}.xml">Letter ${n}</a>`).join(", ");
+          typeof n === "number"
+            ? `<a href="../letter.html?file=tei/chamberlain-letter${n}.xml">Letter ${n}</a>`
+            : `Letters ${n}`
+        ).join(", ");
         cardBody.appendChild(mentions);
 
         const links = document.createElement("ul");

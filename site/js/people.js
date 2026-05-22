@@ -68,9 +68,9 @@ const people = [
   {
     "id": "carleton-george",
     "name": "George Carleton",
-    "shortBio": "Brother of Dudley Carleton, of Huntercombe, Oxfordshire. Participated as a mourner at Lord Burghley's funeral in August 1598; Chamberlain mentions him passing through London on legal term business in November 1598.",
+    "shortBio": "Brother of Dudley Carleton, of Huntercombe, Oxfordshire. He and Brockett's daughter Elizabeth were the parents of young John Carleton (Dudley's nephew); Chamberlain reports on their family's welfare in September 1598 and mentions George passing through London on legal business in November. He participated as a mourner at Lord Burghley's funeral in August 1598.",
     "letters": [
-      1, 4, 6, 11
+      1, 4, 6, 7, 11
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/George_Carleton_(bishop)",
@@ -211,9 +211,9 @@ const people = [
   {
     "id": "evers-ralph",
     "name": "Ralph Evers, third Baron Evers",
-    "shortBio": "Third Lord Evers, Warden of the Middle Marches. Attacked with his brother Sir William by the Witherington family in a London street brawl, May 1598.",
+    "shortBio": "Third Lord Evers (also spelled Eure), Warden of the Middle Marches. A cousin served in Ireland with Lord Burgh in 1597; Ralph himself was attacked with his brother Sir William by the Witherington family in a London street brawl in May 1598.",
     "letters": [
-      3
+      1, 3
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -341,9 +341,9 @@ const people = [
   {
     "id": "paulet-william",
     "name": "William Paulet, third Marquis of Winchester",
-    "shortBio": "Third Marquis of Winchester. Named as a possible envoy for the Anglo-Spanish peace negotiations of 1598.",
+    "shortBio": "Third Marquis of Winchester (c. 1532–1598). Named as a possible envoy for the Anglo-Spanish peace negotiations in May 1598; died 25 November 1598 and was succeeded by his son William, fourth Marquis. Chamberlain reports the death with characteristic brevity.",
     "letters": [
-      3
+      3, 12
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/William_Paulet,_3rd_Marquess_of_Winchester",
@@ -575,9 +575,9 @@ const people = [
   {
     "id": "isabella-infanta",
     "name": "Isabella Clara Eugenia",
-    "shortBio": "Daughter of Philip II of Spain; became co-sovereign of the Spanish Netherlands after marrying Archduke Albert in 1599. Referenced as the Archduke's bride.",
+    "shortBio": "Daughter of Philip II of Spain; became co-sovereign of the Spanish Netherlands after marrying Archduke Albert in 1599. Chamberlain notes the Archduke's proclamation in August 1598 and, in autumn 1598, that Philip III was keeping her in a convent until the Archduke could fetch her.",
     "letters": [
-      6
+      6, 9
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Isabella_Clara_Eugenia",
@@ -1392,19 +1392,6 @@ const people = [
     }
   },
   {
-    "id": "paulet-william-winchester",
-    "name": "William Paulet, third Marquis of Winchester",
-    "shortBio": "Third Marquis of Winchester (c. 1532–1598); died 25 November 1598 and was succeeded by his son William, fourth Marquis. Chamberlain reports the death with characteristic brevity.",
-    "letters": [
-      12
-    ],
-    "externalLinks": {
-      "wikipedia": "https://en.wikipedia.org/wiki/William_Paulet,_3rd_Marquess_of_Winchester",
-      "odnb": "",
-      "britannica": ""
-    }
-  },
-  {
     "id": "neville-edward",
     "name": "Edward Neville",
     "shortBio": "Claimant to the barony of Abergavenny (c. 1556–1618). His contested title was heard at a quasi-judicial marshals court convened under Essex's authority in late 1598; the matter was referred to the Queen and eventually resolved in his favour when he was summoned to Parliament as sixth Lord Abergavenny in 1604.",
@@ -1507,19 +1494,59 @@ const people = [
       "odnb": "",
       "britannica": ""
     }
+  },
+  {
+    "id": "elizabeth-i",
+    "name": "Queen Elizabeth I",
+    "shortBio": "Queen of England and Ireland (1533–1603). Chamberlain observes her movements — visiting Julius Caesar's house at Mitcham during the progress to Nonsuch in September 1598; mentioned in connection with the abortive Essex Irish command and the Squire plot. Appears throughout the correspondence as the unseen pivot around which political fortunes turn.",
+    "letters": [
+      7, 8
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Elizabeth_I",
+      "odnb": "",
+      "britannica": "https://www.britannica.com/biography/Elizabeth-I"
+    }
+  },
+  {
+    "id": "carey-george",
+    "name": "George Carey, second Baron Hunsdon",
+    "shortBio": "Lord Chamberlain of England (1597–1603); son of Henry Carey, first Baron Hunsdon and cousin of Queen Elizabeth. His illness in autumn 1598 created a vacancy for Vice-Chamberlain, which Raleigh coveted but Stanhope received.",
+    "letters": [
+      8
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/George_Carey,_2nd_Baron_Hunsdon",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "matthew-tobias",
+    "name": "Tobias Matthew, Bishop of Durham",
+    "shortBio": "Bishop of Durham (1595–1606) and later Archbishop of York (1606–1628); father of Tobie Mathew. Referenced in letter 1 when Chamberlain warns that Carleton's financial complaints, if disclosed, might discourage young Tobie from following him to France.",
+    "letters": [
+      1
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Tobias_Matthew",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "parker-edward",
+    "name": "Master Parker (brother of Lord Morley)",
+    "shortBio": "A brother of Edward Parker, tenth Lord Morley (given name unrecorded). Killed in a road brawl in December 1598 by a man of Sir Thomas Gerard's household; the assailant was acquitted on a plea of self-defence.",
+    "letters": [
+      12
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
   }
 ];
 
 export default people;
-
-document.getElementsByTagName("tei-persName");
-Array.from(document.getElementsByTagName("tei-persName")).forEach(el => {
-  const ref = el.getAttribute("ref");
-  if (ref && ref.startsWith("#")) {
-    const id = ref.substring(1);
-    const link = document.createElement("a");
-    link.href = `/personography/${id}.html`;
-    link.textContent = el.textContent;
-    el.replaceWith(link);
-  }
-});
