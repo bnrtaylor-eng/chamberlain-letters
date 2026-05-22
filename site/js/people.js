@@ -120,9 +120,9 @@ const people = [
   {
     "id": "sackville-thomas",
     "name": "Thomas Sackville, Lord Buckhurst",
-    "shortBio": "Lord Buckhurst, later first Earl of Dorset (1604). Appointed to lead peace negotiations with Spain at Abbeville in 1598; emerged as the leading candidate for Lord Treasurer in autumn 1598 and was appointed to the post in May 1599.",
+    "shortBio": "Lord Buckhurst, later first Earl of Dorset (1604). Led peace negotiations with Spain at Abbeville in 1598; the leading candidate for Lord Treasurer from autumn 1598 through December 1598; appointed to the post in May 1599.",
     "letters": [
-      3, 9
+      3, 9, 12
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Sackville,_1st_Earl_of_Dorset",
@@ -419,9 +419,9 @@ const people = [
   {
     "id": "perkins-christopher",
     "name": "Christopher Perkins",
-    "shortBio": "English diplomat (knighted 1603). Accompanied Lord Zouche on the embassy to Denmark and Poland in 1598.",
+    "shortBio": "English diplomat (knighted 1603). Accompanied Lord Zouche on the embassy to Denmark and Poland in 1598; Chamberlain reports in December 1598 that he has returned from Denmark with a good answer.",
     "letters": [
-      5
+      5, 12
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -497,9 +497,9 @@ const people = [
   {
     "id": "devereux-robert",
     "name": "Robert Devereux, second Earl of Essex",
-    "shortBio": "Queen Elizabeth's troubled favourite. Commanded the Islands Voyage (1597); fell from favour in 1598; returned to the Privy Council on 10 September 1598. Expected to command in Ireland as early as February or March 1599, though Chamberlain notes his going remained perpetually uncertain. Squire had poisoned Essex's chair-arm during the Islands Voyage.",
+    "shortBio": "Queen Elizabeth's troubled favourite. Commanded the Islands Voyage (1597); fell from favour in 1598; returned to the Privy Council on 10 September 1598. His Irish command remained perpetually uncertain through late 1598, with numbers cut and conditions disputed. Anthony Sherley drew bills against his name without authorisation across the Levant. Squire had poisoned his chair-arm during the Islands Voyage.",
     "letters": [
-      1, 2, 6, 7, 8, 9, 10, 11
+      1, 2, 6, 7, 8, 9, 10, 11, 12
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Robert_Devereux,_2nd_Earl_of_Essex",
@@ -510,9 +510,9 @@ const people = [
   {
     "id": "cecil-robert",
     "name": "Sir Robert Cecil",
-    "shortBio": "Son of Lord Burghley; Principal Secretary and later first Earl of Salisbury. A major figure in Elizabethan and Jacobean politics; Chamberlain tracks his rise closely throughout the correspondence.",
+    "shortBio": "Son of Lord Burghley; Principal Secretary and later first Earl of Salisbury. Floated as a candidate for the Mastership of the Court of Wards in December 1598; a major figure in Elizabethan and Jacobean politics whose rise Chamberlain tracks closely throughout the correspondence.",
     "letters": [
-      6
+      6, 12
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Robert_Cecil,_1st_Earl_of_Salisbury",
@@ -718,9 +718,9 @@ const people = [
   {
     "id": "wriothesley-henry",
     "name": "Henry Wriothesley, third Earl of Southampton",
-    "shortBio": "English nobleman, patron of Shakespeare, and royal favourite. Secretly married Elizabeth Vernon in 1598, provoking the Queen's fury. Lost 18,000 crowns at tennis in Paris while his wife was delivered of their daughter; on returning to England was committed to the Fleet prison, though Chamberlain heard he was already close to release. Later involved in the Essex rebellion of 1601.",
+    "shortBio": "English nobleman, patron of Shakespeare, and royal favourite. Secretly married Elizabeth Vernon in 1598, provoking the Queen's fury. Named as general of the horse for Essex's Irish expedition in December 1598, but the appointment evaporated as the plan collapsed. Later involved in the Essex rebellion of 1601.",
     "letters": [
-      6, 10, 11
+      6, 10, 11, 12
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Henry_Wriothesley,_3rd_Earl_of_Southampton",
@@ -1030,9 +1030,9 @@ const people = [
   {
     "id": "sidney-robert",
     "name": "Sir Robert Sidney",
-    "shortBio": "Younger brother of Philip Sidney and later Viscount Lisle (1605) and Earl of Leicester (1618). Governor of Flushing in the 1590s; in autumn 1598 he was named as the likeliest candidate to be sent extraordinarily to the marriage of the French king's sister.",
+    "shortBio": "Younger brother of Philip Sidney and later Viscount Lisle (1605) and Earl of Leicester (1618). Governor of Flushing in the 1590s; named as a candidate for an embassy to France in autumn 1598; briefly nominated Lord Marshal of Essex's Irish army before that plan dissolved in December 1598.",
     "letters": [
-      9
+      9, 12
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Robert_Sidney,_1st_Earl_of_Leicester",
@@ -1238,9 +1238,9 @@ const people = [
   {
     "id": "ortelius-abraham",
     "name": "Abraham Ortelius",
-    "shortBio": "Flemish cartographer and geographer (1527–1598); creator of the Theatrum Orbis Terrarum (1570), the first modern atlas. He died in June 1598. Chamberlain notes in November 1598 that Rowland Lytton is sending Carleton his Thesaurus Geographicus (expanded edition, 1596) — a geographical dictionary too large to go by ordinary post.",
+    "shortBio": "Flemish cartographer and geographer (1527–1598); creator of the Theatrum Orbis Terrarum (1570), the first modern atlas. He died in June 1598. His Thesaurus Geographicus (1596), purchased by Rowland Lytton for Carleton, was promised in Letter 10 but too large for ordinary post; it was finally dispatched by special bearer in December 1598.",
     "letters": [
-      10
+      10, 12
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Abraham_Ortelius",
@@ -1332,6 +1332,149 @@ const people = [
     "shortBio": "née Smith (dates unknown); daughter of Humphrey Smith, silkman to Queen Elizabeth, and widow of Benedict Barnham, a liveryman of the Drapers' Company. She married Sir John Packington on 6 November 1598; Chamberlain describes her simply as 'one of our London widowes.'",
     "letters": [
       11
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "savage-arthur",
+    "name": "Sir Arthur Savage",
+    "shortBio": "Soldier and MP (d. 1631). One of the few officers who actually proceeded to Ireland in late 1598, commanding approximately a thousand men, while Essex's main expedition remained stalled in planning. He served in Ireland through the Nine Years' War in various capacities.",
+    "letters": [
+      12
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "obrien-donough",
+    "name": "Donough O'Brien, fourth Earl of Thomond",
+    "shortBio": "Irish magnate (c. 1560–1624); one of the few Gaelic-descended noblemen to remain consistently loyal to the English crown throughout the Nine Years' War. Appointed governor of Limerick in late 1598, giving the English a reliable foothold in Munster during the deteriorating military situation.",
+    "letters": [
+      12
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Donough_O%27Brien,_4th_Earl_of_Thomond",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "sherley-anthony",
+    "name": "Sir Anthony Sherley",
+    "shortBio": "Adventurer and self-styled diplomat (1565–c. 1636). Set out in 1598 on an unauthorised mission to the Shah of Persia, passing through the Ottoman Empire. At Constantinople and Aleppo he extorted money from English merchants and drew bills of exchange on Essex without authorisation, then vanished eastward. His escapades made him both notorious and celebrated across Europe.",
+    "letters": [
+      12
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Anthony_Sherley",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "leveson-richard",
+    "name": "Sir Richard Leveson",
+    "shortBio": "Naval commander (c. 1570–1605); son of Sir Walter Leveson of Lilleshall, Shropshire. In late 1598 he intercepted seventeen Hanseatic and Dutch vessels bound for Spain in the Narrow Seas — part of England's effort to prevent neutral shipping from supplying the enemy. He later became Vice Admiral of England (1604) and distinguished himself against Spanish shipping.",
+    "letters": [
+      12
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Richard_Leveson",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "paulet-william-winchester",
+    "name": "William Paulet, third Marquis of Winchester",
+    "shortBio": "Third Marquis of Winchester (c. 1532–1598); died 25 November 1598 and was succeeded by his son William, fourth Marquis. Chamberlain reports the death with characteristic brevity.",
+    "letters": [
+      12
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/William_Paulet,_3rd_Marquess_of_Winchester",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "neville-edward",
+    "name": "Edward Neville",
+    "shortBio": "Claimant to the barony of Abergavenny (c. 1556–1618). His contested title was heard at a quasi-judicial marshals court convened under Essex's authority in late 1598; the matter was referred to the Queen and eventually resolved in his favour when he was summoned to Parliament as sixth Lord Abergavenny in 1604.",
+    "letters": [
+      12
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "leonard-henry",
+    "name": "Sir Henry Leonard",
+    "shortBio": "Son of Sampson Leonard and Margaret, suo jure Baroness Dacre (d. 1626). Claimed the barony of Dacre of the South through his mother; his case was heard at Essex's marshals court in late 1598 but deferred to the Queen. He ultimately succeeded as twelfth Lord Dacre in 1612.",
+    "letters": [
+      12
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "sherley-george",
+    "name": "George Shirley",
+    "shortBio": "Acquaintance of Chamberlain and Carleton's circle (c. 1559–1622); previously mentioned in Letter 5. In December 1598 Chamberlain reports — with sardonic detachment — that he has at last married Lady Unton, widow of the diplomat Sir Henry Unton.",
+    "letters": [
+      12
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "unton-dorothy",
+    "name": "Dorothy Unton",
+    "shortBio": "née Wroughton (d. 1634); widow of Sir Henry Unton (1558–1596), the diplomat and subject of the celebrated memorial portrait now at the National Portrait Gallery. She married George Shirley in late 1598. Chamberlain's remark — that as poor a man as he was he would not buy such another at the price — implies she had a formidable reputation.",
+    "letters": [
+      12
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "lytton-anne",
+    "name": "Anne Lytton",
+    "shortBio": "Probably a daughter or close relation of Rowland Lytton of Knebworth. Chamberlain reports in December 1598 that she had been kept in expectation of marriage by an old doctor of law, who died before fulfilling the promise — leaving her, as Chamberlain puts it, 'a widow before she was a wife.'",
+    "letters": [
+      12
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "morley-edward",
+    "name": "Edward Parker, tenth Lord Morley",
+    "shortBio": "Tenth Lord Morley (1550–1618). His brother (name unrecorded) was killed in a road brawl in December 1598 by a servant of Sir Thomas Gerard; the assailant was acquitted on grounds of self-defence.",
+    "letters": [
+      12
     ],
     "externalLinks": {
       "wikipedia": "",

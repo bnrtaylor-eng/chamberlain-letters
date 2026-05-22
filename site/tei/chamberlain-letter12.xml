@@ -3,10 +3,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from John Chamberlain to [Recipient]</title>
+        <title>Letter from John Chamberlain to Dudley Carleton, 8 December 1598</title>
         <respStmt>
-          <resp>Contributor</resp>
-          <name>[Contributor Name]</name>
+          <resp>Editor</resp>
+          <name>Brandon Taylor</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,6 +19,8 @@
           <pubPlace>Philadelphia</pubPlace>
           <publisher>American Philosophical Society</publisher>
           <date when="1939">1939</date>
+          <biblScope unit="volume">1</biblScope>
+          <biblScope unit="page">55–57</biblScope>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,17 +30,17 @@
     <front>
       <div type="letter-meta">
         <head>Letter Metadata</head>
-        <p><date when="[YYYY-MM-DD]">[Human-Readable Date]</date></p>
-        <p><placeName>[Place of Writing]</placeName></p>
+        <p><date when="1598-12-08">8 December 1598</date></p>
+        <p><placeName ref="#london">London</placeName></p>
         <p><correspDesc>
           <correspAction type="sent">
             <persName ref="#chamberlain-john">John Chamberlain</persName>
-            <date when="[YYYY-MM-DD]"/>
-            <placeName>[Place of Writing]</placeName>
+            <date when="1598-12-08"/>
+            <placeName ref="#london">London</placeName>
           </correspAction>
           <correspAction type="received">
-            <persName ref="#[recipient-id]">[Recipient Name]</persName>
-            <placeName>[Place of Receipt, if known]</placeName>
+            <persName ref="#carleton-dudley">Dudley Carleton</persName>
+            <placeName ref="#ostend">Ostend</placeName>
           </correspAction>
         </correspDesc></p>
       </div>
@@ -46,16 +48,180 @@
 
     <body>
       <div type="letter-text">
-        <p>[Paste letter content here. Use <note place="foot">Example note content.</note>]</p>
-        <p>[Tag people/places like <persName ref="#cecil-robert">Robert Cecil</persName><note type="editorial">Verify this is the correct Cecil.</note>]</p>
+        <opener>Goode Master Carleton,</opener>
+
+        <p>I wrote by the post of Sandwich but what meanes yt made to get over I know not. I
+          thancke you, but specially for the letter of the 25 of the last, for which your skipper
+          brought me yours so full of perticulers which the winter weather affoordes. Here are no
+          great novelties for
+          <placeName ref="#ireland">Ireland</placeName>, but the whole plot and the erle of
+          <persName ref="#devereux-robert">Essex</persName> his jorny thether is neither fast nor
+          loose but holdes still in suspence, by reason the proportions thought fit for such an
+          enterprise are dayly clipt and deminished; for yt was first set downe that his number
+          (with those that be there alredy) shold be 14000 and so to be continued from time to
+          time with full allowaunce of vitayle, mony, and other charge aunswerable, but they
+          thincke the matter may be compassed with lesse, and on these termes yt standes, wherewith
+          he is nothing pleased. For eight or ten dayes the souldiers flockt about him and every
+          man hoped to be a colonell at least, and to content theyre humors somwhat yt was said
+          there shold be petty regiments raised of 500 and 300 men. The erle of
+          <persName ref="#wriothesley-henry">Southampton</persName> was named to be generall of
+          the horse,
+          <persName ref="#sidney-robert">Sir Rob. Sidney</persName> to be Lord Marshall, and I
+          know not how many more to other places; but now all is husht again and only
+          <persName ref="#savage-arthur">Sir Arthur Savage</persName><note>Sir Arthur Savage
+          (d. 1631), soldier and MP; served in Ireland in various capacities through the Nine
+          Years' War. He was among the few officers who actually proceeded to Ireland in late
+          1598, ahead of Essex's main expedition the following year.</note> is going thether with
+          a thowsand men, and the erle of
+          <persName ref="#obrien-donough">Tomond</persName><note>Donough O'Brien (c. 1560–1624),
+          fourth Earl of Thomond; one of the few Gaelic-descended Irish magnates who remained
+          consistently loyal to the English crown throughout the Nine Years' War. His appointment
+          as governor of Limerick gave the English a secure foothold in Munster.</note> with some
+          other small forces to governor of
+          <placeName ref="#limerick">Limricke</placeName>. Here is order geven for 2000 men to
+          be sent out of
+          <placeName ref="#kent">Kent</placeName>,
+          <placeName ref="#surrey">Surrey</placeName>, and
+          <placeName ref="#sussex">Sussex</placeName> into the
+          <placeName ref="#low-countries">Lowe Countries</placeName>, and to be drawne from
+          thence out of the garrison for
+          <placeName ref="#ireland">Ireland</placeName>; and for horsemen to that service the
+          justices of peace throughout
+          <placeName ref="#england">England</placeName> must be intreated to furnish them.</p>
+
+        <p>But the greatest difficultie is mony, which goes so lowe that for all the subsidies
+          comming on, the privy seales that are past,<note>Privy seals were letters under the
+          Privy Seal directing wealthy individuals to lend specified sums to the crown —
+          effectively a forced loan mechanism. Combined with parliamentary subsidies, they were
+          the principal instruments of Elizabethan war finance.</note> and the loane of 20000<hi
+          rend="italic">li</hi> the other day, the Quene is now in hand to borrow of the Citie
+          150000<hi rend="italic">li</hi>, offering to lay 5000<hi rend="italic">li</hi> of her
+          land in morgage, and the customes of the citie of
+          <placeName ref="#london">London</placeName> for the repayment of yt, and the
+          marchaunts and aldermen of
+          <placeName ref="#london">London</placeName> are sent for and dealt with severally and
+          urged to lend some 3000<hi rend="italic">li</hi>, some 2000<hi rend="italic">li</hi>,
+          some more, some lesse; but howsoever yt fall out, yea though they were willing, I hardly
+          thincke yt is to be had, for the citie is much decayed by reason theyre trafike is
+          greatly impaired, and the marchant adventurers were almost upon dissolving, being
+          hindered in theyre trade by certain enterlopers against whom they could have no remedy.
+          Many men muse how the Quene, being discharged of the burthen of the
+          <placeName ref="#low-countries">Lowe Countries</placeName>, and having no other charge
+          but
+          <placeName ref="#ireland">Ireland</placeName>, should be driven to these straights, and
+          unles there shold be exceding urgent need indeed, yt is thought a straunge pollicie to
+          discover our want so far to the world.<note>Chamberlain's point is a political one:
+          public knowledge of the crown's financial straits would encourage England's enemies
+          abroad and embolden the Irish rebels. Revealing fiscal weakness was itself a strategic
+          liability.</note> The Lord
+          <persName ref="#sackville-thomas">Buckhurst</persName> is now in full cry to be Lord
+          Treasurer, and yt is thought the wardes<note>The Mastership of the Court of Wards and
+          Liveries, the most lucrative royal office available, still contested between Essex and
+          others; see Letters 9–11.</note> will fall to
+          <persName ref="#cecil-robert">Master Secretary</persName>, yet some say the Quene will
+          bestow yt upon some meane man who for a pension shall execute the place to her best
+          advantage. Yt was said awhile that the erle of
+          <persName ref="#devereux-robert">Essex</persName> should have 6000<hi
+          rend="italic">li</hi> yeerely out of yt, otherwhile that he shold have 20000<hi
+          rend="italic">li</hi> toward the paiment of his debts and so to leave his hold, but we
+          see neither come on very fast. He kept a kinde of marshalls court of late where the
+          title of
+          <persName ref="#neville-edward">Sir Nevill</persName><note>Edward Neville
+          (c. 1556–1618), who claimed the barony of Abergavenny through the female line. The
+          hearing concerned whether he was entitled to be summoned to Parliament as Lord
+          Abergavenny; he was eventually so summoned in 1604.</note> that claimes to be Lord of
+          Aberge<supplied>n</supplied>y, and the title of
+          <persName ref="#leonard-henry">Sir Henry Leonard</persName><note>Sir Henry Leonard
+          (d. 1626), son of Sampson Leonard and Margaret, suo jure Baroness Dacre. His claim to
+          the barony of Dacre of the South was ultimately resolved in his favour; he succeeded
+          as twelfth Lord Dacre in 1612.</note> that wold be Lord Dacres of the South was
+          argued, but after divers hearings he left the matter as he found yt, and so yt is
+          referred to the Quene.</p>
+
+        <p>We heare that
+          <persName ref="#sherley-anthony">Sir Ant. Sherley</persName><note>Sir Anthony Sherley
+          (1565–1636?), adventurer and self-styled diplomat. He had set out for Persia in 1598
+          on an unauthorised mission to the Shah, passing through the Ottoman Empire and the
+          Levant. At Constantinople and Aleppo he extorted money from English merchants by
+          issuing bills of exchange drawn on Essex — without any authorisation to do so. His
+          subsequent wanderings made him notorious across Europe.</note> hath ben at
+          <placeName ref="#constantinople">Constantinople</placeName> and there wrounge out of our
+          marchants 400<hi rend="italic">li</hi>, and from thence he went to
+          <placeName ref="#aleppo">Aleppo</placeName> and there scraped together 500<hi
+          rend="italic">li</hi> more, wherewith he hath charged billes by the Lord of
+          <persName ref="#devereux-robert">Essex</persName> his name, and so is gon on God
+          knowes whether to seeke his fortune.
+          <persName ref="#leveson-richard">Sir Richard Lewson</persName><note>Sir Richard Leveson
+          (c. 1570–1605), naval commander; son of Sir Walter Leveson of Lilleshall, Shropshire.
+          He distinguished himself in later actions against Spanish shipping and became Vice
+          Admiral of England in 1604.</note> hath lately staide 17 saile of Easterlings and
+          Hollanders in the narrow seas that were going for
+          <placeName ref="#spain">Spaine</placeName>; in the mean time his father<note>Sir Walter
+          Leveson of Lilleshall, Shropshire; detained in the Fleet prison by creditors who had
+          laid a trap for him and caught him at Lambeth.</note> is staide in the Fleet, being
+          faln into hucksters handes (I mean his old creditors) who laide a traine for him and
+          caught him at Lambeth. The Lord Marquis<note>William Paulet (c. 1532–1598), third
+          Marquis of Winchester. He died on 25 November 1598 and was succeeded by his son
+          William, fourth Marquis.</note> is lately dead having left a noble sonne to succeed
+          him, who is like to prove as sufficient a man as none of them all.
+          <persName ref="#parker-edward">Master Parker</persName><note>A brother of Edward Parker,
+          tenth Lord Morley (1550–1618). The slain man's given name is not recorded.</note>
+          brother to the
+          <persName ref="#morley-edward">Lord Morley</persName> was slaine the last weeke by a
+          man of Sir Tho. Gerrards about a brabble the way, wherof the fellow is acquitted, being
+          found he did yt in his owne defence.</p>
+
+        <p>The French inventairie<note><hi rend="italic">Inventaire Général de l'Histoire de
+          France</hi> (Paris, 1597) by Jean de Serres (c. 1540–1598), a comprehensive history of
+          France; the author died before completing the work.</note> is not come foorth, the
+          author being saide to be dead, but there is hope yt wilbe found among his papers. Here
+          is nothing come out this last mart<note>The Frankfurt book fair (Buchmesse), held twice
+          yearly and the main international book market. Chamberlain regularly reported on what
+          was available at Frankfurt to Carleton, who collected books.</note> worth the looking
+          after; for that many thinges are currant there that be here forbidden, I send you likewise
+          such pedlarie pamflets and threehalfpeny ware as we are served with, and I do not thincke
+          but you may fit yourself better at Middleburg, but make the best use you can of them and
+          use your owne censure; but yf I be not deceved some of the satires are passable. You
+          shall receve by this bearer your
+          <persName ref="#ortelius-abraham">Ortelius</persName> his <hi rend="italic">Thesaurus
+          Geographicus</hi>,<note>Finally dispatched after being held up since Letter 10, when
+          it was judged too large for ordinary post. It is sent by a special bearer, with
+          <persName ref="#lytton-rowland">Rowland Lytton</persName> insisting on paying for
+          it.</note> your cousen Lytton will needs bestow yt on you, wherin I made no longe
+          strife. Our
+          <persName ref="#lytton-anne">Mistris Anne</persName><note>Anne Lytton, probably a
+          daughter or close relation of Rowland Lytton of Knebworth. An old doctor of law who had
+          long kept her in expectation of marriage died without fulfilling his promise, leaving
+          her a widow before she was a wife.</note> is become a widow before she was a wife, an
+          old Doctor of Law that hath held her long in hand to marry her being dead, whereupon
+          she mournes in her chamber. And
+          <persName ref="#sherley-george">Master Sherley</persName><note>George Shirley
+          (c. 1559–1622), an acquaintance of Chamberlain's and Carleton's circles; previously
+          mentioned in Letter 5.</note> hath at last married the
+          <persName ref="#unton-dorothy">Lady Umpton</persName><note>Dorothy Unton (née
+          Wroughton; d. 1634), widow of Sir Henry Unton (1558–1596), the diplomat and subject
+          of the celebrated memorial portrait now in the National Portrait Gallery. Chamberlain's
+          sardonic remark — that "as poor a man as I am I would not buy such another of the
+          price" — implies Lady Unton had a reputation for being difficult.</note> and made her
+          his deere wife; for mine owne part as poore a man as I am I wold not buy such another
+          of the price.
+          <persName ref="#perkins-christopher">Doctor Parkins</persName> is come out of
+          <placeName ref="#denmark">Denmarke</placeName>, and sayes he hath brought a goode
+          aunswer. And thus wishing you all health and welfare I end for this time.</p>
+
+        <closer>
+          <dateline>From <placeName ref="#london">London</placeName> this
+            <date when="1598-12-08">8th of December 1598</date>.</dateline>
+          <signed>Yours most assuredly,
+            <persName ref="#chamberlain-john">JOHN CHAMBERLAIN</persName>.</signed>
+        </closer>
+
+        <postscript>
+          <p>To my very goode frend Master
+            <persName ref="#carleton-dudley">Dudley Carleton</persName> attending on the Lord
+            Governor of <placeName ref="#ostend">Ostend</placeName> geve these.</p>
+        </postscript>
       </div>
     </body>
-
-    <back>
-      <div type="editor-note">
-        <head>Editor's Note</head>
-        <p>[Summarize this letter for general readers. What is it about? What historical context is useful?]</p>
-      </div>
-    </back>
   </text>
 </TEI>
