@@ -68,9 +68,9 @@ const people = [
   {
     "id": "carleton-george",
     "name": "George Carleton",
-    "shortBio": "Brother of Dudley Carleton. Participated as a mourner at Lord Burghley's funeral in August 1598; also mentioned in connection with book procurement.",
+    "shortBio": "Brother of Dudley Carleton, of Huntercombe, Oxfordshire. Participated as a mourner at Lord Burghley's funeral in August 1598; Chamberlain mentions him passing through London on legal term business in November 1598.",
     "letters": [
-      1, 4, 6
+      1, 4, 6, 11
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/George_Carleton_(bishop)",
@@ -497,9 +497,9 @@ const people = [
   {
     "id": "devereux-robert",
     "name": "Robert Devereux, second Earl of Essex",
-    "shortBio": "Queen Elizabeth's troubled favourite. Commanded the Islands Voyage (1597); fell from favour in 1598; returned to the Privy Council on 10 September 1598. Back at court by October, he remained the frontrunner for Master of the Court of Wards, yet obstacles kept him from it; by November 1598 he was expected to command in Ireland the following spring.",
+    "shortBio": "Queen Elizabeth's troubled favourite. Commanded the Islands Voyage (1597); fell from favour in 1598; returned to the Privy Council on 10 September 1598. Expected to command in Ireland as early as February or March 1599, though Chamberlain notes his going remained perpetually uncertain. Squire had poisoned Essex's chair-arm during the Islands Voyage.",
     "letters": [
-      1, 2, 6, 7, 8, 9, 10
+      1, 2, 6, 7, 8, 9, 10, 11
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Robert_Devereux,_2nd_Earl_of_Essex",
@@ -718,9 +718,9 @@ const people = [
   {
     "id": "wriothesley-henry",
     "name": "Henry Wriothesley, third Earl of Southampton",
-    "shortBio": "English nobleman, patron of Shakespeare, and royal favourite. Secretly married Elizabeth Vernon in 1598, provoking the Queen's fury; later involved in the Essex rebellion of 1601. In November 1598, Chamberlain reports him losing 18,000 crowns at tennis in Paris while his wife was delivered of their daughter.",
+    "shortBio": "English nobleman, patron of Shakespeare, and royal favourite. Secretly married Elizabeth Vernon in 1598, provoking the Queen's fury. Lost 18,000 crowns at tennis in Paris while his wife was delivered of their daughter; on returning to England was committed to the Fleet prison, though Chamberlain heard he was already close to release. Later involved in the Essex rebellion of 1601.",
     "letters": [
-      6, 10
+      6, 10, 11
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Henry_Wriothesley,_3rd_Earl_of_Southampton",
@@ -848,9 +848,9 @@ const people = [
   {
     "id": "stanley-john",
     "name": "John Stanley",
-    "shortBio": "Arrested in October 1598 and committed to the Tower after claiming he had been sent by Spain to assassinate Queen Elizabeth. Several of his confederates were arrested the following month; his trial was imminent as of Chamberlain's letter of 8 November 1598, where Stanley appears alongside Rolles and Edward Squire — who confessed to a plot to poison both the Queen and Essex.",
+    "shortBio": "Arrested in October 1598 and committed to the Tower for an alleged assassination plot. When his arraignment came, Squire went first — confessing to the Jesuit-directed poisoning scheme — and Stanley's own case was overshadowed. Chamberlain tracked the case across Letters 8–11.",
     "letters": [
-      8, 9, 10
+      8, 9, 10, 11
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -1134,9 +1134,9 @@ const people = [
   {
     "id": "squire-edward",
     "name": "Edward Squire",
-    "shortBio": "Ship's steward turned Spanish agent (d. 1598). Captured by the Spanish during Drake's expedition, converted, and sent back to England as an assassin. He confessed to attempting to poison the pommel of Essex's saddle and to smearing a poisonous ointment on the Queen's chair-arm. Hanged and quartered on 23 November 1598. (Cal. S. P. Dom., 1598–1601, pp. 107–110, 111–112; Camden, Annales, pp. 498–499.)",
+    "shortBio": "Ship's steward turned Spanish agent (d. 1598). Recruited by Father Richard Walpole SJ in Spain and sent back to England as an assassin; sailed with Essex on the Islands Voyage and poisoned his chair-arm, and smeared the Queen's saddle-pommel five days before the fleet departed. Confessed the whole scheme at his arraignment, reportedly with great penitence. Hanged and quartered on 23 November 1598. (Cal. S. P. Dom., 1598–1601, pp. 107–110, 111–112; Camden, Annales, pp. 498–499.)",
     "letters": [
-      10
+      10, 11
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -1254,6 +1254,84 @@ const people = [
     "shortBio": "née Rich; wife of Roger North, second Baron North, of Kirtling Hall, Cambridgeshire. Carleton evidently had ties to the North household. Chamberlain mentions forwarding a letter to her but complains that the family returns his own letters rather than passing them on, and gives him no direction for delivery — a source of mild social exasperation.",
     "letters": [
       10
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "norris-thomas",
+    "name": "Sir Thomas Norris",
+    "shortBio": "Lord President of Munster from 1597 (1556–1599); son of Sir Henry Norris, first Baron Norreys of Rycote. Chamberlain reports in November 1598 that Norris was widely blamed for taking the alarm too soon and abandoning his post, thereby encouraging the rebels and alienating those who had remained loyal. He died in July 1599, exhausted by the Irish command.",
+    "letters": [
+      11
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Norris_(President_of_Munster)",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "walpole-richard",
+    "name": "Father Richard Walpole SJ",
+    "shortBio": "English Jesuit (c. 1564–1607); brother of the martyr Henry Walpole (executed 1595). Working in Spain, he recruited and directed Edward Squire, providing him with the preparation used in the alleged poisoning of Essex's chair and the Queen's saddle. Walpole subsequently denied his role in the affair entirely.",
+    "letters": [
+      11
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "coke-edward",
+    "name": "Sir Edward Coke",
+    "shortBio": "Attorney General (1552–1634); later Chief Justice of Common Pleas (1606) and King's Bench (1613), and one of the towering figures of English common law. His surprise marriage on 7 November 1598 to Elizabeth Cecil, the widowed Lady Hatton, provoked widespread astonishment — Chamberlain notes that no one could believe she would accept a man of his social standing after so many grander offers, and that 'the world will not beleve that yt was without a misterie.'",
+    "letters": [
+      11
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Edward_Coke",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "hatton-elizabeth",
+    "name": "Elizabeth Coke, Lady Hatton",
+    "shortBio": "née Cecil (1578–1646); daughter of Thomas Cecil, second Lord Burghley (later Earl of Exeter), and granddaughter of William Cecil, Lord Burghley. Widow of Sir William Hatton (d. 1597), nephew and heir of the lord chancellor Sir Christopher Hatton. She married Edward Coke on 7 November 1598 in a ceremony that startled court society. As Lady Hatton she became a leading Jacobean hostess; her marriage to Coke was famously unhappy.",
+    "letters": [
+      11
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Elizabeth_Hatton",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "packington-john",
+    "name": "Sir John Packington",
+    "shortBio": "Worcestershire knight (1549–1625), knighted by Essex in 1596 and known at court as 'Lusty Packington.' He married Dorothy Smith on 6 November 1598, the day before Edward Coke's more celebrated wedding. The back-to-back marriages gave Chamberlain a neat pair of social vignettes.",
+    "letters": [
+      11
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "barnham-dorothy",
+    "name": "Dorothy Packington",
+    "shortBio": "née Smith (dates unknown); daughter of Humphrey Smith, silkman to Queen Elizabeth, and widow of Benedict Barnham, a liveryman of the Drapers' Company. She married Sir John Packington on 6 November 1598; Chamberlain describes her simply as 'one of our London widowes.'",
+    "letters": [
+      11
     ],
     "externalLinks": {
       "wikipedia": "",

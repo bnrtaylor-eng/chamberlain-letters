@@ -3,10 +3,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from John Chamberlain to [Recipient]</title>
+        <title>Letter from John Chamberlain to Dudley Carleton, 22 November 1598</title>
         <respStmt>
-          <resp>Contributor</resp>
-          <name>[Contributor Name]</name>
+          <resp>Editor</resp>
+          <name>Brandon Taylor</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,6 +19,8 @@
           <pubPlace>Philadelphia</pubPlace>
           <publisher>American Philosophical Society</publisher>
           <date when="1939">1939</date>
+          <biblScope unit="volume">1</biblScope>
+          <biblScope unit="page">53–54</biblScope>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,17 +30,17 @@
     <front>
       <div type="letter-meta">
         <head>Letter Metadata</head>
-        <p><date when="[YYYY-MM-DD]">[Human-Readable Date]</date></p>
-        <p><placeName>[Place of Writing]</placeName></p>
+        <p><date when="1598-11-22">22 November 1598</date></p>
+        <p><placeName ref="#london">London</placeName></p>
         <p><correspDesc>
           <correspAction type="sent">
             <persName ref="#chamberlain-john">John Chamberlain</persName>
-            <date when="[YYYY-MM-DD]"/>
-            <placeName>[Place of Writing]</placeName>
+            <date when="1598-11-22"/>
+            <placeName ref="#london">London</placeName>
           </correspAction>
           <correspAction type="received">
-            <persName ref="#[recipient-id]">[Recipient Name]</persName>
-            <placeName>[Place of Receipt, if known]</placeName>
+            <persName ref="#carleton-dudley">Dudley Carleton</persName>
+            <placeName ref="#ostend">Ostend</placeName>
           </correspAction>
         </correspDesc></p>
       </div>
@@ -46,16 +48,105 @@
 
     <body>
       <div type="letter-text">
-        <p>[Paste letter content here. Use <note place="foot">Example note content.</note>]</p>
-        <p>[Tag people/places like <persName ref="#cecil-robert">Robert Cecil</persName><note type="editorial">Verify this is the correct Cecil.</note>]</p>
+        <opener>Master Carleton,</opener>
+
+        <p>This longe and permanent abode of westerly windes bringes us no newes but such as we
+          least desire to heare of — I meane out of
+          <placeName ref="#ireland">Ireland</placeName>, whence messengers come dayly (like Jobs
+          servants) laden with yll tidings of new troubles and revokes. The English of
+          <placeName ref="#munster">Mounster</placeName> are much blamed for making no better
+          proofe of themselves, and geving so easie way to the rebells; and (as goode I telle yt
+          you as another)
+          <persName ref="#norris-thomas">Sir Thomas Norris</persName><note>Sir Thomas Norris
+          (1556–1599), Lord President of Munster from 1597. Chamberlain's report that he took
+          the alarm too soon and abandoned his station reflects the widespread English criticism
+          of the Munster commanders after the collapse of the plantation in autumn 1598. Norris
+          died in July 1599, worn out by the Irish command.</note> hath his part with the rest
+          and is thought to have taken the alarme too soone and left his station before there was
+          neede, whereby the ennemie was too much incouraged, and those that were well affected or
+          stoode indifferent forced to follow the tide. The remedies of these mischeifes go as
+          slowly forward as other matters, only it is saide the erle of
+          <persName ref="#devereux-robert">Essex</persName> shall go thether about February or
+          March with as ample commission as ever any had, the conditions wherof were lost labour
+          to set downe because they varie and alter every weeke, and withall his going is not so
+          fully resolved but that once in ten dayes yt is in question.</p>
+
+        <p>The day that we looked for
+          <persName ref="#stanley-john">Stanlies</persName> arraignment he came not himself but
+          sent his forerunner one
+          <persName ref="#squire-edward">Squire</persName> that had ben an under purvayer of the
+          stable, who being in
+          <placeName ref="#spain">Spaine</placeName> was delt withall by one
+          <persName ref="#walpole-richard">Walpoole</persName><note>Father Richard Walpole SJ
+          (c. 1564–1607), an English Jesuit working in Spain; brother of the martyr Henry Walpole
+          (executed 1595). It was Walpole who recruited Squire and provided the poisonous
+          preparation. Walpole later denied the whole affair.</note> a Jesuite, to poison the
+          Quene and the earle of
+          <persName ref="#devereux-robert">Essex</persName>, and accordingly came prepared into
+          <placeName ref="#england">England</placeName>, and went with the earle in his owne ship
+          the last jorny,<note>The Islands Voyage of 1597, Essex's expedition to the Azores.
+          Squire sailed in Essex's own ship, which gave him access to the chair where Essex
+          sat.</note> and poisoned the armes or handles of the chaire he used to sit in with a
+          confection he had receved of the Jesuite, as likewise he had don the pommell of the
+          Quenes saddle not past five dayes before his going to sea: but because nothing succeded
+          of yt, the priest thincking he had either chaunged his purpose or bewraied yt, gave
+          <persName ref="#stanley-john">Stanly</persName> instructions to accuse him, thereby to
+          get him more credit and to be revenged of
+          <persName ref="#squire-edward">Squire</persName> for breaking promise. The fellow
+          seemed very penitent and confest the whole practise. The Quenes
+          <persName ref="#coke-edward">atturney</persName><note>Edward Coke (1552–1634),
+          Attorney General from 1594; later Chief Justice of Common Pleas (1606) and of King's
+          Bench (1613), and one of the great figures of English common law. The surprise of this
+          marriage — Chamberlain notes it with characteristic scepticism — lay in Lady Hatton's
+          choosing a man of lesser social standing over the many "large and likely offers" she
+          had received.</note> the seventh of this month married the
+          <persName ref="#hatton-elizabeth">Lady Hatton</persName><note>Elizabeth Cecil
+          (1578–1646), daughter of Thomas Cecil, second Lord Burghley (later first Earl of
+          Exeter); widow of Sir William Hatton (d. 1597), nephew and heir of the great
+          Christopher Hatton. As Lady Hatton she became one of the leading hostesses of the
+          Jacobean court, and her marriage to Coke was notoriously turbulent.</note> to the
+          great admiration of all men, that after so many large and likely offers she shold
+          decline to a man of his qualitie, and the world will not beleve that yt was without a
+          misterie. The day before,
+          <persName ref="#packington-john">Sir John Packington</persName><note>Sir John
+          Packington (1549–1625), Worcestershire knight, knighted by Essex in 1596; known as
+          "Lusty Packington" at court. He married Dorothy Smith, widow of Benedict Barnham,
+          a London mercer.</note> maried
+          <persName ref="#barnham-dorothy">Mistris Barnham</persName><note>Dorothy Smith
+          (dates unknown), daughter of Humphrey Smith, silkman to Queen Elizabeth, and widow of
+          Benedict Barnham, a liveryman of the Drapers' Company.</note>, one of our
+          <placeName ref="#london">London</placeName> widowes. The erle of
+          <persName ref="#wriothesley-henry">Southampton</persName> is come home and for his
+          welcome committed to the Fleet,<note>Southampton had returned from France; his
+          confinement in the Fleet prison followed from the Queen's continued displeasure at his
+          secret marriage to Elizabeth Vernon. Chamberlain adds that he was already rumoured to
+          be on the point of release.</note> but I heare he is already upon his delivery.</p>
+
+        <p>The Quene came to
+          <placeName ref="#whitehall">Whitehall</placeName> the last weeke, being receved a mile
+          out of towne by the Lord Mayor and his bretheren accompanied with 400 velvet cotes and
+          chaines of gold. Her days passed without any extraordinarie matter more then running
+          and ringing.<note>Running at the ring and bell-ringing were customary celebrations for
+          Accession Day (17 November), the anniversary of Elizabeth's accession in 1558; the
+          Queen arrived at Whitehall on 14 November, three days before the annual
+          festivities.</note> Your brother
+          <persName ref="#carleton-george">Carleton</persName> hath ben in towne most part of
+          this terme but is now gon. Other newes we have none so that with all my best wishes I
+          bid you farewell.</p>
+
+        <closer>
+          <dateline>From <placeName ref="#london">London</placeName> this
+            <date when="1598-11-22">22th of November 1598</date>.</dateline>
+          <signed>Yours most assuredly,
+            <persName ref="#chamberlain-john">JOHN CHAMBERLAIN</persName>.</signed>
+        </closer>
+
+        <postscript>
+          <p>To my very goode frend Master
+            <persName ref="#carleton-dudley">Dudley Carleton</persName> attending on the Lord
+            Governor of <placeName ref="#ostend">Ostend</placeName> geve these.</p>
+        </postscript>
       </div>
     </body>
-
-    <back>
-      <div type="editor-note">
-        <head>Editor's Note</head>
-        <p>[Summarize this letter for general readers. What is it about? What historical context is useful?]</p>
-      </div>
-    </back>
   </text>
 </TEI>

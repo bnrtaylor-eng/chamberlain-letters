@@ -5,6 +5,7 @@ bagnall-henry
 bagnall-samuel
 bagshaw-christopher
 barnevelt-john
+barnham-dorothy
 bingham-richard
 blount-charles
 bodley-thomas
@@ -25,6 +26,7 @@ cecil-william
 chamberlain-john
 clarke-edward
 clifford-george
+coke-edward
 cole-william
 colmer-jasper
 condon-patrick
@@ -48,6 +50,7 @@ goodwin-john
 grey-thomas-wilton
 harvey-gerrard
 harvey-william
+hatton-elizabeth
 herbert-john
 howard-thomas
 isabella-infanta
@@ -57,9 +60,11 @@ maynard-henry
 mildmay-anthony
 neville-henry
 norris-edward
+norris-thomas
 north-anne
 oneill-hugh
 ortelius-abraham
+packington-john
 parry-thomas
 paulet-william
 percy-henry
@@ -89,6 +94,7 @@ thumery-de-boissise
 vere-edward
 vere-francis
 vernon-elizabeth
+walpole-richard
 williams-alexander
 williams-thomas
 wriothesley-henry
