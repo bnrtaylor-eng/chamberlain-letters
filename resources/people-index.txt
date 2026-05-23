@@ -11,6 +11,7 @@ blount-charles
 bodley-thomas
 brockett-john
 brooke-henry
+browne-peter
 bullingham-john
 burroughs-lady
 butler-thomas-ormond
@@ -50,6 +51,7 @@ fitzgibbon-edmund
 fortescue-john
 gilbert-john
 goodwin-john
+greville-fulke
 grey-thomas-wilton
 harvey-gerrard
 harvey-william
@@ -59,8 +61,10 @@ howard-thomas
 isabella-infanta
 leonard-henry
 leveson-richard
+loftus-adam
 lytton-anne
 lytton-rowland
+mansell-robert
 mathew-tobie
 matthew-tobias
 maynard-henry
@@ -75,7 +79,9 @@ north-anne
 obrien-donough
 oneill-hugh
 ortelius-abraham
+owen-thomas
 packington-john
+palmer-henry
 parker-edward
 parry-thomas
 paulet-william
@@ -106,6 +112,7 @@ stanhope-john
 stanley-john
 talbot-gilbert
 thumery-de-boissise
+trevor-john
 unton-dorothy
 vere-edward
 vere-francis
@@ -113,6 +120,7 @@ vernon-elizabeth
 walpole-richard
 williams-alexander
 williams-thomas
+wingfield-thomas
 wriothesley-henry
 wriothesley-mary
 wroth-john

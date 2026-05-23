@@ -3,10 +3,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from John Chamberlain to [Recipient]</title>
+        <title>Letter from John Chamberlain to Dudley Carleton, 3 January 1599</title>
         <respStmt>
-          <resp>Contributor</resp>
-          <name>[Contributor Name]</name>
+          <resp>Editor</resp>
+          <name>Brandon Taylor</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,6 +19,8 @@
           <pubPlace>Philadelphia</pubPlace>
           <publisher>American Philosophical Society</publisher>
           <date when="1939">1939</date>
+          <biblScope unit="volume">1</biblScope>
+          <biblScope unit="page">61–62</biblScope>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,17 +30,17 @@
     <front>
       <div type="letter-meta">
         <head>Letter Metadata</head>
-        <p><date when="[YYYY-MM-DD]">[Human-Readable Date]</date></p>
-        <p><placeName>[Place of Writing]</placeName></p>
+        <p><date when="1599-01-03">3 January 1599</date></p>
+        <p><placeName ref="#london">London</placeName></p>
         <p><correspDesc>
           <correspAction type="sent">
             <persName ref="#chamberlain-john">John Chamberlain</persName>
-            <date when="[YYYY-MM-DD]"/>
-            <placeName>[Place of Writing]</placeName>
+            <date when="1599-01-03"/>
+            <placeName ref="#london">London</placeName>
           </correspAction>
           <correspAction type="received">
-            <persName ref="#[recipient-id]">[Recipient Name]</persName>
-            <placeName>[Place of Receipt, if known]</placeName>
+            <persName ref="#carleton-dudley">Dudley Carleton</persName>
+            <placeName ref="#ostend">Ostend</placeName>
           </correspAction>
         </correspDesc></p>
       </div>
@@ -46,16 +48,129 @@
 
     <body>
       <div type="letter-text">
-        <p>[Paste letter content here. Use <note place="foot">Example note content.</note>]</p>
-        <p>[Tag people/places like <persName ref="#cecil-robert">Robert Cecil</persName><note type="editorial">Verify this is the correct Cecil.</note>]</p>
+        <opener>Goode Master Carleton,</opener>
+
+        <p>I receved your letter of the 18th of the last on Christmas day and had aunswered
+          yt sooner yf these holy dayes had affoorded any matter to worke on: only the
+          winde is come about againe for
+          <placeName ref="#ireland">Ireland</placeName>, and the
+          <hi rend="italic">disgusto</hi><note>Italian and Spanish for displeasure, grievance;
+          the word carried a courtly and diplomatic register. Chamberlain uses it to name —
+          tactfully — the dispute over the cochineal debt that had wrecked Essex's command
+          on Sunday night, 17 December 1598. See Letter 13.</note> that made stay of the erles
+          going for awhile is sweetned and removed, so that now he prepares with all diligence
+          and hath 12000<hi rend="italic">li</hi> delivered him to raise five or sixe hundred
+          horse. I cannot come by his particular proportions but as far as I can learne, he is
+          not to have hence above 2000 besides the 2000 that are to come out of the
+          <placeName ref="#low-countries">Lowe Countries</placeName>, which together with the
+          10000 (in name) that are saide to be there alredy must make up his number.<note>The
+          total of 14,000 soldiers that had originally been proposed for Essex's Irish command
+          (see Letter 12) is now recast: 2,000 fresh troops from England, 2,000 drawn from the
+          Low Countries garrisons, and 10,000 nominally already in Ireland — a paper strength
+          widely understood to be far below the actual field force available.</note> He is so
+          yll satisfied of some that have government there alredy as namely
+          <persName ref="#wingfield-thomas">Sir Thomas Maria Wingfield</persName><note>Sir Thomas
+          Maria Wingfield, a crown officer in Ireland holding a position of authority over troops
+          and supply; one of those knighted by the departing Lord Deputy Sir William Russell in
+          May 1597. Essex was dissatisfied with several such incumbent officers and intended to
+          replace them wholesale on his arrival.</note> and others, that yt is thought he will
+          make a cleane riddaunce and displace most of them.</p>
+
+        <p>Sir
+          <persName ref="#norris-thomas">Tho. Norris</persName> hath lately relieved
+          <placeName ref="#kilmallock">Killmalloke</placeName><note>Kilmallock, a fortified
+          town in County Limerick, was a key English stronghold in Munster and came under
+          sustained rebel pressure during the Desmond uprising of 1598–1600. Its relief by
+          Norris was one of the few encouraging scraps of Irish news in this period.</note>
+          a towne in
+          <placeName ref="#munster">Mounster</placeName> that was beset and distressed by the
+          enemie: and
+          <persName ref="#bagnall-samuel">Sir Samuell Bagnoll</persName> hath don some small
+          peece of service upon
+          <persName ref="#oneill-hugh">Tiron</persName><note>Tyrone: a synecdoche for Hugh
+          O'Neill, second Earl of Tyrone, the principal rebel leader. Chamberlain frequently
+          uses the place-name to stand for the man.</note> and brought away three or fowrescore
+          cowes. But the rebells are growne so bold that not long since they fetcht away the
+          <persName ref="#loftus-adam">Lord Chauncellors</persName><note>Adam Loftus
+          (c. 1533–1605), Archbishop of Dublin from 1567 and Lord Chancellor of Ireland from
+          1581; the longest-serving royal official in Elizabethan Ireland. That rebels could
+          drive off the Lord Chancellor's cattle from his own yard in the shadow of St.
+          Patrick's Cathedral — one of the most visible symbols of English Dublin — was a
+          measure of how completely the crown had lost control of the countryside.</note>
+          cattell out of his yarde close by St. Patricks church in the suburbs of
+          <placeName ref="#dublin">Dublin</placeName>, so that yt were more then time the erle
+          were there, and yet some doubt he shall hardly get hence before St. Georges
+          day.<note>St. George's Day, 23 April, opened the campaigning season. If Essex could
+          not embark before then, the summer would be half-spent before any serious military
+          action could begin.</note></p>
+
+        <p><persName ref="#mansell-robert">Sir Robert Mansfeld</persName><note>Sir Robert
+          Mansell (1573–1656), naval commander; later Vice Admiral of England (1618–1628) and
+          a member of the Virginia Company. His three ships were to patrol the Irish Sea and
+          interdict rebel communications and supplies by sea.</note> goes shortly with three
+          shippes to lie upon that coast. The citie went on reasonable roundly with theyre
+          taske and paid in 50000<hi rend="italic">li</hi> the last weeke; the rest is comming
+          after, and yt is thought they shalbe excused with as much more or litle
+          over.<note>The City of London had been asked to lend £150,000 (see Letters 12 and 13);
+          Chamberlain now suggests that paying half — around £50,000 down, with another
+          £50,000–£60,000 to follow — will satisfy the crown's immediate need, and that the
+          city will be excused from the full amount.</note> Now they are to furnish out 600 men
+          for the
+          <placeName ref="#low-countries">Lowe Countries</placeName> within these five or sixe
+          dayes, but that seemes but a fleabiting after the great blowe.</p>
+
+        <p>The 21 of the last the Quene signed the patents of
+          <persName ref="#greville-fulke">Fulke Grivell</persName>,
+          <persName ref="#palmer-henry">Sir Henry Palmer</persName>,
+          <persName ref="#trevor-john">Trever</persName> (the Lord Admiralls secretarie)
+          as Master Treasurer, Controller, and Surveyor of her navie,<note>Fulke Greville
+          (1554–1628), poet and statesman, was appointed Treasurer of the Navy on 21 December
+          1598, a post he held until 1604. Sir Henry Palmer (c. 1541–1611) became Controller
+          of the Navy. John Trevor became Surveyor of the Navy as the Lord Admiral Nottingham's
+          secretary. The simultaneous appointment of all three officers on the same day was
+          unusual and suggests a deliberate administrative reorganisation of naval
+          governance.</note> and the same time yt is saide she cancelled a bond of
+          21000<hi rend="italic">li</hi> of the erle of
+          <persName ref="#devereux-robert">Essex</persName>, wherin he and a dousen marchants
+          were bound for a cochinille.<note>The cancellation of the cochineal bond — or rather
+          the partial cancellation of it as a gift — was the settlement of the dispute that had
+          blocked Essex's departure in December. See Letter 13: the Queen had promised to forgive
+          £12,000 of his father's debt and £20,000 for cochineal, but she had meant only the
+          forbearance of it. Now a bond of £21,000 is apparently cancelled outright.</note>
+          One
+          <persName ref="#browne-peter">Peter Browne</persName><note>Peter Browne, an agent or
+          intelligencer caught intercepting diplomatic correspondence. The Gatehouse was a
+          prison near Westminster Abbey used for state prisoners and those held at the Council's
+          pleasure.</note> is clapt up in the Gatehouse for jugling with the
+          <persName ref="#thumery-de-boissise">French ambassadors</persName> letters, who
+          complaines that his masters letters and his are usually opened before they come
+          at them.</p>
+
+        <p>Yet was expected that the treasurship shold have ben bestowed on the Lord
+          <persName ref="#sackville-thomas">Buckhurst</persName> for a new-yeares gift, but yt
+          succeded not, so that he must tarry the time, and yt may chaunce light on him on the
+          sodain when he doth least looke for yt, according to the custome of the court that
+          commonly knowes not over night what shalbe don in the morning. I can bethincke me of
+          nothing els, unles yt be the death of
+          <persName ref="#owen-thomas">Judge Owen</persName><note>Thomas Owen (d. 1598), judge
+          of the Court of Common Pleas. He had been mentioned as a possible Master of the Court
+          of Wards — a lucrative post still contested since Lord Burghley's death. His death
+          removes one candidate from the running but does nothing to settle the question.</note>
+          who was in some speach to be master of the wardes. And so I commit you to God.</p>
+
+        <closer>
+          <dateline>From <placeName ref="#london">London</placeName> the
+            <date when="1599-01-03">3d of January 1598</date>.</dateline>
+          <signed>Yours most assuredly,
+            <persName ref="#chamberlain-john">JOHN CHAMBERLAIN</persName>.</signed>
+        </closer>
+
+        <postscript>
+          <p>To my assured goode frend Master
+            <persName ref="#carleton-dudley">Dudley Carleton</persName> attending on the Lord
+            Governor of <placeName ref="#ostend">Ostend</placeName> geve these.</p>
+        </postscript>
       </div>
     </body>
-
-    <back>
-      <div type="editor-note">
-        <head>Editor's Note</head>
-        <p>[Summarize this letter for general readers. What is it about? What historical context is useful?]</p>
-      </div>
-    </back>
   </text>
 </TEI>

@@ -120,9 +120,9 @@ const people = [
   {
     "id": "sackville-thomas",
     "name": "Thomas Sackville, Lord Buckhurst",
-    "shortBio": "Lord Buckhurst, later first Earl of Dorset (1604). Led peace negotiations with Spain at Abbeville in 1598; the leading candidate for Lord Treasurer from autumn 1598 through December 1598; appointed to the post in May 1599.",
+    "shortBio": "Lord Buckhurst, later first Earl of Dorset (1604). Led peace negotiations with Spain at Abbeville in 1598; the leading candidate for Lord Treasurer from autumn 1598. Chamberlain tracks the delays — expected as a New Year's gift in January 1599, it did not come; he was finally appointed Lord Treasurer in May 1599.",
     "letters": [
-      3, 9, 12
+      3, 9, 12, 14
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Sackville,_1st_Earl_of_Dorset",
@@ -497,9 +497,9 @@ const people = [
   {
     "id": "devereux-robert",
     "name": "Robert Devereux, second Earl of Essex",
-    "shortBio": "Queen Elizabeth's troubled favourite. Commanded the Islands Voyage (1597); fell from favour in 1598; returned to the Privy Council on 10 September 1598. His Irish command remained perpetually uncertain through late 1598, with numbers cut and conditions disputed. A disputed debt over cochineal ended his December 1598 command on Sunday night; Chamberlain pictures him passing the crisis playing backgammon with Cecil in the presence chamber 'as if Ireland were to be recovered at Irish.' Anthony Sherley drew bills against his name without authorisation across the Levant. Squire had poisoned his chair-arm during the Islands Voyage.",
+    "shortBio": "Queen Elizabeth's troubled favourite. Commanded the Islands Voyage (1597); fell from favour in 1598; returned to the Privy Council on 10 September 1598. His Irish command stalled repeatedly through late 1598; a cochineal debt dispute wrecked it on Sunday 17 December, but by early January 1599 the 'disgusto' was resolved, £12,000 delivered for cavalry, and Essex was preparing in earnest. He finally departed for Ireland in March 1599. Anthony Sherley drew bills against his name across the Levant; Squire had poisoned his chair-arm during the Islands Voyage.",
     "letters": [
-      1, 2, 6, 7, 8, 9, 10, 11, 12, 13
+      1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Robert_Devereux,_2nd_Earl_of_Essex",
@@ -601,9 +601,9 @@ const people = [
   {
     "id": "oneill-hugh",
     "name": "Hugh O'Neill, second Earl of Tyrone",
-    "shortBio": "Irish chieftain and leader of the Nine Years' War. Defeated Bagenal at Yellow Ford (1598); his forces continue to dominate English attention through late 1598 as Ireland deteriorates. By November 1598, Philip III of Spain was reportedly stopping all Dutch and Irish ships lacking Tyrone's pass.",
+    "shortBio": "Irish chieftain and leader of the Nine Years' War. Defeated Bagenal at Yellow Ford (1598); his forces dominate English attention through late 1598. By November 1598, Philip III was reportedly stopping Dutch and Irish ships lacking Tyrone's pass. In January 1599, Bagnall raids his territory and takes fourscore cows — a measure of how little the English could achieve in the field.",
     "letters": [
-      6, 8, 10
+      6, 8, 10, 14
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Hugh_O%27Neill,_2nd_Earl_of_Tyrone",
@@ -926,9 +926,9 @@ const people = [
   {
     "id": "thumery-de-boissise",
     "name": "Le Sieur Thumery de Boissise",
-    "shortBio": "French ambassador to England, arriving at Dover on 14 October 1598 and remaining until 1601. Chamberlain describes him as de robbe longue — a civilian lawyer rather than a military man — and notes he was brother-in-law to the president of the Parlement of Harlay. His mission involved complaints about English piracy against French shipping.",
+    "shortBio": "French ambassador to England, arriving at Dover on 14 October 1598 and remaining until 1601. Chamberlain describes him as de robbe longue — a civilian lawyer — and notes his complaints of English piracy. In January 1599 his letters are being intercepted: the crown arrests Peter Browne for tampering with his correspondence, and the ambassador protests that his masters' letters are routinely opened before reaching him.",
     "letters": [
-      9, 10
+      9, 10, 14
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -1017,9 +1017,9 @@ const people = [
   {
     "id": "bagnall-samuel",
     "name": "Sir Samuel Bagnall",
-    "shortBio": "English military officer in Ireland; brother of Sir Henry Bagenal, Marshal of Ireland. Proposed for the Irish command in May 1598, dispatched to Munster after his brother's death at Yellow Ford. In October 1598 Chamberlain reported him stabbed by Christopher St. Lawrence, son of the Lord of Howth — a story he publicly retracts in November 1598, having circulated as true in both court and country for over ten days.",
+    "shortBio": "English military officer in Ireland; brother of Sir Henry Bagenal, Marshal of Ireland. Proposed for the Irish command in May 1598, dispatched to Munster after his brother's death at Yellow Ford. In October 1598 Chamberlain falsely reported him stabbed — a story he publicly retracts in November. By January 1599 he is raiding Tyrone's territory and taking fourscore cows, 'some small peece of service' that Chamberlain notes with dry understatement.",
     "letters": [
-      5, 6, 9, 10
+      5, 6, 9, 10, 14
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -1264,9 +1264,9 @@ const people = [
   {
     "id": "norris-thomas",
     "name": "Sir Thomas Norris",
-    "shortBio": "Lord President of Munster from 1597 (1556–1599); son of Sir Henry Norris, first Baron Norreys of Rycote. Chamberlain reports in November 1598 that Norris was widely blamed for taking the alarm too soon and abandoning his post, thereby encouraging the rebels and alienating those who had remained loyal. He died in July 1599, exhausted by the Irish command.",
+    "shortBio": "Lord President of Munster from 1597 (1556–1599); son of Sir Henry Norris, first Baron Norreys of Rycote. Blamed in November 1598 for abandoning his post too soon and encouraging the rebels. By January 1599, however, Chamberlain reports him relieving the besieged town of Kilmallock — one of the few encouraging scraps of Irish news. He died in July 1599, exhausted by the command.",
     "letters": [
-      11
+      11, 14
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Norris_(President_of_Munster)",
@@ -1540,6 +1540,110 @@ const people = [
     "shortBio": "A brother of Edward Parker, tenth Lord Morley (given name unrecorded). Killed in a road brawl in December 1598 by a man of Sir Thomas Gerard's household; the assailant was acquitted on a plea of self-defence.",
     "letters": [
       12
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "wingfield-thomas",
+    "name": "Sir Thomas Maria Wingfield",
+    "shortBio": "English crown officer in Ireland, holding authority over troops and supply. One of the officers knighted by Lord Deputy Sir William Russell on his departure in May 1597. In January 1599, Chamberlain reports that Essex was deeply dissatisfied with Wingfield and others holding government in Ireland and intended to make 'a cleane riddaunce' and displace most of them on his arrival.",
+    "letters": [
+      14
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "loftus-adam",
+    "name": "Adam Loftus, Archbishop of Dublin",
+    "shortBio": "Archbishop of Dublin from 1567 and Lord Chancellor of Ireland from 1581 (c. 1533–1605); the longest-serving royal official in Elizabethan Ireland. That rebels could drive off his cattle from his own yard in the shadow of St. Patrick's Cathedral — a visible symbol of English Dublin — was a measure of how completely the crown had lost control of the countryside in late 1598.",
+    "letters": [
+      14
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Adam_Loftus,_1st_Viscount_Loftus",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "mansell-robert",
+    "name": "Sir Robert Mansell",
+    "shortBio": "Naval commander (1573–1656); knighted 1596. Sent with three ships in January 1599 to patrol the Irish Sea and interdict rebel communications and supply by sea. Later became Vice Admiral of England (1618–1628) and a member of the Virginia Company.",
+    "letters": [
+      14
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Robert_Mansell",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "greville-fulke",
+    "name": "Fulke Greville",
+    "shortBio": "Poet, statesman, and close friend of Sir Philip Sidney (1554–1628). Appointed Treasurer of the Navy on 21 December 1598, a post he held until 1604. Later knighted (1603) and created first Baron Brooke (1621). His poetry and biography of Sidney remain his chief literary legacy.",
+    "letters": [
+      14
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Fulke_Greville,_1st_Baron_Brooke",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "palmer-henry",
+    "name": "Sir Henry Palmer",
+    "shortBio": "Naval officer (c. 1541–1611); appointed Controller of the Navy on 21 December 1598. Served in various naval commands throughout the later Elizabethan period.",
+    "letters": [
+      14
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "trevor-john",
+    "name": "John Trevor",
+    "shortBio": "Secretary to the Lord Admiral Charles Howard, Earl of Nottingham; appointed Surveyor of the Navy on 21 December 1598. Chamberlain identifies him as 'the Lord Admiralls secretarie.'",
+    "letters": [
+      14
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "browne-peter",
+    "name": "Peter Browne",
+    "shortBio": "Agent or intelligencer arrested in January 1599 and committed to the Gatehouse prison near Westminster Abbey for intercepting the correspondence of the French ambassador Thumery de Boissise. His arrest provoked a formal protest from the ambassador, who complained that his diplomatic letters were routinely opened before reaching him.",
+    "letters": [
+      14
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "owen-thomas",
+    "name": "Thomas Owen",
+    "shortBio": "Judge of the Court of Common Pleas; died late 1598. Had been mentioned as a possible Master of the Court of Wards — the most lucrative royal office available, still disputed since Lord Burghley's death. His death removes one candidate without settling the question.",
+    "letters": [
+      14
     ],
     "externalLinks": {
       "wikipedia": "",
