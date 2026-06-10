@@ -6,6 +6,7 @@ bagnall-samuel
 bagshaw-christopher
 barnevelt-john
 barnham-dorothy
+berkeley-john
 bingham-richard
 blackwell-george
 blount-charles
@@ -14,6 +15,7 @@ bodley-thomas
 brockett-john
 brooke-george
 brooke-henry
+brooke-john
 browne-peter
 bullingham-john
 burroughs-lady
@@ -34,6 +36,7 @@ clifford-george
 coke-edward
 cole-william
 colmer-jasper
+compton-william
 condon-patrick
 cope-frances
 cope-walter
@@ -41,6 +44,7 @@ cragius-nicholaus
 cromwell-edward
 danvers-charles
 danvers-henry
+davies-john-captain
 devereux-robert
 docwra-henry
 dormer-michael
@@ -48,6 +52,7 @@ drury-dru
 edes-richard
 edmondes-thomas
 egerton-thomas
+egerton-thomas-jr
 elizabeth-i
 evers-ralph
 evers-william
@@ -64,10 +69,12 @@ grey-thomas-wilton
 harvey-gerrard
 harvey-william
 hatton-elizabeth
+henry-iv-france
 herbert-john
 howard-charles
 howard-thomas
 isabella-infanta
+jermyn-thomas
 leonard-henry
 leveson-richard
 loftus-adam
@@ -78,6 +85,7 @@ mansell-robert
 mathew-tobie
 matthew-tobias
 maynard-henry
+medici-ferdinand
 mildmay-anthony
 moore-thomas
 morley-edward
@@ -93,6 +101,7 @@ owen-thomas
 packington-john
 palmer-henry
 parker-edward
+parker-nicholas
 parry-thomas
 paulet-william
 paulet-william-iv
@@ -101,6 +110,7 @@ perkins-christopher
 philip-ii
 philip-iii
 popham-john
+power-henry
 raleigh-walter
 reynolds-john
 robinson-henry
@@ -115,6 +125,7 @@ sherley-george
 sidney-robert
 sigismund-iii
 southwell-robert
+spencer-john-london
 spencer-william
 spenser-edmund
 squire-edward
@@ -139,4 +150,5 @@ woodhouse-william
 wriothesley-henry
 wriothesley-mary
 wroth-john
+yorke-edward
 zouche-edward

@@ -70,7 +70,7 @@ const people = [
     "name": "George Carleton",
     "shortBio": "Brother of Dudley Carleton, of Huntercombe, Oxfordshire. He and Brockett's daughter Elizabeth were the parents of young John Carleton (Dudley's nephew); Chamberlain reports on their family's welfare in September 1598 and mentions George passing through London on legal business in November. He participated as a mourner at Lord Burghley's funeral in August 1598.",
     "letters": [
-      1, 4, 6, 7, 11
+      1, 4, 6, 7, 11, 16
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/George_Carleton_(bishop)",
@@ -198,9 +198,9 @@ const people = [
   {
     "id": "blount-charles",
     "name": "Sir Charles Blount",
-    "shortBio": "Later eighth Baron Mountjoy and Earl of Devonshire; military commander and favourite of Elizabeth I. Named as a candidate for Lord Deputy in autumn 1598; listed among the knights named for Essex's Irish expedition in January 1599. Appointed Lord Deputy of Ireland in February 1600 and ultimately suppressed the Nine Years' War at the Battle of Kinsale (1601).",
+    "shortBio": "Later eighth Baron Mountjoy and Earl of Devonshire; military commander and favourite of Elizabeth I. Named as a candidate for Lord Deputy in autumn 1598; listed among the knights named for Essex's Irish expedition in January 1599 and then countermanded by the Queen. Appointed Lord Deputy of Ireland in February 1600 and ultimately suppressed the Nine Years' War at the Battle of Kinsale (1601).",
     "letters": [
-      3, 5, 9, 10, 15
+      3, 5, 9, 10, 15, 16
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Charles_Blount,_8th_Baron_Mountjoy",
@@ -276,9 +276,9 @@ const people = [
   {
     "id": "lytton-rowland",
     "name": "Rowland Lytton",
-    "shortBio": "Cousin of Dudley Carleton and owner of Knebworth House, Hertfordshire. Chamberlain frequently visited and wrote from Knebworth; Lytton hosted Lady Pelham there in September 1598 and escorted her to Bletsoe; attended the burial of Sir John Brockett in October 1598; and in November 1598 was insisting on sending Carleton a copy of Ortelius's Thesaurus Geographicus.",
+    "shortBio": "Cousin of Dudley Carleton and owner of Knebworth House, Hertfordshire. Chamberlain frequently visited and wrote from Knebworth; Lytton hosted Lady Pelham there in September 1598; attended the burial of Sir John Brockett in October 1598; insisted on paying for Carleton's copy of Ortelius's Thesaurus Geographicus in December 1598; and was in London in January 1599 when the book was dispatched to Ostend by skipper.",
     "letters": [
-      3, 6, 7, 9, 10
+      3, 6, 7, 9, 10, 12, 16
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -367,9 +367,9 @@ const people = [
   {
     "id": "bingham-richard",
     "name": "Sir Richard Bingham",
-    "shortBio": "English military commander. Proposed for Ireland in May 1598 and again appointed after Yellow Ford. In December 1598 he attempted to march to the Naas — barely twelve miles from Dublin — but was encountered and forced to retire; he fell sick at Dublin, and Chamberlain heard reports he had died.",
+    "shortBio": "English military commander and President of Connacht (1528–1599). Proposed for Ireland in May 1598 and sent back after the Yellow Ford disaster. In December 1598 he attempted to march to the Naas but was forced to retire sick; Chamberlain had heard rumours of his death in Letter 13. Confirmed dead in Letter 16 — removing the most experienced English hand in Connacht at the worst possible moment.",
     "letters": [
-      5, 6, 13
+      5, 6, 13, 16
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Richard_Bingham_(soldier)",
@@ -499,7 +499,7 @@ const people = [
     "name": "Robert Devereux, second Earl of Essex",
     "shortBio": "Queen Elizabeth's troubled favourite. Commanded the Islands Voyage (1597); fell from favour in 1598; returned to the Privy Council on 10 September 1598. His Irish command stalled repeatedly through late 1598; a cochineal debt dispute wrecked it on Sunday 17 December, but by early January 1599 the 'disgusto' was resolved, £12,000 delivered for cavalry, and Essex was preparing in earnest. He finally departed for Ireland in March 1599. Anthony Sherley drew bills against his name across the Levant; Squire had poisoned his chair-arm during the Islands Voyage.",
     "letters": [
-      1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14
+      1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Robert_Devereux,_2nd_Earl_of_Essex",
@@ -666,9 +666,9 @@ const people = [
   {
     "id": "danvers-charles",
     "name": "Sir Charles Danvers",
-    "shortBio": "Outlawed in 1594 for the death of Henry Long; served in the French army. Pardoned June 1598. Listed among Essex's colonels for Ireland in January 1599. Executed in 1601 for his role in the Essex rebellion.",
+    "shortBio": "Outlawed in 1594 for the death of Henry Long; served in the French army. Pardoned June 1598. Listed among Essex's colonels for Ireland in January 1599; subsequently countermanded by the Queen. Executed in 1601 for his role in the Essex rebellion.",
     "letters": [
-      6, 15
+      6, 15, 16
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Charles_Danvers_(soldier)",
@@ -770,9 +770,9 @@ const people = [
   {
     "id": "harvey-william",
     "name": "Sir William Harvey",
-    "shortBio": "Later created Lord Harvey of Kidbrooke (1628). In May 1598 he married Mary, widow of both Henry Wriothesley, second Earl of Southampton, and Sir Thomas Heneage.",
+    "shortBio": "Later created Lord Harvey of Kidbrooke (1628). He had apparently married Mary, Dowager Countess of Southampton, in secret around May 1598; Chamberlain first noted it in Letter 4 and reports the marriage being publicly announced in Letter 16.",
     "letters": [
-      4
+      4, 16
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -861,9 +861,9 @@ const people = [
   {
     "id": "wriothesley-mary",
     "name": "Mary, Countess of Southampton",
-    "shortBio": "Widow of Henry Wriothesley, second Earl of Southampton, and subsequently of Sir Thomas Heneage. Her marriage to Sir William Harvey in May 1598 is noted by Chamberlain.",
+    "shortBio": "Mary Browne (d. 1607), widow of Henry Wriothesley, second Earl of Southampton, and subsequently of Sir Thomas Heneage; mother of Henry Wriothesley, third Earl. Her secret marriage to Sir William Harvey was first noted by Chamberlain in Letter 4; its public announcement is reported in Letter 16.",
     "letters": [
-      4
+      4, 16
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -965,9 +965,9 @@ const people = [
   {
     "id": "grey-thomas-wilton",
     "name": "Thomas Grey, fifteenth Baron Grey of Wilton",
-    "shortBio": "English nobleman (1575–1614). Sought a regiment in the Low Countries in autumn 1598; listed among the lords expected to join Essex's Irish army in January 1599. Condemned for his role in the Bye Plot against James I (1603) and held in the Tower until his death.",
+    "shortBio": "English nobleman (1575–1614). Sought a regiment in the Low Countries in autumn 1598; listed among Essex's intended commanders for Ireland in Letters 15 and 16, then countermanded by the Queen. Condemned for his role in the Bye Plot against James I (1603) and held in the Tower until his death.",
     "letters": [
-      9, 15
+      9, 15, 16
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Grey,_15th_Baron_Grey_de_Wilton",
@@ -1108,9 +1108,9 @@ const people = [
   {
     "id": "butler-thomas-ormond",
     "name": "Thomas Butler, tenth Earl of Ormond",
-    "shortBio": "Known as 'Black Tom Butler' (1531–1614); the most powerful Anglo-Irish magnate loyal to the Elizabethan crown, and a long-standing personal favourite of the Queen. When the Nine Years' War spread into Munster in autumn 1598, threatening his own county of Tipperary, he sent urgently to England for 2,000 men and was expected to fight with renewed vigour now that the rebellion touched his own freehold.",
+    "shortBio": "Known as 'Black Tom Butler' (1531–1614); the most powerful Anglo-Irish magnate loyal to the Elizabethan crown, and a long-standing personal favourite of the Queen. Sent urgently to England for 2,000 men in autumn 1598 when the Nine Years' War reached Munster. In January 1599 he relieved a fort in Munster and killed three or four hundred rebels — the only positive Irish news in this period.",
     "letters": [
-      10
+      10, 16
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Butler,_10th_Earl_of_Ormond",
@@ -1706,9 +1706,9 @@ const people = [
   {
     "id": "manners-roger",
     "name": "Roger Manners, fifth Earl of Rutland",
-    "shortBio": "Fifth Earl of Rutland (1576–1612); a young Essex favourite and Shakespeare's Cambridge contemporary. Expected to accompany Essex to Ireland in January 1599.",
+    "shortBio": "Fifth Earl of Rutland (1576–1612); a young Essex favourite and Shakespeare's Cambridge contemporary. Expected to accompany Essex to Ireland (Letters 15–16) but then countermanded by the Queen.",
     "letters": [
-      15
+      15, 16
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Roger_Manners,_5th_Earl_of_Rutland",
@@ -1719,9 +1719,9 @@ const people = [
   {
     "id": "gorges-ferdinando",
     "name": "Sir Ferdinando Gorges",
-    "shortBio": "Soldier and colonist (c. 1568–1647); named Lord Marshall of Essex's Irish army in January 1599. After Essex's failure and the 1601 uprising, Gorges turned crown's evidence. He later became the principal promoter of English colonisation in New England and the founding governor of the Province of Maine.",
+    "shortBio": "Soldier and colonist (c. 1568–1647); named Lord Marshall of Essex's Irish army in Letter 15; then countermanded by the Queen in Letter 16. After Essex's failure and the 1601 uprising, Gorges turned crown's evidence. He later became the principal promoter of English colonisation in New England and the founding governor of the Province of Maine.",
     "letters": [
-      15
+      15, 16
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Ferdinando_Gorges",
@@ -1842,6 +1842,162 @@ const people = [
     ],
     "externalLinks": {
       "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "jermyn-thomas",
+    "name": "Sir Thomas Jermyn",
+    "shortBio": "Sir Thomas Jermyn (c. 1573–1645), of Rushbrooke, Suffolk; Essex associate. Listed among Essex's intended colonels for Ireland in Letter 15; then countermanded by the Queen in Letter 16.",
+    "letters": [
+      15, 16
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "medici-ferdinand",
+    "name": "Ferdinand I de' Medici, Grand Duke of Tuscany",
+    "shortBio": "Ferdinand I de' Medici (1549–1609), Grand Duke of Tuscany from 1587. His repeated protests about English privateers seizing Florentine and Tuscan vessels in the eastern Mediterranean led first to Florence barring English merchants from his territories (Letter 15) and then to London issuing an order forbidding prizes in the Levant on pain of death (Letter 16).",
+    "letters": [
+      15, 16
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Ferdinand_I_de%27_Medici,_Grand_Duke_of_Tuscany",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "parker-nicholas",
+    "name": "Sir Nicholas Parker",
+    "shortBio": "Sir Nicholas Parker (1547–1619), soldier; veteran of campaigns in Ireland and the Low Countries. Countermanded by the Queen from joining Essex's Irish army in January 1599. He later served as Governor of Ostend from 1601.",
+    "letters": [
+      16
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "yorke-edward",
+    "name": "Sir Edward Yorke",
+    "shortBio": "Sir Edward Yorke (d. 1612), soldier in Essex's following. Countermanded by the Queen from joining the Irish expedition in January 1599.",
+    "letters": [
+      16
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "berkeley-john",
+    "name": "Sir John Berkeley",
+    "shortBio": "Sir John Berkeley (c. 1560–1611), soldier; served in the Low Countries and Ireland. Named among Essex's intended colonels for Ireland and then countermanded by the Queen in January 1599. Chamberlain spells the name 'Barkclay.'",
+    "letters": [
+      16
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "brooke-john",
+    "name": "Sir John Brooke",
+    "shortBio": "Soldier in Essex's following; no relation to the Cobham Brookes. Countermanded by the Queen from joining the Irish expedition in January 1599.",
+    "letters": [
+      16
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "egerton-thomas-jr",
+    "name": "Sir Thomas Egerton (soldier)",
+    "shortBio": "A soldier of this name countermanded by the Queen from joining Essex's Irish army in January 1599; not the Lord Keeper Thomas Egerton (then in his late fifties and a principal officer of state). Possibly a son or kinsman of the Lord Keeper.",
+    "letters": [
+      16
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "davies-john-captain",
+    "name": "Captain John Davies",
+    "shortBio": "Soldier and military administrator; placed by Essex in possession of the surveyorship of the ordnance ahead of the Irish expedition in January 1599. As Chamberlain noted, the post was a permanent crown office that would outlast the expedition regardless of its outcome.",
+    "letters": [
+      16
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "power-henry",
+    "name": "Sir Henry Power",
+    "shortBio": "Sir Henry Power (c. 1562–1621), English military officer serving in Ireland; knighted 1599, later created first Viscount Valentia (1621). Wounded by a musket-ball to the head at the Earl of Ormond's relief action in January 1599; Chamberlain reported the ball remained lodged but Power was expected to survive.",
+    "letters": [
+      16
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "compton-william",
+    "name": "William Compton, first Earl of Northampton",
+    "shortBio": "William Compton (1568–1630), son of Henry Compton, first Baron Compton; created Earl of Northampton in 1618. His January 1599 engagement to Elizabeth Spencer, daughter of Sir John Spencer of London, was one of the most talked-about matches of the late Elizabethan period — Sir John Spencer reportedly tried to prevent the marriage, though the terms eventually agreed gave the groom £10,000 down plus redemption of £18,000 in mortgaged lands.",
+    "letters": [
+      16
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/William_Compton,_1st_Earl_of_Northampton",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "spencer-john-london",
+    "name": "Sir John Spencer of London",
+    "shortBio": "Sir John Spencer (c. 1548–1610), Lord Mayor of London 1594–95; known as 'Rich Spencer' for his fortune made in the Levant and cloth trades. His daughter Elizabeth was the object of Lord Compton's pursuit; the marriage terms Chamberlain reports in January 1599 included £10,000 ready money and redemption of £18,000 in mortgaged land.",
+    "letters": [
+      16
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "henry-iv-france",
+    "name": "Henri IV, King of France",
+    "shortBio": "Henri IV of France (1553–1610), formerly Henry of Navarre; leader of the Huguenot cause before converting to Catholicism in 1593 to secure the throne. His mercantilist trade policy of January 1599 — banning imported finished textiles to encourage domestic industry and ship-building — threatened England's cloth exports and sparked a heated diplomatic contest. Chamberlain's 'we have the wolf by the ears' captures the English dilemma: they could neither confront the French king aggressively nor concede the point.",
+    "letters": [
+      16
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Henry_IV_of_France",
       "odnb": "",
       "britannica": ""
     }

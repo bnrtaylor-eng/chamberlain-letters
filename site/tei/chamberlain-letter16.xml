@@ -3,10 +3,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from John Chamberlain to [Recipient]</title>
+        <title>Letter from John Chamberlain to Dudley Carleton, 31 January 1599</title>
         <respStmt>
-          <resp>Contributor</resp>
-          <name>[Contributor Name]</name>
+          <resp>Editor</resp>
+          <name>Brandon Taylor</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,6 +19,8 @@
           <pubPlace>Philadelphia</pubPlace>
           <publisher>American Philosophical Society</publisher>
           <date when="1939">1939</date>
+          <biblScope unit="volume">1</biblScope>
+          <biblScope unit="page">65–67</biblScope>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,17 +30,17 @@
     <front>
       <div type="letter-meta">
         <head>Letter Metadata</head>
-        <p><date when="[YYYY-MM-DD]">[Human-Readable Date]</date></p>
-        <p><placeName>[Place of Writing]</placeName></p>
+        <p><date when="1599-01-31">31 January 1599</date></p>
+        <p><placeName ref="#london">London</placeName></p>
         <p><correspDesc>
           <correspAction type="sent">
             <persName ref="#chamberlain-john">John Chamberlain</persName>
-            <date when="[YYYY-MM-DD]"/>
-            <placeName>[Place of Writing]</placeName>
+            <date when="1599-01-31"/>
+            <placeName ref="#london">London</placeName>
           </correspAction>
           <correspAction type="received">
-            <persName ref="#[recipient-id]">[Recipient Name]</persName>
-            <placeName>[Place of Receipt, if known]</placeName>
+            <persName ref="#carleton-dudley">Dudley Carleton</persName>
+            <placeName ref="#ostend">Ostend</placeName>
           </correspAction>
         </correspDesc></p>
       </div>
@@ -46,16 +48,203 @@
 
     <body>
       <div type="letter-text">
-        <p>[Paste letter content here. Use <note place="foot">Example note content.</note>]</p>
-        <p>[Tag people/places like <persName ref="#cecil-robert">Robert Cecil</persName><note type="editorial">Verify this is the correct Cecil.</note>]</p>
+        <opener>Goode Master Carleton,</opener>
+
+        <p>I receved your letters of the first and ninth of this present very lately, and marvayle
+          you had not heard of your skipper before that time. I pray God all be well with him, and
+          that he have not miscaried, for you had rich adventure in him of the <hi rend="italic">Thesaurus
+          Geographicus</hi>,<note>The <hi rend="italic">Thesaurus Geographicus</hi> of
+          <persName ref="#ortelius-abraham">Abraham Ortelius</persName> had been promised to
+          Carleton since Letter 10 and dispatched by special bearer in Letter 12, at
+          <persName ref="#lytton-rowland">Rowland Lytton</persName>'s expense. It was apparently
+          sent by a skipper — a ship's captain sailing to Ostend — who has now gone silent.
+          Chamberlain's worry is practical: Carleton had a valuable cargo at risk.</note> sent by
+          your cousen
+          <persName ref="#lytton-rowland">Lytton</persName>, who is now in towne, and commends
+          him to you. Your brother
+          <persName ref="#carleton-george">Carleton</persName> is at length come, and the
+          Thesaurus not yet come to you; and for your other private frends here is no chaunge.</p>
+
+        <p>The erle of
+          <persName ref="#devereux-robert">Essex</persName> his commission for
+          <placeName ref="#ireland">Ireland</placeName> is after many difficulties agreed on,
+          though not yet signed. He hath the name of Lieutenant,<note>Lord Lieutenant General of
+          Ireland — the highest military-viceregal designation in the crown's gift, outranking
+          the more usual title of Lord Deputy. Essex had insisted on this superior designation
+          from the outset. His commission was reportedly the most sweeping ever issued for Ireland:
+          beyond the lieutenant-general's title it granted him power to create barons, to return
+          at his own discretion, and to dispose of lands won from the rebels — prerogatives
+          that gave a faction of the council serious pause.</note> [power to create] a baron or
+          two, may returne at pleasure, make and dispose of such landes as shalbe won from the
+          rebells at his goode liking, and many other such points are spoken of, but how truly
+          <hi rend="italic">viderit successus</hi>:<note>"Let the outcome be seen" — the outcome
+          will tell. Chamberlain's dry Latinate reserve: the paper powers are impressive; whether
+          they will survive contact with Irish reality is another question.</note> he makes great
+          provision for horses, and many are presented him. They talke likewise of carrienge over
+          two or three hundreth mastives<note>Mastiffs — large war-dogs bred for combat. The plan
+          to deploy them against Irish cattle was a scorched-earth tactic: starving rebel
+          communities by killing their livestock. As Chamberlain mildly observes, the target would
+          be the cattle rather than the people themselves. The scheme was discussed but never
+          carried out.</note> to werry the
+          <placeName ref="#ireland">Irish</placeName> or rather (as I take yt) theyre cattell.</p>
+
+        <p>The preasse of his followers wilbe much abated by reason the Quene countermaundes many,
+          as namely first all her owne servants, and the erle of
+          <persName ref="#manners-roger">Rutland</persName> and the Lord
+          <persName ref="#grey-thomas-wilton">Gray</persName>,
+          <persName ref="#parker-nicholas">Sir Nicolas Parker</persName>,
+          <persName ref="#gorges-ferdinando">Sir Ferdinando Gorge</persName>,
+          <persName ref="#yorke-edward">Sir Edward Yorke</persName>,
+          <persName ref="#berkeley-john">Sir John Barkclay</persName>,
+          <persName ref="#brooke-john">Sir John Brooke</persName>,
+          <persName ref="#blount-charles">Sir Charles Blunt</persName>,
+          <persName ref="#egerton-thomas-jr">Sir Thomas Egerton</persName>,<note>Not Thomas
+          Egerton the Lord Keeper (already in his late fifties and a principal officer of state),
+          but a younger soldier of the same name — possibly a son or near kinsman — who appears
+          as one of Essex's intended colonels here countermanded from the Irish
+          expedition.</note>
+          <persName ref="#jermyn-thomas">Sir Thomas Germin</persName>,
+          <persName ref="#danvers-charles">Sir Charles Davers</persName>, and divers other that
+          come not now in my way. Some suspect yt is his owne doing because he is not able to
+          geve them all satisfaction, but I am not of that opinion.<note>The Queen's mass
+          countermand of Essex's followers was widely read as a deliberate check on his military
+          patronage. Chamberlain, with characteristic moderation, refuses to attribute the
+          dismissals to Essex himself — who, he implies, would have strained to accommodate so
+          many ambitious clients had the Queen allowed it.</note></p>
+
+        <p>He hath dealt well aforehand with Cap:
+          <persName ref="#davies-john-captain">John Davis</persName><note>Captain John Davies
+          (sometimes Davis), soldier and military administrator. The surveyorship of the
+          ordnance — the crown officer responsible for equipping artillery and munitions — was a
+          permanent administrative post, not dependent on the Irish expedition's outcome. "A
+          place will stick by him howsoever this journey succeed" is Chamberlain's way of noting
+          that Essex has done Davies a lasting good turn regardless of what happens in
+          Ireland.</note> and put him in possession of survayor of the ordinaunce, which is a
+          place will sticke by him howsoever this jorny succeed. The unkindenes twixt him and
+          others is not yet reconciled,<note>The quarrel between
+          <persName ref="#devereux-robert">Essex</persName> and
+          <persName ref="#howard-charles">the Lord Admiral</persName> (Charles Howard, Earl of
+          Nottingham) over Sir William Woodhouse's regiment, described in Letter 15, remains
+          unresolved. Chamberlain feared it would poison the Irish venture from the start.</note>
+          which no doubt will much hinder this action that had need of all furtheraunce.</p>
+
+        <p>Newes came lately thence that
+          <persName ref="#bingham-richard">Sir Richard Bingham</persName> is dead,<note>Richard
+          Bingham (1528–1599), soldier and President of Connacht, had suppressed Connacht with
+          considerable brutality for over a decade. Sent back to Ireland in late 1598 to shore
+          up the collapsing military situation, he fell ill almost immediately after reaching
+          Dublin. His death removes the most experienced English administrator in Connacht at
+          the worst possible moment.</note> and that the erle of
+          <persName ref="#butler-thomas-ormond">Ormond</persName> hath geven the rebells a blow
+          in relieving a fort and slaine 3 or 400 in which incounter
+          <persName ref="#power-henry">Sir Henry Poore</persName><note>Sir Henry Power (c.
+          1562–1621), knighted in 1599; later created first Viscount Valentia (1621). He was
+          an English officer serving in Ireland. A musket-ball lodged in the skull was an
+          extremely dangerous wound; that the ball "remains there" but Power was expected to
+          survive suggests either a fortunate trajectory or wishful
+          thinking.</note> receved a shot in the head which remaines there, but yt is thought
+          without daunger.</p>
+
+        <p>Here is a great and curious present going to the great
+          <persName ref="#mehmed-iii">Turke</persName><note>Mehmed III (1566–1603), Ottoman
+          Sultan. The "curious present" was an elaborate self-playing mechanical organ built by
+          Thomas Dallam, the London organ-maker, commissioned by Queen Elizabeth. Dallam sailed
+          to Constantinople in 1599 to install it and left a lively diary of the voyage. The
+          diplomatic scandal Chamberlain anticipates — and specifically among Protestant German
+          states — arose because England's cultivation of the Ottoman Sultan as an ally against
+          Catholic Spain looked to many Protestant neighbours like trafficking with
+          infidels.</note> which no doubt wilbe much talked of, and be very scandalous among
+          other nations specially the Germans. Upon the Duke of
+          <persName ref="#medici-ferdinand">Florence</persName> his embargo and complaint of our
+          piracies, here is order taken upon paine of death that no prises be taken in the
+          <placeName ref="#levant">Levant</placeName> seas.<note>Ferdinand I de' Medici
+          (1549–1609), Grand Duke of Tuscany, had been pressing London about English privateers
+          seizing Florentine and Tuscan vessels in the eastern Mediterranean. The severity of
+          the penalty — death — reflects both the seriousness of the diplomatic complaint and
+          the commercial stakes: the Levant Company's trade to Constantinople, Aleppo, and
+          Alexandria was among the most profitable in the English economy.</note></p>
+
+        <p>We are like enough to fall at some odds with the
+          <persName ref="#henry-iv-france">French king</persName><note>Henri IV of France
+          (1553–1610), who had converted from Protestantism to Catholicism in 1593 to claim the
+          throne ("Paris is worth a mass"). The trade policy Chamberlain describes was a
+          straightforwardly mercantilist response to France's dependency on imported finished
+          textiles: by banning them, Henri intended to stimulate domestic manufacturing and
+          ship-building in order to capture Iberian trade for French merchants. For England,
+          whose cloth exports underpinned the entire commercial economy, the prospect was
+          alarming.</note> about his trafficke into
+          <placeName ref="#spain">Spaine</placeName>, for of late (meaning to set his people on
+          worke and make them industrious) he hath forbidden all manner of wrought silkes to be
+          brought into his dominions, or any worke made of wollen, (which is contrary to our
+          former contracts of entercourse) and withall doth incourage his people all he can to
+          build and buy shippes thereby to get the whole trade of
+          <placeName ref="#spain">Spaine</placeName>, wherin yf he be not prevented, he will sone
+          begger both the Hollanders and us, and hereafter we shall have more ado with him and
+          his then ever we had with the Spaniard. Here hath ben much contesting about yt with his
+          ambassador, and that hotly inough, but we have the wolfe by the eares and know not
+          how to hold him nor how to let him go.</p>
+
+        <p>The Quenes want of mony is not yet so fully supplied but that they are faine to descend
+          to mean men, and picke yt up here and there as they can get yt, and you must thincke
+          they were neere driven when they found out me as a fit man to lend mony, but I thincke
+          I aunswered them sufficiently, that where nothing is to be had the Quene must loose her
+          right.<note>One of the few moments in the correspondence where Chamberlain makes himself
+          the subject. Pressed by crown collectors for a forced loan, he pleaded poverty —
+          invoking the legal maxim that where no assets exist, the sovereign forfeits the claim —
+          and apparently got away with it. The self-deprecating tone barely conceals considerable
+          satisfaction.</note> There is a sale in hand of 3000<hi rend="italic">li</hi> of the
+          Quenes land, which is thought will help well to stop a gap.</p>
+
+        <p>Yt is geven out that the Lord
+          <persName ref="#compton-william">Compton</persName><note>William Compton, later first
+          Earl of Northampton (1568–1630). His marriage to Elizabeth Spencer became one of the
+          celebrated romantic stories of the late Elizabethan period: Sir John Spencer, reportedly
+          furious at the match, was said to have been outmanoeuvred when Lord Compton spirited his
+          daughter out of the house concealed in a basket. Whether or not the basket story is
+          true, Chamberlain's framing — "it is given out" — suggests the engagement was not yet
+          public knowledge in late January 1599.</note> shall marry our Sir
+          <persName ref="#spencer-john-london">John Spensers</persName><note>Sir John Spencer
+          (c. 1548–1610), Lord Mayor of London 1594–95 and one of the wealthiest men in England,
+          known as "Rich Spencer." His fortune came from the Levant trade and cloth dealing.
+          The marriage terms Chamberlain gives — £10,000 down plus redemption of £18,000 in
+          mortgaged land — were a substantial settlement that would have cleared most of
+          Compton's encumbrances.</note> daughter of
+          <placeName ref="#london">London</placeName>, on these conditions that he geve him
+          10000<hi rend="italic">li</hi> redy mony with her, and redeeme his land that lieth in
+          morgage for 18000<hi rend="italic">li</hi> more.</p>
+
+        <p>Sir
+          <persName ref="#harvey-william">William Harvies</persName> marriage with the old
+          countesse of
+          <persName ref="#wriothesley-mary">Southampton</persName><note>Mary Browne (d. 1607),
+          widow of Henry Wriothesley, second Earl of Southampton, and subsequently of Sir Thomas
+          Heneage. She was the mother of Henry Wriothesley, third Earl — Essex's current
+          protégé. The marriage to Sir William Harvey had been rumoured since Letter 4 (May 1598)
+          and had evidently been contracted in secret; only now, eight months later, does
+          Chamberlain report it "coming to be published."</note> that hath lien smothering so
+          longe, comes now to be published. I send you here certaine odde epitaphes and epigrammes
+          that go under the name of pasquills. And thus with my harty commendations I commit you
+          to God. Touching
+          <placeName ref="#flushing">Vlushing</placeName><note>Vlissingen (Flushing), the
+          cautionary town in Zeeland held by England as security for its Dutch loans. Carleton
+          was serving in the garrison under the Lord Governor, Sir Francis Vere. Any shift in
+          England's grip on the cautionary towns was diplomatically sensitive; Chamberlain's
+          brief "no alteration" was reassurance that the question had not moved in either
+          direction.</note> I heare of no alteration.</p>
+
+        <closer>
+          <dateline>From <placeName ref="#london">London</placeName> this
+            <date when="1599-01-31">last of January 1599</date>.</dateline>
+          <signed>Yours most assuredly,
+            <persName ref="#chamberlain-john">JOHN CHAMBERLAIN</persName>.</signed>
+        </closer>
+
+        <postscript>
+          <p>To my very goode frend Master
+            <persName ref="#carleton-dudley">Dudley Carleton</persName> attending on the Lord
+            Governor of <placeName ref="#ostend">Ostend</placeName> geve these.</p>
+        </postscript>
       </div>
     </body>
-
-    <back>
-      <div type="editor-note">
-        <head>Editor's Note</head>
-        <p>[Summarize this letter for general readers. What is it about? What historical context is useful?]</p>
-      </div>
-    </back>
   </text>
 </TEI>
