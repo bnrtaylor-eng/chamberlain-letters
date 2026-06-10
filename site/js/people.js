@@ -198,9 +198,9 @@ const people = [
   {
     "id": "blount-charles",
     "name": "Sir Charles Blount",
-    "shortBio": "Later eighth Baron Mountjoy and Earl of Devonshire; military commander and favourite of Elizabeth I. Chamberlain reports — then corrects — a rumour about a duel in Paris in 1598, names him as a candidate for Lord Deputy in autumn 1598, and by November 1598 reports it generally held he would go to Ireland as Essex's Lord Deputy.",
+    "shortBio": "Later eighth Baron Mountjoy and Earl of Devonshire; military commander and favourite of Elizabeth I. Named as a candidate for Lord Deputy in autumn 1598; listed among the knights named for Essex's Irish expedition in January 1599. Appointed Lord Deputy of Ireland in February 1600 and ultimately suppressed the Nine Years' War at the Battle of Kinsale (1601).",
     "letters": [
-      3, 5, 9, 10
+      3, 5, 9, 10, 15
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Charles_Blount,_8th_Baron_Mountjoy",
@@ -536,9 +536,9 @@ const people = [
   {
     "id": "cromwell-edward",
     "name": "Edward Cromwell, third Baron Cromwell",
-    "shortBio": "English nobleman who lobbied for the governorship of the Brill in 1598, competing for the post as England debated continuing the Dutch war.",
+    "shortBio": "English nobleman who lobbied for the governorship of the Brill in 1598; listed among the lords expected to accompany Essex to Ireland in January 1599.",
     "letters": [
-      6
+      6, 15
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -626,10 +626,10 @@ const people = [
   },
   {
     "id": "brooke-henry",
-    "name": "Henry Brooke, eleventh Baron Cobham",
-    "shortBio": "Lord Warden of the Cinque Ports from 1597. Installed with great ceremony at Canterbury on St. Bartholomew's Day 1598; later mentioned as a candidate for the Privy Council.",
+    "name": "Henry Brooke, eighth Baron Cobham",
+    "shortBio": "Lord Warden of the Cinque Ports from 1597. In January 1599 Chamberlain reports a rumoured match between him and Frances Howard, Countess of Kildare; later condemned for treason in the Main Plot (1603) and died in the Tower (1619).",
     "letters": [
-      6
+      6, 15
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Henry_Brooke,_11th_Baron_Cobham",
@@ -666,9 +666,9 @@ const people = [
   {
     "id": "danvers-charles",
     "name": "Sir Charles Danvers",
-    "shortBio": "Outlawed in 1594 for the death of Henry Long; took refuge in France and served in the French army. Pardoned June 1598 and returned to England. Executed in 1601 for his role in the Essex rebellion.",
+    "shortBio": "Outlawed in 1594 for the death of Henry Long; served in the French army. Pardoned June 1598. Listed among Essex's colonels for Ireland in January 1599. Executed in 1601 for his role in the Essex rebellion.",
     "letters": [
-      6
+      6, 15
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Charles_Danvers_(soldier)",
@@ -679,9 +679,9 @@ const people = [
   {
     "id": "danvers-henry",
     "name": "Sir Henry Danvers",
-    "shortBio": "Outlawed alongside his brother Charles in 1594; served in the French army. Pardoned June 1598. Created Lord Danvers of Dauntsey (1603) and Earl of Danby (1626).",
+    "shortBio": "Outlawed alongside his brother Charles in 1594; served in the French army. Pardoned June 1598. Named to lead 300 horse in Essex's Irish army in January 1599. Created Lord Danvers of Dauntsey (1603) and Earl of Danby (1626).",
     "letters": [
-      6
+      6, 15
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Henry_Danvers,_1st_Earl_of_Danby",
@@ -718,9 +718,9 @@ const people = [
   {
     "id": "wriothesley-henry",
     "name": "Henry Wriothesley, third Earl of Southampton",
-    "shortBio": "English nobleman, patron of Shakespeare, and royal favourite. Secretly married Elizabeth Vernon in 1598, provoking the Queen's fury. Named as general of the horse for Essex's Irish expedition in December 1598, but the appointment evaporated as the plan collapsed. Later involved in the Essex rebellion of 1601.",
+    "shortBio": "English nobleman, patron of Shakespeare, and royal favourite. Secretly married Elizabeth Vernon in 1598, provoking the Queen's fury. Named as general of the horse for Essex's Irish expedition in December 1598 and expected to accompany the army in January 1599. Involved in the Essex rebellion of 1601.",
     "letters": [
-      6, 10, 11, 12
+      6, 10, 11, 12, 15
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Henry_Wriothesley,_3rd_Earl_of_Southampton",
@@ -939,9 +939,9 @@ const people = [
   {
     "id": "neville-henry",
     "name": "Henry Neville",
-    "shortBio": "Diplomat and MP for Berkshire, knighted in 1599 after his appointment as ambassador to France. Despite his own earnest suit against it, he was confirmed for the French posting before Christmas 1598 and ordered to make himself ready. His mission to Henry IV (1599–1601) coincided with the Essex revolt, in which he was implicated; he was imprisoned briefly in 1601.",
+    "shortBio": "Diplomat and MP for Berkshire, knighted in 1599. Confirmed for the French embassy before Christmas 1598 despite his own reluctance; Chamberlain reports him setting out for France in mid-January 1599 with Ralph Winwood as his secretary, 'at my Lord of Essex commandment.' His mission to Henry IV (1599–1601) coincided with the Essex revolt, in which he was implicated; briefly imprisoned in 1601.",
     "letters": [
-      9, 10
+      9, 10, 15
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Henry_Neville_(diplomat)",
@@ -965,9 +965,9 @@ const people = [
   {
     "id": "grey-thomas-wilton",
     "name": "Thomas Grey, fifteenth Baron Grey of Wilton",
-    "shortBio": "English nobleman (1575–1614). In autumn 1598 sought a regiment in the Low Countries, which brought him into conflict with Sir Francis Vere. Condemned for his role in the Bye Plot against James I (1603) and held in the Tower until his death.",
+    "shortBio": "English nobleman (1575–1614). Sought a regiment in the Low Countries in autumn 1598; listed among the lords expected to join Essex's Irish army in January 1599. Condemned for his role in the Bye Plot against James I (1603) and held in the Tower until his death.",
     "letters": [
-      9
+      9, 15
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Grey,_15th_Baron_Grey_de_Wilton",
@@ -1173,9 +1173,9 @@ const people = [
   {
     "id": "fitzgerald-frances-kildare",
     "name": "Frances Howard, Countess of Kildare",
-    "shortBio": "Daughter of Charles Howard, first Earl of Nottingham, and widow of Henry Fitzgerald, twelfth Earl of Kildare (d. 1597). Her jointure from the Irish Kildare estates had been disrupted by the Nine Years' War rebellion. In November 1598 Queen Elizabeth granted her £700 a year out of the Exchequer in compensation.",
+    "shortBio": "Daughter of Charles Howard, first Earl of Nottingham, and widow of Henry Fitzgerald, twelfth Earl of Kildare (d. 1597). Her jointure from the Irish Kildare estates was disrupted by the Nine Years' War; the Queen granted her £700 a year in November 1598. In January 1599 Chamberlain reports a proposed match between her and Lord Cobham.",
     "letters": [
-      10
+      10, 15
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -1381,9 +1381,9 @@ const people = [
   {
     "id": "leveson-richard",
     "name": "Sir Richard Leveson",
-    "shortBio": "Naval commander (c. 1570–1605); son of Sir Walter Leveson of Lilleshall, Shropshire. In late 1598 he intercepted seventeen Hanseatic and Dutch vessels bound for Spain in the Narrow Seas, but most of them slipped away in the night — leaving him, as Chamberlain puts it with an Italian phrase, 'con tanto di naso' (holding the bag). He later became Vice Admiral of England (1604) and distinguished himself against Spanish shipping.",
+    "shortBio": "Naval commander (c. 1570–1605); son of Sir Walter Leveson of Lilleshall, Shropshire. In late 1598 he intercepted seventeen Hanseatic and Dutch vessels bound for Spain, but most slipped away in the night ('con tanto di naso'). Some of the escaped ships turn up at Plymouth in January 1599 among victualing vessels from the Low Countries. He later became Vice Admiral of England (1604).",
     "letters": [
-      12, 13
+      12, 13, 15
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Richard_Leveson",
@@ -1644,6 +1644,201 @@ const people = [
     "shortBio": "Judge of the Court of Common Pleas; died late 1598. Had been mentioned as a possible Master of the Court of Wards — the most lucrative royal office available, still disputed since Lord Burghley's death. His death removes one candidate without settling the question.",
     "letters": [
       14
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "cragius-nicholaus",
+    "name": "Nicholaus Cragius",
+    "shortBio": "Danish diplomat and classical scholar (1550–1602); sent to London to press for the restitution promised in Christopher Perkins's inconclusive Danish mission (see Letters 13–14). He was present at the Twelfth Night celebrations on January 6, 1599, when the Queen danced with Essex in his honour.",
+    "letters": [
+      15
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "howard-charles",
+    "name": "Charles Howard, first Earl of Nottingham",
+    "shortBio": "Lord High Admiral of England (1585–1619); principal commander against the Spanish Armada (1588) and the Cadiz expedition (1596). His quarrel with Essex in January 1599 over Sir William Woodhouse's regimental appointment reflected the broader competition between the old Elizabethan military establishment and Essex's patronage network.",
+    "letters": [
+      15
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Charles_Howard,_1st_Earl_of_Nottingham",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "woodhouse-william",
+    "name": "Sir William Woodhouse",
+    "shortBio": "Officer at the centre of the Essex–Nottingham quarrel of January 1599, when both magnates disputed who could grant him a company in Sir Thomas Knolles's Low Countries regiment. Chamberlain also reports (Letter 15, later contradicted in Letter 18) that he married Lady Southwell.",
+    "letters": [
+      15
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "stanley-william",
+    "name": "William Stanley, sixth Earl of Derby",
+    "shortBio": "Sixth Earl of Derby (1561–1642). Expected to accompany Essex's Irish expedition in January 1599; his presence was widely anticipated but he did not ultimately serve in Ireland.",
+    "letters": [
+      15
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/William_Stanley,_6th_Earl_of_Derby",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "manners-roger",
+    "name": "Roger Manners, fifth Earl of Rutland",
+    "shortBio": "Fifth Earl of Rutland (1576–1612); a young Essex favourite and Shakespeare's Cambridge contemporary. Expected to accompany Essex to Ireland in January 1599.",
+    "letters": [
+      15
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Roger_Manners,_5th_Earl_of_Rutland",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "gorges-ferdinando",
+    "name": "Sir Ferdinando Gorges",
+    "shortBio": "Soldier and colonist (c. 1568–1647); named Lord Marshall of Essex's Irish army in January 1599. After Essex's failure and the 1601 uprising, Gorges turned crown's evidence. He later became the principal promoter of English colonisation in New England and the founding governor of the Province of Maine.",
+    "letters": [
+      15
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Ferdinando_Gorges",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "blount-christopher",
+    "name": "Sir Christopher Blount",
+    "shortBio": "Soldier (c. 1555–1601); Essex's stepfather, having married Essex's widowed mother Lettice Knollys. Named among Essex's colonels for Ireland in January 1599. Among Essex's most loyal followers; executed for his role in the 1601 uprising.",
+    "letters": [
+      15
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Christopher_Blount",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "blackwell-george",
+    "name": "George Blackwell",
+    "shortBio": "First archpriest of the English Catholic clergy (c. 1545–1613); appointed by Pope Clement VIII in March 1598 to govern the secular clergy in England. His escape from the Marshalsea prison in Southwark in January 1599 angered the Queen and humiliated the Privy Council, which had detained him as part of its surveillance of the Catholic hierarchy.",
+    "letters": [
+      15
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/George_Blackwell",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "brooke-george",
+    "name": "George Brooke",
+    "shortBio": "Younger brother of Henry Brooke, eighth Lord Cobham (c. 1568–1603). In January 1599 Chamberlain reports a proposed match between him and Lord Borough's eldest daughter. Later executed for his involvement in the Main Plot against James I.",
+    "letters": [
+      15
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/George_Brooke_(conspirator)",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "paulet-william-iv",
+    "name": "William Paulet, fourth Marquis of Winchester",
+    "shortBio": "Fourth Marquis of Winchester (c. 1561–1628); succeeded to the title on his father's death in November 1598. Chamberlain reports in January 1599 that he married a youth of barely eighteen — younger son of William Fleetwood, receiver of the Court of Wards — before his father was even buried, a pointed social observation.",
+    "letters": [
+      15
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/William_Paulet,_4th_Marquess_of_Winchester",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "cope-frances",
+    "name": "Frances Cope (née Lytton)",
+    "shortBio": "Wife of Sir Anthony Cope of Hanwell, Oxfordshire; sister of Rowland Lytton of Knebworth and first cousin of Dudley Carleton. Chamberlain's 'old mistris' — his former patroness — who died on Twelfth Even (January 5, 1599). Her death is noted alongside Edmund Spenser's in the same sentence.",
+    "letters": [
+      15
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "spenser-edmund",
+    "name": "Edmund Spenser",
+    "shortBio": "Poet and colonial administrator (c. 1552–1599); author of <hi rend=\"italic\">The Faerie Queene</hi> (1590, 1596). He came to London in December 1598 carrying dispatches from Sir Thomas Norris, Lord President of Munster, and died at Westminster on January 16, 1599. Chamberlain names him simply as 'our principall poet' and moves on — a plain, brief tribute. His funeral was at Essex's charges, with poets carrying the hearse and mourning verses thrown into the tomb.",
+    "letters": [
+      15
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Edmund_Spenser",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "winwood-ralph",
+    "name": "Ralph Winwood",
+    "shortBio": "Diplomat (c. 1563–1617); appointed secretary to Henry Nevill on his embassy to France (1599–1601) at Essex's direction. Later served as envoy to the Dutch Republic (1603–1613) and Secretary of State under James I (1614–1617). His papers, published posthumously, are a major source for early Jacobean diplomacy.",
+    "letters": [
+      15
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Ralph_Winwood",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "drury-dru",
+    "name": "Sir Dru Drury",
+    "shortBio": "Gentleman Usher of the Privy Chamber (c. 1531–1617); served in this role throughout Elizabeth's reign and until his death. In January 1599 Chamberlain notes he is 'in his old remitter' — under some restriction — and has been commanded to return to his court duties.",
+    "letters": [
+      15
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "fleetwood-william",
+    "name": "William Fleetwood",
+    "shortBio": "Receiver of the Court of Wards (knighted 1603). His younger son, barely eighteen years old, married the newly-succeeded fourth Marquis of Winchester in January 1599 — before the Marquis's father was even buried, as Chamberlain pointedly notes.",
+    "letters": [
+      15
     ],
     "externalLinks": {
       "wikipedia": "",

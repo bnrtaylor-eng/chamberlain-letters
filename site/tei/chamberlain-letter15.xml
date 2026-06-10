@@ -3,10 +3,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from John Chamberlain to [Recipient]</title>
+        <title>Letter from John Chamberlain to Dudley Carleton, 17 January 1599</title>
         <respStmt>
-          <resp>Contributor</resp>
-          <name>[Contributor Name]</name>
+          <resp>Editor</resp>
+          <name>Brandon Taylor</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,6 +19,8 @@
           <pubPlace>Philadelphia</pubPlace>
           <publisher>American Philosophical Society</publisher>
           <date when="1939">1939</date>
+          <biblScope unit="volume">1</biblScope>
+          <biblScope unit="page">62–65</biblScope>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,17 +30,17 @@
     <front>
       <div type="letter-meta">
         <head>Letter Metadata</head>
-        <p><date when="[YYYY-MM-DD]">[Human-Readable Date]</date></p>
-        <p><placeName>[Place of Writing]</placeName></p>
+        <p><date when="1599-01-17">17 January 1599</date></p>
+        <p><placeName ref="#london">London</placeName></p>
         <p><correspDesc>
           <correspAction type="sent">
             <persName ref="#chamberlain-john">John Chamberlain</persName>
-            <date when="[YYYY-MM-DD]"/>
-            <placeName>[Place of Writing]</placeName>
+            <date when="1599-01-17"/>
+            <placeName ref="#london">London</placeName>
           </correspAction>
           <correspAction type="received">
-            <persName ref="#[recipient-id]">[Recipient Name]</persName>
-            <placeName>[Place of Receipt, if known]</placeName>
+            <persName ref="#carleton-dudley">Dudley Carleton</persName>
+            <placeName ref="#ostend">Ostend</placeName>
           </correspAction>
         </correspDesc></p>
       </div>
@@ -46,16 +48,229 @@
 
     <body>
       <div type="letter-text">
-        <p>[Paste letter content here. Use <note place="foot">Example note content.</note>]</p>
-        <p>[Tag people/places like <persName ref="#cecil-robert">Robert Cecil</persName><note type="editorial">Verify this is the correct Cecil.</note>]</p>
+        <opener>Master Carleton,</opener>
+
+        <p>Though I looke in a manner dayly for your comming over, yet because many
+          accidents may chaunge your course, or defer your passage for a time, I will not
+          omit this present occasion, but salute you after my accustomed manner, the rather
+          because I have neither heard of you nor written since the end of Christmas.</p>
+
+        <p>And to begin with the first, the Quene on Twelvth day to close up the holy dayes,
+          and do the
+          <persName ref="#cragius-nicholaus">Danish Ambassador</persName><note>Nicholaus
+          Cragius (1550–1602), Danish diplomat and classical scholar, in London to press for
+          the restitution promised in Perkins's half-answer from Denmark (see Letters 13–14).
+          The Queen's choice to dance with Essex before the ambassador was deliberate
+          political theatre — displaying her favourite and signalling his fitness for
+          command.</note> honor, daunct with the erle of
+          <persName ref="#devereux-robert">Essex</persName> very richly and freshly attired.
+          Since, there fell out a great unkindnes twixt the erle and the
+          <persName ref="#howard-charles">Lord Admirall</persName><note>Charles Howard, first
+          Earl of Nottingham (1536–1624); Lord High Admiral since 1585 and the principal
+          commander against the Armada. His quarrel with Essex over military patronage is
+          one symptom of the broader competition between older Elizabethan magnates and
+          Essex's client network for control of army appointments.</note> about
+          <persName ref="#woodhouse-william">Sir William Woodhouse</persName><note>An officer
+          seeking a company in the Low Countries; the disputed regiment was that of Sir Thomas
+          Knolles. The quarrel turned on whether Essex's Irish patronage extended to
+          appointments in the Low Countries garrisons — the Lord Admiral evidently thought
+          not.</note> that was to have a companie in the
+          <placeName ref="#low-countries">Lowe Countries</placeName> in
+          <persName ref="#knolles-thomas">Sir Thomas Knolles</persName> regiment. The matter
+          is yet not taken up, and some high wordes passed. The erles jorny for
+          <placeName ref="#ireland">Ireland</placeName> is somwhat prolonged, for his
+          vitaylers that had order to make theyre provisions for February are now put over
+          till March.</p>
+
+        <p>He shall cary a great troupe of gallants with him, yf all go that are spoken of,
+          as the erles of
+          <persName ref="#stanley-william">Darbie</persName><note>William Stanley, sixth Earl
+          of Derby (1561–1642).</note>,
+          <persName ref="#manners-roger">Rutland</persName><note>Roger Manners, fifth Earl of
+          Rutland (1576–1612); a young Essex favourite and Shakespeare's Cambridge
+          contemporary.</note> and
+          <persName ref="#wriothesley-henry">Southampton</persName>, the Lords
+          <persName ref="#windsor-henry">Windsore</persName><note>Henry, fifth Lord Windsor
+          (1562–1605).</note>,
+          <persName ref="#grey-thomas-wilton">Gray</persName>,
+          <persName ref="#touchet-george">Audeley</persName><note>George Touchet, eighteenth
+          Lord Audley (c. 1551–1617); created Earl of Castlehaven in 1616.</note> and
+          <persName ref="#cromwell-edward">Cromwell</persName>, wherof
+          <persName ref="#gorges-ferdinando">Sir Ferdinando Gorge</persName><note>Sir
+          Ferdinando Gorges (c. 1568–1647), named Lord Marshall of Essex's army. After Essex's
+          failure in Ireland and his involvement in the 1601 uprising, Gorges turned crown's
+          evidence against Essex. He later became the principal promoter of English colonisation
+          in New England and the founding governor of the Province of Maine.</note>
+          is named to be Lord Marshall of the army besides knights sans number; to be
+          Sergeant Major,
+          <persName ref="#danvers-henry">Sir Henry Davers</persName> to have the leading of
+          300 horse,
+          <persName ref="#danvers-charles">Sir Charles Davers</persName>,
+          <persName ref="#percy-charles">Sir Charles Percy</persName><note>Third son of Henry
+          Percy, ninth Earl of Northumberland ('the Wizard Earl').</note>,
+          <persName ref="#blount-charles">Sir Charles Blunt</persName>,
+          <persName ref="#jermyn-thomas">Sir Thomas Germin</persName><note>Sir Thomas Jermyn
+          (c. 1573–1645), of Rushbrooke, Suffolk.</note>,
+          <persName ref="#ratcliffe-alexander">Sir Alexander Ratcliffe</persName> and
+          <persName ref="#egerton-john">Egerton</persName><note>Sir John Egerton
+          (c. 1579–1649), elder son of Sir Thomas Egerton, Lord Keeper; later first Earl of
+          Bridgewater.</note>,
+          <persName ref="#blount-christopher">Sir Christofer Blunt</persName><note>Sir
+          Christopher Blount (c. 1555–1601), Essex's stepfather, having married his widowed
+          mother Lettice Knollys. Among Essex's most loyal followers; executed after the
+          1601 uprising.</note>,
+          <persName ref="#wingfield-edward">Sir Edward Wingfeld</persName>
+          and ten or twelve others of that standing looke to be served too. But yt is saide
+          the erle geves few places nor bestowes offices to any as yet, because he will hold
+          his followers in hart till he have them there: many that wish well to the jorny
+          have no great conceit of yt seing many raw youthes preasse for the greatest
+          charges.</p>
+
+        <p>Here was speach that the erle of
+          <persName ref="#fitzgerald-gerald">Kildare</persName><note>Gerald Fitzgerald,
+          fourteenth Earl of Kildare (1559–1612); a Pale-loyal Irish nobleman restored to the
+          earldom in 1585. His 'standing upon termes' suggests wavering loyalty under rebel
+          pressure, though he ultimately remained on the English side.</note> and the Lord of
+          <persName ref="#nugent-christopher">Delvin</persName><note>Christopher Nugent,
+          fourteenth Lord Delvin (c. 1544–1602); another Old English magnate of the Pale whose
+          equivocation in early 1599 alarmed the Dublin government.</note> began to stand upon
+          termes and the cheife rebells began to geve doubtfull aunswers and put water in
+          theyre wine and to proceed with more temper. Ships from the
+          <placeName ref="#low-countries">Lowe Countries</placeName> bound for the victualing
+          of <placeName ref="#ireland">Ireland</placeName>, having touched the coast of
+          <placeName ref="#portugal">Portingale</placeName>, were by weather put into
+          <placeName ref="#plymouth">Plimmouth</placeName> — bringing with them some of
+          <persName ref="#leveson-richard">Sir Richard Lewson</persName>'s escaped Hanseatic
+          vessels, which could now be detained and inspected. The Duke of
+          <persName ref="#medici-ferdinand">Florence</persName><note>Ferdinand I de' Medici,
+          Grand Duke of Tuscany (1549–1609); his barring of English merchants was part of the
+          wider European backlash against English privateering.</note> hath barred our nation
+          from traffike in his territories, and yt is feared the Venetians and the French
+          king will serve us in the same sort.</p>
+
+        <p>The Quene is very angry with
+          <persName ref="#gerard-thomas">Sir Thomas Gerrard</persName> for the escape of one
+          <persName ref="#blackwell-george">Blackwell</persName><note>George Blackwell
+          (c. 1545–1613), appointed archpriest over the English secular Catholic clergy by
+          Pope Clement VIII in March 1598. His escape from the Marshalsea prison in Southwark
+          (a state prison south of the Thames) was an embarrassment to the Privy Council,
+          which had detained him as part of its surveillance of the Catholic ecclesiastical
+          hierarchy in England.</note> an archpriest out of the Marshallsee. There was a plot
+          layde by certain Jesuites and preists to murther or poison the Scottish kinge, and
+          yt is confessed by some that are taken. The Scottish king had a sore bruise with
+          the fall of an horse and was let bloude fowre times.</p>
+
+        <p>The newes comes now very hot that the king of
+          <placeName ref="#portugal">Portingale</placeName> that was said to be slaine in the
+          battell is at
+          <placeName ref="#venice">Venice</placeName>, and hath made so goode triall of
+          himself that the Venetians allowe him, and maintaine almost fowrescore with
+          fowretene more at theyre charge. They say he tells very straunge stories, how he
+          got up into the mountaines, and so by many adventures and <hi rend="italic">per tot
+          discrimina</hi> in this longe pilgrimage (wherin he hath ben taken, bought and sold
+          twelve or thirtene times) got at last to
+          <placeName ref="#venice">Venice</placeName>, where he tells them all that was
+          negotiated twixt him and them either by letters or ambassadors, since he was of any
+          goode remembraunce, so many perticulers as are thought infallible, with
+          testimonies; and that his confessor is come out of
+          <placeName ref="#portugal">Portingale</placeName> and upon conference avoucheth all
+          to be true that he saith, touching what passed twixt them in confession both the
+          day before the battell and at other times. We run away with all, as though all were
+          our owne, and are easilie persuaded to beleve what we wold have. What will come of
+          yt God knowes, but yt were a happy turne for Christendome yf yt were true, but yt
+          will by no meanes sincke downe with me, but that still I feare he wilbe cousened
+          and trussed up in the end.<note>The claim that Sebastian I of Portugal — killed at
+          the Battle of Alcácer Quibir (4 August 1578) against the Moroccan sultan — had
+          survived was the foundation of a messianic movement known as Sebastianism. Several
+          pretenders emerged across Europe in the following decades. This Venetian claimant
+          was investigated by the Venetian Senate and ultimately rejected as an impostor from
+          Calabria. Chamberlain's scepticism — 'we run away with all, as though all were our
+          owne, and are easilie persuaded to beleve what we wold have' — is among his most
+          pointed comments on credulity and wishful thinking. Philip III's reported march into
+          Portugal was probably defensive: a credible Sebastianist claimant would threaten
+          Spain's 1580 annexation of the Portuguese crown.</note> The king of
+          <placeName ref="#spain">Spaine</placeName> is saide to be going into
+          <placeName ref="#portugal">Portingale</placeName> with a 1000 horse and 3000 foote
+          upon this rumor, but I rather thincke yt is to be receved there and crowned.</p>
+
+        <p><persName ref="#drury-dru">Sir Dru Drury</persName><note>Sir Dru Drury
+          (c. 1531–1617), Gentleman Usher of the Privy Chamber throughout Elizabeth's reign.
+          His 'old remitter' suggests a prior period of restriction from court attendance, now
+          lifted.</note> is in his old remitter and commanded to wait in his place of
+          gentleman usher of the privie chamber. There is a mariage spoken of twixt the Lord
+          <persName ref="#brooke-henry">Cobham</persName> and the Countesse of
+          <persName ref="#fitzgerald-frances-kildare">Kildare</persName>, and betwene his
+          lame brother
+          <persName ref="#brooke-george">Master George Brooke</persName><note>George Brooke
+          (c. 1568–1603), younger brother of Henry Brooke, eighth Lord Cobham; he married
+          Elizabeth, daughter of Thomas, fifth Lord Burgh. He was later executed in connection
+          with the Main Plot against James I in 1603.</note> and the Lord Borroughs eldest
+          daughter. Yt is saide likewise that
+          <persName ref="#woodhouse-william">Sir Will. Woodhouse</persName> hath married the
+          <persName ref="#southwell-lady">Lady Southwell</persName><note>Widow of Sir Robert
+          Southwell. Chamberlain contradicts this report in Letter 18.</note>, and the
+          <persName ref="#paulet-william-iv">Lord Marquis</persName><note>William Paulet,
+          fourth Marquis of Winchester (c. 1561–1628), who had just inherited the title on
+          his father's death in November 1598. Chamberlain's pointed aside — 'before he
+          buried' his father — implies the new Marquis rushed into a hasty marriage while
+          still in formal mourning.</note> (before he buried) hath married a youth not full
+          eightene yeares old, younger sonne to
+          <persName ref="#fleetwood-william">Master Fleetwoode</persName><note>William
+          Fleetwood (knighted 1603), receiver of the Court of Wards.</note> receiver of the
+          court of wardes.</p>
+
+        <p><persName ref="#arundell-matthew">Sir Mathew Arundell</persName><note>Sir Matthew
+          Arundell of Wardour Castle, Wiltshire (d. January 1599). His bequests — £2,000 for
+          a causeway near Sherborne, £2,000 to the poor — follow the conventional charitable
+          patterns of a man of his standing.</note> is died these holy dayes and hath left
+          much to goode uses, as 2000<hi rend="italic">li</hi> to the making of a cawsey
+          about <placeName ref="#sherborne">Sherborne</placeName>, and
+          2000<hi rend="italic">li</hi> to the poore, and many other legacies of like
+          nature. The
+          <persName ref="#cope-frances">Lady Cope</persName><note>Frances Cope (née Lytton),
+          sister of Rowland Lytton of Knebworth and wife of Sir Anthony Cope of Hanwell,
+          Oxfordshire; first cousin of Dudley Carleton and evidently a figure of real warmth
+          for Chamberlain — 'mine old mistris' meaning his former patroness, not a romantic
+          attachment. She died on Twelfth Even (January 5, 1599).</note> your cousen and
+          mine old mistris (as I heare) left the world on Twelvth Even and
+          <persName ref="#spenser-edmund">Spencer</persName><note>Edmund Spenser
+          (c. 1552–1599), poet and colonial administrator in Ireland; author of
+          <hi rend="italic">The Faerie Queene</hi> (1590, 1596). He arrived in London in
+          December 1598 carrying dispatches from Sir Thomas Norris, Lord President of Munster,
+          and died at Westminster on Saturday, January 16, 1599. His funeral was, as Camden
+          records, 'at the charges of the Earle of Essex, his Hearse being carried by Poets,
+          and mournfull Verses thrown into his Tombe' (<hi rend="italic">Annales</hi>,
+          p. 501). Chamberlain names him as 'our principall poet' and moves on without
+          ceremony — a plain tribute that may be more eloquent for its brevity.</note> our
+          principall poet comming lately out of
+          <placeName ref="#ireland">Ireland</placeName> died at Westminster on Saturday
+          last.</p>
+
+        <p><persName ref="#neville-henry">Master Nevill</persName> goes within these eight
+          or ten dayes into
+          <placeName ref="#france">Fraunce</placeName> and hath won
+          <persName ref="#winwood-ralph">Master Winwoode</persName><note>Ralph Winwood
+          (c. 1563–1617), diplomat; he served as secretary to Henry Nevill on his embassy to
+          France (1599–1601) and later became Secretary of State under James I (1614–1617).
+          His attachment to Essex's patronage network here marks the beginning of his public
+          career.</note> at my Lord of
+          <persName ref="#devereux-robert">Essex</persName> commandment to beare him companie
+          and be about him. Yf I had more you see I am no niggard and therfore without
+          further ceremonies I bid you farewell.</p>
+
+        <closer>
+          <dateline>From <placeName ref="#london">London</placeName> this
+            <date when="1599-01-17">17th of January 1598</date>.</dateline>
+          <signed>Yours most assuredly,
+            <persName ref="#chamberlain-john">JOHN CHAMBERLAIN</persName>.</signed>
+        </closer>
+
+        <postscript>
+          <p>To my very goode frend Master
+            <persName ref="#carleton-dudley">Dudley Carleton</persName> attending on the Lord
+            Governor of <placeName ref="#ostend">Ostend</placeName> geve these.</p>
+        </postscript>
       </div>
     </body>
-
-    <back>
-      <div type="editor-note">
-        <head>Editor's Note</head>
-        <p>[Summarize this letter for general readers. What is it about? What historical context is useful?]</p>
-      </div>
-    </back>
   </text>
 </TEI>
