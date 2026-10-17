@@ -42,6 +42,7 @@ cope-frances
 cope-walter
 cragius-nicholaus
 cromwell-edward
+cromwell-henry
 danvers-charles
 danvers-henry
 davies-john-captain
@@ -49,6 +50,7 @@ devereux-robert
 docwra-henry
 dormer-michael
 drury-dru
+dunche-william
 edes-richard
 edmondes-thomas
 egerton-thomas
@@ -56,6 +58,7 @@ egerton-thomas-jr
 elizabeth-i
 evers-ralph
 evers-william
+fane-francis
 fitzgerald-frances-kildare
 fitzgerald-james
 fitzgibbon-edmund
@@ -63,6 +66,8 @@ fleetwood-william
 fortescue-john
 gilbert-john
 goodwin-john
+gorge-helena
+gorge-thomas
 gorges-ferdinando
 greville-fulke
 grey-thomas-wilton
@@ -137,6 +142,7 @@ stanley-william
 talbot-gilbert
 thumery-de-boissise
 trevor-john
+tyringham-henry
 unton-dorothy
 vere-edward
 vere-francis

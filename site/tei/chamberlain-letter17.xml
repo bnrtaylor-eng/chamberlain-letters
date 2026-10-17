@@ -3,10 +3,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from John Chamberlain to [Recipient]</title>
+        <title>Letter from John Chamberlain to Dudley Carleton, 15 February 1599</title>
         <respStmt>
-          <resp>Contributor</resp>
-          <name>[Contributor Name]</name>
+          <resp>Editor</resp>
+          <name>Brandon Taylor</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,6 +19,8 @@
           <pubPlace>Philadelphia</pubPlace>
           <publisher>American Philosophical Society</publisher>
           <date when="1939">1939</date>
+          <biblScope unit="volume">1</biblScope>
+          <biblScope unit="page">67–68</biblScope>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,17 +30,17 @@
     <front>
       <div type="letter-meta">
         <head>Letter Metadata</head>
-        <p><date when="[YYYY-MM-DD]">[Human-Readable Date]</date></p>
-        <p><placeName>[Place of Writing]</placeName></p>
+        <p><date when="1599-02-15">15 February 1599</date></p>
+        <p><placeName ref="#london">London</placeName></p>
         <p><correspDesc>
           <correspAction type="sent">
             <persName ref="#chamberlain-john">John Chamberlain</persName>
-            <date when="[YYYY-MM-DD]"/>
-            <placeName>[Place of Writing]</placeName>
+            <date when="1599-02-15"/>
+            <placeName ref="#london">London</placeName>
           </correspAction>
           <correspAction type="received">
-            <persName ref="#[recipient-id]">[Recipient Name]</persName>
-            <placeName>[Place of Receipt, if known]</placeName>
+            <persName ref="#carleton-dudley">Dudley Carleton</persName>
+            <placeName ref="#ostend">Ostend</placeName>
           </correspAction>
         </correspDesc></p>
       </div>
@@ -46,16 +48,138 @@
 
     <body>
       <div type="letter-text">
-        <p>[Paste letter content here. Use <note place="foot">Example note content.</note>]</p>
-        <p>[Tag people/places like <persName ref="#cecil-robert">Robert Cecil</persName><note type="editorial">Verify this is the correct Cecil.</note>]</p>
+        <opener>Goode Master Carleton,</opener>
+
+        <p>Because yt is long since I heard from you, I did verely thincke when I saw
+          <persName ref="#harvey-gerrard">Sir Gerrat Harvy</persName> in
+          <placeName ref="#st-pauls">Powles</placeName><note>St. Paul's Cathedral and its
+          surrounding nave walk served as the great indoor exchange of Elizabethan London —
+          the place where merchants, lawyers, soldiers, and gentlemen loitered and passed
+          news. Chamberlain ran into Harvey there and tried to extract intelligence about
+          Carleton's situation at Ostend.</note> that your Lord had ben arrived, but
+          understanding by him that your conge was not come from the
+          <placeName ref="#the-hague">Haghe</placeName><note>Carleton, serving under the
+          Lord Governor of Ostend, required formal leave from the English representative at
+          The Hague before he could return to England. Harvey, who had just come from the
+          Netherlands, confirmed that this leave had not yet been granted.</note> at his
+          departure, I made account we may looke after you a moneth more at the least, yf
+          not longer. I am going to
+          <placeName ref="#knebworth">Knebworth</placeName> (I know not how soone) and mean
+          to tarry there all Lent. Yf you come over in this interim let us intreat your
+          companie, yf yt may be spared.</p>
+
+        <p>Our provisions for
+          <placeName ref="#ireland">Ireland</placeName> go forward with leaden feet, and the
+          erle of
+          <persName ref="#devereux-robert">Essex</persName> his commission is no neerer
+          signing (in shew) then when I wrote last; the jarres continue as they did, yf not
+          worse, by dayly renewing, and our musicke runs so much upon discords, that I feare
+          what harmonie they will make of yt in the end. Many thinges passe which may not be
+          written, but in conclusion, <hi rend="italic">Iliacos intra muros peccatur
+          et extra</hi>:<note>"There is sin within the walls of Troy as well as without" —
+          Horace, <hi rend="italic">Epistles</hi> 1.2.16. Chamberlain applies the line to the
+          Essex-Cecil-Queen quarrel: blame cannot be assigned to one party only. The quotation
+          would have been instantly recognisable to Carleton.</note> there is fault on all
+          sides, and <hi rend="italic">quicquid delirant reges plectuntur Achivi</hi>,<note>
+          "Whatever madness kings indulge in, the Greeks are punished" — Horace,
+          <hi rend="italic">Epistles</hi> 1.2.14. The Achivi (Greeks) are ordinary subjects:
+          Chamberlain and Carleton's circle pay the price for quarrels among the great. The
+          two Horatian quotations together frame the Essex affair as a classical
+          tragedy-in-progress.</note> whosoever offends the common wealth is punished.</p>
+
+        <p>Here is a benevolence<note>A "benevolence" was a forced "voluntary" contribution
+          levied by the crown without parliamentary consent — notionally a gift, in practice
+          a tax. The breadth of the demand here — spanning every branch of the common law and
+          equity courts, the chancery, the duchy, and even the civilians at the Arches — was
+          unusually sweeping and reflects how acute the crown's financial need had
+          become.</note> demaunded of all manner of the lawyers, not only of the Innes of
+          Court, but officers and clarks of the exchecquer,
+          <placeName ref="#court-kings-bench">kinges bench</placeName>, common pleas, court of
+          wardes, star chamber, chauncery, Duchy of
+          <placeName ref="#duchy-lancaster">Lancaster</placeName>, auditors, recevers and the
+          rest, not forgetting the poore Doctors of the Arches;<note>The Doctors of the Arches
+          were the civilian (canon and civil law) lawyers who practised in the Court of Arches,
+          the principal ecclesiastical appeal court for the province of Canterbury, held at
+          Doctors' Commons near St. Paul's. Chamberlain's "poore" is gently ironic: they were
+          not notably poor, but they were the most marginal of the legal professions being
+          tapped, and their inclusion signals the crown scraping the bottom of the
+          barrel.</note> there was some curtesie made at the first, but in the end they must
+          geve downe theyre milke, and whether from them yt shall proceed over all
+          <placeName ref="#england">England</placeName> yt is doubtfull.</p>
+
+        <p>Two dayes since we had a proclamation that no Englishman going to sea upon paine
+          of death take any that were in amitie with her Majestie, either
+          <placeName ref="#italy">Italians</placeName>, French, Lowe Countrie men, Danes, or
+          of the Haunse townes, but only meere Spaniards or subjects to the king of
+          Spaine.<note>A tightening of the prize-taking order first mentioned in Letter 16, now
+          extended beyond the Levant to any sea and to all of England's allied or neutral
+          trading partners. The Dutch, Danes, and Hanseatic merchants were the backbone of
+          the northern European carrying trade; English privateers taking their ships had
+          caused repeated diplomatic protests. The penalty of death signals the crown's
+          determination to enforce the order, but Chamberlain's flat reportage suggests he
+          is not entirely convinced it will hold.</note> I heare that the erle of
+          <persName ref="#devereux-robert">Essex</persName> is much offended with
+          <persName ref="#vere-francis">Sir Fra: Vere</persName><note>Sir Francis Vere
+          (1560–1609), commander of the English forces in the Dutch States' service; Governor
+          of the Brill. Essex had been sending captains to the Low Countries to swell the
+          contingent available for transfer to Ireland; Vere refused to receive them, on the
+          grounds that they were not chosen through the proper channel of the States-General.
+          The resulting clash pitted Essex's authority as incoming Lord Lieutenant of Ireland
+          against Vere's established command in the Netherlands.</note> for refusing the
+          captaines that were lately sent over into the
+          <placeName ref="#low-countries">Low Countries</placeName>.</p>
+
+        <p>The Quene removed to
+          <placeName ref="#richmond">Richmont</placeName> on Satterday last, and on Monday we
+          had a great marriage in towne of younge
+          <persName ref="#tyringham-henry">Terringam</persName><note>Identified as a member of
+          the Tyringham family of Tyringham, Buckinghamshire; the exact given name is not
+          recorded in the sources available.</note> with a daughter of
+          <persName ref="#gorge-thomas">Sir Thomas Gorge</persName><note>Sir Thomas Gorge
+          (1536–1610), courtier and groom of the privy chamber. He married Helena Snakenborg
+          (see Lady Marchioness, below), and their daughter is the bride here.</note> by the
+          Lady <persName ref="#gorge-helena">Marquesse</persName>,<note>Helena Gorge (née
+          Snakenborg, c. 1549–1635), a Swedish noblewoman who came to England in 1565 in the
+          train of Princess Cecilia of Sweden. After the death of William Parr, Marquess of
+          Northampton, whose household she had joined, she married Sir Thomas Gorge in 1576
+          and continued to be known as "the Lady Marchioness" from her connection to the
+          Parr family title. She was one of the most distinctive figures at the Elizabethan
+          court.</note> and the next weeke we shall have an other of younge
+          <persName ref="#dunche-william">Duns</persName><note>William Dunche (later knighted
+          1603), son of Edmund Dunche of Wittenham, Berkshire.</note> with a daughter of
+          <persName ref="#cromwell-henry">Sir Henry Cromwells</persName>.<note>Sir Henry
+          Cromwell (c. 1537–1603) of Hinchinbrook, Huntingdonshire, known as "the Golden
+          Knight" for his celebrated hospitality. His granddaughter would marry Robert Hampden;
+          his grandson Oliver, born in 1599, would become Lord Protector of the
+          Commonwealth — though that was still far in the future from where Chamberlain
+          stood.</note> I heare the match is concluded for younge
+          <persName ref="#fane-francis">Vane</persName><note>Francis Fane (c. 1583–1629),
+          later created first Earl of Westmorland (1624). Chamberlain writes "Vane," a period
+          spelling of Fane; the two names were confused in Elizabethan usage. He was the son
+          of Sir Francis Fane and Mary Neville, through whom his claim to be "Lord of
+          Abergevennie" descended — the Neville barony of Abergavenny having passed through
+          the female line.</note> (that standes to be Lord of Abergevennie) with the daughter
+          of <persName ref="#mildmay-anthony">Sir Antony Mildmay</persName>.<note>Sir Anthony
+          Mildmay (c. 1550–1617), of Apethorpe, Northamptonshire; diplomat and courtier,
+          son of Sir Walter Mildmay, the Elizabethan statesman and founder of Emmanuel
+          College, Cambridge. His daughter Mary Mildmay became Fane's wife.</note></p>
+
+        <p>Thus you see for want of better marchandise this pettie ware must serve the turne.
+          And so I bid you farewell with my best wishes and commendations.</p>
+
+        <closer>
+          <dateline>From <placeName ref="#london">London</placeName> this
+            <date when="1599-02-15">15 of February 1599</date>.</dateline>
+          <signed>Yours most assuredly,
+            <persName ref="#chamberlain-john">JOHN CHAMBERLAIN</persName>.</signed>
+        </closer>
+
+        <postscript>
+          <p>To my very goode frend Master
+            <persName ref="#carleton-dudley">Dudley Carleton</persName> attending on the Lord
+            Governor of <placeName ref="#ostend">Ostend</placeName> geve these.</p>
+        </postscript>
       </div>
     </body>
-
-    <back>
-      <div type="editor-note">
-        <head>Editor's Note</head>
-        <p>[Summarize this letter for general readers. What is it about? What historical context is useful?]</p>
-      </div>
-    </back>
   </text>
 </TEI>

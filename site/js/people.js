@@ -278,7 +278,7 @@ const people = [
     "name": "Rowland Lytton",
     "shortBio": "Cousin of Dudley Carleton and owner of Knebworth House, Hertfordshire. Chamberlain frequently visited and wrote from Knebworth; Lytton hosted Lady Pelham there in September 1598; attended the burial of Sir John Brockett in October 1598; insisted on paying for Carleton's copy of Ortelius's Thesaurus Geographicus in December 1598; and was in London in January 1599 when the book was dispatched to Ostend by skipper.",
     "letters": [
-      3, 6, 7, 9, 10, 12, 16
+      3, 6, 7, 9, 10, 12, 16, 17
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -289,9 +289,9 @@ const people = [
   {
     "id": "mildmay-anthony",
     "name": "Sir Anthony Mildmay",
-    "shortBio": "English diplomat and courtier. Mentioned as traveling to Northamptonshire (presumably Apethorpe) in May 1598.",
+    "shortBio": "English diplomat and courtier of Apethorpe, Northamptonshire; son of Sir Walter Mildmay, founder of Emmanuel College, Cambridge. Mentioned as traveling to Northamptonshire in May 1598. His daughter Mary married Francis Fane (later first Earl of Westmorland) in February 1599.",
     "letters": [
-      3
+      3, 17
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Sir_Anthony_Mildmay",
@@ -458,9 +458,9 @@ const people = [
   {
     "id": "vere-francis",
     "name": "Sir Francis Vere",
-    "shortBio": "English military commander in the Low Countries. Brought 1,200 musketeers to the Islands Voyage (1597); secured the governorship of the Brill in autumn 1598 after considerable effort; paid £400 a year out of the post to Lady Borroughs, widow of his predecessor.",
+    "shortBio": "English military commander in the Low Countries (1560–1609). Brought 1,200 musketeers to the Islands Voyage (1597); secured the governorship of the Brill in autumn 1598 after considerable effort; paid £400 a year out of the post to Lady Borroughs, widow of his predecessor. In February 1599 he refused to receive captains sent by Essex for transfer to Ireland, precipitating a quarrel between Essex's Irish command and the established English forces in Dutch service.",
     "letters": [
-      1, 5, 8, 9
+      1, 5, 8, 9, 17
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Francis_Vere",
@@ -499,7 +499,7 @@ const people = [
     "name": "Robert Devereux, second Earl of Essex",
     "shortBio": "Queen Elizabeth's troubled favourite. Commanded the Islands Voyage (1597); fell from favour in 1598; returned to the Privy Council on 10 September 1598. His Irish command stalled repeatedly through late 1598; a cochineal debt dispute wrecked it on Sunday 17 December, but by early January 1599 the 'disgusto' was resolved, £12,000 delivered for cavalry, and Essex was preparing in earnest. He finally departed for Ireland in March 1599. Anthony Sherley drew bills against his name across the Levant; Squire had poisoned his chair-arm during the Islands Voyage.",
     "letters": [
-      1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
+      1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Robert_Devereux,_2nd_Earl_of_Essex",
@@ -835,9 +835,9 @@ const people = [
   {
     "id": "harvey-gerrard",
     "name": "Sir Gerrard Harvey",
-    "shortBio": "Mentioned in passing as the person through whose servant Chamberlain dispatched an earlier letter to Carleton from Knebworth in 1598. Identification uncertain.",
+    "shortBio": "Elizabethan courtier and soldier connected to the diplomatic and military world centred on the Low Countries. Chamberlain dispatched a letter to Carleton through Harvey's servant in October 1598; in February 1599 Chamberlain spotted Harvey walking in St. Paul's after his return from the Netherlands, and extracted news that Carleton's leave had not yet been granted from The Hague.",
     "letters": [
-      8
+      8, 17
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -1998,6 +1998,84 @@ const people = [
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Henry_IV_of_France",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "tyringham-henry",
+    "name": "Henry Tyringham",
+    "shortBio": "A young gentleman of the Tyringham family of Tyringham, Buckinghamshire. Married a daughter of Sir Thomas Gorge and Helena (née Snakenborg), Lady Marchioness, at a celebrated London wedding in February 1599.",
+    "letters": [
+      17
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "gorge-thomas",
+    "name": "Sir Thomas Gorge",
+    "shortBio": "Sir Thomas Gorge (1536–1610), courtier and groom of the privy chamber. Husband of Helena Gorge née Snakenborg, the Swedish-born Lady Marchioness; their daughter married Henry Tyringham in February 1599.",
+    "letters": [
+      17
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Gorges",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "gorge-helena",
+    "name": "Helena Gorge (née Snakenborg), Lady Marchioness",
+    "shortBio": "Helena Gorge (c. 1549–1635), a Swedish noblewoman who came to England in 1565 in the train of Princess Cecilia of Sweden. She joined the household of William Parr, Marquess of Northampton, and retained the title 'Lady Marchioness' following his death; she subsequently married Sir Thomas Gorge (1576). One of the most prominent foreign-born figures at the Elizabethan court, she outlived both husbands and the Queen herself.",
+    "letters": [
+      17
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Helena_of_Snakenborg",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "dunche-william",
+    "name": "William Dunche",
+    "shortBio": "William Dunche (later knighted 1603), son of Edmund Dunche of Wittenham, Berkshire. Married a daughter of Sir Henry Cromwell of Hinchinbrook in February 1599.",
+    "letters": [
+      17
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "cromwell-henry",
+    "name": "Sir Henry Cromwell",
+    "shortBio": "Sir Henry Cromwell (c. 1537–1603) of Hinchinbrook, Huntingdonshire, known as 'the Golden Knight' for his celebrated hospitality. Grandfather of Oliver Cromwell, the future Lord Protector of the Commonwealth (born 1599). His daughter married William Dunche in February 1599.",
+    "letters": [
+      17
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Sir_Henry_Cromwell",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "fane-francis",
+    "name": "Francis Fane, first Earl of Westmorland",
+    "shortBio": "Francis Fane (c. 1583–1629), later created first Earl of Westmorland (1624). Son of Sir Francis Fane and Mary Neville, through whom he claimed the Neville barony of Abergavenny. Chamberlain spells his name 'Vane' — a common period confusion between the two surnames. He married Mary Mildmay, daughter of Sir Anthony Mildmay of Apethorpe, in early 1599.",
+    "letters": [
+      17
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Francis_Fane,_1st_Earl_of_Westmorland",
       "odnb": "",
       "britannica": ""
     }
