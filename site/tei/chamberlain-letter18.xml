@@ -3,10 +3,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Letter from John Chamberlain to [Recipient]</title>
+        <title>Letter from John Chamberlain to Dudley Carleton, 1 March 1599</title>
         <respStmt>
-          <resp>Contributor</resp>
-          <name>[Contributor Name]</name>
+          <resp>Editor</resp>
+          <name>Brandon Taylor</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,6 +19,8 @@
           <pubPlace>Philadelphia</pubPlace>
           <publisher>American Philosophical Society</publisher>
           <date when="1939">1939</date>
+          <biblScope unit="volume">1</biblScope>
+          <biblScope unit="page">69–71</biblScope>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -28,17 +30,17 @@
     <front>
       <div type="letter-meta">
         <head>Letter Metadata</head>
-        <p><date when="[YYYY-MM-DD]">[Human-Readable Date]</date></p>
-        <p><placeName>[Place of Writing]</placeName></p>
+        <p><date when="1599-03-01">1 March 1599</date></p>
+        <p><placeName ref="#london">London</placeName></p>
         <p><correspDesc>
           <correspAction type="sent">
             <persName ref="#chamberlain-john">John Chamberlain</persName>
-            <date when="[YYYY-MM-DD]"/>
-            <placeName>[Place of Writing]</placeName>
+            <date when="1599-03-01"/>
+            <placeName ref="#london">London</placeName>
           </correspAction>
           <correspAction type="received">
-            <persName ref="#[recipient-id]">[Recipient Name]</persName>
-            <placeName>[Place of Receipt, if known]</placeName>
+            <persName ref="#carleton-dudley">Dudley Carleton</persName>
+            <placeName ref="#ostend">Ostend</placeName>
           </correspAction>
         </correspDesc></p>
       </div>
@@ -46,16 +48,201 @@
 
     <body>
       <div type="letter-text">
-        <p>[Paste letter content here. Use <note place="foot">Example note content.</note>]</p>
-        <p>[Tag people/places like <persName ref="#cecil-robert">Robert Cecil</persName><note type="editorial">Verify this is the correct Cecil.</note>]</p>
+        <opener>Goode Master Carleton,</opener>
+
+        <p>I receved both your letters of the 12th and twentieth of the last, full fraught
+          both with theyre owne store, and much other goode matter that came in theyre
+          companie. We kepe still at a stay and do neither movere nor promovere,<note>"We
+          neither move nor make headway" — a Latin phrase from Terence expressing inertia.
+          Chamberlain applies it to the general stalemate in English affairs: the Irish
+          expedition neither advancing to departure nor officially called off.</note> but drive
+          on with the weather to see what time will bringe foorth.</p>
+
+        <p>The erle of <persName ref="#devereux-robert">Essex</persName> is crased,<note>
+          "Crased" = mentally or physically unsettled; broken in health or spirit. By early
+          March 1599 Essex had suffered weeks of humiliating reversals over his Irish
+          commission — quarrels about the title, the powers, the officers, the finances — and
+          was reportedly making it a question whether he would go at all.</note> but new
+          difficulties arise dayly about his commission, as touching the time and touching the
+          disposing of his abode, touching his intertainment,<note>The "entertainment" of an
+          Elizabethan commander meant the pay and allowances attached to his office. Essex was
+          dissatisfied with the financial terms offered for the Irish command, as well as with
+          the arrangements for who would control places and offices in his absence from
+          court.</note> and the disposing of places and offices, upon which points and some
+          others he is so litle satisfied that many times he makes yt a question whether he
+          go or not.
+          <persName ref="#carey-george-cockington">Sir George Carie</persName> of
+          Cockington<note>Sir George Carey of Cockington, Devon (not to be confused with
+          George Carey, second Baron Hunsdon and Lord Chamberlain of England). He was a
+          West Country gentleman associated with the Plymouth region, now named to the
+          important administrative post of Treasurer of Ireland — responsible for managing
+          the crown's financial operations in the colony.</note> (by
+          <placeName ref="#plymouth">Plymouth</placeName>) is named to be treasurer of
+          <placeName ref="#ireland">Ireland</placeName> in
+          <persName ref="#wallop-henry">Sir Henry Wallops</persName><note>Sir Henry Wallop
+          (c. 1531–1599), Treasurer at Wars of Ireland from 1579 until his death in 1599.
+          His long tenure had given him an unrivalled knowledge of the Irish financial system;
+          Chamberlain's aside — "whether he be to my Lords liking or no I know not" —
+          implies that Essex had not been consulted about Carey's appointment, and was not
+          pleased.</note> place, but whether he be to my Lords liking or no I know not.</p>
+
+        <p>The rebells of
+          <placeName ref="#munster">Mounster</placeName> and
+          <placeName ref="#connacht">Connagh</placeName> are not so united but that they have
+          many jarres among themselves, and of late a bickering, wherin
+          <persName ref="#condon-patrick">Patricke Condon</persName><note>Patrick Condon, a
+          Munster Gaelic lord and prominent rebel leader in the Nine Years' War. His reported
+          death or serious wounding here illustrates the factional tensions among the
+          Ulster-Munster rebel alliance that the English had been trying to exploit.</note>
+          (a cheife ringleader) is saide to be slaine or sore hurt.</p>
+
+        <p>Here was newes that Captaine Simmes and his companie was cut apeeces by the
+          ennemie, but as far as I heare since, yt was but a private quarrell in which
+          Sims miscaried.<note>A reminder that military news from Ireland — even alarming
+          news of a company destroyed — was routinely garbled in transmission. What reached
+          London as an enemy action turned out to be an internal brawl.</note> On Satterday
+          last <persName ref="#woodhouse-william">Sir William Woodhouse</persName>
+          accompanied with fowre hacksters,<note>Hired swords; men paid to do violence.
+          "Hackster" (also "huckster" or "hackster") was the period term for a hired
+          ruffian, distinct from a gentleman duelling on point of honour.</note> understanding
+          that <persName ref="#drury-robert">Sir Robert Drury</persName><note>Sir Robert Drury
+          (c. 1575–1615) of Hawsted, Suffolk, courtier and soldier. The motive for Woodhouse's
+          attack is not stated, but Woodhouse had been at the centre of the Essex–Nottingham
+          quarrel over a Low Countries regiment in January 1599 (see Letter 15), and Drury may
+          have been connected to that dispute. Drury later achieved distinction as a patron of
+          John Donne, who would write his famous elegy on the death of Drury's daughter
+          Elizabeth — the "First Anniversary."</note> was to come from
+          <placeName ref="#tottenham">Totnam</placeName> toward
+          <placeName ref="#london">London</placeName>, waited for him in the way, and set upon
+          him as he was comming out of his coach, wounding him in three or fowre places, and
+          thincking they had dispatched him, left him for dead, but yt falles out better with
+          him, for he is like to recover; mary his man that offred himself in his masters
+          defence was slaine outright in the place. Upon the first alarme at the court, there
+          was commaundment from the counsaile for a privie search all over this towne to
+          apprehend them, but within two howres after (upon what reason I know not) yt was
+          countermaunded.<note>The countermanding of the privy search within two hours — with
+          no explanation offered — would have been a conspicuous detail to Chamberlain and his
+          readers. It suggests either that Woodhouse's connection to Essex bought him
+          protection, or that the government did not want to embarrass powerful patrons by
+          pursuing the matter too publicly.</note> Some geve out that
+          <persName ref="#woodhouse-william">Sir William Woodhouse</persName> shold be
+          likewise hurt in the face and in the hande, but I thincke yt is rather geven out
+          to move pitie then otherwise, for I cannot learne he was neere daunger, and the
+          match was very uneven of five to two, and they taken on the sodain.</p>
+
+        <p>The Lady Drury (Sir Roberts mother) died some ten or twelve dayes since and hath
+          left Sir John Scot a fresh widower.<note>Lady Drury was Elizabeth, daughter of Sir
+          William Stafford of Grafton, who had first married Sir William Drury of Hawsted
+          (Sir Robert's father) and then Sir John Scott of Nettlestead, Kent. Her death
+          makes her second husband a widower again — hence Chamberlain's "fresh widower."
+          The coincidence of her death so close to her son's ambush gave the passage an
+          additional air of calamity in the Drury household.</note> I wrote you in one of my
+          letters that <persName ref="#woodhouse-william">Sir W. Woodhouse</persName> had
+          married the Lady Southwell, but the matter was mistaken, though yt were generally
+          bruited.</p>
+
+        <p>One Doctor
+          <persName ref="#ledsham-henry">Ledsam</persName><note>Identified by McClure as
+          presumably Henry Ledsham, a clergyman who had served as one of the Queen's
+          chaplains but was apparently long regarded as mentally unstable. Suicide was an act
+          of profound theological transgression in early modern England — self-murder — and
+          Chamberlain's phrase "made away himself" was the standard euphemism for
+          it.</note> sometimes the Quenes chaplain, but allwayes a giddibraind fellow, hath
+          lately stab'd and made away himself here in towne. The match is made up twixt
+          younge <persName ref="#norris-francis">Norris</persName><note>Francis Norris
+          (c. 1579–1622), son of the first Baron Norris of Rycote; he succeeded as second
+          Baron Norris of Rycote and was later created first Earl of Berkshire (1621). His
+          match with Bridget Vere united two prominent Protestant noble families.</note> and
+          the Lady <persName ref="#vere-bridget">Briget</persName><note>Bridget Vere (c.
+          1584–1631), second daughter of Edward de Vere, seventeenth Earl of Oxford. Her
+          father was the poet and courtier long identified in some traditions with the
+          authorship controversy surrounding Shakespeare; whatever the truth of that
+          identification, he was one of the most culturally prominent noblemen of the
+          Elizabethan court. Bridget and Francis Norris were married in 1599.</note> second
+          daughter to the erle of
+          <persName ref="#vere-edward-oxford">Oxford</persName>.<note>Edward de Vere
+          (1550–1604), seventeenth Earl of Oxford; Lord Great Chamberlain of England; poet
+          and patron of players. His daughters were considered advantageous matches for
+          Protestant gentlemen seeking connections to the older nobility.</note></p>
+
+        <p>We are still fed with fresh rumors of Don Sebastian<note>Don Sebastião I of
+          Portugal (1554–1578), who died at the Battle of Alcácer Quibir in Morocco. His
+          body was never conclusively identified, and "Sebastianism" — the messianic belief
+          that he would return — persisted in Portugal for generations. Periodically,
+          impostors claiming to be Sebastian appeared in Europe; this is one such rumour.
+          Chamberlain's sceptical "I will lay no wager of all this" is characteristic.</note>
+          that he is <hi rend="italic">ipsissimus</hi>,<note>"The very man himself" — a
+          Latinate way of saying the claimant is the real Sebastian rather than an
+          impostor.</note> and that the Venetians have sent ambassadors to the king of
+          <placeName ref="#spain">Spaine</placeName> to signifie so much unto him: and that
+          there have ben some great men executed of late in
+          <placeName ref="#portugal">Portingale</placeName> about this busines, and many
+          others translated into <placeName ref="#spain">Spaine</placeName>, but I will lay
+          no wager of all this.</p>
+
+        <p>For lacke of better matter I send you three or fowre toyes to passe away the time:
+          the letter of <persName ref="#squire-edward">Squires</persName><note>Edward Squire
+          (d. 1598), the alleged poisoner of the Queen and Essex — see Letters 9 and 10.
+          The pamphlet Chamberlain sends, <hi rend="italic">A Letter written out of England
+          to an English Gentleman at Padua</hi> (1599, attributed to Francis Bacon), gave a
+          polished official account of the conspiracy and Squire's confession and
+          execution.</note> conspiracie is well written, but the other of Dr.
+          <persName ref="#dee-john">Dee</persName><note>John Dee (1527–1608 or 1609),
+          mathematician, astrologer, and self-described conjuror of spirits, who had fallen
+          out of royal favour and spent his last decades in poverty and controversy. The
+          pamphlet Chamberlain refers to is probably Dee's <hi rend="italic">A Letter
+          containing a most brief discourse apologeticall</hi> (1599), in which Dee defended
+          himself against charges of conjuring and imposture. Chamberlain's "ridiculous bable
+          of an old imposturinge jugler" is one of his sharpest dismissals.</note> is a
+          ridiculous bable of an old imposturinge jugler. The Silkeworme is thought to be
+          <persName ref="#moffet-thomas">Dr. Muffets</persName><note>Thomas Moffet (or
+          Moffett, 1553–1604), physician and naturalist, author of <hi rend="italic">The
+          Silkworms and Their Flies</hi> (1599), a didactic poem on sericulture. Chamberlain's
+          attribution was correct.</note> and in mine opinion is no bad peece of Poetrie.
+          The treatise of Henry the fourth is reasonablie well written. The author is a younge
+          man of
+          <placeName ref="#cambridge">Cambridge</placeName>;<note>This is
+          <persName ref="#hayward-john">John Hayward</persName>'s
+          <hi rend="italic">The First Part of the Life and Raigne of King Henrie the
+          IIII</hi> (1599), dedicated to the Earl of Essex. The book's account of the
+          deposition of Richard II was read as dangerous political allegory — implying Essex
+          might do to Elizabeth what Bolingbroke did to Richard. Elizabeth herself reportedly
+          said: "I am Richard II, know ye not that?"</note> and many exceptions were taken
+          toward yt, why there was a short thinge in Latin dedicated to the erle of
+          <persName ref="#devereux-robert">Essex</persName>,<note>The printed dedication to
+          Essex was the chief offence: it appeared to identify Essex as a new Bolingbroke,
+          capable of deposing the reigning monarch. The Privy Council ordered the dedication
+          cut from the book. Hayward was later summoned before the Star Chamber and
+          imprisoned in the Tower.</note> and objected to him in goode earnest, wherupon there
+          was commaundment yt shold be cut out of the booke, yet I have got you a transcript
+          of yt that you may picke out the offence yf you can; for my part I can finde no
+          such buggeswords,<note>"Buggeswords" — McClure glosses this as "terrifying words."
+          The term (from "bugge" or "bogey," a frightening apparition) means language designed
+          to scare rather than to make a genuine seditious argument. Chamberlain cannot see
+          what the fuss is about — which may say something about his politics or simply about
+          the opacity of the offending passage to a casual reader.</note> but that every
+          thinge is as yt is taken.</p>
+
+        <p>I am going the next weeke (God willing) to
+          <placeName ref="#knebworth">Knebworth</placeName>, in which consideration I am not
+          greatly sory for your stayeng at
+          <placeName ref="#ostend">Ostend</placeName>, for I shold have injoyed but litle of
+          your company, which perhaps there will come better to passe both here and at some
+          other time. And so wishing you all contentment I commit you to God.</p>
+
+        <closer>
+          <dateline>From <placeName ref="#london">London</placeName> this
+            <date when="1599-03-01">first of March 1599</date>.</dateline>
+          <signed>Yours most assuredly,
+            <persName ref="#chamberlain-john">JOHN CHAMBERLAIN</persName>.</signed>
+        </closer>
+
+        <postscript>
+          <p>To my very goode frend Master
+            <persName ref="#carleton-dudley">Dudley Carleton</persName> attending on the Lord
+            Governor of <placeName ref="#ostend">Ostend</placeName> geve these.</p>
+        </postscript>
       </div>
     </body>
-
-    <back>
-      <div type="editor-note">
-        <head>Editor's Note</head>
-        <p>[Summarize this letter for general readers. What is it about? What historical context is useful?]</p>
-      </div>
-    </back>
   </text>
 </TEI>

@@ -16,7 +16,7 @@ var letters = [
   { number: 15, filename: "chamberlain-letter15.xml", recipient: "Dudley Carleton", date: "1599-01-17", preview: "Queen dances with Essex before the Danish ambassador; his Irish army glitters but has 'too many raw youthes.' Edmund Spenser dies at Westminster." },
   { number: 16, filename: "chamberlain-letter16.xml", recipient: "Dudley Carleton", date: "1599-01-31", preview: "Essex's commission signed; the Queen countermands a dozen of his followers. Dallam's organ dispatched to the Ottoman Sultan. Henri IV bans English cloth — 'we have the wolf by the ears.'" },
   { number: 17, filename: "chamberlain-letter17.xml", recipient: "Dudley Carleton", date: "1599-02-15", preview: "Essex's commission unsigned, quarrels daily — 'Iliacos intra muros peccatur et extra.' A forced loan from every lawyer in England; three London weddings." },
-  { number: 18, filename: "chamberlain-letter18.xml", recipient: "Dudley Carleton", date: "1599-03-01", preview: "To be edited." },
+  { number: 18, filename: "chamberlain-letter18.xml", recipient: "Dudley Carleton", date: "1599-03-01", preview: "Woodhouse and four hacksters waylay Sir Robert Drury on the road from Tottenham — left for dead, expected to recover. Essex's commission still stalled; Hayward's Henry IV gets its Essex dedication ordered cut." },
   { number: 19, filename: "chamberlain-letter19.xml", recipient: "Dudley Carleton", date: "1599-03-15", preview: "To be edited." },
   { number: 20, filename: "chamberlain-letter20.xml", recipient: "Dudley Carleton", date: "1599-06-28", preview: "To be edited." },
   { number: 21, filename: "chamberlain-letter21.xml", recipient: "Dudley Carleton", date: "1599-08-01", preview: "To be edited." },

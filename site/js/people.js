@@ -499,7 +499,7 @@ const people = [
     "name": "Robert Devereux, second Earl of Essex",
     "shortBio": "Queen Elizabeth's troubled favourite. Commanded the Islands Voyage (1597); fell from favour in 1598; returned to the Privy Council on 10 September 1598. His Irish command stalled repeatedly through late 1598; a cochineal debt dispute wrecked it on Sunday 17 December, but by early January 1599 the 'disgusto' was resolved, £12,000 delivered for cavalry, and Essex was preparing in earnest. He finally departed for Ireland in March 1599. Anthony Sherley drew bills against his name across the Levant; Squire had poisoned his chair-arm during the Islands Voyage.",
     "letters": [
-      1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17
+      1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Robert_Devereux,_2nd_Earl_of_Essex",
@@ -1134,9 +1134,9 @@ const people = [
   {
     "id": "squire-edward",
     "name": "Edward Squire",
-    "shortBio": "Ship's steward turned Spanish agent (d. 1598). Recruited by Father Richard Walpole SJ in Spain and sent back to England as an assassin; sailed with Essex on the Islands Voyage and poisoned his chair-arm, and smeared the Queen's saddle-pommel five days before the fleet departed. Confessed the whole scheme at his arraignment, reportedly with great penitence. Hanged and quartered on 23 November 1598. (Cal. S. P. Dom., 1598–1601, pp. 107–110, 111–112; Camden, Annales, pp. 498–499.)",
+    "shortBio": "Ship's steward turned Spanish agent (d. 1598). Recruited by Father Richard Walpole SJ in Spain and sent back to England as an assassin; sailed with Essex on the Islands Voyage and poisoned his chair-arm, and smeared the Queen's saddle-pommel five days before the fleet departed. Confessed the whole scheme at his arraignment, reportedly with great penitence. Hanged and quartered on 23 November 1598. In March 1599 Chamberlain sent Carleton a printed pamphlet on the conspiracy, 'A Letter written out of England to an English Gentleman at Padua' (attributed to Bacon), calling it 'well written.'",
     "letters": [
-      10, 11
+      10, 11, 18
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -1680,9 +1680,9 @@ const people = [
   {
     "id": "woodhouse-william",
     "name": "Sir William Woodhouse",
-    "shortBio": "Officer at the centre of the Essex–Nottingham quarrel of January 1599, when both magnates disputed who could grant him a company in Sir Thomas Knolles's Low Countries regiment. Chamberlain also reports (Letter 15, later contradicted in Letter 18) that he married Lady Southwell.",
+    "shortBio": "Officer at the centre of the Essex–Nottingham quarrel of January 1599, when both magnates disputed who could grant him a company in Sir Thomas Knolles's Low Countries regiment. In March 1599 he hired four men to ambush Sir Robert Drury on the road from Tottenham, wounding him in several places and leaving him for dead; a privy search was ordered and then countermanded within two hours. Chamberlain also corrects an earlier false report (Letter 15) that Woodhouse had married Lady Southwell.",
     "letters": [
-      15
+      15, 18
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -2076,6 +2076,149 @@ const people = [
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Francis_Fane,_1st_Earl_of_Westmorland",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "carey-george-cockington",
+    "name": "Sir George Carey of Cockington",
+    "shortBio": "Sir George Carey of Cockington, Devon (c. 1547–1616), not to be confused with George Carey, second Baron Hunsdon and Lord Chamberlain. He was a West Country gentleman with connections to the Plymouth region, named in March 1599 to succeed Sir Henry Wallop as Treasurer at Wars of Ireland. His suitability to Essex — who had not been consulted — was reportedly uncertain.",
+    "letters": [
+      18
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "wallop-henry",
+    "name": "Sir Henry Wallop",
+    "shortBio": "Sir Henry Wallop (c. 1531–1599), Treasurer at Wars of Ireland from 1579 until his death in 1599. His long tenure gave him an unmatched knowledge of Irish crown finances; his successor Sir George Carey of Cockington was named to the post in early 1599.",
+    "letters": [
+      18
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Henry_Wallop_(died_1599)",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "condon-patrick",
+    "name": "Patrick Condon",
+    "shortBio": "Munster Gaelic lord and rebel leader in the Nine Years' War. Reported in March 1599 as having been slain or seriously wounded in a skirmish — illustrating the factional tensions within the rebel alliance that English commanders hoped to exploit.",
+    "letters": [
+      18
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "drury-robert",
+    "name": "Sir Robert Drury",
+    "shortBio": "Sir Robert Drury (c. 1575–1615) of Hawsted, Suffolk, courtier and soldier. Ambushed on the road from Tottenham to London in March 1599 by Sir William Woodhouse and four hired men, who wounded him in several places and left him for dead; he recovered. Drury later became a patron of John Donne, who wrote his celebrated 'Anniversaries' on the death of Drury's daughter Elizabeth.",
+    "letters": [
+      18
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Robert_Drury_(politician)",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "ledsham-henry",
+    "name": "Dr. Henry Ledsham",
+    "shortBio": "An English clergyman who had served intermittently as one of the Queen's chaplains but was widely regarded as unstable. He stabbed himself in London in early 1599 — 'always a giddibraind fellow,' in Chamberlain's unsympathetic phrase. Suicide was self-murder in early modern law and theology, and carried significant stigma.",
+    "letters": [
+      18
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "norris-francis",
+    "name": "Francis Norris, first Earl of Berkshire",
+    "shortBio": "Francis Norris (c. 1579–1622), son of William Norris, first Baron Norris of Rycote; he succeeded as second Baron Norris of Rycote and was created first Earl of Berkshire (1621). He married Bridget Vere, second daughter of Edward de Vere, seventeenth Earl of Oxford, in 1599.",
+    "letters": [
+      18
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Francis_Norris,_1st_Earl_of_Berkshire",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "vere-bridget",
+    "name": "Bridget Vere",
+    "shortBio": "Bridget Vere (c. 1584–1631), second daughter of Edward de Vere, seventeenth Earl of Oxford. She married Francis Norris in 1599, becoming Lady Norris of Rycote and later Countess of Berkshire.",
+    "letters": [
+      18
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "vere-edward-oxford",
+    "name": "Edward de Vere, seventeenth Earl of Oxford",
+    "shortBio": "Edward de Vere (1550–1604), seventeenth Earl of Oxford; Lord Great Chamberlain of England; poet and patron of playing companies. A prominent and controversial figure at the Elizabethan court, he appears here as the father of Bridget Vere, matched in 1599 to Francis Norris.",
+    "letters": [
+      18
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Edward_de_Vere,_17th_Earl_of_Oxford",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "dee-john",
+    "name": "Dr. John Dee",
+    "shortBio": "John Dee (1527–1608/09), mathematician, astrologer, occultist, and adviser to Elizabeth I. By 1599 he was elderly, impoverished, and controversial; his pamphlet defending himself against charges of conjuring prompted Chamberlain's dismissal: 'a ridiculous bable of an old imposturinge jugler.'",
+    "letters": [
+      18
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/John_Dee",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "moffet-thomas",
+    "name": "Dr. Thomas Moffet",
+    "shortBio": "Thomas Moffet (or Moffett, 1553–1604), physician and naturalist. Author of The Silkworms and Their Flies (1599), a didactic poem on sericulture that Chamberlain deemed 'no bad peece of Poetrie.'",
+    "letters": [
+      18
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Muffet",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "hayward-john",
+    "name": "John Hayward",
+    "shortBio": "John Hayward (c. 1564–1627), lawyer and historian. His The First Part of the Life and Raigne of King Henrie the IIII (1599), dedicated to the Earl of Essex, was read as dangerous political allegory — the deposition of Richard II implying a parallel to Elizabeth. The Privy Council ordered the dedication cut; Hayward was later summoned before the Star Chamber and imprisoned in the Tower. Chamberlain sends Carleton a transcript of the offending dedication, unable to find the notorious 'buggeswords' himself.",
+    "letters": [
+      18
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/John_Hayward_(historian)",
       "odnb": "",
       "britannica": ""
     }
