@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter 262: John Chamberlain to Sir Dudley Carleton, 29 March 1617</title>
+        <author ref="#chamberlain-john">John Chamberlain</author>
+        <editor>Brandon Taylor</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>The Chamberlain Letters Digital Edition</publisher>
+        <date when="2025"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>The National Archives, Kew</repository>
+            <collection>State Papers Domestic, James I</collection>
+            <idno>S.P. Dom., Jac. I, xc, 146</idno>
+          </msIdentifier>
+          <msContents>
+            <p>Autograph letter signed.</p>
+          </msContents>
+        </msDesc>
+        <biblStruct>
+          <analytic>
+            <title>Letter 262</title>
+          </analytic>
+          <monogr>
+            <author>John Chamberlain</author>
+            <editor>Norman Egbert McClure</editor>
+            <title>The Letters of John Chamberlain</title>
+            <imprint>
+              <publisher>American Philosophical Society</publisher>
+              <pubPlace>Philadelphia</pubPlace>
+              <date>1939</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+            <biblScope unit="page">65–67</biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#chamberlain-john">John Chamberlain</persName>
+          <placeName>London</placeName>
+          <date when="1617-03-29"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#carleton-dudley">Sir Dudley Carleton</persName>
+          <placeName>The Hague</placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <opener>
+          <salute>My very goode Lord:</salute>
+        </opener>
+
+        <p>Since my last unto you I have receved yours of the 10<hi rend="superscript">th</hi> of this present, and the very same day I wrote the <persName ref="#egerton-thomas">late Lord Chauncellor</persName>
+        <note>Thomas Egerton, first Viscount Brackley (c. 1540–1617), Lord Chancellor since 1603. He resigned the Great Seal on 4 March 1617, and died on 15 March, two weeks before this letter. He had been one of the towering legal figures of the Elizabethan and Jacobean eras. Chamberlain's remark that he gave order to be buried in oblivion, citing the precedents of Seneca, Archbishop Warham, and the humanist Guillaume Budé, illustrates the Renaissance ideal of stoic retirement from worldly honours.</note>
+        left this world, beeing visited <hi rend="italic">in articulo mortis</hi> (or not full halfe an howre before) by the <persName ref="#bacon-francis">new Lord Keper</persName>
+        <note>Francis Bacon (1561–1626) was appointed Lord Keeper on 7 March 1617 and became Lord Chancellor in January 1618; created Viscount St Alban in 1621. His appointment marked a decisive turn in his long rise to power.</note>
+        with a message from his Majestie that he meant presently to bestow on him the title of the earle of Bridgewater, to make him President of the counsaile, and geve him a pension of 3000<hi rend="superscript">li</hi> a yeare during his life: but he was so far past that no wordes or worldly comforts could worke with him, but only thancking his Majestie for his gracious favor, saide these thinges were all to him but vanities. But <persName ref="#egerton-john">his sonne</persName>
+        <note>Sir John Egerton (1579–1649), created Earl of Bridgewater on 17 May 1617, fulfilling the offer made to his dying father.</note>
+        though he lay then (and so doth still) as yt were bound hand and foote with the gowte, yet did not neglect this fayre offer of the earledom of his father, hath sollicited yt ever since, with hopefull successe at first the King having geven order for the warrant, yet yt stickes now I know not where, unles yt be that he must geve downe more milke, though yf all be true that is saide 20000<hi rend="superscript">li</hi> was a fayre soope before. His father left but an indifferent name beeing accounted too sowre, severe and implacable, a great ennemie to parlements and the common law, only to maintain his owne greatnes, and the exorbitant jurisdiction of his court of chauncerie. He gave order in his will to have no solemne funerall, no monument, but to be buried in oblivion, alleging the precedents of Seneca, Warrham archbishop of Caunterburie and chauncellor, and Budæus the learned Frenchman, who all tooke the like course, so that yesterday he was caried downe very privatly into Cheshire to be laide by his first wife and his sonne.</p>
+
+        <p><persName ref="#noel-edward">Sir Edward Nowell</persName>
+        <note>Edward Noel, first Viscount Campden (1582–1643); created Baron Noel of Ridlington on 25 February 1617. He sold his manor of Dalby in Leicestershire to the Earl of Buckingham and was buying Burly on the Hill in Rutlandshire from the estate of the late Earl of Bedford.</note>
+        is newly made a baron by patent, which beeing a more easie way then by creation or investiture, yt is doubted that in time we shall have more then enough. He hath sold his manner of Dalby in Lecestershire, (beeing his patrimonie and dwelling,) to <persName ref="#villiers-george">the earle of Buckingham</persName> for 29000<hi rend="superscript">li</hi>, and lies in wait to buy Burly of the Lady of Bedford and (wheron he hath lent monie alredy) and so plant himself altogether in Rutlandshire. <persName ref="#hay-james">The Lord Hayes</persName>
+        <note>James Hay, first Earl of Carlisle (c. 1580–1636), created Viscount Doncaster in 1618 and Earl of Carlisle in 1622; noted for his prodigal hospitality. He was sworn to the Privy Council in early 1617.</note>
+        was the last weeke sworn of the counsaile at Roiston as I take yt, and yt is expected that the earle of Montgomerie shall not tarrie long after him. The King is now at Lincoln whether Master Vicechamberlain
+        <note>Sir John Digby (1580–1653), later Earl of Bristol; had been on embassy to Spain 1611–15 and was now going again as part of the negotiations over the proposed Spanish marriage for Prince Charles.</note>
+        went on Thursday to take his leave for Spaine and yt is generally bruited that he shalbe made a vicount. The Lord Rosse is come home and gon to the King. The greatest matter I heare of his message is that the King of Spaine gave him a jewell of 5000<hi rend="superscript">li</hi>, and yet he will not gain by the bargain. The busines with Spaine goes on (they say) the Kinge, Quene and Prince beeing very well affected to yt, and commissioners apointed to consider of yt, <persName ref="#bacon-francis">the Lord Keper</persName>, <persName ref="#howard-thomas">Lord Treasurer</persName>,
+        <note>Thomas Howard, first Earl of Suffolk, Lord Treasurer until his disgrace in 1619.</note>
+        Lord Privie-seale, <persName ref="#lennox-ludovic">Duke of Lennox</persName>,
+        <note>Ludovic Stuart (1574–1624), second Duke of Lennox and fifth Duke of d'Aubigny; a Scottish nobleman of French origin and cousin of James I, prominent at court.</note>
+        <persName ref="#andrewes-lancelot">bishop of Ely</persName>,
+        <note>Lancelot Andrewes, translated to the bishopric of Ely in 1609; would be translated to Winchester in 1619. His inclusion among the Spanish marriage commissioners surprised many given his reputation as a Protestant divine.</note>
+        vicechamberlain, chauncellor of the exchequer and <persName ref="#lake-thomas">Sir Thomas Lake</persName>.
+        <note>Sir Thomas Lake (1561–1630), Secretary of State from 1616 to 1619, when he was disgraced. His removal from the Spanish marriage commission along with Archbishop Abbot and Sir Ralph Winwood signals their known opposition to any Spanish match.</note>
+        <persName ref="#abbot-george">The archbishop of Caunterburie</persName>,
+        <note>George Abbot (1562–1633), Archbishop of Canterbury from 1611; a committed Calvinist and opponent of the Spanish match, who remained out of favour for most of the 1620s as a result.</note>
+        Master Controller and <persName ref="#winwood-ralph">Sir Rafe Winwood</persName> are excepted and left out as openly opposite. At the parting from the King at Huntington <persName ref="#winwood-ralph">Secretarie Winwod</persName> was apointed to be at Edinburg the 20<hi rend="superscript">th</hi> of July. He hath lately gotten the keping of Ditton parke to him and his heyres males, and 500<hi rend="superscript">li</hi> for his charges in reparations and alterations since his comming to yt.</p>
+
+        <p><persName ref="#pocahontas">The Virginian woman</persName>
+        <note>Pocahontas (c. 1596–1617), daughter of Powhatan, wife of John Rolfe. She died on or about 21 March 1617 at Gravesend, Kent, before her ship could leave the Thames, aged about twenty. The cause of her death is unknown — pneumonia, tuberculosis, and smallpox have all been suggested. She was buried in the chancel of St George's church, Gravesend. John Rolfe returned to Virginia without her. Their son Thomas Rolfe remained in England and eventually emigrated to Virginia as an adult.</note>
+        (whose picture I sent you) died this last weeke at <placeName>Gravesend</placeName> as she was returning homeward. Our prentises that committed the disorders on Shrovetewsday have ben arraigned and acquitted for theyre lives, but found guilty of a fowle riot, and some of them fined in summes they can never pay, and to imprisonment for a yeare, two or three according to the greatnes of theyre offence.</p>
+
+        <p><persName ref="#raleigh-walter">Sir Walter Raleigh</persName>
+        <note>Sir Walter Raleigh (c. 1552–1618) had been imprisoned in the Tower since 1603 and under sentence of death from the Winchester treason trial of that year. He was now being released to lead an expedition to Guiana in search of a gold mine on the Orinoco — his last bid to regain royal favour. His hurried departure was driven partly by fear that new opposition at court (here the Lord Rosse's return with Spanish goodwill, and the Vicechamberlain going to Spain) might lead to a countermand. He was indeed executed in October 1618, the Winchester sentence revived, after the expedition's failure and his men's attack on a Spanish settlement.</note>
+        tooke his leave yesternight of Master Secretarie and goes this morning toward <placeName>Dover</placeName> where he hopes to find his ship, though his followers are yet in the river and make no great haste after him. He makes away with all the speed he can for feare of a countermaund, by reason of some message brought by the Lord Rosse, and of Master Vicechamberlains going to court now his frends be away, and yt is observed that the Prince is no frend to the journy, but hindered the Quene from going to see his ship as she had apointed on Wensday last. God knowes there needs no such great working to overthrow the viage. For ought I can understand, I feare he doth but go (as children are wont to tell theyre tales) to seeke his fortune.</p>
+
+        <p>I had almost forgotten that on Monday the 24<hi rend="superscript">th</hi> of this moneth beeing the Kings day, the archbishop of Caunterburie, <persName ref="#bacon-francis">the Lord Keper</persName>, Lord Privie-seale, the earle of Arun­dell, the earle of Southampton, the Lord Hayes, the controller, <persName ref="#winwood-ralph">Secretarie Winwod</persName>, the Master of the Rolles with divers other great men were at Paules Crosse and heard <persName ref="#donne-john">Dr. Donne</persName>
+        <note>John Donne (1572–1631), metaphysical poet and preacher; ordained into the Church of England in January 1615 and rapidly becoming one of the most celebrated preachers in London. Chamberlain's praise is notably specific — Donne preached on Proverbs 22:11, held himself close to the text, gave Queen Elizabeth her due, and did not flatter the present age.</note>
+        who made there a daintie sermon upon the eleventh verse of the 22<hi rend="superscript">th</hi> of Proverbes; and was exceedingly well liked generally, the rather for that he did Quene Elizabeth great right, and held himself close to the text without flattering the time too much. So with all goode wishes to you and my Lady I commend you to the protection of the Almighty.</p>
+
+        <closer>
+          <dateline>From <placeName>London</placeName> this 29<hi rend="superscript">th</hi> of March 1617.</dateline>
+          <salute>Your Lordships to commaund</salute>
+          <signed><persName ref="#chamberlain-john">JOHN CHAMBERLAIN.</persName></signed>
+        </closer>
+
+        <address>
+          <addrLine>To the right honorable Sir Dudley Carleton knight Lord Ambassador for his Majestie with the States of the United Provinces at the Hagh.</addrLine>
+        </address>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -94,9 +94,9 @@ const people = [
   {
     "id": "carleton-alice",
     "name": "Alice Carleton",
-    "shortBio": "Sister of Dudley Carleton. Appears in Letter 3 as an intermediary for letters and as a social connection in London.",
+    "shortBio": "Sister of Dudley Carleton. Appears in Letter 3 as an intermediary for letters and a social connection in London. In the postscript to Letter 244, she writes to Chamberlain about the death of Signor Seala's wife — doubtful, she says, whether there had been some foul play — and urges that her brother hold to his plan of visiting the Spa to treat his kidney stone.",
     "letters": [
-      3
+      3, 244
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -107,9 +107,9 @@ const people = [
   {
     "id": "carleton-william",
     "name": "William Carleton",
-    "shortBio": "Brother of Dudley Carleton, mentioned as living in the country. To be expanded.",
+    "shortBio": "Brother of Dudley Carleton. Mentioned in May 1598 as living in the country. In June 1616 he was in London for the term but made no stay.",
     "letters": [
-      3
+      3, 244
     ],
     "externalLinks": {
       "wikipedia": "",
@@ -262,10 +262,10 @@ const people = [
   },
   {
     "id": "edmondes-thomas",
-    "name": "Thomas Edmondes",
-    "shortBio": "English diplomat (knighted 1603). Sent to France in 1598 to prepare the way for Anglo-Spanish peace negotiations, and returned in late May with news that the peace was all but concluded.",
+    "name": "Sir Thomas Edmondes",
+    "shortBio": "English diplomat (knighted 1603). Sent to France in 1598 to prepare the way for Anglo-Spanish peace negotiations. He subsequently served as ambassador to France and is mentioned in January 1617 as expected to return to Paris — Chamberlain notes that 'a man of his qualitie shold remain long a lidger' (resident ambassador) seldom happens in England.",
     "letters": [
-      3, 5
+      3, 5, 257
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Edmondes",
@@ -354,9 +354,9 @@ const people = [
   {
     "id": "raleigh-walter",
     "name": "Sir Walter Raleigh",
-    "shortBio": "English explorer, courtier, and naval commander. Rear-admiral of the Islands Voyage (1597); proposed as a commander in Ireland; mentioned as a Privy Council candidate in August 1598; and reported in autumn 1598 to be deeply discontented and considering another voyage to Guiana.",
+    "shortBio": "English explorer, courtier, and naval commander. Rear-admiral of the Islands Voyage (1597); proposed as a commander in Ireland; mentioned as a Privy Council candidate in August 1598; and reported in autumn 1598 to be deeply discontented and considering another voyage to Guiana. In 1617 he set off for Guiana from Dover — Chamberlain notes his hurried departure — and was beheaded at Westminster on 29 October 1618 after the expedition's failure. Chamberlain's account of the execution in Letter 302 is one of the most detailed contemporary descriptions, recording Raleigh's scaffold speech, his jest about the axe, and the crowd's reaction.",
     "letters": [
-      1, 5, 6, 9
+      1, 5, 6, 9, 262, 302
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Walter_Raleigh",
@@ -392,10 +392,10 @@ const people = [
   },
   {
     "id": "carew-george",
-    "name": "Sir George Carew",
-    "shortBio": "Later Lord Carew of Clopton (1605) and Earl of Totnes (1626). Proposed alongside Raleigh as a commander for the Irish campaign in May 1598; among those going to Knebworth for Christmas 1598.",
+    "name": "Sir George Carew, first Earl of Totnes",
+    "shortBio": "Later Lord Carew of Clopton (1605) and Earl of Totnes (1626). Proposed alongside Raleigh as a commander for the Irish campaign in May 1598. An old friend of Raleigh; in October 1618, Raleigh's scaffold speech denied the rumour that Lord Carew had advised him to flee to France — a denial that put Carew in an awkward light despite the protestation.",
     "letters": [
-      5, 13
+      5, 13, 302
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/George_Carew,_1st_Earl_of_Totnes",
@@ -444,10 +444,10 @@ const people = [
   },
   {
     "id": "egerton-thomas",
-    "name": "Sir Thomas Egerton, Lord Keeper",
-    "shortBio": "Lord Keeper of the Great Seal (later Lord Chancellor and Viscount Brackley). Referenced as the employer of the newly appointed secretary George Carew.",
+    "name": "Thomas Egerton, first Viscount Brackley",
+    "shortBio": "Lord Keeper (1596) and Lord Chancellor (1603–17); created Viscount Brackley in 1616. Referenced in 1598 as the employer of secretary George Carew. By 1616 he was famously reluctant to relinquish the Great Seal — Chamberlain captures his resistance with the Italian word <hi rend='italic'>dispogliarsi</hi> (to undress oneself). He finally resigned in March 1617 and died the same month, having reportedly requested no monument and burial in oblivion, citing the precedents of Seneca, Archbishop Warham, and the humanist Budé.",
     "letters": [
-      5
+      5, 244, 262
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Egerton,_1st_Viscount_Brackley",
@@ -497,9 +497,9 @@ const people = [
   {
     "id": "devereux-robert",
     "name": "Robert Devereux, second Earl of Essex",
-    "shortBio": "Queen Elizabeth's troubled favourite. Commanded the Islands Voyage (1597); fell from favour in 1598; returned to the Privy Council on 10 September 1598. His Irish command stalled repeatedly through late 1598; a cochineal debt dispute wrecked it on Sunday 17 December, but by early January 1599 the 'disgusto' was resolved, £12,000 delivered for cavalry, and Essex was preparing in earnest. He finally departed for Ireland in March 1599. Anthony Sherley drew bills against his name across the Levant; Squire had poisoned his chair-arm during the Islands Voyage.",
+    "shortBio": "Queen Elizabeth's troubled favourite. Commanded the Islands Voyage (1597); fell from favour in 1598; returned to the Privy Council on 10 September 1598. His Irish command stalled repeatedly through late 1598 and he departed for Ireland in March 1599. Anthony Sherley drew bills against his name across the Levant; Squire had poisoned his chair-arm during the Islands Voyage. Executed for treason in February 1601. In October 1618, Raleigh spoke of him from the scaffold — how sorry he was for his death, and how those who esteemed Raleigh for opposing Essex then cast him off afterwards.",
     "letters": [
-      1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18
+      1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 302
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Robert_Devereux,_2nd_Earl_of_Essex",
@@ -640,9 +640,9 @@ const people = [
   {
     "id": "howard-thomas",
     "name": "Thomas Howard, first Earl of Suffolk",
-    "shortBio": "Vice-admiral of the Islands Voyage (1597); created Earl of Suffolk (1603); Lord Chamberlain of England (1603–14). Reported alongside Raleigh and Stanhope as a candidate for the Privy Council in August 1598. In 1605–06 his daughters Frances and Catherine were contracted in double matches to the third Earl of Essex and William Cecil, Viscount Cranborne — a dynastic alliance linking the Howard and Cecil families.",
+    "shortBio": "Vice-admiral of the Islands Voyage (1597); created Earl of Suffolk (1603); Lord Chamberlain (1603–14) and Lord Treasurer (1614–19). Reported alongside Raleigh and Stanhope as a Privy Council candidate in 1598. In 1605 his daughters Frances and Catherine were contracted in double matches to the third Earl of Essex and William Cecil, Viscount Cranborne. As Lord Treasurer he appears repeatedly in 1616–17, where his rivalry with Chancellor of the Exchequer Fulke Greville is a running thread — Chamberlain notes 'there is scant goode quarter between them.' He was convicted of embezzlement in 1619 and fined £30,000.",
     "letters": [
-      1, 6, 75
+      1, 6, 75, 244, 257, 262
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Howard,_1st_Earl_of_Suffolk",
@@ -782,10 +782,10 @@ const people = [
   },
   {
     "id": "caesar-julius",
-    "name": "Julius Caesar",
-    "shortBio": "Master of Requests in Ordinary under Elizabeth I; later knighted (1603) and eventually Master of the Rolls. Queen Elizabeth visited his house at Mitcham, Surrey, on 12 September 1598, spending the night and dining with him the next day.",
+    "name": "Sir Julius Caesar",
+    "shortBio": "Master of Requests under Elizabeth I; knighted 1603; Master of the Rolls 1614–24. Queen Elizabeth visited his house at Mitcham in September 1598. In June 1616 (Letter 244) he is the 'master of the rolles' whom the court is debating moving to Chancellor of the Exchequer to make room for Francis Bacon in his post — a shuffle Chamberlain reports as contingent on whether Caesar 'can be won to yt by faire meanes or fowle.'",
     "letters": [
-      7
+      7, 244
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Julius_Caesar_(judge)",
@@ -1290,9 +1290,9 @@ const people = [
   {
     "id": "coke-edward",
     "name": "Sir Edward Coke",
-    "shortBio": "Attorney General (1552–1634); later Chief Justice of Common Pleas (1606) and King's Bench (1613), and one of the towering figures of English common law. His surprise marriage on 7 November 1598 to Elizabeth Cecil, the widowed Lady Hatton, provoked widespread astonishment — Chamberlain notes that no one could believe she would accept a man of his social standing after so many grander offers, and that 'the world will not beleve that yt was without a misterie.'",
+    "shortBio": "Attorney General (1552–1634); later Chief Justice of Common Pleas (1606) and King's Bench (1613), one of the towering figures of English common law. His surprise marriage to Lady Hatton in November 1598 astonished London. In June 1616 (Letter 244) he faced royal displeasure over his resistance to prerogative courts and his rulings against ecclesiastical jurisdiction; Lady Coke's loyal public stand beside him — refusing to be separated from his cause — gave him his best political cover. He was dismissed from King's Bench in November 1616.",
     "letters": [
-      11
+      11, 244
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Edward_Coke",
@@ -1303,9 +1303,9 @@ const people = [
   {
     "id": "hatton-elizabeth",
     "name": "Elizabeth Coke, Lady Hatton",
-    "shortBio": "née Cecil (1578–1646); daughter of Thomas Cecil, second Lord Burghley (later Earl of Exeter), and granddaughter of William Cecil, Lord Burghley. Widow of Sir William Hatton (d. 1597), nephew and heir of the lord chancellor Sir Christopher Hatton. She married Edward Coke on 7 November 1598 in a ceremony that startled court society. As Lady Hatton she became a leading Jacobean hostess; her marriage to Coke was famously unhappy.",
+    "shortBio": "née Cecil (1578–1646); daughter of Thomas Cecil, first Earl of Exeter, and granddaughter of William Cecil, Lord Burghley. Widow of Sir William Hatton, she married Edward Coke on 7 November 1598. In June 1616 (Letter 244), when Coke faced the King's anger, she played an unexpected role: she refused to be separated from his cause — Chamberlain reports she 'don herself a great deale of honor' by resolving to 'run the same fortune with him.' As Lady Hatton she became a leading Jacobean hostess; the marriage remained famously acrimonious.",
     "letters": [
-      11
+      11, 244
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Elizabeth_Hatton",
@@ -1588,10 +1588,10 @@ const people = [
   },
   {
     "id": "greville-fulke",
-    "name": "Fulke Greville",
-    "shortBio": "Poet, statesman, and close friend of Sir Philip Sidney (1554–1628). Appointed Treasurer of the Navy on 21 December 1598, a post he held until 1604. Later knighted (1603) and created first Baron Brooke (1621). His poetry and biography of Sidney remain his chief literary legacy.",
+    "name": "Fulke Greville, first Baron Brooke",
+    "shortBio": "Poet, statesman, and close friend of Sir Philip Sidney (1554–1628). Appointed Treasurer of the Navy on 21 December 1598. Chancellor of the Exchequer from 1614 to 1621 (here called 'Master Chauncellor'). Knighted (1603) and created first Baron Brooke (1621). In 1617 Chamberlain notes his feud with Lord Treasurer Suffolk — Greville gave out that Suffolk's revenue accounts were mistaken 'for a very great summe,' a contest that anticipated Suffolk's eventual disgrace.",
     "letters": [
-      14
+      14, 257
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Fulke_Greville,_1st_Baron_Brooke",
@@ -1810,9 +1810,9 @@ const people = [
   {
     "id": "winwood-ralph",
     "name": "Ralph Winwood",
-    "shortBio": "Diplomat (c. 1563–1617); appointed secretary to Henry Nevill on his embassy to France (1599–1601) at Essex's direction. Later served as envoy to the Dutch Republic (1603–1613) and Secretary of State under James I (1614–1617). His papers, published posthumously, are a major source for early Jacobean diplomacy. In November 1605 Chamberlain reports that Winwood has a son, with the States-General and Lady Conway standing as godparents.",
+    "shortBio": "Diplomat (c. 1563–1617); appointed secretary to Henry Nevill on his embassy to France (1599–1601). Later envoy to the Dutch Republic (1603–1613) and Secretary of State under James I (1614–1617). Chamberlain refers to him repeatedly as 'Master Secretarie' and 'our goode frend.' In 1616 he interceded (without success) for Carleton's journey to the Spa; in 1617 he was appointed to go to Edinburgh in July and was notably excluded from the Spanish marriage commission as 'openly opposite.' He died in October 1617.",
     "letters": [
-      15, 75
+      15, 75, 244, 257, 262
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Ralph_Winwood",
@@ -1966,9 +1966,9 @@ const people = [
   {
     "id": "compton-william",
     "name": "William Compton, first Earl of Northampton",
-    "shortBio": "William Compton (1568–1630), son of Henry Compton, first Baron Compton; created Earl of Northampton in 1618. His January 1599 engagement to Elizabeth Spencer, daughter of Sir John Spencer of London, was one of the most talked-about matches of the late Elizabethan period — Sir John Spencer reportedly tried to prevent the marriage, though the terms eventually agreed gave the groom £10,000 down plus redemption of £18,000 in mortgaged lands.",
+    "shortBio": "William Compton (1568–1630), son of Henry Compton, first Baron Compton; created Earl of Northampton in 1618. His January 1599 engagement to Elizabeth Spencer — one of the talked-about late Elizabethan matches — gave him £10,000 down and redemption of £18,000 in mortgaged lands. He was present at Raleigh's scaffold in October 1618 (Letter 302), among 'the earles of Arundell, Oxford, Northampton, the Lord of Doncaster and divers others.'",
     "letters": [
-      16
+      16, 302
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/William_Compton,_1st_Earl_of_Northampton",
@@ -2317,9 +2317,9 @@ const people = [
   {
     "id": "andrewes-lancelot",
     "name": "Lancelot Andrewes",
-    "shortBio": "Lancelot Andrewes (1555–1626), scholar-bishop and one of the great preachers of the age; chief editor of the Authorized Version of the Bible (1611). Consecrated Bishop of Chichester on 3 November 1605 — two days before the Gunpowder Plot was discovered. He was later translated to Ely and then Winchester under James I.",
+    "shortBio": "Lancelot Andrewes (1555–1626), scholar-bishop and one of the great preachers of the age; chief editor of the Authorized Version of the Bible (1611). Consecrated Bishop of Chichester on 3 November 1605 (Letter 75). Translated to Bishop of Ely by 1617 — included in the Spanish marriage commission in Letter 262, though his inclusion surprised observers given his Protestant reputation. Translated to Winchester in 1619.",
     "letters": [
-      75
+      75, 262
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Lancelot_Andrewes",
@@ -2369,9 +2369,9 @@ const people = [
   {
     "id": "bacon-francis",
     "name": "Francis Bacon",
-    "shortBio": "Francis Bacon (1561–1626), philosopher, lawyer, and statesman. The Advancement of Learning (1605), dedicated to James I, was one of the founding documents of empirical philosophy, arguing for the systematic reform of knowledge through observation and experiment. Chamberlain notes its publication in the same week as the Gunpowder Plot's discovery.",
+    "shortBio": "Francis Bacon (1561–1626), philosopher, lawyer, and statesman. His Advancement of Learning (1605) is noted in Letter 75. In June 1616 (Letter 244) he was sworn to the Privy Council and widely expected to be Lord Keeper — Chamberlain records the court wit that 'he will never be a goode keeper.' He was appointed Lord Keeper in March 1617 (Letter 262), attending the dying Lord Chancellor Egerton with a message of honours from the King. Created Viscount St Alban in 1621; disgraced for bribery the same year.",
     "letters": [
-      75
+      75, 244, 262
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Francis_Bacon",
@@ -2388,6 +2388,513 @@ const people = [
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Christophe_de_Harlay,_comte_de_Beaumont",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "james-i",
+    "name": "King James I of England",
+    "shortBio": "James VI of Scotland and I of England (1566–1625), who succeeded Elizabeth I in 1603. He appears throughout the later Chamberlain letters as the pivot of all court activity: his favour determines who rises and falls, his movements set the calendar of progress and ceremony. Chamberlain records him dining at William Cokayne's in June 1616, christening the Earl of Salisbury's son at Hatfield, and receiving Pocahontas. The Spanish ambassador's exasperation at his court's sudden mutations — 'Voto a Dios que la Corte d'Inglatierra es como un libro de cavalleros andantes' — captures what Chamberlain too sometimes implies.",
+    "letters": [
+      244, 257, 262, 302
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/James_VI_and_I",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "sherburn-edward",
+    "name": "Edward Sherburne",
+    "shortBio": "A London agent who handled financial commissions for Dudley Carleton while he was on embassy at The Hague. In June 1616 Chamberlain brought him a set of chains Carleton had left behind; Sherburne found a goldsmith who gave nearly full value for them.",
+    "letters": [
+      244
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "harrison-richard",
+    "name": "Richard Harrison",
+    "shortBio": "Richard Harrison of Hurst, Berkshire, whose wife Frances was Lady Carleton's sister, making him Dudley Carleton's brother-in-law. Chamberlain reports him in London for the summer term of 1616 but making no stay.",
+    "letters": [
+      244
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "cokayne-william",
+    "name": "Sir William Cokayne",
+    "shortBio": "William Cokayne (1560–1626), wealthy London merchant, alderman, and Lord Mayor (1619–20). In June 1616 the King dined at his house in Broad Street, where Cokayne was presented to the King with a basin of gold and pieces worth £1,000, the Prince with £500; the feast cost the new company over £3,100. Cokayne was knighted with the City sword at parting. He was the head of the Cokayne Project, a disastrous scheme (1614–17) to break the Merchant Adventurers' monopoly on finished cloth exports, which ended in commercial failure and diplomatic embarrassment.",
+    "letters": [
+      244
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/William_Cokayne",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "charles-prince",
+    "name": "Charles, Prince of Wales",
+    "shortBio": "Charles Stuart (1600–1649), younger son of James I; became Prince of Wales after the death of his brother Henry in 1612. In June 1616 he was presented alongside the King at William Cokayne's feast with £500 in gold. Plans to create him Prince of Wales at Windsor in July 1616 were deferred until after Michaelmas. He was not a friend to Raleigh's last voyage — Chamberlain notes he hindered the Queen from going to see Raleigh's ship. He became King Charles I in 1625 and was executed in 1649.",
+    "letters": [
+      244
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Charles_I_of_England",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "villiers-george",
+    "name": "George Villiers, first Duke of Buckingham",
+    "shortBio": "George Villiers (1592–1628), James I's dominant favourite from about 1615. In June 1616 (Letter 244) Chamberlain reports him set to become Viscount Villiers and Earl of Leicester — though the earldom he received in January 1617 was Buckingham. By Letter 257 he is Earl of Buckingham, entertained by the Middle Temple and dancing with the Queen at the Twelfth Night masque. In Letter 262 he has bought Edward Noel's manor of Dalby for £29,000. Created Marquess of Buckingham (1618) and Duke (1623); assassinated 1628.",
+    "letters": [
+      244, 257, 262
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/George_Villiers,_1st_Duke_of_Buckingham",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "cotton-robert",
+    "name": "Sir Robert Cotton",
+    "shortBio": "Sir Robert Bruce Cotton (1571–1631), antiquary and founder of the Cotton Library, the great collection of medieval manuscripts now at the British Library. He had been imprisoned in early 1616 on charges related to the circulation of certain historical documents; Chamberlain notes in June 1616 that he was set at liberty 'some ten or twelve dayes since.'",
+    "letters": [
+      244
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Robert_Cotton,_1st_Baronet",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "dale-thomas",
+    "name": "Sir Thomas Dale",
+    "shortBio": "Sir Thomas Dale (d. 1619), soldier and colonial administrator. Deputy Governor (later Governor) of Virginia 1611–16, known for imposing the harsh 'Dale's Laws' martial code on the colony. He arrived back in England in June 1616 with a group of Virginia colonists, most notably Pocahontas and John Rolfe. Chamberlain notes his arrival in Letter 244 and reports that Virginia's exports — sassafras, tobacco, pitch, and clapboard — are 'things of no great value.' Dale died on a later naval expedition to the East Indies.",
+    "letters": [
+      244
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Dale_(governor)",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "pocahontas",
+    "name": "Pocahontas",
+    "shortBio": "Pocahontas (c. 1596–1617), known also as Amonute and Matoaka, daughter of Powhatan, paramount chief of the Chesapeake confederacy; baptized as Rebecca and married to John Rolfe in April 1614. She arrived in England in June 1616 with Rolfe and her father's counsellor Tomocomo. Chamberlain describes her in Letter 244 as 'the most remarquable person' among those Dale brought from Virginia. By January 1617 (Letter 257) she had been received by the King, admitted to the Twelfth Night masque, and was sore against her will to leave. She died at Gravesend on or about 21 March 1617 (Letter 262) before her ship left the Thames, aged about twenty; Chamberlain notes simply that 'the Virginian woman (whose picture I sent you) died this last weeke at Gravesend as she was returning homeward.'",
+    "letters": [
+      244, 257, 262
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Pocahontas",
+      "odnb": "",
+      "britannica": "https://www.britannica.com/biography/Pocahontas"
+    }
+  },
+  {
+    "id": "powhatan",
+    "name": "Powhatan",
+    "shortBio": "Powhatan (c. 1550–1618), paramount chief (mamanatowick) of the Powhatan Confederacy in the Chesapeake region of Virginia. Chamberlain describes him in Letter 244 as 'a kinge or cacique of that countrie,' the father of Pocahontas. He died in April 1618, about a year after his daughter.",
+    "letters": [
+      244
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Wahunsenacah",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "rolfe-john",
+    "name": "John Rolfe",
+    "shortBio": "John Rolfe (1585–1622), English colonist credited with introducing the commercial cultivation of tobacco in Virginia. He married Pocahontas in April 1614, helping establish a temporary peace between the Powhatan Confederacy and the English settlers. Chamberlain identifies him in Letter 244 as the 'Rolfe an English man' to whom Pocahontas is married — the sole fact about the Virginia venture that seems to him worth reporting. Rolfe returned to Virginia after Pocahontas died at Gravesend in March 1617, and was killed in the Powhatan uprising of 1622.",
+    "letters": [
+      244
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/John_Rolfe",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "sarmiento-diego",
+    "name": "Don Diego Sarmiento de Acuña",
+    "shortBio": "Don Diego Sarmiento de Acuña (1567–1626), later Count of Gondomar; Spanish ambassador to England 1613–22 (with an interval 1618–20). The most influential foreign diplomat at the Jacobean court, he cultivated James I and worked to advance the proposed Spanish marriage for Prince Charles. Chamberlain records in June 1616 his exasperated outburst at the sudden reversals of court favour: 'Voto a Dios que la Corte d'Inglatierra es como un libro de cavalleros andantes' ('I swear to God the English court is like a book of knight-errants').",
+    "letters": [
+      244
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Diego_Sarmiento_de_Acuña,_1st_Count_of_Gondomar",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "bilson-thomas",
+    "name": "Thomas Bilson",
+    "shortBio": "Thomas Bilson (1546/7–1616), Bishop of Winchester from 1597; one of the principal overseers of the King James Bible (1611). He died on the night of Monday 18 June 1616 at Sir Francis Goodwin's house in Westminster, after coming sick from Greenwich. His bishopric was promised to James Montagu, Bishop of Bath and Wells, the very next day.",
+    "letters": [
+      244
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Bilson",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "montagu-james",
+    "name": "James Montagu",
+    "shortBio": "James Montagu (1568–1618), Bishop of Bath and Wells from 1608; edited the collected works of James I (1616). Chamberlain reports in June 1616 that the bishopric of Winchester was bestowed on him (or at least promised) the day after Thomas Bilson died. He was translated to Winchester later in 1616 and died there in 1618.",
+    "letters": [
+      244
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/James_Montagu_(bishop)",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "ramsay-john",
+    "name": "John Ramsay, Viscount Haddington",
+    "shortBio": "John Ramsay (1580–1626), created Viscount Haddington in 1606 and later Earl of Holderness in 1621. He had saved James VI during the Gowrie Conspiracy in 1600. In June 1616 one of his brothers was killed in a street brawl in Gracious Street — 'swaggering with the watch' — reportedly stabbed by a dung-farmer.",
+    "letters": [
+      244
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/John_Ramsay,_1st_Earl_of_Holderness",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "bingley-john",
+    "name": "John Bingley",
+    "shortBio": "John Bingley, Remembrancer of the Exchequer under James I. Chamberlain notes in January 1617 that he was 'called in question for yll cariage in his place,' alongside Sir Lionel Cranfield, though 'we have yet no example of any that have miscaried in those courses.'",
+    "letters": [
+      257
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "cranfield-lionel",
+    "name": "Lionel Cranfield, first Earl of Middlesex",
+    "shortBio": "Sir Lionel Cranfield (1575–1645), merchant and financial administrator; Surveyor-General of the Customs 1613–19, then Master of the Court of Wards (1619), Lord Treasurer (1621–24), and created Earl of Middlesex (1622). Chamberlain notes in January 1617 that he and John Bingley were called in question for 'some peccadillos in managing the Kings monies.' He was ultimately impeached for bribery and corruption in 1624, largely at the instigation of Buckingham.",
+    "letters": [
+      257
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Lionel_Cranfield,_1st_Earl_of_Middlesex",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "moore-george",
+    "name": "Sir George More",
+    "shortBio": "Sir George More (1553–1632) of Loseley Park, Surrey; Lieutenant of the Tower from 1613 to 1617. He is best known as the father of Anne More, whom John Donne secretly married in 1601 — a match that infuriated More and led to Donne's brief imprisonment. In January 1617 Chamberlain notes he was selling his place of Lieutenant to Sir Allen Apsley for £2,400, hoping to compound for the Treasurer's or Controller's place of the Household with Lord Wotton.",
+    "letters": [
+      257
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "de-dominis-marco",
+    "name": "Marco Antonio de Dominis",
+    "shortBio": "Marco Antonio de Dominis (1560–1624), Archbishop of Spalato (Split) in Dalmatia, who defected from Rome and arrived in England in December 1616. He was enthusiastically welcomed as a prestigious Catholic convert and given ecclesiastical preferment; Chamberlain notes in January 1617 that 'your archbishop of Spalato' (Carleton had facilitated his journey from Venice) was at Lambeth 'very well used and estemed,' attending services, visiting Sutton's Hospital, and touring the Exchange. He eventually returned to Rome, was imprisoned by the Inquisition, and died in the Castel Sant'Angelo.",
+    "letters": [
+      257, 262
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Marcantonio_de_Dominis",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "pory-john",
+    "name": "John Pory",
+    "shortBio": "John Pory (1572–1636), geographer, journalist, and traveller; had served as secretary to Sir Henry Neville in France and later as an intelligence-gatherer in Constantinople. In January 1617 Chamberlain notes he had returned from Constantinople and been at Whitehall with Secretary Winwood. He later emigrated to Virginia as secretary of the first General Assembly (1619) and was a prolific correspondent on colonial affairs.",
+    "letters": [
+      257
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/John_Pory",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "apsley-allen",
+    "name": "Sir Allen Apsley",
+    "shortBio": "Sir Allen Apsley (c. 1567–1630), courtier and military administrator; father of Lucy Apsley, later Lucy Hutchinson, the Civil War memoirist. He purchased the Lieutenancy of the Tower from Sir George More in early 1617 for £2,400, with additional compensation hoped for the Treasurership of the Household.",
+    "letters": [
+      257
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "wotton-edward",
+    "name": "Edward Wotton, first Baron Wotton",
+    "shortBio": "Edward Wotton (1548–1628), diplomat and administrator; created first Baron Wotton in 1603; Treasurer of the King's Household from 1616. Sir George More sought to purchase the Treasurership or Controllership from him in 1617, hoping to compound for the post.",
+    "letters": [
+      257
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Edward_Wotton,_1st_Baron_Wotton",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "egerton-john",
+    "name": "Sir John Egerton, first Earl of Bridgewater",
+    "shortBio": "Sir John Egerton (1579–1649), son of Thomas Egerton, Lord Chancellor. Though bedridden with gout, he lobbied persistently for the earldom of Bridgewater that the King had offered his dying father, and received it on 17 May 1617. He is remembered as the patron for whom Milton wrote Comus (1634), performed at Ludlow Castle.",
+    "letters": [
+      262
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/John_Egerton,_1st_Earl_of_Bridgewater",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "noel-edward",
+    "name": "Edward Noel, first Viscount Campden",
+    "shortBio": "Edward Noel (1582–1643), created Baron Noel of Ridlington in February 1617 and later Viscount Campden (1629). He sold his manor of Dalby in Leicestershire to the Earl of Buckingham for £29,000 and was acquiring Burly on the Hill in Rutlandshire. Chamberlain notes in Letter 262 that such baronies by patent are 'a more easie way then by creation or investiture' and doubts whether in time there will not be more than enough of them.",
+    "letters": [
+      262
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "hay-james",
+    "name": "James Hay, first Earl of Carlisle",
+    "shortBio": "James Hay (c. 1580–1636), Scottish courtier; created Viscount Doncaster in 1618 and Earl of Carlisle in 1622; one of the great Jacobean spendthrifts, celebrated for his 'ante-suppers' and lavish hospitality. In March 1617 (Letter 262) Chamberlain notes him as 'Lord Hayes,' newly sworn to the Privy Council. In October 1618 (Letter 302) he is 'the Lord of Doncaster,' present at Raleigh's scaffold among the earls.",
+    "letters": [
+      262, 302
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/James_Hay,_1st_Earl_of_Carlisle",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "lennox-ludovic",
+    "name": "Ludovic Stuart, second Duke of Lennox",
+    "shortBio": "Ludovic Stuart (1574–1624), second Duke of Lennox and fifth Duke of d'Aubigny; a Scottish nobleman of French origin and first cousin once removed of James I, prominent at the Jacobean court. Included among the commissioners appointed to consider the proposed Spanish marriage for Prince Charles in March 1617 (Letter 262).",
+    "letters": [
+      262
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Ludovic_Stuart,_2nd_Duke_of_Lennox",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "abbot-george",
+    "name": "George Abbot",
+    "shortBio": "George Abbot (1562–1633), Archbishop of Canterbury from 1611; a committed Calvinist and staunch opponent of the proposed Spanish match for Prince Charles. In March 1617 (Letter 262) he was specifically excluded from the Spanish marriage commission alongside Sir Ralph Winwood as 'openly opposite.' He attended the Paul's Cross sermon by John Donne on 24 March 1617. He later accidentally shot a gamekeeper while hunting in 1621, a scandal that damaged his authority for the rest of his archiepiscopate.",
+    "letters": [
+      262
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/George_Abbot_(Archbishop_of_Canterbury)",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "lake-thomas",
+    "name": "Sir Thomas Lake",
+    "shortBio": "Sir Thomas Lake (1561–1630), Secretary of State 1616–19. Included in the Spanish marriage commission of March 1617 (Letter 262), alongside Lord Treasurer Howard and others. In October 1618 (Letter 302) he wrote to the sheriff at Raleigh's request to ensure that Sir Hugh Beeston had a convenient place at the scaffold — the sheriff, having forgotten his spectacles, could not read the letter. Lake was disgraced in 1619 in a scandal involving his wife and daughter.",
+    "letters": [
+      262, 302
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Lake_(politician)",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "digby-john",
+    "name": "Sir John Digby, first Earl of Bristol",
+    "shortBio": "Sir John Digby (1580–1653), diplomat; ambassador to Spain 1611–15 and again 1617–22; created Earl of Bristol in 1622. In March 1617 (Letter 262) Chamberlain identifies him as 'Master Vicechamberlain' going to Spain to treat for the proposed marriage of Prince Charles with the Infanta, and notes the report that he would be made a viscount on departure.",
+    "letters": [
+      262
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/John_Digby,_1st_Earl_of_Bristol",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "donne-john",
+    "name": "John Donne",
+    "shortBio": "John Donne (1572–1631), metaphysical poet and preacher; ordained in January 1615 and by 1617 one of the most celebrated preachers in London. Chamberlain reports in Letter 262 that on 24 March 1617 — the King's day — Donne preached at Paul's Cross on Proverbs 22:11 'and was exceedingly well liked generally, the rather for that he did Quene Elizabeth great right, and held himself close to the text without flattering the time too much.' The occasion brought together Archbishop Abbot, the Lord Keeper Bacon, the Earl of Arundel, the Earl of Southampton, Secretary Winwood, and divers great men.",
+    "letters": [
+      262
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/John_Donne",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "townson-robert",
+    "name": "Robert Townson",
+    "shortBio": "Robert Townson (c. 1575–1621), Dean of Westminster from 1617. He attended Raleigh during his last night at the Gatehouse, administered the sacrament to him the morning of the execution (29 October 1618), and afterwards set down a detailed account of Raleigh's composure and last words. Chamberlain, drawing on Townson's account or common report, notes that the Dean 'commends him exceedingly and sayes he was as redy and as able to geve as take instruction.'",
+    "letters": [
+      302
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "stukeley-lewis",
+    "name": "Sir Lewis Stukeley",
+    "shortBio": "Sir Lewis Stukeley (c. 1574–1620), cousin of Raleigh and Vice-Admiral of Devon. Entrusted with custody of Raleigh after his capture in August 1618, he brought him to London; his conduct in the affair — including enticing Raleigh to speak and employing the spy Mannourie — was widely regarded as treacherous. On the scaffold Raleigh denied offering Stukeley £10,000 to accompany him to France. Stukeley was subsequently stripped of his offices and died in poverty. Chamberlain does not identify him by name in Letter 302 but records Raleigh's denial of the charges against him.",
+    "letters": [
+      302
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Lewis_Stucley",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "mannourie",
+    "name": "Mannourie",
+    "shortBio": "Mannourie (d. 1621), a French physician retained by Sir Lewis Stukeley; accused of advising Raleigh how to feign illness to avoid capture, and of enticing him to make treasonable speeches which were then reported to the authorities. Chamberlain refers to him in Letter 302 as 'the runagate French phisician' whose alleged conversations with Raleigh were cited as 'principall motives of his ruine.' Raleigh denied all dealings with him on the scaffold.",
+    "letters": [
+      302
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "beeston-hugh",
+    "name": "Sir Hugh Beeston",
+    "shortBio": "Sir Hugh Beeston (d. 1626), a Cheshire knight who had known Raleigh from their years of shared service. He was in the crowd at Raleigh's execution on 29 October 1618; Raleigh spotted him and called out that he would pray he might see him die. Secretary Lake procured a letter to the sheriff to give Beeston a good place, but the sheriff had left his spectacles at home and could not read it. As Beeston was thrust by, Raleigh bade him farewell and said: 'I know not what shift you will make, but I am sure to have a place.'",
+    "letters": [
+      302
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "naunton-robert",
+    "name": "Sir Robert Naunton",
+    "shortBio": "Sir Robert Naunton (1563–1635), Secretary of State from 1618; author of Fragmenta Regalia, a memoir of Elizabeth I's court. After Raleigh's execution, a man in the crowd was heard to say he wished Raleigh's 'head and braines to be upon S. N. shoulders' — Naunton, as Secretary. Naunton summoned the man to the Privy Council; the incident dissolved into farce when it emerged the comment was a play on the proverb that two heads are better than one. Chamberlain records the episode with dry amusement.",
+    "letters": [
+      302
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Robert_Naunton",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "anne-denmark",
+    "name": "Anne of Denmark",
+    "shortBio": "Anne of Denmark (1574–1619), Queen consort of James I. She interceded for Raleigh — writing 'very earnestly' to the King to spare him for that she had received benefit from his remedies. Chamberlain notes in October 1618 (Letter 302) that her health was declining — she was going 'peggiorando' (worsening), so that the King might go directly to Hampton Court rather than stopping at Theobalds. She died in March 1619, less than five months after the execution.",
+    "letters": [
+      302
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Anne_of_Denmark",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "tufton-humphrey",
+    "name": "Sir Humphrey Tufton",
+    "shortBio": "Sir Humphrey Tufton (1582–1659), of Hothfield, Kent. On Wednesday 28 October 1618, the day before Raleigh's execution, he was censured in the Star Chamber for bastinading Christopher Neville, son of Edward Lord Abergavenny, in a jealous rage over alleged attentions to Tufton's wife; he had lured Neville with a forged letter before having him beaten. His total fine came to almost £4,000; his two servants were to stand on the pillory and be whipped; Neville was to receive £1,000 of the fine.",
+    "letters": [
+      302
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "neville-christopher",
+    "name": "Christopher Neville",
+    "shortBio": "Christopher Neville, son of Edward Neville, sixth Lord Abergavenny. In October 1618 he was the victim of a premeditated assault engineered by Sir Humphrey Tufton, who lured him into a trap with a forged letter and then had him beaten. The Star Chamber censured Tufton and awarded Neville £1,000 from the fine. Chamberlain records the case alongside Raleigh's execution in Letter 302.",
+    "letters": [
+      302
+    ],
+    "externalLinks": {
+      "wikipedia": "",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "arundel-thomas-2nd",
+    "name": "Thomas Howard, second Earl of Arundel",
+    "shortBio": "Thomas Howard (1585–1646), second Earl of Arundel and Surrey; celebrated art collector and patron, builder of the Arundel Marbles collection. He was among 'the earles of Arundell, Oxford, Northampton, the Lord of Doncaster and divers others' at Raleigh's scaffold on 29 October 1618, as recorded in Letter 302.",
+    "letters": [
+      302
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Howard,_2nd_Earl_of_Arundel",
       "odnb": "",
       "britannica": ""
     }

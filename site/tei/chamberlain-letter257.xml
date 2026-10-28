@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter 257: John Chamberlain to Sir Dudley Carleton, 18 January 1617</title>
+        <author ref="#chamberlain-john">John Chamberlain</author>
+        <editor>Brandon Taylor</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>The Chamberlain Letters Digital Edition</publisher>
+        <date when="2025"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>The National Archives, Kew</repository>
+            <collection>State Papers Domestic, James I</collection>
+            <idno>S.P. Dom., Jac. I, xc, 25</idno>
+          </msIdentifier>
+          <msContents>
+            <p>Autograph letter signed.</p>
+          </msContents>
+        </msDesc>
+        <biblStruct>
+          <analytic>
+            <title>Letter 257</title>
+          </analytic>
+          <monogr>
+            <author>John Chamberlain</author>
+            <editor>Norman Egbert McClure</editor>
+            <title>The Letters of John Chamberlain</title>
+            <imprint>
+              <publisher>American Philosophical Society</publisher>
+              <pubPlace>Philadelphia</pubPlace>
+              <date>1939</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+            <biblScope unit="page">49–50</biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#chamberlain-john">John Chamberlain</persName>
+          <placeName>London</placeName>
+          <date when="1617-01-18"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#carleton-dudley">Sir Dudley Carleton</persName>
+          <placeName>The Hague</placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <opener>
+          <salute>My very goode Lord:</salute>
+        </opener>
+
+        <p>I forgat in my last to geve you notice that there was a meaning before the end of Christmas to make <persName ref="#villiers-george">the Lord Villers</persName>
+        <note>George Villiers (1592–1628), created Viscount Villiers in August 1616. He was now made Earl of Buckingham on 5 January 1617, with all ceremony. He would become Marquess (1618) and Duke of Buckingham (1623), James I's dominant favourite.</note>
+        an earle, (though I knew not of what place) which fell out the next day to be performed with all usuall solemnitie, and he beares the name of Buckingham. On Twelfe Night was a maske
+        <note>Ben Jonson's <hi rend="italic">Christmas his Masque</hi>, performed at court on Twelfth Night, 6 January 1617.</note>
+        wherin the new made earle and the earle of Mongomerie daunced with the Quene. I have heard no great speach nor commendations of the maske neither before nor since, but yt is apointed to be represented again to morow at night, and the Spanish ambassador
+        <note>Don Diego Sarmiento de Acuña, Count of Gondomar.</note>
+        invited. Yesterday the Middle-Templers entertained <persName ref="#villiers-george">the earle of Buckingham</persName> with a supper and a maske, whether yt be that he was of theyre societie, or that they would preoccupate his favor.</p>
+
+        <p>The <persName ref="#james-i">King</persName> spent all the last weeke at Tiballs, and the former part of this at Hampton-court, whence he came up on Thursday, to receve aunswer of our Aldermen about the loan of 100000<hi rend="superscript">li</hi> upon jewells, as for the like summe of the farmers of the customes, in both which I heare there be difficulties, but some way must be found or made before the journy for Scotland can proceed or set forward. I heare that <persName ref="#bingley-john">Bingley</persName>
+        <note>John Bingley, Remembrancer of the Exchequer; called in question for mismanagement in his office.</note>
+        is called in question for yll cariage in his place, as also <persName ref="#cranfield-lionel">Sir Lionell Cranfeld</persName>
+        <note>Sir Lionel Cranfield (1575–1645), merchant and financial administrator; later created Earl of Middlesex (1622) and Lord Treasurer (1621). At this point he was Surveyor-General of the Customs. He and Bingley were accused of various financial irregularities but neither suffered immediate punishment.</note>
+        for some peccadillos in managing the Kings monies, but we have yet no example of any that have miscaried in those courses. <persName ref="#howard-thomas">The Lord Treasurer</persName>
+        <note>Thomas Howard, first Earl of Suffolk (1561–1626), Lord Treasurer since 1614. His rivalry with Fulke Greville (Master of the Mint and Chancellor of the Exchequer) was the defining factional contest of the moment.</note>
+        makes account to have don a great peece of service in bringing the Kings revenewes to surmount his ordinarie expences more then 1000<hi rend="superscript">li</hi> a yeare: but <persName ref="#greville-fulke">Master Chauncellor</persName>
+        <note>Sir Fulke Greville, Chancellor of the Exchequer since 1614. The reference to "scant goode quarter" between the two men anticipates Suffolk's eventual disgrace for embezzlement (1619), in which Greville played no small part.</note>
+        geves out that the reconing is mistaken for a very great summe. There is scant goode quarter between them of late, for in other things he hath don the Lord Treasurer very yll offices. We looke dayly for an extraordinary ambassador out of Fraunce, the baron de la Tour, that was with the King when he came first out of Scotland hither. Yt is saide <persName ref="#edmondes-thomas">Sir Thomas Edmonds</persName>
+        <note>Sir Thomas Edmonds (c. 1563–1639), English diplomat; had served as ambassador to France and would shortly return to Paris as ambassador again.</note>
+        shall backe again though I thincke not to reside long, for yt hath seldome ben seen with us that a man of his qualitie shold remain long a lidger.</p>
+
+        <p><persName ref="#moore-george">Sir George Moore</persName>
+        <note>Sir George More (1553–1632) of Loseley Park, Surrey; Lieutenant of the Tower from 1613 to 1617. He was selling his place for £2,400 to Sir Allen Apsley, with an additional £2,600 hoped for from Lord Wotton's Treasurership.</note>
+        is upon selling his place of Lieutenant of the Towre to one <persName ref="#apsley-allen">Sir Allen Apsley</persName> for 2400<hi rend="superscript">li</hi>: and with adding 2600<hi rend="superscript">li</hi> more he hoped to compound with <persName ref="#wotton-edward">the Lord Wotton</persName>
+        <note>Edward Wotton, first Baron Wotton (1548–1628), Treasurer of the Household.</note>
+        for the Treasurership or Controllership of the household, wherin he hath Sir Percivall Hart his competitor, and though neither of them be thought to be greatly before hand, yet we see how ambition makes men many times straine themselves beyond theyre reach. The Lady Smith your cousen with her sister Besse Lytton have lien at Wingfeld House ever since before Christmas, where the Lady was brought abed of a sonne the 15<hi rend="superscript">th</hi> of this present, as likewise the Lady Vere of a daughter about a fortnight since, but was brought so lowe that there was litle hope of her recoverie, neither can I learne that she is yet secure: the younge Lady Walsingham was brought to the same passe beeing about the same time delivered of a daughter. Your old frend Dobbinson in the Strand hath lately maried a Lady Evans widow to the poore knight that was Rector at Padoua. I heare that <persName ref="#pory-john">Master Porie</persName>
+        <note>John Pory (1572–1636), geographer, journalist, and traveller; had served as secretary to Sir Henry Neville during his embassy to France; later an associate of Sir Edwin Sandys and a correspondent from Virginia. He had been in Constantinople gathering intelligence.</note>
+        is returned from Constantino­ple and hath ben at White-hall with <persName ref="#winwood-ralph">Secretarie Winwod</persName>.</p>
+
+        <p><persName ref="#pocahontas">The Virginian woman Poca-huntas</persName>,
+        <note>Pocahontas (c. 1596–1617) had arrived in England in June 1616 with her husband John Rolfe and her father's counsellor Tomocomo (here "her father counsaillor"). By January 1617 she had met the King and been admitted to the Twelfth Night masque — a remarkable social achievement for a woman the English still regarded as a New World curiosity. The plan to send her back to Virginia would end in tragedy: she died at Gravesend in March 1617 before her ship left the Thames.</note>
+        with her father counsaillor hath ben with the <persName ref="#james-i">King</persName> and graciously used, and both she and her assistant well placed at the maske. She is on her return (though sore against her will) yf the wind wold come about to send them away. <persName ref="#de-dominis-marco">Your archbishop of Spalato</persName>
+        <note>Marco Antonio de Dominis (1560–1624), Archbishop of Spalato (Split) in Dalmatia; had defected from Rome and arrived in England in December 1616, where he was enthusiastically welcomed by the Church of England as a prestigious Catholic convert. He is "your archbishop" because Carleton had facilitated his journey from Venice.</note>
+        is still at Lambeth very well used and estemed: he hath ben at our service in Powles, at the bishop of Londons, at Westminster, at the printing house, at Suttons hospitall, at the exchaunge once or twise both above and beneath, and where any thing is to be seen. Here is a rumor that the Italian preacher Ascanio is run away beeing as is saide enticed by one Grimaldi kinsman of Spinolas whom he accompanied on his way as far as Dover, and since his wife nor frends have no newes of him. So with all goode wishes I commend you to the protection of the Almighty.</p>
+
+        <closer>
+          <dateline>From <placeName>London</placeName> this 18<hi rend="superscript">th</hi> of January 1616.</dateline>
+          <salute>Your Lordships to commaund</salute>
+          <signed><persName ref="#chamberlain-john">JOHN CHAMBERLAIN.</persName></signed>
+        </closer>
+
+        <address>
+          <addrLine>To the right honorable Sir Dudley Carleton knight Lord Ambassador for his Majestie with the States of the United Provinces at the Hagh.</addrLine>
+        </address>
+      </div>
+    </body>
+  </text>
+</TEI>

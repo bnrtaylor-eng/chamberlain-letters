@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter 244: John Chamberlain to Sir Dudley Carleton, 22 June 1616</title>
+        <author ref="#chamberlain-john">John Chamberlain</author>
+        <editor>Brandon Taylor</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>The Chamberlain Letters Digital Edition</publisher>
+        <date when="2025"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>The National Archives, Kew</repository>
+            <collection>State Papers Domestic, James I</collection>
+            <idno>S.P. Dom., Jac. I, lxxxvii, 67</idno>
+          </msIdentifier>
+          <msContents>
+            <p>Autograph letter signed.</p>
+          </msContents>
+        </msDesc>
+        <biblStruct>
+          <analytic>
+            <title>Letter 244</title>
+          </analytic>
+          <monogr>
+            <author>John Chamberlain</author>
+            <editor>Norman Egbert McClure</editor>
+            <title>The Letters of John Chamberlain</title>
+            <imprint>
+              <publisher>American Philosophical Society</publisher>
+              <pubPlace>Philadelphia</pubPlace>
+              <date>1939</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+            <biblScope unit="page">9–12</biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#chamberlain-john">John Chamberlain</persName>
+          <placeName>London</placeName>
+          <date when="1616-06-22"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#carleton-dudley">Sir Dudley Carleton</persName>
+          <placeName>The Hague</placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <opener>
+          <salute>My very goode Lord:</salute>
+        </opener>
+
+        <p>I have delivered the chaines you left with me to <persName ref="#sherburn-edward">Master Sherburn</persName>,
+        <note>Edward Sherburne, a London agent who handled financial commissions for Carleton.</note>
+        and withall found him out a goldsmith, that gave him to the full valew, abating only a groat or very litle more in an ounce, wheras he could not meet with any that wold defalke lesse then double as much. <persName ref="#carleton-william">Your brother Carleton</persName> and <persName ref="#harrison-richard">your brother Harrison</persName>
+        <note>Richard Harrison of Hurst, Berkshire, whose wife Frances was Lady Carleton's sister.</note>
+        were both here this terme but made no stay.</p>
+
+        <p>As I wrote in my last the <persName ref="#james-i">Kinge</persName> dined that day at <persName ref="#cokayne-william">alderman Coquins</persName>,
+        <note>At the house of William Cokayne in Broad Street. Cokayne, a wealthy cloth merchant and later Lord Mayor, was then head of a new joint-stock company challenging the Merchant Adventurers' monopoly.</note>
+        where he was presented with a bason of gold, and as many peeces as together made up the summe of 1000<hi rend="superscript">li</hi>, <persName ref="#charles-prince">the Prince</persName> after the same manner with 500<hi rend="superscript">li</hi>: so that the whole charge of that feast stoode the new companie in more then 3100<hi rend="superscript">li</hi> the thanckes remaining wholy with the Alderman who at parting was knighted with the Citie-sword. The next day <persName ref="#bacon-francis">Sir Fraunces Bacon</persName> was sworn of the counsaile, and in election by every mans account to be presently Lord Keeper, but that rumor is since reasonablie cooled, and yt is saide he must tarrie the time till he may be Lord Chauncellor, for (as a Lady told the King) yt is to be doubted he will never be a goode keeper: and withall now yt comes to the upshot, the <persName ref="#egerton-thomas">Lord Chauncellor</persName>
+        <note>Thomas Egerton, first Viscount Brackley (c. 1540–1617), Lord Chancellor since 1603. He is resisting retirement — the Italian word <hi rend="italic">dispogliarsi</hi> means "to undress oneself" or "to divest." He died in March 1617.</note>
+        makes some difficultie <hi rend="italic">dispogliarsi</hi> or to put of any thing till he go to bed.</p>
+
+        <p>So that now there is casting about to remove the <persName ref="#caesar-julius">master of the rolles</persName>
+        <note>Sir Julius Caesar, Master of the Rolls since 1614. The plan was to move him to Chancellor of the Exchequer to make way for Francis Bacon.</note>
+        and put him in his old remitter, of chauncellor of the exchecquer, and so make roome for the atturny in his place: yf Sir Jul: Caesar can be won to yt by faire meanes or fowle, and <persName ref="#greville-fulke">Sir Fulke Grivell</persName> be put of with a baronnie, the mint of new dignities beeing now to be set on worke, and much hammering (they say) for the Lord Chauncellor to be earle of Cambrige, Flint or Buckingham, the Lord Lisle to be earle of Warwicke, <persName ref="#villiers-george">Sir George Villers</persName>
+        <note>George Villiers (1592–1628), James I's favourite, then newly knighted. He was made Viscount Villiers in August 1616 and Earl of Buckingham in January 1617, ultimately becoming the first Duke of Buckingham (1623).</note>
+        to be Vicount Villers and earle of Lecester: Sir...Tufton, Sir John Roper, Sir William Pope, and Sir W. Cope to be barrons: but these last are rather <hi rend="italic">potentia</hi> then <hi rend="italic">actu</hi>. Thin, and Sir John Hollis beeing in best possibilitie, who are set downe alredy at 10000<hi rend="superscript">li</hi> a peece: and yf all fall out right the later is to come to our goode frends
+        <note>Sir Ralph Winwood, Secretary of State — the same "goode frend" mentioned later in the letter.</note>
+        share, who had rather have met with sombody els and set me on worke, to win the drie-handed knight (you know whom I mean) who though he be ambitious enough, yet covetousnes is the more predominant.</p>
+
+        <p>The installing of the new Knights of the Garter is to be at Windsor the 7<hi rend="superscript">th</hi> of the next moneth, when yt was once apointed likewise that the Prince shold have ben created Prince of Wales there as yt were in privat, but that is since altered and put of till after Michaelmas. The progresse is to begin the 19<hi rend="superscript">th</hi> of the next moneth, and goes no further then Rufford a place of the earle of Shrewsberies in Nottingamshire, and so comes backe by Grafton and Woodstocke. The Lord Gerrard hath agreed with the Lord Evers for the Presidentship of Wales, wherof the Lord Chandos made full account. <persName ref="#cotton-robert">Sir Robert Cotton</persName>
+        <note>Sir Robert Cotton (1571–1631), antiquary and founder of the Cotton Library. He had been imprisoned earlier in 1616 on charges connected to the publication of certain historical documents; his release is noted here.</note>
+        was set at libertie some ten or twelve dayes since, and so was Whitaker and Coppinger, and I thinke Sir Thomas and Sir William Mounson shall not tarrie long after: so that you may see there is the end of those matters, and no more to be lookt for.</p>
+
+        <p>When this day sevenight the <persName ref="#james-i">King</persName> was in person at Hatfeild to christen the earle of Salisberies sonne and kist the old Countesse twise or thrise, who kept a table alone save that the Lady Villers Compton
+        <note>Mary Beaumont (d. 1632), mother of Sir George Villiers. She had married first Sir George Villiers of Brooksby, then Sir Thomas Compton. In 1618 she was created Countess of Buckingham.</note>
+        only was admitted, and all the entertainment was cheifly intended and directed to her and her children and followers: the Lady Walden
+        <note>Elizabeth, wife of Theophilus Howard, Lord Walden, eldest son of Thomas Howard, first Earl of Suffolk.</note>
+        was Godmother, and <persName ref="#howard-thomas">the Lord Treasurer</persName> the other Godfather with the King with whom he is growne as great and as far in grace as ever he was which sodain mutations without any <hi rend="italic">intermedium</hi> make <persName ref="#sarmiento-diego">the Spanish ambassador</persName>
+        <note>Don Diego Sarmiento de Acuña (1567–1626), later Count of Gondomar; Spanish ambassador in London 1613–22. His exclamation — <hi rend="italic">Voto a Dios que la Corte d'Inglatierra es como un libro de cavalleros andantes</hi> ("I swear to God the English court is like a book of knight-errants") — captures his exasperation at James I's unpredictable favouritism.</note>
+        crie out, <hi rend="italic">Voto a Dios que la Corte d'Inglatierra es como un libro de cavalleros andantes.</hi></p>
+
+        <p><persName ref="#coke-edward">The Lord Cooke</persName>
+        <note>Sir Edward Coke (1552–1634), at this time Chief Justice of King's Bench, facing royal displeasure over his resistance to prerogative courts and his rulings against ecclesiastical jurisdiction. He was dismissed from the bench in November 1616.</note>
+        hath had much ado to beare of the storm and whether he be yet well cleered of yt is a question though the generall voyce goes that on Wensday night he made his peace with the King, who had him <hi rend="italic">coram</hi> and in longe confession; but the next day the King comming to the Starchamber, and passing him over in silence makes the world judge the best of his case. The truth is that <persName ref="#hatton-elizabeth">his Lady</persName>
+        <note>Elizabeth Cecil, Lady Coke, daughter of Thomas Cecil, first Earl of Exeter. Her loyal public stand beside her husband became the talk of London.</note>
+        hath stoode him in great steade both in solliciting for him in privat, and pleading for him at the counsaile table, wherin she hath don herself a great deale of honor, but specially in refusing to sever her state or cause from his, (as she was moved to do,) but resolving and publishing that she wold run the same fortune with him: <persName ref="#winwood-ralph">our goode frend</persName> stoode to him as long as there was any hope, but when the King was so incensed that there was no more goode to be don, was fain to retire, and leave him to himself to sincke or swim.</p>
+
+        <p>This is thought not to be the least motive of his safetie that yt was told the King that he could not do him a greater honor then to take him downe now, for wheras he was nothing well-beloved before, yf he shold suffer in this cause, he would be accounted the martir of the commonwealth. I cannot yet learne nor apprehend the reason of the Kings comming to the Starchamber, for yt is diversly reported, and so is his speach there, which beeing long and of many matters is so mangled in the rehersall of them that heard yt, that I can make no coherence, nor wherto yt principally tended. Yt makes me the lesse curious to inquire after yt because I presume we shall shortly have yt in print. Younge Bennet
+        <note>Sir John Bennet, knighted at Theobalds alongside Sir Gerrard Sams.</note>
+        and younge Sams were both knighted together the last weeke at Tiballs. One Ramsey a brother of <persName ref="#ramsay-john">the Lord Haddingtons</persName>
+        <note>John Ramsay, Viscount Haddington (1580–1626), created Earl of Holderness in 1621. His brother was killed in a street brawl in Gracious Street, reportedly stabbed by a dung-farmer.</note>
+        was killed by mischance on Monday night as he was swaggering with the watch in Gracious street but they say a dung-farmer gave him his deaths wound. <persName ref="#bilson-thomas">The bishop of Winchester</persName>
+        <note>Thomas Bilson (1546/7–1616), Bishop of Winchester from 1597; one of the principal overseers of the King James Bible (1611). He died on the night of Monday 18 June 1616 at Sir Francis Goodwin's house in Westminster.</note>
+        came sicke from Greenwich on Sonday last, and on Monday night died in Sir Fraunces Goodwins house at Westminster. His bishopricke was bestowed (or at least promised) the next day to <persName ref="#montagu-james">the bishop of Bath and Wells</persName>
+        <note>James Montagu (1568–1618), Bishop of Bath and Wells from 1608; editor of James I's collected works (1616). He was translated to Winchester later in 1616.</note>:
+        but who shall succeed in his place is not so soone nor easilie resolved.</p>
+
+        <p><persName ref="#dale-thomas">Sir Thomas Dale</persName>
+        <note>Sir Thomas Dale (d. 1619), soldier and colonial administrator; Deputy Governor of Virginia 1611–16. He had spent five years in the colony imposing harsh discipline — the so-called 'Dale's Laws' — and improving the fortifications at Jamestown. He returned to England in June 1616 with a group of Virginia colonists.</note>
+        is arrived from Virginia and brought with him some ten or twelve old and younge of that countrie, among whom the most remarquable person is <persName ref="#pocahontas">Poca-huntas</persName>
+        <note>Pocahontas (c. 1596–1617), daughter of the paramount chief Powhatan; known in Virginia as Amonute and Matoaka. She had been baptized as Rebecca and married John Rolfe in April 1614. Her visit to England, backed by the Virginia Company as a publicity venture, made her a celebrity at court. Chamberlain's description of Virginia's exports — sassafras, tobacco, pitch, and clapboard — as "things of no great value" reflects widespread English ambivalence about the colony's commercial prospects at this stage.</note>
+        (daughter of <persName ref="#powhatan">Powatan</persName>
+        <note>Powhatan (c. 1550–1618), paramount chief (mamanatowick) of the Powhatan Confederacy in the Chesapeake region. His name in English documents typically refers to the man rather than the chiefdom.</note>
+        a kinge or cacique of that countrie) married to one <persName ref="#rolfe-john">Rolfe</persName>
+        <note>John Rolfe (1585–1622), English colonist credited with introducing the commercially viable cultivation of tobacco in Virginia. He married Pocahontas in April 1614, helping to establish a temporary peace between the Powhatan Confederacy and the English colony.</note>
+        an English man: I heare not of any other riches or matter of worth, but only some quantitie of sassafras, tobacco, pitch, and clap-board, things of no great value unles there were more plentie and neerer hand. All I can learne of yt is that the countrie is goode to live in, yf yt were stored with people, and might in time become commodious, but there is no present profit to be expected: but you may understand more by yourself when he comes into those parts, which he pretends to do within a moneth or litle more.</p>
+
+        <p>Yesterday was sevenight (which was the last time I saw <persName ref="#winwood-ralph">Master Secretarie</persName>) I moved him again for your journy to the Spa. He aunswered as before that he had heard nothing of yt from yourself. I assured him you had written about yt, howsoever the letter was miscaried or mislayed. He saide he wold inquire of Moore,
+        <note>Presumably John More, later Clerk of the Signet.</note>
+        and yf he found any such thing he wold move the King for leave twixt that and Sonday night. What he hath don I know not, for I love not to haunt him at court without extraordinarie occasion. As I was now making an end Dieston bringes me your letter of the 15<hi rend="superscript">th</hi> of this present, which conteining no matter that requires aunswer I will here conclude with all due remembrance to my Lady and so commend you to the protection of the Almighty.</p>
+
+        <closer>
+          <dateline>From <placeName>London</placeName> this 22<hi rend="superscript">th</hi> of June 1616.</dateline>
+          <salute>Your Lordships to commaund</salute>
+          <signed><persName ref="#chamberlain-john">JOHN CHAMBERLAIN.</persName></signed>
+        </closer>
+
+        <address>
+          <addrLine>To the right honorable Sir Dudley Carleton knight Lord Ambassador for his Majestie with the States of the United Provinces at the Hagh.</addrLine>
+        </address>
+
+        <postscript>
+          <p>I receved a passionate letter from <persName ref="#carleton-alice">your sister Alice</persName> touching the death of Signor Sealas wife, and among other things she sayes she doubts there was some fowle play offered her beeing otherwise a woman not geven to take things to the hart. She is likewise very sory to heare that the stone begins to call upon you, and puts you in remembrance, beeing very desirous you shold hold on your purpose to the Spaa and seeke remedy in time.</p>
+        </postscript>
+      </div>
+    </body>
+  </text>
+</TEI>

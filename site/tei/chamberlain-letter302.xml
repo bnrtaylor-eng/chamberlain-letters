@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter 302: John Chamberlain to Sir Dudley Carleton, 31 October 1618</title>
+        <author ref="#chamberlain-john">John Chamberlain</author>
+        <editor>Brandon Taylor</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>The Chamberlain Letters Digital Edition</publisher>
+        <date when="2025"/>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>The National Archives, Kew</repository>
+            <collection>State Papers Domestic, James I</collection>
+            <idno>S.P. Dom., Jac. I, ciii, 58</idno>
+          </msIdentifier>
+          <msContents>
+            <p>Autograph letter signed.</p>
+          </msContents>
+        </msDesc>
+        <biblStruct>
+          <analytic>
+            <title>Letter 302</title>
+          </analytic>
+          <monogr>
+            <author>John Chamberlain</author>
+            <editor>Norman Egbert McClure</editor>
+            <title>The Letters of John Chamberlain</title>
+            <imprint>
+              <publisher>American Philosophical Society</publisher>
+              <pubPlace>Philadelphia</pubPlace>
+              <date>1939</date>
+            </imprint>
+            <biblScope unit="volume">2</biblScope>
+            <biblScope unit="page">175–179</biblScope>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#chamberlain-john">John Chamberlain</persName>
+          <placeName>London</placeName>
+          <date when="1618-10-31"/>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#carleton-dudley">Sir Dudley Carleton</persName>
+          <placeName>The Hague</placeName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="letter">
+        <opener>
+          <salute>My very goode Lord:</salute>
+        </opener>
+
+        <p>Your new messenger brought me your letter of the 19<hi rend="superscript">th</hi> of this present, but he could tell me no newes of the printed or painted paper you write of. I remember that in my last letter I saide that <persName ref="#raleigh-walter">Sir Walter Raleigh</persName> was not secure, but now he is past all peradventure for upon Thursday morning he was beheaded in the old palace at <placeName>Westminster</placeName> twixt the Parlement House and the church.</p>
+
+        <p>On Wensday he was brought from the Towre to the Kings-bench barre, (as they say the manner is when a man lives above a yeare and a day after he is condemned) and there demaunded what he could say for himself why the sentence pronounced against him at <placeName>Winchester</placeName> shold not be put in execution. The summe of his aunswer was, that the King had imployed him in his service and geven him a commission wherin he stiled him his loyall subject, and withall geven him <hi rend="italic">potestatem vitæ et necis</hi>,
+        <note>Latin: "power of life and death," used in military commissions granting the commander authority to punish capital offences. Raleigh argued this amounted to a pardon of the Winchester sentence. The judges rejected the argument: no commission could pardon treason by implication.</note>
+        which did amount to a pardon, for in all reason he must be master of his owne life that hath power over other mens: the judges replied that there is no pardon for treason by implication, wherfore he must find a better plea or undergo the sentence. Then he spake of his triall at Winchester and avowed that all or the far greater part of those that were present did acquit him in theyre conscience, and that the Kings gracious forbearing him so long, (and but for this late accident longer wold have don, even to an hundred yeares if nature could have drawne out his life so long), did shew that his Majestie approved his innocence. But in conclusion he was willed to prepare himself, and so was delivered to the sherriffes of London and conveyed to the Gatehouse, where he spent the rest of that day in writing letters to the King and others, and in prayer with <persName ref="#townson-robert">the Deane of Westminster</persName>,
+        <note>Robert Townson (c. 1575–1621), Dean of Westminster from 1617; he administered the sacrament to Raleigh the morning of his execution and later set down his account of Raleigh's behaviour and last words.</note>
+        who came the next morning at five a clocke and ministred to him the communion and when he had broken his fast about eight a clocke he came to the scaffold, where he found <persName ref="#arundel-thomas">the earles of Arundell</persName>,
+        <note>Thomas Howard, second Earl of Arundel (1585–1646), the great art collector.</note>
+        Oxford, Northampton, the Lord of Doncaster and divers others.</p>
+
+        <p>He made a speach of more then halfe an howre, wherin he cleered himself of having any intelligence with Fraunce, (which had ben objected to him,) more then to save his life and hide himself from the Kinges indignation: then that he never had any yll intent towards his Majestie not so much as in thought, that he had no other pretence nor end in his last viage then the inriching of the King, the realme, himself and his followers: that he never had any undutifull speach concerning his Majestie with <persName ref="#mannourie">the runagate French phisician</persName>,
+        <note>Mannourie (d. 1621), a physician retained by Sir Lewis Stukeley; accused of advising Raleigh on how to feign illness to avoid arrest, and later of enticing Raleigh to speak treasonably. Raleigh denied all dealings with him on the scaffold.</note>
+        nor ever offered to <persName ref="#stukeley-lewis">Sir Lewes Stukeley</persName>
+        <note>Sir Lewis Stukeley (c. 1574–1620), Raleigh's cousin and Vice-Admiral of Devon, who had been entrusted with Raleigh's custody after his capture in August 1618 and brought him to London. Raleigh's accusation that Stukeley had told him Lord Carew advised flight was a pointed attempt to spread the shame. Stukeley was subsequently stripped of his offices for his conduct in the affair and died in poverty.</note>
+        10000<hi rend="superscript">li</hi> to go with him into Fraunce, nor told him that <persName ref="#carew-george">the Lord Carew</persName>
+        <note>George Carew, first Earl of Totnes (1555–1629), an old friend of Raleigh; his advice to flee had been circulated as a rumour. Raleigh's purpose in naming Carew was to deny involvement, but the reference put Carew in an awkward position.</note>
+        had geven him advise to be gon, and that he and the Lord of Doncaster wold maintain him in Fraunce, of which points he had ben accused by them, and though he protested not only to forgeve them but to pray God to forgeve them, yet he thought fit to geve men warning of such persons. To all this and much more he tooke God so often and so solemnly to witnes, that he was beleved of all that heard him.</p>
+
+        <p>He spake somwhat of the death of <persName ref="#devereux-robert">the earle of Essex</persName>
+        <note>Robert Devereux, second Earl of Essex, executed for treason in February 1601. At his own trial in 1603, Raleigh had been accused of gloating at Essex's death; at the scaffold in 1618, he publicly repudiated this charge and declared his sorrow for Essex, a gesture that visibly moved the crowd.</note>
+        and how sory he was for him, for though he was of a contrarie faction, yet he fore-saw that those who esteemed him then in that respect, wold cast him of as they did afterward. He confessed himself the greatest sinner that he knew, and no marvayle as having ben a souldier, a sea-man and a courtier: he excused the disfiguring of himself by the example of David who fained himself mad to avoide daunger: and never heard yt imputed to him for a sinne. In conclusion he spake and behaved himself so, without any shew of feare or affectation that he moved much commiseration, and all that saw him confesse that his end was <hi rend="italic">omnibus numeris absolutus</hi>,
+        <note>Latin: "complete in every respect" (literally, "perfect in all numbers" — from Cicero's <hi rend="italic">Epistulae ad Familiares</hi>). The phrase was applied to a man or deed that was perfect without exception; its use here is remarkable — Chamberlain is praising the manner of Raleigh's death as flawless.</note>
+        and as far as man can discern every way perfect.</p>
+
+        <p>Yt will not be amisse to set downe some few passages of divers that I have heard. The morning that he went to execution there was a cup of excellent sacke brought him and beeing asked how he liked yt, as the fellow (saide he) that drincking of St. Giles bowle
+        <note>At St. Giles in the Fields, "prisoners convayed from the City of London towardes Teyborne, there to be executed for treasons, fellonies, or other trespasses, were presented with a great Bowle of Ale, thereof to drinke at theyr pleasure, as to be theyr last refreshing in this life." (Stow, <hi rend="italic">Survey of London,</hi> ii, 91.)</note>
+        as he went to Tiburn, saide yt was goode drincke yf a man might tarrie by yt. As he went from <placeName>Westminster</placeName> Hall to the Gatehouse, he espied <persName ref="#beeston-hugh">Sir Hugh Beeston</persName>
+        <note>Sir Hugh Beeston (d. 1626), a Cheshire knight; Raleigh had known him from their shared service in the 1580s and 1590s. Beeston had asked to see him die and Raleigh had invited him to the scaffold.</note>
+        in the thronge and calling to him prayed he wold see him dye to morow: Sir Hugh got a letter from <persName ref="#lake-thomas">Secretarie Lake</persName>
+        <note>Sir Thomas Lake (1561–1630), Secretary of State; he wrote to the sheriffe to ensure Beeston a convenient place at the scaffold.</note>
+        to the sheriffe to see him placed conveniently, and meeting them as they came nere to the scaffold delivered his letter but the sheriffe by mishap had left his spectacles at home and put the letter in his pocket. In the mean time Sir Hugh beeing thrust by, Sir Walter bad him farewell and saide I know not what shift you will make, but I am sure to have a place.</p>
+
+        <p>When the hangman asked him forgivenes he desired to see the axe, and feeling the edge he saide yt was a fayre sharpe medicine to cure him of all his diseases and miseries. When he was laide downe some found fault that his face was west-ward, and wold have him turned, wherupon rising he saide yt was no great matter which way a mans head stoode so his heart lay right. He had geven order to the executioner that after some short meditation when he stretcht forth his handes he shold dispatch him. After once or twise putting foorth his handes, the fellow out of timerousnes (or what other cause) forbearing, he was faine to bid him strike, and so at two blowes he tooke of his head, though he stirred not a whit after the first. The people were much affected at the sight insomuch that one was heard say that we had not such another head to cut of.</p>
+
+        <p>Another wisht the head and braines to be upon <persName ref="#naunton-robert">S. N.</persName>
+        <note>Sir Robert Naunton (1563–1635), Secretary of State from 1618; "S.N." refers to Secretarie Naunton. The remark — that Raleigh's parts would be better employed on Naunton's shoulders — was reported to Naunton, who summoned the man responsible to the privy council; the incident ended in farce when the story was traced to a joke about two heads being better than one.</note>
+        shoulders. There was great meanes made for his life, and I heare the <persName ref="#anne-denmark">Quene</persName>
+        <note>Anne of Denmark (1574–1619), Queen consort of James I; she died in March 1619, less than five months after Raleigh's execution. Her intercession for Raleigh — writing "very earnestly" to the King — reflects her longstanding sympathy for his cause; she had also worked for his release earlier in his imprisonment.</note>
+        wrote very earnestly to the King as he tendered her health to spare him for that she had receved great goode by his receits. I heare not so much of her recoverie of late as when I last wrote, but rather that she goes <hi rend="italic">peggiorando</hi>, insomuch that yt is doubted whether the King come hither to day from Tiballs or go directly to Hampton-court where she lies. The Spanish Dominican lately come hither is saide likewise to have laboured for Sir Walter Raleigh, as finding his death wold much alienate the mindes of our people as yf he were sacrificed to the malice of the Spaniards: but yt is verelie thought some unseemly speaches fathered upon him whether truly or falsly by those two fellowes were the principall motives of his ruine. Yt is saide we shold have some declaration set out touching the causes of his execution at this time, but whether his protestations and manner of dieng may alter the case God knowes: for he died very religiously, and every way like a Christian, insomuch that the Deane of Westminster (they say) commends him exceedingly and sayes he was as redy and as able to geve as take instruction. His execution was the more remarkeable for that yt fell out the day of the Lord Maiors triumph, though yt began with a tragedie, and beeing a reasonable fayre morning grew very fowle all the day after. Monsieur Clerc the French Agent went away this day sevenight and I heard yesterday that Master Beecher
+        <note>William Beecher, English agent at Paris.</note>
+        and the Lord Weems were come out of Fraunce. I am sory we shold have no body there to see how matters passe, for we are possessed here that the States biais runs very strongly that way.</p>
+
+        <p>On Wensday, <persName ref="#tufton-humphrey">Sir Humfrie Tufton</persName>
+        <note>Sir Humphrey Tufton (1582–1659), of Hothfield, Kent; a member of the family of the Barons Tufton. Censured for violently assaulting Christopher Neville in a jealous quarrel over Neville's wife.</note>
+        was censured in the Star Chamber for bastinading <persName ref="#neville-christopher">Christofer Nevill</persName>
+        <note>Christopher Neville (d. c. 1649), son of Edward Neville, sixth Lord Abergavenny (the existing entry <hi rend="italic">neville-edward</hi> in this edition). The episode — Tufton lured Neville with a fake letter, then had him beaten as punishment for alleged attentions to Tufton's wife — was presented to the Star Chamber as a premeditated abuse of process.</note>
+        the Lord of Abergavenies sonne, in a jealous humor that he made love to his wife, whom he caused to write him a letter and so drew him into the trap. His whole fine for himself and his men one way and other comes to almost 4000<hi rend="superscript">li</hi>. Besides he is to make some submission in that court, and some satisfaction to Nevill as the earles marshalls shall awarde. His two men are to stand on the pillorie and to be whipt: Master Nevill is to have 1000<hi rend="superscript">li</hi> of this fine for his costs. And so with the remembrance of my best service to my goode Lady I commend you to the protection of the Almighty.</p>
+
+        <closer>
+          <dateline>From <placeName>London</placeName> this last of October 1618.</dateline>
+          <salute>Your Lordships to commaund</salute>
+          <signed><persName ref="#chamberlain-john">JOHN CHAMBERLAIN.</persName></signed>
+        </closer>
+
+        <address>
+          <addrLine>To the right honorable Sir Dudley Carleton knight Lord Ambassador for his Majestie with the States of the United Provinces at the Hagh.</addrLine>
+        </address>
+      </div>
+    </body>
+  </text>
+</TEI>
