@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from John Chamberlain to Dudley Carleton, 7 November 1605</title>
+        <respStmt>
+          <resp>Editor</resp>
+          <name>Brandon Taylor</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>Published digitally at earlymodernletters.org. Licensed under CC BY 4.0.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <title>The Letters of John Chamberlain</title>
+          <editor>Norman Egbert McClure</editor>
+          <pubPlace>Philadelphia</pubPlace>
+          <publisher>American Philosophical Society</publisher>
+          <date when="1939">1939</date>
+          <biblScope unit="volume">1</biblScope>
+          <biblScope unit="page">212–215</biblScope>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text>
+    <front>
+      <div type="letter-meta">
+        <head>Letter Metadata</head>
+        <p><date when="1605-11-07">7 November 1605</date></p>
+        <p><placeName ref="#london">London</placeName></p>
+        <p><correspDesc>
+          <correspAction type="sent">
+            <persName ref="#chamberlain-john">John Chamberlain</persName>
+            <date when="1605-11-07"/>
+            <placeName ref="#london">London</placeName>
+          </correspAction>
+          <correspAction type="received">
+            <persName ref="#carleton-dudley">Dudley Carleton</persName>
+            <placeName ref="#paris">Paris</placeName>
+          </correspAction>
+        </correspDesc></p>
+      </div>
+    </front>
+
+    <body>
+      <div type="letter-text">
+        <opener>Sir,</opener>
+
+        <p>Though I looked for you before this time, and have often wisht you here among
+          your old schoolefellowes that are almost all come up to the Parliament: yet as
+          matters are lately fallen out about your Lord,<note>Henry Percy (1564–1632), ninth
+          Earl of Northumberland — Carleton's former employer, in whose household Carleton
+          had served as a secretary. His kinsman Thomas Percy was one of the principal
+          Gunpowder Plot conspirators, which cast instant suspicion on the Earl despite his
+          own probable innocence. He was examined by the Privy Council, committed to the
+          Tower, and eventually fined £30,000 and stripped of his offices — a punishment
+          driven as much by factional politics as by evidence. Chamberlain is glad Carleton
+          is away from the fallout.</note> am well content you be absent. Not that your
+          Lord (as I hope) can be any way toucht with this divelish conspiracie in bloude,
+          but that neerenes of name, longe and inward dependance, and familiaritie, cannot
+          but leave some aspersion, that will not easilie or lightly be washt of without
+          time: in which consideration I heare he is rather wisht then willed to kepe his
+          house.</p>
+
+        <p>I cannot but remember what you have divers times told me touching
+          <persName ref="#percy-thomas">Thomas Percie</persName>,<note>Thomas Percy
+          (c. 1560–1605), great-grandson of Henry Percy, fourth Earl of Northumberland,
+          and agent of the ninth Earl in the North. He was one of the five original
+          conspirators of the Gunpowder Plot, having rented the vault beneath the House of
+          Lords in the name of "Thomas Percy." He fled London on the night of 4–5 November
+          and was killed resisting arrest at Holbeche House, Staffordshire, on 8 November
+          1605 — the day after this letter was written.</note> that you suspected him to be
+          a subtile flattering daungerous knave. He hath not only verefied your judgement,
+          but exceeded all degrees of comparison, and gon beyond Nero and Caligula that
+          wisht all Rome but one head that they might cut yt of at a stroke, for he at one
+          blowe wold have ruined the whole realme.</p>
+
+        <p>He had hired the house or lodging next to the Parliament, together with the
+          seller or vault under the upper house:<note>The vault or undercroft beneath the
+          House of Lords, running beneath the building along the river side of the Old
+          Palace of Westminster. Percy rented it in the name of a coal and wood merchant —
+          a cover that explained the presence of barrels and billets. The undercroft was
+          adjacent to the Chamber of the Lords where the King would deliver his speech at
+          the State Opening on 5 November 1605.</note> into which by the meanes of one
+          Johnson<note>The name given by Guy Fawkes (1570–1606) when he was arrested.
+          Fawkes maintained the alias "John Johnson" for several days under examination
+          before his true identity was established. He had spent months as the undercroft's
+          keeper, loading it with powder under cover of the coal and wood
+          merchant's lease.</note> his man (a superstitious papist, or rather a priest as
+          is thought) he hath this twelvemoneth as any time conveyed as much pouder in
+          sachells, and firkins could contein, fowre or five and thirty barrells,
+          hoggesheads,<note>Thirty-five barrels of gunpowder — enough, experts calculated,
+          to have destroyed not only the Parliament building but every structure within a
+          wide radius. Contemporary accounts marvelled at the scale of the stockpile.
+          Chamberlain's "sachells and firkins" accurately reflects the variety of containers
+          used: small sacks, small casks, and large barrels, packed around iron bars and
+          stones to increase the shrapnel effect.</note> with intent the first day of the
+          parlement when the King shold be in his speach to blowe them all up: and had so
+          cunningly covered them with billets, faggots and such trash, that without long
+          search they could not be discovered, and but that God blinded him or some of his,
+          to send this inclosed without name or date to the
+          <persName ref="#parker-william-monteagle">Lord Mountegle</persName>,<note>William
+          Parker (1575–1622), fourth Baron Monteagle and son-in-law of the conspirator
+          Thomas Tresham. On the evening of 26 October 1605 he received an anonymous letter
+          warning him not to attend the Parliament ("for though there be no appearance of
+          any stir, yet I say they shall receive a terrible blow this Parliament"). He
+          brought it immediately to Robert Cecil, Earl of Salisbury, who showed it to the
+          King. The letter's authorship has never been definitively established; Francis
+          Tresham, Monteagle's brother-in-law, is the most common suspect.</note> yt was
+          very like to take effect.</p>
+
+        <p>But the carieng yt to the
+          <persName ref="#cecil-robert">Lord of Salisberie</persName><note>Robert Cecil
+          (1563–1612), first Earl of Salisbury; Principal Secretary of State and, from 1608,
+          Lord Treasurer. He received the Monteagle letter and, after showing it to the King,
+          organized the search of the vaults. His management of the Plot's discovery and
+          aftermath cemented his position as the dominant minister of the early Jacobean
+          government.</note> and so to the King, yt gave such light, that watch being set,
+          the fellowe was taken making his traines<note>"Traines" = the fuses or trains of
+          powder laid to lead the fire to the main charge; the technical vocabulary of
+          artillery and mining. Guy Fawkes was caught in the act of preparing to ignite the
+          powder.</note> at midnight with a blinde lanterne,<note>A dark lantern — a lantern
+          with a shutter or slide that could conceal the flame while still providing light
+          to the bearer. It was a device associated with clandestine operations; its
+          discovery on Fawkes became one of the iconic images of the Plot.</note> and
+          presently confessed the plot, yet with such shew of resolution that he seemed to
+          be cheifly greved that yt had wanted successe. The next day caried to the Towre,
+          but what <persName ref="#waade-william">Sir William Waade</persName><note>Sir
+          William Wade (also Waad, c. 1546–1623), Lieutenant of the Tower of London from
+          1605 to 1613. As Lieutenant he was responsible for the examination of prisoners;
+          under his watch Fawkes was tortured on the rack until he gave up the names of
+          his co-conspirators and signed a confession in a visibly shaking hand.</note>
+          (that is lieutenant) and other examiners have wrange out of him I cannot learne:
+          only I heare
+          <persName ref="#baynham-edward">Sir Edward Bainham</persName><note>Sir Edward
+          Baynham (d. 1618), a Catholic recusant and soldier who had served in the Irish
+          wars. He had been in Rome carrying a message about the Plot to the English
+          Jesuit superior Robert Persons — making him a conspirator in the wider circle
+          around the Plot even if not one of the vault-men. He was indeed captured,
+          examined, and eventually acquitted for lack of direct evidence.</note> he was
+          come lately out of the
+          <placeName ref="#low-countries">Lowe Countries</placeName> is sought for: and
+          some five or sixe Jesuites and priests taken in a privie search.
+          <persName ref="#percy-thomas">Percie</persName> comming up on a sleveles
+          errand<note>"Sleveles" = pointless, fruitless — from "sleeveless," having no
+          obvious purpose. Percy had come to London supposedly to report to the ninth
+          Earl of Northumberland on northern affairs; Chamberlain's aside implies that the
+          real purpose was to check on the Plot's readiness.</note> and before he was
+          looked for to your Lord, durst not tarry to see the event, but went away that
+          night that his man was taken.</p>
+
+        <p>Curious folkes observe that this deliveraunce hapned to the King the fift of
+          August<note>The Gowrie Conspiracy of 5 August 1600, in which James VI of Scotland
+          was allegedly lured into a trap by the Gowrie brothers at Perth. James escaped
+          and the brothers were killed. The coincidence of dates — both 5 August and 5
+          November fell on a Tuesday in their respective years — struck contemporaries as
+          providential, confirming James's divine protection.</note> aunswerable to the fift
+          of November, both Tewsdayes, and this plot to be executed that at
+          Johnstowne.<note>Perth (or Gowrie House in Perth), the scene of the 1600
+          Gowrie attempt, was sometimes called "Johnstown" in Scots usage.</note></p>
+
+        <p>On Tewsday at night we had great ringing and as great store of bonfires as ever
+          I thincke was seene. And this is all I can write or remember in this matter.</p>
+
+        <p>The Earle of
+          <persName ref="#clifford-george-cumberland">Cumberland</persName><note>George
+          Clifford (1558–1605), third Earl of Cumberland; naval commander and privateer,
+          famous for his voyages against Spanish Caribbean ports. He died on 30 October
+          1605, leaving the earldom to his brother Francis (who became the fourth Earl).
+          His daughter Anne (Lady Anne Clifford, 1590–1676) received £15,000–16,000 on
+          condition she make no further claim to the estate — a settlement she contested for
+          decades, becoming famous for her determined pursuit of her inheritance
+          rights.</note> died of a flixe<note>Flux (dysentery). A common early modern
+          cause of death, particularly for soldiers and sailors whose campaigns exposed them
+          to contaminated water and crowded, unsanitary conditions.</note> the 3oth of
+          October leaving the earledome to his brother, and fifteen or sixten thousand pound
+          to his daughter, so she make no further claime; his Lady and he were reconciled
+          not longe before his death, but yt fell out odly that he desiring she shold receve
+          consecrated with him she was not prepared.</p>
+
+        <p>The <persName ref="#knollys-william">Lord Knolles</persName><note>William
+          Knollys (1547–1632), first Earl of Banbury; Comptroller and then Treasurer of the
+          Household under James I. His wife Dorothy was the widow of William Brydges, fourth
+          Baron Chandos, hence "the old Lady Chandos." Knollys subsequently and infamously
+          married a woman forty years his junior, Elizabeth Howard, who bore children later
+          claimed to be by other fathers.</note> is newly become a widower by the death of
+          his old Lady Chandos.</p>
+
+        <p>Dr. <persName ref="#andrewes-lancelot">Andrewes</persName><note>Lancelot
+          Andrewes (1555–1626), scholar-bishop and one of the great preachers of the age;
+          chief editor of the Authorized Version of the Bible (1611). His consecration as
+          Bishop of Chichester on 3 November 1605 — two days before the Gunpowder Plot was
+          discovered — positioned him for a long ecclesiastical career under James I (he was
+          later translated to Ely and then Winchester).</note> was consecrated bishop of
+          <placeName ref="#chichester">Chichester</placeName> on Sonday last: the manages
+          of the earle of <persName ref="#devereux-robert-3rd">Essex</persName><note>Robert
+          Devereux (1591–1646), third Earl of Essex; son of the executed second Earl. He
+          was to marry Frances Howard, daughter of Thomas Howard, Earl of Suffolk; the
+          match, arranged when both were children, ultimately proved catastrophic — Frances
+          later sought an annulment, claiming non-consummation, in one of the great
+          scandals of the Jacobean court.</note> and the younge Lord
+          <persName ref="#cranborne-william">Crambourne</persName><note>William Cecil
+          (1591–1668), Viscount Cranborne; son of Robert Cecil, Earl of Salisbury. He was
+          to marry Catherine Howard, sister of Frances — the double match linking the Cecil
+          and Howard families. He later became the second Earl of Salisbury.</note> to the
+          Lord <persName ref="#howard-thomas-suffolk">Chamberlaines</persName><note>Thomas
+          Howard (1561–1626), first Earl of Suffolk; Lord Chamberlain of England 1603–14.
+          His two daughters Frances and Catherine were the brides in these arranged
+          matches, contracted when the children were very young. The double ceremony
+          eventually took place in January 1606.</note> daughters are put of till toward
+          Christmas.</p>
+
+        <p><persName ref="#sandys-edwin">Sir Edwin Sands</persName><note>Sir Edwin Sandys
+          (1561–1629), parliamentarian and colonial promoter; later a leading figure in the
+          Virginia Company. His <hi rend="italic">Europae Speculum</hi>, an account of
+          the state of religion across Europe, was published in 1605 without his consent
+          under the title <hi rend="italic">A Relation of the State of Religion</hi>.
+          Sandys himself appears to have arranged its condemnation by the High Commission
+          to suppress unauthorized copies — an early example of an author using ecclesiastical
+          authority to manage their own text.</note> bookes were burnt on Satterday in
+          <placeName ref="#st-pauls">Paules Churchyard</placeName> by order of the high
+          commission and not without his owne consent as is saide.</p>
+
+        <p><persName ref="#bacon-francis">Fraunces Bacon</persName><note>Francis Bacon
+          (1561–1626), philosopher, lawyer, and statesman. <hi rend="italic">The Two
+          Bookes of Francis Bacon. Of the Proficience and Advancement of Learning, Divine
+          and Humane</hi> (1605) — dedicated to James I — was one of the founding documents
+          of empirical philosophy, arguing for the systematic reform of knowledge through
+          observation and experiment. Its publication in the same week as the Gunpowder
+          Plot is one of the small ironies of early modern intellectual history.</note> hath
+          set foorth a new worke of the proficience and advancement of
+          learning.</p>
+
+        <p><persName ref="#beaumont-christophe">Monsieur Beaumont</persName><note>
+          Christophe de Harlay (c. 1557–1629), Comte de Beaumont, French ambassador to
+          England from 1602 to 1605. He had been a capable diplomatist but his departure
+          was marred by an unseemly scramble for gifts and perquisites. Chamberlain's
+          "mecanicall tricks" means low, base, mercenary behaviour — the conduct of a
+          tradesman rather than a courtier. "To robbe the Egiptians" is a biblical allusion
+          to Exodus 12, where the Israelites, on departing Egypt, asked for and received
+          gold and silver from their neighbours — a kind of legalised plunder. Chamberlain
+          applies it here with characteristic irony.</note> the French ambassador went
+          homeward the first of this moneth, and hath blotted his former reputation with
+          very mecanicall tricks at parting: for having 2000 ounces of plate geven him he
+          cavilled for 500 more, as having seene a president of the like, which being
+          graunted him, he begd two horses more by name of the King, besides pictures great
+          and small with jewells at his owne appointment, and not a noble man or other of
+          his neere acquaintaunce but he got horses, geldings or somwhat of him: and the
+          impost of 60 tunne of wine of the Lord Treasurer which he sold to French
+          marchants for threescore pound: with divers other such petti larceries, as yf he
+          made no conscience to robbe the Egiptians.</p>
+
+        <p>We heare that Master <persName ref="#winwood-ralph">Winwod</persName> hath a
+          sonne, and that the States and the Lady Conway were his gossipps.<note>Gossips
+          here = godparents. Ralph Winwood's eldest son Richard was born in the Netherlands
+          in late 1605, where Winwood was serving as English agent to the States-General.
+          The "States" (the States-General of the Dutch Republic) and Lady Conway (Dorothy,
+          wife of Sir Edward Conway, who was also active in the Netherlands) standing as
+          godparents reflects the close social world of English diplomats and their Dutch
+          hosts.</note></p>
+
+        <p>Thus praeing you to remember my satten and the other trincketts I commit you to
+          God in great haste.</p>
+
+        <closer>
+          <dateline>From <placeName ref="#london">London</placeName> this
+            <date when="1605-11-07">7th of November 1605</date>.</dateline>
+          <signed>Yours most assuredly,
+            <persName ref="#chamberlain-john">JOHN CHAMBERLAIN</persName>.</signed>
+        </closer>
+
+        <postscript>
+          <p>To my assured goode frend Master
+            <persName ref="#carleton-dudley">Dudley Carleton</persName> geve these at
+            <placeName ref="#paris">Paris</placeName>.</p>
+        </postscript>
+      </div>
+    </body>
+  </text>
+</TEI>

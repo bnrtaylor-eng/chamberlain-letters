@@ -172,9 +172,9 @@ const people = [
   {
     "id": "clifford-george",
     "name": "George Clifford, third Earl of Cumberland",
-    "shortBio": "Third Earl of Cumberland, naval commander and privateer. His 1598 Caribbean expedition took the town and castle of Puerto Rico but found little treasure; losses in men and shipping far exceeded the profits from sugar and ginger brought home.",
+    "shortBio": "Third Earl of Cumberland, naval commander and privateer. His 1598 Caribbean expedition took the town and castle of Puerto Rico but found little treasure; losses in men and shipping far exceeded the profits from sugar and ginger brought home. He died on 30 October 1605 of dysentery, leaving the earldom to his brother and £15,000–16,000 to his daughter Anne on condition she make no further claim to the estate — a settlement she contested for decades.",
     "letters": [
-      3, 8
+      3, 8, 75
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/George_Clifford,_3rd_Earl_of_Cumberland",
@@ -509,10 +509,10 @@ const people = [
   },
   {
     "id": "cecil-robert",
-    "name": "Sir Robert Cecil",
-    "shortBio": "Son of Lord Burghley; Principal Secretary and later first Earl of Salisbury. Floated as a candidate for the Mastership of the Court of Wards in December 1598; Chamberlain pictures him playing backgammon with Essex in the presence chamber while Ireland burned. A major figure in Elizabethan and Jacobean politics whose rise Chamberlain tracks closely throughout the correspondence.",
+    "name": "Sir Robert Cecil, first Earl of Salisbury",
+    "shortBio": "Son of Lord Burghley; Principal Secretary and later first Earl of Salisbury (1605), and from 1608 Lord Treasurer. Floated as a candidate for the Mastership of the Court of Wards in December 1598; Chamberlain pictures him playing backgammon with Essex in the presence chamber while Ireland burned. Received the Monteagle letter on 26 October 1605, showed it to the King, and organized the search that uncovered the Gunpowder Plot — an event that cemented his dominance in the early Jacobean government.",
     "letters": [
-      6, 12, 13
+      6, 12, 13, 75
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Robert_Cecil,_1st_Earl_of_Salisbury",
@@ -639,10 +639,10 @@ const people = [
   },
   {
     "id": "howard-thomas",
-    "name": "Thomas Howard, later first Earl of Suffolk",
-    "shortBio": "Vice-admiral of the Islands Voyage (1597); later created Earl of Suffolk (1603). Reported alongside Raleigh and Stanhope as a candidate for the Privy Council in August 1598.",
+    "name": "Thomas Howard, first Earl of Suffolk",
+    "shortBio": "Vice-admiral of the Islands Voyage (1597); created Earl of Suffolk (1603); Lord Chamberlain of England (1603–14). Reported alongside Raleigh and Stanhope as a candidate for the Privy Council in August 1598. In 1605–06 his daughters Frances and Catherine were contracted in double matches to the third Earl of Essex and William Cecil, Viscount Cranborne — a dynastic alliance linking the Howard and Cecil families.",
     "letters": [
-      1, 6
+      1, 6, 75
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Howard,_1st_Earl_of_Suffolk",
@@ -1810,9 +1810,9 @@ const people = [
   {
     "id": "winwood-ralph",
     "name": "Ralph Winwood",
-    "shortBio": "Diplomat (c. 1563–1617); appointed secretary to Henry Nevill on his embassy to France (1599–1601) at Essex's direction. Later served as envoy to the Dutch Republic (1603–1613) and Secretary of State under James I (1614–1617). His papers, published posthumously, are a major source for early Jacobean diplomacy.",
+    "shortBio": "Diplomat (c. 1563–1617); appointed secretary to Henry Nevill on his embassy to France (1599–1601) at Essex's direction. Later served as envoy to the Dutch Republic (1603–1613) and Secretary of State under James I (1614–1617). His papers, published posthumously, are a major source for early Jacobean diplomacy. In November 1605 Chamberlain reports that Winwood has a son, with the States-General and Lady Conway standing as godparents.",
     "letters": [
-      15
+      15, 75
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/Ralph_Winwood",
@@ -2219,6 +2219,175 @@ const people = [
     ],
     "externalLinks": {
       "wikipedia": "https://en.wikipedia.org/wiki/John_Hayward_(historian)",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "percy-henry-northumberland",
+    "name": "Henry Percy, ninth Earl of Northumberland",
+    "shortBio": "Henry Percy (1564–1632), ninth Earl of Northumberland; Dudley Carleton's former employer. His kinsman Thomas Percy was a principal Gunpowder Plot conspirator, which cast immediate suspicion on the Earl. He was examined by the Privy Council, committed to the Tower, fined £30,000, and stripped of his offices — a punishment driven as much by factional politics as by evidence. Chamberlain is relieved Carleton is out of England given the fallout.",
+    "letters": [
+      75
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Henry_Percy,_9th_Earl_of_Northumberland",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "percy-thomas",
+    "name": "Thomas Percy",
+    "shortBio": "Thomas Percy (c. 1560–1605), great-grandson of Henry Percy, fourth Earl of Northumberland, and agent of the ninth Earl in the North. One of the five original Gunpowder Plot conspirators; he rented the vault beneath the House of Lords under a cover identity. He fled London on the night of 4–5 November 1605 and was killed resisting arrest at Holbeche House, Staffordshire, on 8 November — the day after this letter was written.",
+    "letters": [
+      75
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Percy_(conspirator)",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "fawkes-guy",
+    "name": "Guy Fawkes",
+    "shortBio": "Guy Fawkes (1570–1606), Yorkshire Catholic soldier who served in the Spanish Netherlands. Acting as keeper of the undercroft beneath the House of Lords under the alias 'John Johnson,' he was arrested at midnight on 4–5 November 1605 making preparations to ignite the Gunpowder Plot. Chamberlain reports him confessing 'with such shew of resolution that he seemed to be cheifly greved that yt had wanted successe.' He was tortured on the rack until he named his co-conspirators and signed a confession in a visibly shaking hand.",
+    "letters": [
+      75
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Guy_Fawkes",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "parker-william-monteagle",
+    "name": "William Parker, fourth Baron Monteagle",
+    "shortBio": "William Parker (1575–1622), fourth Baron Monteagle; son-in-law of conspirator Thomas Tresham. On 26 October 1605 he received an anonymous letter warning him to avoid the Parliament; he brought it immediately to Robert Cecil, setting in motion the search that uncovered the Plot. The letter's authorship has never been definitively established; Francis Tresham, Monteagle's brother-in-law, is the most common suspect.",
+    "letters": [
+      75
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/William_Parker,_4th_Baron_Monteagle",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "waade-william",
+    "name": "Sir William Waade",
+    "shortBio": "Sir William Wade (also Waad, c. 1546–1623), Lieutenant of the Tower of London from 1605 to 1613. As Lieutenant he was responsible for the examination of prisoners; under his watch Guy Fawkes was tortured on the rack until he gave up the names of his co-conspirators and signed a confession in a visibly shaking hand.",
+    "letters": [
+      75
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/William_Waad",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "baynham-edward",
+    "name": "Sir Edward Baynham",
+    "shortBio": "Sir Edward Baynham (d. 1618), Catholic recusant and soldier. He had been in Rome carrying a message about the Gunpowder Plot to the English Jesuit superior Robert Persons, making him a conspirator in the wider circle even if not one of the vault-men. He was captured and examined after the Plot's discovery but eventually acquitted for lack of direct evidence.",
+    "letters": [
+      75
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Edward_Baynham",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "knollys-william",
+    "name": "William Knollys, first Earl of Banbury",
+    "shortBio": "William Knollys (1547–1632), first Earl of Banbury; Comptroller and then Treasurer of the Household under James I. His wife Dorothy was the widow of William Brydges, fourth Baron Chandos — hence Chamberlain's 'old Lady Chandos.' Knollys subsequently married a woman forty years his junior, Elizabeth Howard, who bore children later claimed to be by other fathers.",
+    "letters": [
+      75
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/William_Knollys,_1st_Earl_of_Banbury",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "andrewes-lancelot",
+    "name": "Lancelot Andrewes",
+    "shortBio": "Lancelot Andrewes (1555–1626), scholar-bishop and one of the great preachers of the age; chief editor of the Authorized Version of the Bible (1611). Consecrated Bishop of Chichester on 3 November 1605 — two days before the Gunpowder Plot was discovered. He was later translated to Ely and then Winchester under James I.",
+    "letters": [
+      75
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Lancelot_Andrewes",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "devereux-robert-3rd",
+    "name": "Robert Devereux, third Earl of Essex",
+    "shortBio": "Robert Devereux (1591–1646), third Earl of Essex; son of the executed second Earl. Contracted in childhood to marry Frances Howard, daughter of the first Earl of Suffolk. The match proved catastrophic — Frances later sought an annulment claiming non-consummation, in one of the great scandals of the Jacobean court. The third Earl went on to command the Parliamentary army in the Civil War.",
+    "letters": [
+      75
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Robert_Devereux,_3rd_Earl_of_Essex",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "cranborne-william",
+    "name": "William Cecil, Viscount Cranborne",
+    "shortBio": "William Cecil (1591–1668), Viscount Cranborne; son of Robert Cecil, Earl of Salisbury. Contracted in childhood to marry Catherine Howard, sister of Frances — the double match linking the Cecil and Howard families. He later became the second Earl of Salisbury.",
+    "letters": [
+      75
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/William_Cecil,_2nd_Earl_of_Salisbury",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "sandys-edwin",
+    "name": "Sir Edwin Sandys",
+    "shortBio": "Sir Edwin Sandys (1561–1629), parliamentarian and colonial promoter; later a leading figure in the Virginia Company. His Europae Speculum, an account of the state of religion across Europe, was published in 1605 without his consent. Sandys appears to have arranged its condemnation by the High Commission to suppress unauthorized copies — his books were burnt at Paul's Churchyard in November 1605, reportedly with his own consent.",
+    "letters": [
+      75
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Edwin_Sandys_(died_1629)",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "bacon-francis",
+    "name": "Francis Bacon",
+    "shortBio": "Francis Bacon (1561–1626), philosopher, lawyer, and statesman. The Advancement of Learning (1605), dedicated to James I, was one of the founding documents of empirical philosophy, arguing for the systematic reform of knowledge through observation and experiment. Chamberlain notes its publication in the same week as the Gunpowder Plot's discovery.",
+    "letters": [
+      75
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Francis_Bacon",
+      "odnb": "",
+      "britannica": ""
+    }
+  },
+  {
+    "id": "beaumont-christophe",
+    "name": "Christophe de Harlay, Comte de Beaumont",
+    "shortBio": "Christophe de Harlay (c. 1557–1629), Comte de Beaumont, French ambassador to England from 1602 to 1605. He departed on 1 November 1605, but his reputation was damaged by an unseemly scramble for gifts at parting — demanding extra plate, horses, pictures, jewels, and the Lord Treasurer's wine import license. Chamberlain's verdict: he 'made no conscience to robbe the Egiptians.'",
+    "letters": [
+      75
+    ],
+    "externalLinks": {
+      "wikipedia": "https://en.wikipedia.org/wiki/Christophe_de_Harlay,_comte_de_Beaumont",
       "odnb": "",
       "britannica": ""
     }

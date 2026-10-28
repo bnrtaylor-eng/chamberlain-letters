@@ -1,11 +1,15 @@
 albert-archduke
 aldegonde-philip
+andrewes-lancelot
 arundell-thomas
+bacon-francis
 bagnall-henry
 bagnall-samuel
 bagshaw-christopher
 barnevelt-john
 barnham-dorothy
+baynham-edward
+beaumont-christophe
 berkeley-john
 bingham-richard
 blackwell-george
@@ -43,6 +47,7 @@ condon-patrick
 cope-frances
 cope-walter
 cragius-nicholaus
+cranborne-william
 cromwell-edward
 cromwell-henry
 danvers-charles
@@ -50,6 +55,7 @@ danvers-henry
 davies-john-captain
 dee-john
 devereux-robert
+devereux-robert-3rd
 docwra-henry
 dormer-michael
 drury-dru
@@ -63,6 +69,7 @@ elizabeth-i
 evers-ralph
 evers-william
 fane-francis
+fawkes-guy
 fitzgerald-frances-kildare
 fitzgerald-james
 fitzgibbon-edmund
@@ -85,6 +92,7 @@ howard-charles
 howard-thomas
 isabella-infanta
 jermyn-thomas
+knollys-william
 ledsham-henry
 leonard-henry
 leveson-richard
@@ -115,10 +123,13 @@ packington-john
 palmer-henry
 parker-edward
 parker-nicholas
+parker-william-monteagle
 parry-thomas
 paulet-william
 paulet-william-iv
 percy-henry
+percy-henry-northumberland
+percy-thomas
 perkins-christopher
 philip-ii
 philip-iii
@@ -129,6 +140,7 @@ reynolds-john
 robinson-henry
 rolles
 sackville-thomas
+sandys-edwin
 savage-arthur
 savile-henry
 scudamore-james
@@ -157,6 +169,7 @@ vere-edward
 vere-edward-oxford
 vere-francis
 vernon-elizabeth
+waade-william
 wallop-henry
 walpole-richard
 williams-alexander
