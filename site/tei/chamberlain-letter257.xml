@@ -60,6 +60,24 @@
     </profileDesc>
   </teiHeader>
   <text>
+    <front>
+      <div type="letter-meta">
+        <head>Letter Metadata</head>
+        <p><date when="1617-01-18">18 January 1617</date></p>
+        <p><placeName>London</placeName></p>
+        <p><correspDesc>
+          <correspAction type="sent">
+            <persName ref="#chamberlain-john">John Chamberlain</persName>
+            <date when="1617-01-18"/>
+            <placeName>London</placeName>
+          </correspAction>
+          <correspAction type="received">
+            <persName ref="#carleton-dudley">Sir Dudley Carleton</persName>
+            <placeName>The Hague</placeName>
+          </correspAction>
+        </correspDesc></p>
+      </div>
+    </front>
     <body>
       <div type="letter">
         <opener>
