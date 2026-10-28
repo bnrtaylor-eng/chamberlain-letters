@@ -163,6 +163,87 @@ footer {
 }
 
 /* ======================
+   Featured Letters (homepage)
+   ====================== */
+
+.featured-letters {
+  margin-top: 3.5em;
+  padding-top: 2.5em;
+  border-top: 1px solid #d8d4cc;
+}
+
+.section-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: #777;
+  margin: 0 0 1.25em;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25em;
+}
+
+.featured-card {
+  border: 1px solid #d8d4cc;
+  border-radius: 4px;
+  padding: 1.25em 1.4em 1.4em;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.featured-card-meta {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.75em;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: #888;
+  margin: 0 0 0.5em;
+}
+
+.featured-card-title {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 1.05em;
+  font-weight: 700;
+  color: #222;
+  margin: 0 0 0.65em;
+  line-height: 1.35;
+}
+
+.featured-card-desc {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 0.88em;
+  line-height: 1.75;
+  color: #444;
+  margin: 0 0 1.1em;
+  flex-grow: 1;
+}
+
+.featured-card-link {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82em;
+  font-weight: 600;
+  color: #334;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  align-self: flex-start;
+  border-bottom: 1px solid #334;
+  padding-bottom: 1px;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.featured-card-link:hover {
+  color: #1e2535;
+  border-bottom-color: #1e2535;
+}
+
+/* ======================
    Image block (legacy, non-hero pages)
    ====================== */
 
